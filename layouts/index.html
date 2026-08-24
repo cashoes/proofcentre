@@ -12,7 +12,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
   <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700;800&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,600&family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700;800&display=swap"
     rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
     rel="stylesheet" />
@@ -44,7 +44,8 @@
           },
           fontFamily: {
             sans: ["Inter", "sans-serif"],
-            heading: ["Montserrat", "sans-serif"]
+            heading: ["Montserrat", "sans-serif"],
+            brand: ["Barlow", "sans-serif"]
           },
           spacing: {
             "gutter": "24px",
@@ -87,8 +88,8 @@
     <div class="flex justify-between items-center px-4 md:px-margin-desktop py-3.5 max-w-container-max mx-auto">
       <a class="flex items-center gap-3.5 group" href="#">
         <img src="{{ "images/proof-logo.svg" | relURL }}" alt="PROOF Centre Logo" class="h-12 sm:h-14 md:h-[64px] w-auto transition-transform duration-300 group-hover:scale-[1.03]" />
-        <div class="flex flex-col justify-center">
-          <span class="font-heading font-bold text-lg sm:text-xl md:text-2xl text-primary leading-none tracking-tight">PROOF Centre</span>
+        <div class="flex flex-col justify-center font-brand">
+          <span class="font-bold text-xl sm:text-2xl md:text-[1.65rem] text-primary leading-none tracking-tight">PROOF Centre</span>
           <span class="text-[10px] sm:text-[11px] md:text-xs text-on-surface-variant font-semibold uppercase tracking-wider mt-1">Prevention of Organ Failure Centre of Excellence</span>
         </div>
       </a>
@@ -120,9 +121,10 @@
           {{ .Params.mission.paragraph }}
         </p>
         <div class="pt-4">
-          <a class="inline-flex items-center gap-2 border border-outline rounded px-6 py-3 text-sm font-semibold text-primary hover:bg-surface-container transition-colors uppercase tracking-wider"
+          <a class="inline-flex items-center gap-2.5 border-2 border-primary text-primary bg-transparent rounded px-6 py-3 text-sm font-semibold uppercase tracking-wider hover:bg-primary hover:text-on-primary transition-all shadow-xs group"
             href="#focus-areas">
-            {{ .Params.mission.cta_text }} <span class="material-symbols-outlined text-sm">arrow_downward</span>
+            <span>{{ .Params.mission.cta_text }}</span>
+            <span class="material-symbols-outlined text-sm group-hover:translate-y-0.5 transition-transform">arrow_downward</span>
           </a>
         </div>
 
@@ -513,7 +515,7 @@
       <div class="flex items-center gap-4">
         <img src="{{ "images/proof-logo.svg" | relURL }}" alt="PROOF Centre Logo" class="h-14 sm:h-16 w-auto shrink-0" />
         <div>
-          <div class="font-heading font-bold text-xl text-primary mb-1">
+          <div class="font-brand font-bold text-xl sm:text-2xl text-primary mb-1">
             {{ with .Params.footer.title }}{{ . }}{{ else }}PROOF Centre{{ end }}
           </div>
           <p class="text-xs text-on-surface-variant max-w-md leading-relaxed">
