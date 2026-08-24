@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ .Params.title | default .Site.Title }}</title>
+  <meta name="description" content="{{ .Site.Params.description }}" />
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700;800&display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+    rel="stylesheet" />
+
+  <script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#001d44",
+            "primary-container": "#00316b",
+            "on-primary": "#ffffff",
+            "on-primary-container": "#7a9bdb",
+            "surface": "#f8f9ff",
+            "background": "#f8f9ff",
+            "on-surface": "#0e1d2b",
+            "on-surface-variant": "#434750",
+            "surface-container-lowest": "#ffffff",
+            "surface-container-low": "#eef4ff",
+            "surface-container": "#e4efff",
+            "surface-container-high": "#dbe9fd",
+            "surface-container-highest": "#d5e4f8",
+            "outline": "#747781",
+            "outline-variant": "#c3c6d1",
+            "vitality-lime": "#B3D335",
+            "clinical-blue-light": "#6DCFF5",
+            "heart-warmth": "#FECA16"
+          },
+          fontFamily: {
+            sans: ["Inter", "sans-serif"],
+            heading: ["Montserrat", "sans-serif"]
+          },
+          spacing: {
+            "gutter": "24px",
+            "margin-desktop": "48px",
+            "container-max": "1280px"
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    .font-heading {
+      font-family: 'Montserrat', sans-serif;
+    }
+  </style>
+</head>
+
+<body class="font-sans text-on-surface antialiased bg-background relative overflow-x-hidden">
+
+  <!-- Ambient Light Blurs (Clinical White Version B) -->
+  <div class="fixed top-20 left-[-10%] w-[40vw] h-[40vw] bg-vitality-lime/5 rounded-full blur-3xl z-[-1]"></div>
+  <div class="fixed bottom-[-10%] right-[-5%] w-[50vw] h-[50vw] bg-clinical-blue-light/5 rounded-full blur-3xl z-[-1]">
+  </div>
+  <div class="fixed top-[40%] right-[10%] w-[30vw] h-[30vw] bg-heart-warmth/5 rounded-full blur-3xl z-[-1]"></div>
+
+  <!-- Anatomical heart sketch backdrop -->
+  <img alt="Anatomical heart backdrop" class="fixed z-[-1] pointer-events-none object-contain" src="{{ "images/davinci_sketch_upscaled.jpg" | relURL }}"
+    style="top: 50%; right: -5%; transform: translateY(-50%); height: 115vh; width: auto; opacity: 0.16; mix-blend-mode: multiply; filter: contrast(220%) brightness(115%) grayscale(100%); -webkit-mask-image: radial-gradient(ellipse 73% 78% at 50% 50%, black 25%, transparent 84%); mask-image: radial-gradient(ellipse 73% 78% at 50% 50%, black 25%, transparent 84%);" />
+
+  <!-- Top Navigation Bar -->
+  <nav class="bg-surface/90 backdrop-blur-md shadow-sm fixed top-0 w-full z-50 border-b border-outline-variant/30">
+    <div class="flex justify-between items-center px-4 md:px-margin-desktop py-4 max-w-container-max mx-auto">
+      <a class="flex items-center gap-3" href="#">
+        <img src="{{ "images/proof-logo.svg" | relURL }}" alt="PROOF Centre Logo" class="h-[56px] w-auto" />
+        <div class="flex flex-col">
+          <span class="font-heading font-bold text-xl text-primary leading-tight tracking-tight">PROOF Centre</span>
+          <span class="text-xs text-on-surface-variant font-medium">Prevention of Organ Failure</span>
+        </div>
+      </a>
+
+      <div class="hidden md:flex space-x-6">
+        {{ range .Site.Menus.main }}
+        <a class="text-on-surface-variant font-medium text-sm hover:text-primary transition-all duration-300 px-3 py-1"
+          href="{{ .URL }}">{{ .Name }}</a>
+        {{ end }}
+      </div>
+
+      <div class="flex items-center">
+        <a href="mailto:{{ .Site.Params.contact_email }}"
+          class="bg-primary text-on-primary rounded px-6 py-2 text-sm font-semibold hover:bg-primary-container hover:text-white transition-colors shadow-sm uppercase tracking-wider">
+          Contact Us
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content Container -->
+  <main class="max-w-container-max mx-auto px-4 md:px-margin-desktop pt-32 pb-8 mt-16">
+
+    <!-- Mission Section -->
+    <header class="grid grid-cols-1 gap-gutter mb-32 border-b border-outline-variant/50 pb-8">
+      <div class="max-w-5xl">
+        <h1 class="font-heading text-3xl sm:text-4xl md:text-5xl lg:text-[3.35rem] font-bold text-primary mb-6 leading-[1.18] tracking-tight">{{ .Params.mission.headline | safeHTML }}</h1>
+        <p class="text-lg md:text-xl text-on-surface-variant mb-8 leading-relaxed max-w-3xl">
+          {{ .Params.mission.paragraph }}
+        </p>
+        <div class="pt-4">
+          <a class="inline-flex items-center gap-2 border border-outline rounded px-6 py-3 text-sm font-semibold text-primary hover:bg-surface-container transition-colors uppercase tracking-wider"
+            href="#focus-areas">
+            {{ .Params.mission.cta_text }} <span class="material-symbols-outlined text-sm">arrow_downward</span>
+          </a>
+        </div>
+
+        <!-- Institutional Co-Hosts Trust Bar -->
+        <div class="mt-12 pt-8 flex flex-wrap items-start gap-6 sm:gap-10 border-t border-outline-variant/30">
+          <span class="text-xs font-bold text-primary/70 uppercase tracking-widest shrink-0 pt-2 sm:pt-2.5">
+            Co-Hosted By
+          </span>
+          <div class="flex items-start gap-6 sm:gap-10 flex-nowrap">
+            <a href="https://www.providenceresearch.ca" target="_blank" rel="noopener"
+              class="opacity-90 hover:opacity-100 transition-opacity flex items-start shrink-0"
+              title="Providence Research">
+              <img src="{{ "images/providence-logo.svg" | relURL }}" alt="Providence Research"
+                class="h-[4.25rem] sm:h-[4.75rem] md:h-[5.25rem] w-auto object-contain" />
+            </a>
+            <div class="w-px h-10 sm:h-11 md:h-12 bg-outline-variant/40 shrink-0"></div>
+            <a href="https://www.ubc.ca" target="_blank" rel="noopener"
+              class="opacity-90 hover:opacity-100 transition-opacity flex items-start shrink-0"
+              title="The University of British Columbia">
+              <img src="{{ "images/ubc-logo.svg" | relURL }}" alt="University of British Columbia"
+                class="h-10 sm:h-11 md:h-12 w-auto object-contain" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Core Research Section -->
+    <section class="mb-32 scroll-mt-28" id="focus-areas">
+      <div class="mb-12 border-b border-outline-variant/50 pb-4">
+        <h2 class="font-heading text-2xl md:text-3xl font-bold text-primary">{{ .Params.research.title }}</h2>
+        {{ with .Params.research.subtitle }}
+        <p class="text-sm text-on-surface-variant mt-1.5">{{ . }}</p>
+        {{ end }}
+      </div>
+
+      <div class="space-y-12 divide-y divide-outline-variant/30">
+        {{ range site.Data.research }}
+        <div class="pt-10 first:pt-0 grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+          <!-- Left: Area Overview & Focus Bullets -->
+          <div class="lg:col-span-5 flex flex-col justify-start">
+            <div class="flex items-center gap-3 mb-4">
+              <span class="material-symbols-outlined text-primary text-2xl"
+                style="font-variation-settings: 'FILL' 0;">{{ .icon }}</span>
+              <h3 class="font-heading text-xl font-bold text-primary leading-snug">{{ .title }}</h3>
+            </div>
+            <p class="text-sm sm:text-base text-on-surface-variant mb-5 leading-relaxed">
+              {{ .description }}
+            </p>
+            {{ if .bullets }}
+            <ul class="space-y-2 text-xs font-semibold text-on-surface-variant">
+              {{ range .bullets }}
+              <li class="flex items-start gap-2">
+                <span class="w-1.5 h-1.5 bg-primary rounded-full mt-1.5 shrink-0"></span>
+                <span>{{ . }}</span>
+              </li>
+              {{ end }}
+            </ul>
+            {{ end }}
+          </div>
+
+          <!-- Right: Individual Publication Cards (No Outer Box or Label) -->
+          <div class="lg:col-span-7 space-y-3">
+            {{ range .publications }}
+            <div
+              class="p-4 rounded-lg bg-surface-container-lowest border border-outline-variant/40 shadow-xs hover:border-primary/40 transition-colors">
+              <div class="flex items-center justify-between gap-2 mb-1.5">
+                <span class="text-xs font-bold text-primary italic">
+                  {{ .journal }} <span class="not-italic text-on-surface-variant font-semibold ml-1">({{ .year
+                    }})</span>
+                </span>
+                {{ if and .link (ne .link "#") }}
+                <a href="{{ .link }}" target="_blank" rel="noopener"
+                  class="inline-flex items-center gap-1 text-[11px] font-medium text-primary hover:underline">
+                  <span>{{ .doi }}</span>
+                  <span class="material-symbols-outlined text-[10px] shrink-0">open_in_new</span>
+                </a>
+                {{ end }}
+              </div>
+              <h4 class="font-heading text-sm sm:text-base font-bold text-primary leading-snug mb-1.5">
+                <a href="{{ .link }}" target="_blank" rel="noopener" class="hover:underline">{{ .title }}</a>
+              </h4>
+              {{ if .authors }}
+              <p class="text-xs text-on-surface-variant/80 line-clamp-1 leading-relaxed">{{ .authors }}</p>
+              {{ end }}
+            </div>
+            {{ end }}
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </section>
+
+    <!-- Our Team Section -->
+    <section class="mb-32 scroll-mt-28" id="research-team">
+      <div class="mb-12 border-b border-outline-variant/50 pb-4">
+        <h2 class="font-heading text-2xl md:text-3xl font-bold text-primary">{{ .Params.team.title }}</h2>
+        {{ with .Params.team.subtitle }}
+        <p class="text-sm text-on-surface-variant mt-1.5">{{ . }}</p>
+        {{ end }}
+      </div>
+
+      <div class="space-y-16">
+        <!-- Leadership -->
+        <div>
+          <h3 class="text-xs font-bold text-primary/80 uppercase tracking-widest mb-6 pb-2 border-b border-outline-variant/30">Leadership</h3>
+          <div class="divide-y divide-outline-variant/30">
+            {{ range site.Data.team.leadership }}
+            <div class="py-6 first:pt-0 last:pb-0 flex flex-col sm:flex-row items-start gap-4 sm:gap-6">
+              <div class="w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-surface-container-high flex items-center justify-center shrink-0 border border-outline-variant/40 overflow-hidden">
+                {{ if .image }}
+                <img src="{{ .image | relURL }}" alt="{{ .name }}" class="w-full h-full object-cover rounded-full" />
+                {{ else }}
+                <span class="material-symbols-outlined text-primary text-3xl">person</span>
+                {{ end }}
+              </div>
+              <div class="flex-1 min-w-0">
+                <div class="flex flex-wrap items-baseline gap-x-3 gap-y-0.5 mb-1.5">
+                  <h4 class="font-heading text-base sm:text-lg font-bold text-primary">{{ .name }}</h4>
+                  <span class="text-xs font-semibold text-primary/75 uppercase tracking-wider">{{ .role }}</span>
+                </div>
+                {{ with .bio }}
+                <p class="text-xs sm:text-sm text-on-surface-variant leading-relaxed">{{ . }}</p>
+                {{ end }}
+              </div>
+            </div>
+            {{ end }}
+          </div>
+        </div>
+
+        <!-- Research Staff & Trainees -->
+        <div>
+          <h3 class="text-xs font-bold text-primary/80 uppercase tracking-widest mb-6 pb-2 border-b border-outline-variant/30">Researchers, Staff & Trainees</h3>
+          <div class="divide-y divide-outline-variant/20">
+            {{ range site.Data.team.members }}
+            <div class="py-4 first:pt-0 last:pb-0 flex flex-col sm:flex-row items-start gap-3.5 sm:gap-5">
+              <div class="w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-surface-container-low flex items-center justify-center shrink-0 border border-outline-variant/30 overflow-hidden">
+                {{ if .image }}
+                <img src="{{ .image | relURL }}" alt="{{ .name }}" class="w-full h-full object-cover rounded-full" />
+                {{ else }}
+                <span class="material-symbols-outlined text-primary/70 text-2xl">school</span>
+                {{ end }}
+              </div>
+              <div class="flex-1 min-w-0">
+                <div class="flex flex-wrap items-baseline gap-x-3 gap-y-0.5 mb-1">
+                  <h4 class="font-heading text-sm sm:text-base font-bold text-primary">{{ .name }}</h4>
+                  <span class="text-xs font-semibold text-primary/70 uppercase tracking-wider">{{ .role }}</span>
+                </div>
+                {{ with .focus }}
+                <p class="text-xs sm:text-sm text-on-surface-variant leading-relaxed">
+                  <span class="font-semibold text-primary/80">Focus:</span> {{ . }}
+                </p>
+                {{ end }}
+              </div>
+            </div>
+            {{ end }}
+          </div>
+        </div>
+
+        <!-- Alumni & Emeriti -->
+        <div>
+          <h3 class="text-xs font-bold text-primary/80 uppercase tracking-widest mb-4 pb-2 border-b border-outline-variant/30">Alumni & Emeriti</h3>
+          <div class="divide-y divide-outline-variant/20">
+            {{ range site.Data.team.alumni }}
+            <div class="py-3 first:pt-0 last:pb-0 flex flex-col sm:flex-row sm:justify-between sm:items-baseline gap-1 sm:gap-4">
+              <span class="text-sm font-bold text-primary">{{ .name }}</span>
+              <span class="text-xs text-on-surface-variant/90 sm:text-right">{{ .institution }}</span>
+            </div>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section class="mb-32 scroll-mt-28" id="publications">
+      <!-- Section Header: Title & Subtitle on Left, Search + Expand Toggle on Right -->
+      <div
+        class="mb-8 border-b border-outline-variant/50 pb-4 flex flex-col md:flex-row md:items-end justify-between gap-4">
+        <div>
+          <h2 class="font-heading text-2xl md:text-3xl font-bold text-primary">{{ .Params.publications.title }}</h2>
+          {{ with .Params.publications.subtitle }}
+          <p class="text-sm text-on-surface-variant mt-1.5">{{ . }}</p>
+          {{ end }}
+        </div>
+
+        <!-- Controls: Live Search + Single Toggle Button -->
+        <div class="flex flex-wrap sm:flex-nowrap items-center gap-3 w-full md:w-auto">
+          <!-- Live Search -->
+          <div class="relative w-full sm:w-64">
+            <span class="material-symbols-outlined absolute left-3 top-2.5 text-outline text-sm">search</span>
+            <input id="pubSearchInput" oninput="filterPublications()"
+              class="bg-surface border border-outline-variant rounded pl-9 pr-8 py-2 text-sm text-on-surface w-full placeholder:text-outline focus:outline-none focus:border-primary shadow-xs"
+              placeholder="Filter publications..." type="text" />
+            <button id="clearPubSearchBtn" onclick="clearPubSearch()" type="button"
+              class="absolute right-2.5 top-2.5 text-outline hover:text-primary transition-colors hidden cursor-pointer"
+              title="Clear search">
+              <span class="material-symbols-outlined text-sm">close</span>
+            </button>
+          </div>
+
+          <!-- Single Expand / Collapse Button (Fixed Width) -->
+          <button id="toggleArchiveBtn" onclick="toggleArchive()"
+            class="relative inline-flex items-center justify-center text-xs font-semibold text-primary hover:bg-surface-container bg-surface border border-outline-variant/60 rounded px-6 py-2 transition-colors shadow-xs cursor-pointer shrink-0 w-full sm:w-36 text-center">
+            <span id="toggleIcon" class="material-symbols-outlined text-sm shrink-0 absolute left-2.5 top-1/2 -translate-y-1/2">unfold_more</span>
+            <span id="toggleText" class="truncate w-full text-center">Expand</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Portfolio Distribution & Interactive Filter (Dynamic Data-Driven) -->
+      {{ $allPubs := site.Data.publications.archive }}
+      {{ $totalCount := len $allPubs }}
+      {{ $proofLeadCount := len (where (where $allPubs "tag" "Original Research") "lead" true) }}
+      {{ $collabCount := len (where (where $allPubs "tag" "Original Research") "lead" false) }}
+      {{ $commentaryCount := len (where $allPubs "tag" "Editorial & Commentary") }}
+      {{ $reviewAndOtherCount := sub $totalCount (add $proofLeadCount (add $collabCount $commentaryCount)) }}
+      
+      {{ $proofLeadPct := mul (div (float $proofLeadCount) (float $totalCount)) 100.0 }}
+      {{ $collabPct := mul (div (float $collabCount) (float $totalCount)) 100.0 }}
+      {{ $commentaryPct := mul (div (float $commentaryCount) (float $totalCount)) 100.0 }}
+      {{ $reviewPct := sub 100.0 (add $proofLeadPct (add $collabPct $commentaryPct)) }}
+
+      <div class="mb-6 space-y-3 border-b border-outline-variant/30 pb-5">
+        <div class="flex flex-col sm:flex-row sm:items-baseline justify-between gap-1">
+          <span class="text-xs font-bold text-primary uppercase tracking-widest">Publication Portfolio Distribution</span>
+          <span id="statTotalPubs" class="text-xs text-on-surface-variant/80 font-normal">{{ $totalCount }} Total Peer-Reviewed Publications</span>
+        </div>
+        <!-- Slim Multi-Segment Metric Bar (Data-Driven Dynamic Proportions) -->
+        <div class="w-full h-1.5 rounded-full overflow-hidden flex bg-outline-variant/20" id="pubProportionBar">
+          <div id="barLead" style="width: {{ printf "%.1f" $proofLeadPct }}%" class="bg-indigo-600 h-full transition-all" title="PROOF-Led Research: {{ $proofLeadCount }} ({{ printf "%.1f" $proofLeadPct }}%)"></div>
+          <div id="barCollab" style="width: {{ printf "%.1f" $collabPct }}%" class="bg-sky-500 h-full transition-all" title="Collaborative Research: {{ $collabCount }} ({{ printf "%.1f" $collabPct }}%)"></div>
+          <div id="barCommentary" style="width: {{ printf "%.1f" $commentaryPct }}%" class="bg-amber-500 h-full transition-all" title="Editorial & Commentary: {{ $commentaryCount }} ({{ printf "%.1f" $commentaryPct }}%)"></div>
+          <div id="barReview" style="width: {{ printf "%.1f" $reviewPct }}%" class="bg-emerald-500 h-full transition-all" title="Reviews & Other: {{ $reviewAndOtherCount }} ({{ printf "%.1f" $reviewPct }}%)"></div>
+        </div>
+        <!-- Minimalist Editorial Filter Chips -->
+        <div class="flex flex-wrap items-center gap-1.5 sm:gap-2 text-xs pt-0.5" id="pubFilterChips">
+          <button onclick="setPubFilter('all')" data-filter="all"
+            class="pub-chip active px-2.5 py-1 rounded-full font-semibold transition-colors cursor-pointer border bg-primary text-on-primary border-primary">
+            All <span id="chipCountAll" class="opacity-80 font-normal ml-0.5">{{ $totalCount }}</span>
+          </button>
+          <button onclick="setPubFilter('proof-lead')" data-filter="proof-lead"
+            class="pub-chip px-2.5 py-1 rounded-full font-medium transition-colors cursor-pointer border bg-surface hover:bg-surface-container text-on-surface-variant border-outline-variant/50">
+            <span class="inline-block w-2 h-2 rounded-full bg-indigo-600 mr-1.5"></span>PROOF-Led <span id="chipCountLead" class="font-semibold text-primary ml-0.5">{{ $proofLeadCount }}</span> <span class="text-on-surface-variant/70 text-[10px] ml-0.5">({{ printf "%.0f" $proofLeadPct }}%)</span>
+          </button>
+          <button onclick="setPubFilter('collaborative')" data-filter="collaborative"
+            class="pub-chip px-2.5 py-1 rounded-full font-medium transition-colors cursor-pointer border bg-surface hover:bg-surface-container text-on-surface-variant border-outline-variant/50">
+            <span class="inline-block w-2 h-2 rounded-full bg-sky-500 mr-1.5"></span>Collaborative <span id="chipCountCollab" class="font-semibold text-primary ml-0.5">{{ $collabCount }}</span> <span class="text-on-surface-variant/70 text-[10px] ml-0.5">({{ printf "%.0f" $collabPct }}%)</span>
+          </button>
+          <button onclick="setPubFilter('commentary')" data-filter="commentary"
+            class="pub-chip px-2.5 py-1 rounded-full font-medium transition-colors cursor-pointer border bg-surface hover:bg-surface-container text-on-surface-variant border-outline-variant/50">
+            <span class="inline-block w-2 h-2 rounded-full bg-amber-500 mr-1.5"></span>Commentary <span id="chipCountCommentary" class="font-semibold text-primary ml-0.5">{{ $commentaryCount }}</span> <span class="text-on-surface-variant/70 text-[10px] ml-0.5">({{ printf "%.0f" $commentaryPct }}%)</span>
+          </button>
+          <button onclick="setPubFilter('review')" data-filter="review"
+            class="pub-chip px-2.5 py-1 rounded-full font-medium transition-colors cursor-pointer border bg-surface hover:bg-surface-container text-on-surface-variant border-outline-variant/50">
+            <span class="inline-block w-2 h-2 rounded-full bg-emerald-500 mr-1.5"></span>Reviews & Other <span id="chipCountReview" class="font-semibold text-primary ml-0.5">{{ $reviewAndOtherCount }}</span> <span class="text-on-surface-variant/70 text-[10px] ml-0.5">({{ printf "%.0f" $reviewPct }}%)</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Open Minimalist Table View Directly Underneath -->
+      <div id="recent-archive-container" class="relative w-full overflow-hidden transition-all duration-300 max-h-[590px]">
+        <div class="overflow-x-auto w-full">
+          <table class="w-full table-fixed text-left border-collapse" id="pubTable">
+            <colgroup>
+              <col class="w-14 sm:w-20">
+              <col class="w-[60%] sm:w-[62%]">
+              <col class="w-[40%] sm:w-[38%]">
+            </colgroup>
+            <thead>
+              <tr class="border-b border-outline-variant/50 text-xs font-semibold text-on-surface-variant uppercase tracking-wider">
+                <th class="py-3 px-2">Year</th>
+                <th class="py-3 px-4">Title</th>
+                <th class="py-3 px-2 text-right">Journal</th>
+              </tr>
+            </thead>
+            <tbody class="text-sm">
+              {{ range $index, $element := site.Data.publications.archive }}
+              <tr class="pub-row border-b border-outline-variant/30 hover:bg-surface-container transition-colors"
+                data-full-authors="{{ .authors }}" data-pub-tag="{{ .tag }}" data-pub-lead="{{ if .lead }}proof-lead{{ else }}collaborative{{ end }}">
+                <td class="pub-year py-3.5 px-2 text-on-surface-variant font-semibold align-top text-xs">{{ .year }}</td>
+                <td class="pub-title py-3.5 px-4 text-primary font-medium pr-4 align-top text-sm break-words leading-snug">
+                  <div class="flex flex-wrap items-center gap-2">
+                    {{ if and .link (ne .link "#") }}
+                    <a href="{{ .link }}" target="_blank" rel="noopener" class="hover:underline font-medium inline-flex items-center gap-1.5">
+                      <span>{{ .title }}</span>
+                      <span class="material-symbols-outlined text-xs text-primary/70 shrink-0">open_in_new</span>
+                    </a>
+                    {{ else }}
+                    <span class="font-medium">{{ .title }}</span>
+                    {{ end }}
+                    {{ with .tag }}
+                    <span class="inline-flex items-center px-1.5 py-0.2 rounded text-[10px] font-semibold tracking-wide border shrink-0
+                      {{ if eq . "Original Research" }}bg-blue-50 text-blue-700 border-blue-200
+                      {{ else if eq . "Editorial & Commentary" }}bg-amber-50 text-amber-800 border-amber-200
+                      {{ else if eq . "Review" }}bg-emerald-50 text-emerald-700 border-emerald-200
+                      {{ else if eq . "Book Chapter" }}bg-purple-50 text-purple-700 border-purple-200
+                      {{ else if eq . "Study Protocol" }}bg-teal-50 text-teal-700 border-teal-200
+                      {{ else if eq . "Preprint" }}bg-rose-50 text-rose-700 border-rose-200
+                      {{ else }}bg-slate-50 text-slate-700 border-slate-200{{ end }}">
+                      {{ . }}
+                    </span>
+                    {{ end }}
+                    {{ if .lead }}
+                    <span class="inline-flex items-center px-1.5 py-0.2 rounded text-[10px] font-bold tracking-wide bg-indigo-50 text-indigo-700 border border-indigo-200 shrink-0" title="Primary study conducted or supervised by PROOF Centre investigators">
+                      PROOF Lead
+                    </span>
+                    {{ else if eq .tag "Original Research" }}
+                    <span class="inline-flex items-center px-1.5 py-0.2 rounded text-[10px] font-medium tracking-wide bg-sky-50 text-sky-700 border border-sky-200 shrink-0" title="Collaborative study conducted with external/consortium partners">
+                      Collaborative
+                    </span>
+                    {{ end }}
+                  </div>
+                  {{ with .display_authors }}
+                  <div class="text-xs text-on-surface-variant/80 mt-1 line-clamp-1 leading-normal font-normal">
+                    {{ . }}
+                  </div>
+                  {{ end }}
+                </td>
+                <td class="pub-journal py-3.5 px-2 text-on-surface-variant italic align-top text-xs break-words text-right leading-snug">{{ .journal }}</td>
+              </tr>
+              {{ end }}
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Bottom Fade Gradient (visible when collapsed) -->
+        <div id="tableFadeOverlay" class="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-t from-background to-transparent pointer-events-none"></div>
+      </div>
+    </section>
+
+    <!-- Patents Section -->
+    <section class="mb-16 scroll-mt-28" id="patents">
+      <div class="mb-8 border-b border-outline-variant/50 pb-4">
+        <h2 class="font-heading text-2xl md:text-3xl font-bold text-primary">{{ .Params.patents.title }}</h2>
+        {{ with .Params.patents.subtitle }}
+        <p class="text-sm text-on-surface-variant mt-1.5">{{ . }}</p>
+        {{ end }}
+      </div>
+
+      <div class="overflow-x-auto">
+        <table class="w-full text-left border-collapse">
+          <thead>
+            <tr class="border-b border-outline-variant/50">
+              <th class="py-3 px-2 text-xs font-semibold text-on-surface-variant uppercase tracking-wider w-20">Year
+              </th>
+              <th class="py-3 px-4 text-xs font-semibold text-on-surface-variant uppercase tracking-wider">Patent Title
+              </th>
+              <th class="py-3 px-2 text-xs font-semibold text-on-surface-variant uppercase tracking-wider text-right">
+                Status / Number</th>
+            </tr>
+          </thead>
+          <tbody class="text-sm">
+            {{ range site.Data.patents }}
+            <tr class="border-b border-outline-variant/30 hover:bg-surface-container transition-colors">
+              <td class="py-4 px-2 text-on-surface-variant font-medium align-top">{{ .year }}</td>
+              <td class="py-4 px-4 text-primary font-medium pr-8 align-top">
+                {{ if and .link (ne .link "#") }}
+                <a href="{{ .link }}" target="_blank" rel="noopener" class="hover:underline font-medium inline-flex items-center gap-1.5">
+                  <span>{{ .title }}</span>
+                  <span class="material-symbols-outlined text-xs text-primary/70 shrink-0">open_in_new</span>
+                </a>
+                {{ else }}
+                <span>{{ .title }}</span>
+                {{ end }}
+              </td>
+              <td class="py-4 px-2 text-right align-top text-on-surface-variant font-semibold">{{ .status }}</td>
+            </tr>
+            {{ end }}
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-surface-container-low w-full border-t border-outline-variant/30">
+    <div
+      class="flex flex-col md:flex-row justify-between items-center px-4 md:px-margin-desktop py-12 w-full max-w-container-max mx-auto gap-8">
+      <div>
+        <div class="font-heading font-bold text-xl text-primary mb-1">
+          {{ with .Params.footer.title }}{{ . }}{{ else }}PROOF Centre{{ end }}
+        </div>
+        <p class="text-xs text-on-surface-variant max-w-md">
+          {{ with .Params.footer.description }}{{ . | safeHTML }}{{ else }}Prevention of Organ Failure Centre of Excellence.<br>Co-hosted by the University of British Columbia and Providence Health Care at St. Paul's Hospital.{{ end }}
+        </p>
+      </div>
+      <div class="flex items-center gap-6 sm:gap-8 flex-wrap">
+        <a href="#focus-areas"
+          class="text-xs font-semibold text-primary/80 hover:text-primary transition-colors">Research</a>
+        <a href="#research-team"
+          class="text-xs font-semibold text-primary/80 hover:text-primary transition-colors">Team</a>
+        <a href="#publications"
+          class="text-xs font-semibold text-primary/80 hover:text-primary transition-colors">Publications</a>
+        <a href="#patents"
+          class="text-xs font-semibold text-primary/80 hover:text-primary transition-colors">Patents</a>
+        <a href="https://www.providenceresearch.ca" target="_blank" rel="noopener"
+          class="text-xs font-semibold text-primary hover:underline">Providence</a>
+        <a href="https://www.ubc.ca" target="_blank" rel="noopener"
+          class="text-xs font-semibold text-primary hover:underline">UBC</a>
+      </div>
+    </div>
+    <div
+      class="border-t border-outline-variant/20 py-4 px-4 md:px-margin-desktop text-center text-xs text-on-surface-variant/70">
+      © {{ now.Format "2006" }} {{ with .Params.footer.copyright }}{{ . | safeHTML }}{{ else }}PROOF Centre of Excellence. All rights reserved.{{ end }}
+    </div>
+  </footer>
+
+  <script>
+    let archiveExpanded = false;
+    let currentPubCategory = 'all';
+
+    function toggleArchive() {
+      archiveExpanded = !archiveExpanded;
+      renderTableState();
+
+      // If collapsing and user was scrolled down inside the table, scroll back to container top smoothly
+      if (!archiveExpanded) {
+        const container = document.getElementById('recent-archive-container');
+        if (container) {
+          const rect = container.getBoundingClientRect();
+          if (rect.top < 70) {
+            container.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
+        }
+      }
+    }
+
+    function setPubFilter(category) {
+      currentPubCategory = category;
+      const chips = document.querySelectorAll('.pub-chip');
+      chips.forEach(chip => {
+        if (chip.getAttribute('data-filter') === category) {
+          chip.className = 'pub-chip active px-2.5 py-1 rounded-full font-semibold transition-all cursor-pointer border bg-primary text-on-primary border-primary shadow-xs';
+        } else {
+          chip.className = 'pub-chip px-2.5 py-1 rounded-full font-medium transition-all cursor-pointer border bg-surface hover:bg-surface-container text-on-surface-variant border-outline-variant/60';
+        }
+      });
+      renderTableState();
+    }
+
+    function clearPubSearch() {
+      const input = document.getElementById('pubSearchInput');
+      if (input) {
+        input.value = '';
+        renderTableState();
+        input.focus();
+      }
+    }
+
+    function filterPublications() {
+      renderTableState();
+    }
+
+    function renderTableState() {
+      const input = document.getElementById('pubSearchInput');
+      const clearBtn = document.getElementById('clearPubSearchBtn');
+      const filter = input ? input.value.toLowerCase().trim() : '';
+      const rows = document.getElementsByClassName('pub-row');
+      const toggleBtn = document.getElementById('toggleArchiveBtn');
+      const toggleIcon = document.getElementById('toggleIcon');
+      const toggleText = document.getElementById('toggleText');
+      const fade = document.getElementById('tableFadeOverlay');
+
+      if (clearBtn) {
+        if (filter.length > 0) {
+          clearBtn.classList.remove('hidden');
+        } else {
+          clearBtn.classList.add('hidden');
+        }
+      }
+
+      const hasSearchText = filter.length > 0;
+      let matchingCount = 0;
+
+      for (let i = 0; i < rows.length; i++) {
+        const title = rows[i].getElementsByClassName('pub-title')[0]?.textContent.toLowerCase() || '';
+        const journal = rows[i].getElementsByClassName('pub-journal')[0]?.textContent.toLowerCase() || '';
+        const year = rows[i].getElementsByClassName('pub-year')[0]?.textContent.toLowerCase() || '';
+        const authors = rows[i].getAttribute('data-full-authors')?.toLowerCase() || '';
+        const tag = (rows[i].getAttribute('data-pub-tag') || '').toLowerCase();
+        const lead = (rows[i].getAttribute('data-pub-lead') || '').toLowerCase();
+
+        // Category check
+        let matchesCategory = true;
+        if (currentPubCategory === 'proof-lead') {
+          matchesCategory = (lead === 'proof-lead');
+        } else if (currentPubCategory === 'collaborative') {
+          matchesCategory = (tag === 'original research' && lead !== 'proof-lead');
+        } else if (currentPubCategory === 'commentary') {
+          matchesCategory = tag.includes('commentary') || tag.includes('editorial');
+        } else if (currentPubCategory === 'review') {
+          matchesCategory = tag.includes('review') || tag.includes('chapter') || tag.includes('protocol') || tag.includes('preprint') || tag.includes('case report');
+        }
+
+        // Search text check
+        let matchesSearch = true;
+        if (hasSearchText) {
+          matchesSearch = (title.includes(filter) || journal.includes(filter) || year.includes(filter) || authors.includes(filter) || tag.includes(filter) || lead.includes(filter));
+        }
+
+        if (matchesCategory && matchesSearch) {
+          rows[i].style.display = "";
+          matchingCount++;
+        } else {
+          rows[i].style.display = "none";
+        }
+      }
+
+      // Container Height Management (fixed 390px when collapsed for perfectly stable viewport)
+      const container = document.getElementById('recent-archive-container');
+      if (container) {
+        if (archiveExpanded) {
+          container.style.maxHeight = 'none';
+        } else {
+          container.style.maxHeight = '590px';
+        }
+      }
+
+      // Update Expand / Collapse toggle text & icon
+      if (toggleIcon && toggleText) {
+        if (archiveExpanded) {
+          toggleIcon.textContent = 'unfold_less';
+          toggleText.textContent = 'Collapse';
+        } else {
+          toggleIcon.textContent = 'unfold_more';
+          toggleText.textContent = 'Expand';
+        }
+      }
+
+      // Toggle button enabled/disabled based on whether there are > 5 matches
+      if (toggleBtn) {
+        if (matchingCount <= 5) {
+          toggleBtn.style.opacity = '0.5';
+          toggleBtn.style.pointerEvents = 'none';
+        } else {
+          toggleBtn.style.opacity = '1';
+          toggleBtn.style.pointerEvents = 'auto';
+        }
+      }
+
+      // Fade overlay visibility: only show if collapsed AND more than 5 matching publications
+      if (fade) {
+        fade.style.display = (!archiveExpanded && matchingCount > 5) ? 'block' : 'none';
+      }
+    }
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Hugo
+public/
+resources/_gen/
+.hugo_build.lock
+
+# Environment / OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,28 @@
+baseURL = 'https://proofcentre.github.io/'
+locale = 'en-US'
+title = 'PROOF Centre - Prevention of Organ Failure Centre of Excellence'
+
+ignoreLogs = ['warning-goldmark-raw-html']
+
+[params]
+  description = "Discovery, development, and deployment of non-invasive blood-based biomarker tests for organ failure."
+  subtitle = "Prevention of Organ Failure Centre of Excellence"
+  contact_email = "proof@hli.ubc.ca"
+
+[menus]
+  [[menus.main]]
+    name = "Research"
+    url = "#focus-areas"
+    weight = 10
+  [[menus.main]]
+    name = "Team"
+    url = "#research-team"
+    weight = 20
+  [[menus.main]]
+    name = "Publications"
+    url = "#publications"
+    weight = 30
+  [[menus.main]]
+    name = "Patents"
+    url = "#patents"
+    weight = 40

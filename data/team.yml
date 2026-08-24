@@ -1,0 +1,81 @@
+leadership:
+  - name: "Dr. Scott Tebbutt"
+    role: "CEO & Chief Scientific Officer"
+    bio: "Professor in the Department of Medicine at UBC and Principal Investigator at the Centre for Heart Lung Innovation. Directs biomarker discovery and translational multi-omics programs."
+    image: ""
+
+  - name: "Casey Shannon"
+    role: "Director of Data Science"
+    bio: "Leads multi-omic computational pipelines, integrative machine learning algorithms, and high-dimensional transcriptomic and proteomic data harmonization."
+    image: ""
+
+  - name: "Sara Assadian"
+    role: "Director of Clinical Research"
+    bio: "Oversees clinical trial operations, biospecimen registries, regulatory compliance, and translational study logistics across partner clinical centres."
+    image: ""
+
+  - name: "Dr. Zsuzsanna Hollander"
+    role: "Chief Data Officer"
+    bio: "Specializes in bioinformatics pipeline development, biomarker panel optimization, and quality control systems for genomic and proteomic platforms."
+    image: ""
+
+members:
+  - name: "Dr. Chengliang Yang"
+    role: "Research Associate"
+    focus: "Transplant immunology, single-cell analysis & long COVID mechanisms"
+    image: ""
+
+  - name: "Dr. Robert Balshaw"
+    role: "Statistical Lead & Special Advisor"
+    focus: "Biostatistical modeling, longitudinal study design & trial statistics"
+    image: ""
+
+  - name: "Daniel He"
+    role: "PhD Candidate"
+    focus: "Pulmonary fibrosis biomarkers, transcriptomic meta-analyses & biclustering"
+    image: ""
+
+  - name: "Estefania Espín"
+    role: "PhD Candidate"
+    focus: "Long COVID molecular signatures & immune-metabolic phenotyping"
+    image: ""
+
+  - name: "Kang Dong"
+    role: "PhD Candidate"
+    focus: "Cystic fibrosis exacerbation biomarkers & whole-blood transcriptomics"
+    image: ""
+
+  - name: "Abhinav Checkervarty"
+    role: "PhD Candidate"
+    focus: "Early-life neonatal immunology, sickle cell trait & vaccine responses"
+    image: ""
+
+  - name: "Dr. Amrit Singh"
+    role: "Postdoctoral Fellow"
+    focus: "DIABLO / mixOmics integrative frameworks & allergic asthma signatures"
+    image: ""
+
+  - name: "Dr. Ji-Young Kim"
+    role: "Assay Development Scientist"
+    focus: "Multiplex gene expression profiling assays & HEARTBiT validation"
+    image: ""
+
+  - name: "Simran Samra"
+    role: "Graduate Student"
+    focus: "Cholinergic synapse pathway genetics & late-phase allergic rhinitis"
+    image: ""
+
+  - name: "Paula Piper"
+    role: "Administrator & Communications"
+    focus: "Operations management, scientific outreach & stakeholder relations"
+    image: ""
+
+alumni:
+  - name: "Dr. Bruce McManus"
+    institution: "Founding Director & CEO Emeritus, UBC"
+  - name: "Dr. Raymond Ng"
+    institution: "Chief Informatics Officer Emeritus, UBC Computer Science"
+  - name: "Dr. Karen Lam"
+    institution: "Former Chief Business Officer"
+  - name: "Dr. Oliver Günther"
+    institution: "Former Bioinformatics Lead"
