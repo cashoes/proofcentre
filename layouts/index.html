@@ -229,22 +229,20 @@
         {{ end }}
       </div>
 
-      <div class="space-y-14">
+      <div class="space-y-16">
         <!-- Leadership -->
         <div>
           <h3 class="text-xs font-bold text-primary uppercase tracking-widest mb-6 pb-2 border-b border-outline-variant/30">Leadership</h3>
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8">
             {{ range site.Data.team.leadership }}
-            <div class="p-5 sm:p-6 rounded-xl bg-surface-container-lowest border border-outline-variant/40 shadow-2xs hover:border-primary/40 transition-colors flex flex-col justify-between">
+            <div class="space-y-2">
               <div>
-                <div class="mb-3">
-                  <h4 class="font-heading text-base sm:text-lg font-bold text-primary leading-tight">{{ .name }}</h4>
-                  <span class="inline-block text-xs font-semibold text-primary/80 uppercase tracking-wider mt-1">{{ .role }}</span>
-                </div>
-                {{ with .bio }}
-                <p class="text-xs sm:text-sm text-on-surface-variant leading-relaxed">{{ . }}</p>
-                {{ end }}
+                <h4 class="font-heading text-base sm:text-lg font-bold text-primary leading-tight">{{ .name }}</h4>
+                <div class="text-xs font-semibold text-primary/75 uppercase tracking-wider mt-1">{{ .role }}</div>
               </div>
+              {{ with .bio }}
+              <p class="text-xs sm:text-sm text-on-surface-variant leading-relaxed">{{ . }}</p>
+              {{ end }}
             </div>
             {{ end }}
           </div>
@@ -253,20 +251,18 @@
         <!-- Research Staff & Trainees -->
         <div>
           <h3 class="text-xs font-bold text-primary uppercase tracking-widest mb-6 pb-2 border-b border-outline-variant/30">Researchers, Staff & Trainees</h3>
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-3.5 sm:gap-4">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-6">
             {{ range site.Data.team.members }}
-            <div class="p-4 sm:p-4.5 rounded-xl bg-surface-container-lowest border border-outline-variant/30 hover:border-primary/30 transition-colors flex flex-col justify-between">
-              <div>
-                <div class="flex flex-wrap items-baseline justify-between gap-x-2 gap-y-1 mb-2">
-                  <h4 class="font-heading text-sm sm:text-base font-bold text-primary">{{ .name }}</h4>
-                  <span class="text-[11px] font-semibold text-primary/80 uppercase tracking-wider bg-surface-container-low px-2 py-0.5 rounded border border-outline-variant/30">{{ .role }}</span>
-                </div>
-                {{ with .focus }}
-                <p class="text-xs text-on-surface-variant leading-relaxed">
-                  <span class="font-semibold text-primary/80">Focus:</span> {{ . }}
-                </p>
-                {{ end }}
+            <div class="pb-4 border-b border-outline-variant/20 space-y-1">
+              <div class="flex flex-wrap items-baseline justify-between gap-x-2">
+                <h4 class="font-heading text-sm sm:text-base font-bold text-primary">{{ .name }}</h4>
+                <span class="text-xs font-medium text-primary/80 italic">{{ .role }}</span>
               </div>
+              {{ with .focus }}
+              <p class="text-xs text-on-surface-variant leading-relaxed">
+                <span class="font-semibold text-primary/75 not-italic">Focus:</span> {{ . }}
+              </p>
+              {{ end }}
             </div>
             {{ end }}
           </div>
@@ -275,7 +271,7 @@
         <!-- Alumni & Emeriti -->
         <div>
           <h3 class="text-xs font-bold text-primary uppercase tracking-widest mb-4 pb-2 border-b border-outline-variant/30">Alumni & Emeriti</h3>
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-2">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-2">
             {{ range site.Data.team.alumni }}
             <div class="py-2.5 border-b border-outline-variant/20 flex flex-col sm:flex-row sm:justify-between sm:items-baseline gap-1">
               <span class="text-sm font-bold text-primary">{{ .name }}</span>
