@@ -84,25 +84,25 @@
 
   <!-- Top Navigation Bar -->
   <nav class="bg-surface/90 backdrop-blur-md shadow-sm fixed top-0 w-full z-50 border-b border-outline-variant/30">
-    <div class="flex justify-between items-center px-4 md:px-margin-desktop py-3 sm:py-4 max-w-container-max mx-auto">
-      <a class="flex items-center gap-3.5 group" href="#">
+    <div class="flex justify-between items-end px-4 md:px-margin-desktop py-3 sm:py-3.5 max-w-container-max mx-auto">
+      <a class="flex items-end gap-3.5 group" href="#">
         <img src="{{ "images/proof-logo.svg" | relURL }}" alt="PROOF Centre Logo" class="h-14 sm:h-16 md:h-[72px] w-auto transition-transform duration-300 group-hover:scale-[1.02]" />
-        <div class="flex flex-col">
+        <div class="flex flex-col pb-0.5">
           <span class="font-heading font-bold text-xl sm:text-2xl text-primary leading-none tracking-tight">PROOF Centre</span>
-          <span class="text-xs sm:text-[13px] text-on-surface-variant font-medium mt-1">Prevention of Organ Failure Centre of Excellence</span>
+          <span class="text-xs sm:text-[13px] text-on-surface-variant font-medium mt-1.5 leading-normal">Prevention of Organ Failure Centre of Excellence</span>
         </div>
       </a>
 
-      <div class="hidden md:flex space-x-6">
+      <div class="hidden md:flex space-x-6 pb-0.5">
         {{ range .Site.Menus.main }}
         <a class="text-on-surface-variant font-medium text-sm hover:text-primary transition-all duration-300 px-3 py-1"
           href="{{ .URL }}">{{ .Name }}</a>
         {{ end }}
       </div>
 
-      <div class="flex items-center">
+      <div class="flex items-center pb-0.5">
         <a href="mailto:{{ .Site.Params.contact_email }}"
-          class="bg-primary text-on-primary rounded px-6 py-2.5 text-sm font-semibold hover:bg-primary-container hover:text-white transition-colors shadow-sm uppercase tracking-wider">
+          class="bg-primary text-on-primary rounded px-5 py-2 text-xs sm:text-sm font-semibold hover:bg-primary-container hover:text-white transition-colors shadow-sm uppercase tracking-wider">
           Contact Us
         </a>
       </div>
