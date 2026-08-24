@@ -12,7 +12,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
   <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700;800&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700;800;900&display=swap"
     rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
     rel="stylesheet" />
@@ -88,7 +88,9 @@
       <a class="flex items-center gap-3.5 group" href="#">
         <img src="{{ "images/proof-logo.svg" | relURL }}" alt="PROOF Centre Logo" class="h-12 sm:h-14 md:h-[64px] w-auto transition-transform duration-300 group-hover:scale-[1.03]" />
         <div class="flex flex-col justify-center">
-          <span class="font-heading font-bold text-lg sm:text-xl md:text-2xl text-primary leading-none tracking-tight">PROOF Centre</span>
+          <span class="font-heading text-lg sm:text-xl md:text-2xl text-primary leading-none tracking-tight">
+            <span class="font-black">PROOF</span> <span class="font-bold">Centre</span>
+          </span>
           <span class="text-[10px] sm:text-[11px] md:text-xs text-on-surface-variant font-semibold uppercase tracking-wider mt-1">Prevention of Organ Failure Centre of Excellence</span>
         </div>
       </a>
@@ -515,8 +517,8 @@
       <div class="flex items-center gap-4">
         <img src="{{ "images/proof-logo.svg" | relURL }}" alt="PROOF Centre Logo" class="h-14 sm:h-16 w-auto shrink-0" />
         <div>
-          <div class="font-heading font-bold text-lg sm:text-xl md:text-2xl text-primary leading-none tracking-tight mb-1.5">
-            {{ with .Params.footer.title }}{{ . }}{{ else }}PROOF Centre{{ end }}
+          <div class="font-heading text-lg sm:text-xl md:text-2xl text-primary leading-none tracking-tight mb-1.5">
+            <span class="font-black">PROOF</span> <span class="font-bold">Centre</span>
           </div>
           <p class="text-xs text-on-surface-variant max-w-md leading-relaxed">
             {{ with .Params.footer.description }}{{ . | safeHTML }}{{ else }}Prevention of Organ Failure Centre of Excellence.<br>Co-hosted by the University of British Columbia and Providence Health Care at St. Paul's Hospital.{{ end }}
