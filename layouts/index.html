@@ -128,23 +128,27 @@
         </div>
 
         <!-- Institutional Co-Hosts Trust Bar -->
-        <div class="mt-12 pt-8 flex flex-wrap items-start gap-6 sm:gap-10 border-t border-outline-variant/30">
-          <span class="text-xs font-bold text-primary/70 uppercase tracking-widest shrink-0 pt-2 sm:pt-2.5">
-            Co-Hosted By
-          </span>
-          <div class="flex items-start gap-6 sm:gap-10 flex-nowrap">
+        <div class="mt-12 inline-flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-8 bg-surface-container-lowest/90 border border-outline-variant/40 rounded-xl p-4 sm:px-6 sm:py-4 shadow-xs backdrop-blur-xs">
+          <div class="flex items-center gap-2 shrink-0">
+            <span class="w-2 h-2 rounded-full bg-primary/50"></span>
+            <span class="text-xs font-bold text-primary uppercase tracking-widest">
+              Institutional Co-Hosts
+            </span>
+          </div>
+          <div class="hidden sm:block w-px h-10 bg-outline-variant/40 shrink-0"></div>
+          <div class="flex items-center gap-6 sm:gap-8 flex-nowrap">
             <a href="https://www.providenceresearch.ca" target="_blank" rel="noopener"
-              class="opacity-90 hover:opacity-100 transition-opacity flex items-start shrink-0"
+              class="opacity-90 hover:opacity-100 transition-opacity flex items-center shrink-0"
               title="Providence Research">
               <img src="{{ "images/providence-logo.svg" | relURL }}" alt="Providence Research"
-                class="h-[4.25rem] sm:h-[4.75rem] md:h-[5.25rem] w-auto object-contain" />
+                class="h-12 sm:h-14 md:h-16 w-auto object-contain" />
             </a>
-            <div class="w-px h-10 sm:h-11 md:h-12 bg-outline-variant/40 shrink-0"></div>
+            <div class="w-px h-8 sm:h-10 bg-outline-variant/30 shrink-0"></div>
             <a href="https://www.ubc.ca" target="_blank" rel="noopener"
-              class="opacity-90 hover:opacity-100 transition-opacity flex items-start shrink-0"
+              class="opacity-90 hover:opacity-100 transition-opacity flex items-center shrink-0"
               title="The University of British Columbia">
               <img src="{{ "images/ubc-logo.svg" | relURL }}" alt="University of British Columbia"
-                class="h-10 sm:h-11 md:h-12 w-auto object-contain" />
+                class="h-9 sm:h-10 md:h-11 w-auto object-contain" />
             </a>
           </div>
         </div>
