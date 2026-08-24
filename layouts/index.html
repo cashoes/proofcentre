@@ -235,14 +235,23 @@
           <h3 class="text-xs font-bold text-primary uppercase tracking-widest mb-6 pb-2 border-b border-outline-variant/30">Leadership</h3>
           <div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-8">
             {{ range site.Data.team.leadership }}
-            <div class="space-y-2">
-              <div>
-                <h4 class="font-heading text-base sm:text-lg font-bold text-primary leading-tight">{{ .name }}</h4>
-                <div class="text-xs font-semibold text-primary/75 uppercase tracking-wider mt-1">{{ .role }}</div>
+            <div class="flex items-start gap-4">
+              <div class="w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-surface-container-high flex items-center justify-center shrink-0 border border-outline-variant/40 overflow-hidden text-2xl sm:text-3xl select-none shadow-2xs">
+                {{ if .image }}
+                <img src="{{ .image | relURL }}" alt="{{ .name }}" class="w-full h-full object-cover rounded-full" />
+                {{ else }}
+                <span>{{ .avatar | default "👤" }}</span>
+                {{ end }}
               </div>
-              {{ with .bio }}
-              <p class="text-xs sm:text-sm text-on-surface-variant leading-relaxed">{{ . }}</p>
-              {{ end }}
+              <div class="space-y-1 flex-1 min-w-0">
+                <div>
+                  <h4 class="font-heading text-base sm:text-lg font-bold text-primary leading-tight">{{ .name }}</h4>
+                  <div class="text-xs font-semibold text-primary/75 uppercase tracking-wider mt-0.5">{{ .role }}</div>
+                </div>
+                {{ with .bio }}
+                <p class="text-xs sm:text-sm text-on-surface-variant leading-relaxed">{{ . }}</p>
+                {{ end }}
+              </div>
             </div>
             {{ end }}
           </div>
@@ -251,18 +260,27 @@
         <!-- Research Staff & Trainees -->
         <div>
           <h3 class="text-xs font-bold text-primary uppercase tracking-widest mb-6 pb-2 border-b border-outline-variant/30">Researchers, Staff & Trainees</h3>
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-6">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-5">
             {{ range site.Data.team.members }}
-            <div class="pb-4 border-b border-outline-variant/20 space-y-1">
-              <div class="flex flex-wrap items-baseline justify-between gap-x-2">
-                <h4 class="font-heading text-sm sm:text-base font-bold text-primary">{{ .name }}</h4>
-                <span class="text-xs font-medium text-primary/80 italic">{{ .role }}</span>
+            <div class="pb-4 border-b border-outline-variant/20 flex items-start gap-3.5">
+              <div class="w-10 h-10 sm:w-11 sm:h-11 rounded-full bg-surface-container-low flex items-center justify-center shrink-0 border border-outline-variant/30 overflow-hidden text-lg sm:text-xl select-none">
+                {{ if .image }}
+                <img src="{{ .image | relURL }}" alt="{{ .name }}" class="w-full h-full object-cover rounded-full" />
+                {{ else }}
+                <span>{{ .avatar | default "👤" }}</span>
+                {{ end }}
               </div>
-              {{ with .focus }}
-              <p class="text-xs text-on-surface-variant leading-relaxed">
-                <span class="font-semibold text-primary/75 not-italic">Focus:</span> {{ . }}
-              </p>
-              {{ end }}
+              <div class="space-y-0.5 flex-1 min-w-0">
+                <div class="flex flex-wrap items-baseline justify-between gap-x-2">
+                  <h4 class="font-heading text-sm sm:text-base font-bold text-primary">{{ .name }}</h4>
+                  <span class="text-xs font-medium text-primary/80 italic">{{ .role }}</span>
+                </div>
+                {{ with .focus }}
+                <p class="text-xs text-on-surface-variant leading-relaxed">
+                  <span class="font-semibold text-primary/75 not-italic">Focus:</span> {{ . }}
+                </p>
+                {{ end }}
+              </div>
             </div>
             {{ end }}
           </div>
