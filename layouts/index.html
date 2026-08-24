@@ -93,16 +93,16 @@
         </div>
       </a>
 
-      <div class="hidden md:flex items-center space-x-1 lg:space-x-2">
+      <div class="hidden md:flex items-center space-x-6">
         {{ range .Site.Menus.main }}
-        <a class="text-on-surface-variant font-semibold text-sm hover:text-primary hover:bg-surface-container/70 rounded-full transition-all duration-200 px-3.5 py-1.5"
+        <a class="text-on-surface-variant font-medium text-sm hover:text-primary transition-all duration-200 px-2 py-1"
           href="{{ .URL }}">{{ .Name }}</a>
         {{ end }}
       </div>
 
       <div class="flex items-center">
         <a href="mailto:{{ .Site.Params.contact_email }}"
-          class="bg-primary text-on-primary rounded-full px-5 py-2 text-xs font-semibold hover:bg-primary-container hover:shadow-xs transition-all shadow-2xs uppercase tracking-wider">
+          class="bg-primary text-on-primary rounded px-5 py-2 text-xs sm:text-sm font-semibold hover:bg-primary-container hover:text-white transition-colors shadow-sm uppercase tracking-wider">
           Contact Us
         </a>
       </div>
@@ -489,7 +489,7 @@
                 {{ end }}
               </td>
               <td class="py-4 px-2 text-right align-top shrink-0 whitespace-nowrap">
-                <span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-semibold tracking-wide border
+                <span class="inline-flex items-center px-2 py-0.5 rounded text-xs font-semibold tracking-wide border
                   {{ if in .status "US Patent" }}bg-emerald-50 text-emerald-800 border-emerald-200
                   {{ else if in .status "EP Patent" }}bg-indigo-50 text-indigo-800 border-indigo-200
                   {{ else if in .status "Pending" }}bg-amber-50 text-amber-800 border-amber-200
