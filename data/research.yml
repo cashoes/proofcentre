@@ -1,18 +1,18 @@
 - id: "01"
-  title: "Transplant Diagnostics & HEARTBiT"
+  title: "I. HEART"
   icon: "cardiology"
-  description: "Development, analytical validation, and clinical translation of blood-based genomic signatures designed to replace invasive endomyocardial biopsies for exclusionary diagnosis of acute cellular rejection in heart transplant recipients."
+  description: "Development, multi-centre clinical validation, and translation of non-invasive blood-based transcriptomic signatures (HEARTBiT) to replace invasive endomyocardial biopsies for exclusionary diagnosis of acute cellular rejection in heart transplant recipients."
   bullets:
     - "HEARTBiT: Blood-based multi-gene expression profiling assay"
     - "Proven high negative predictive value for non-invasive clinical triage"
     - "Translational pipeline extending long-term allograft survival and patient safety"
   publications:
-    - title: "Analytical Validation of HEARTBiT: A Blood-Based Multiplex Gene Expression Profiling Assay for Exclusionary Diagnosis of Acute Cellular Rejection in Heart Transplant Patients"
-      authors: "Kim JY, Lee B, Koitsopoulos P, Shannon CP, Chen V, Hollander Z, Assadian S, Lam K, Ng RT, McManus BM, Tebbutt SJ."
-      journal: "Clinical Chemistry"
-      year: 2020
-      doi: "10.1093/clinchem/hvaa123"
-      link: "https://doi.org/10.1093/clinchem/hvaa123"
+    - title: "Acute cellular rejection after heart transplantation: validation of HEARTBiT, a transcriptomic biomarker"
+      authors: "Shannon CP, Yang C, Assadian S, Lai CK, Lam L, Seidman MA, Hyden MP, Espin E, Rajasekaran A, Ross HJ, Balshaw RB, Ng RT, McManus BM, Tebbutt SJ."
+      journal: "European Heart Journal"
+      year: 2026
+      doi: "10.1093/eurheartj/ehag751"
+      link: "https://doi.org/10.1093/eurheartj/ehag751"
     - title: "HEARTBiT: A Transcriptomic Signature for Excluding Acute Cellular Rejection in Adult Heart Allograft Patients"
       authors: "Shannon CP, Hollander Z, Dai DLY, Chen V, Assadian S, Lam KL, McManus JE, Tebbutt SJ, McMaster WR, Ng RT, McManus BM, et al."
       journal: "Canadian Journal of Cardiology"
@@ -21,34 +21,62 @@
       link: "https://doi.org/10.1016/j.cjca.2019.11.017"
 
 - id: "02"
-  title: "Infection, Immunity & Systems Biology"
-  icon: "biotech"
-  description: "Comprehensive molecular phenotyping of host immune responses, early-life developmental trajectories, vaccine immunogenicity, and post-infectious inflammatory disorders using micro-volume whole-blood profiling."
+  title: "II. LUNG"
+  icon: "pulmonology"
+  description: "Transcriptomic profiling, biomarker discovery, and clinical classification in chronic respiratory diseases, distinguishing responder phenotypes in allergen challenge models and mapping disease progression in interstitial lung diseases."
   bullets:
-    - "Pioneering 'small sample, big data' multi-omic profiling from <1 mL infant blood"
-    - "Dynamic mapping of developmental immune trajectories and vaccine responses"
-    - "Multi-omics characterization of infection recovery and long-term sequelae"
+    - "Predictive transcriptomic panels for Early Responder (ER) vs. Dual Responder (DR) asthma endotypes"
+    - "Systematic review and meta-analysis mapping global interstitial lung disease (ILD) transcriptomics"
+    - "Non-invasive biomarker signatures for airway disease stratification"
   publications:
+    - title: "Novel Blood-based Transcriptional Biomarker Panels Predict the Late-Phase Asthmatic Response"
+      authors: "Singh A, Shannon CP, Kim YW, Yang CX, Balshaw R, Cohen Freue GV, Gauvreau GM, FitzGerald JM, Boulet LP, O’Byrne PM, Tebbutt SJ."
+      journal: "American Journal of Respiratory and Critical Care Medicine"
+      year: 2018
+      doi: "10.1164/rccm.201701-0110oc"
+      link: "https://doi.org/10.1164/rccm.201701-0110oc"
+    - title: "Transcriptomics of Interstitial Lung Disease: A Systematic Review and Meta-Analysis"
+      authors: "He D, Guler SA, Shannon CP, Ryerson CJ, Tebbutt SJ."
+      journal: "European Respiratory Journal"
+      year: 2025
+      doi: "10.1183/13993003.01070-2024"
+      link: "https://doi.org/10.1183/13993003.01070-2024"
+
+- id: "03"
+  title: "III. Infection & Immunity"
+  icon: "biotech"
+  description: "Comprehensive molecular phenotyping of host immune responses, acute viral infections, post-infectious inflammatory disorders (Long COVID), developmental neonatal immunology, and early-life vaccine immunogenicity."
+  bullets:
+    - "Interferon treatment response dynamics in acute viral (COVID-19) infection"
+    - "Cellular and molecular biomarker synthesis for Long COVID diagnosis and tracking"
+    - "Pioneering micro-volume whole-blood (<1 mL) profiling of early-life developmental immune trajectories"
+  publications:
+    - title: "Interferon-α2b Treatment for COVID-19"
+      authors: "Zhou Q, Chen V, Shannon CP, Wei XS, Xiang X, Wang X, Wang ZH, Tebbutt SJ, Kollmann TR, Fish EN."
+      journal: "Frontiers in Immunology"
+      year: 2020
+      doi: "10.389/fimmu.2020.01061"
+      link: "https://doi.org/10.389/fimmu.2020.01061"
+    - title: "Cellular and molecular biomarkers of long COVID: a scoping review"
+      authors: "Espín E, Yang C, Shannon CP, Assadian S, He D, Tebbutt SJ."
+      journal: "eBioMedicine"
+      year: 2023
+      doi: "10.1016/j.ebiom.2023.104552"
+      link: "https://doi.org/10.1016/j.ebiom.2023.104552"
     - title: "Dynamic Molecular Changes During the First Week of Human Life Follow a Robust Developmental Trajectory"
       authors: "Lee AH, Shannon CP, Amenyogbe N, Bennike TB, Diray-Arce J, Idoko OT, Tebbutt SJ, Kampmann B, Levy O, Kollmann TR, EPIC Consortium."
       journal: "Nature Communications"
       year: 2019
       doi: "10.1038/s41467-019-08794-x"
       link: "https://doi.org/10.1038/s41467-019-08794-x"
-    - title: "BCG Vaccination-Induced Emergency Granulopoiesis Provides Rapid Protection from Neonatal Sepsis"
-      authors: "Brook B, Harbeson DJ, Shannon CP, Cai B, He D, Ben-Othman R, Francis F, Tebbutt SJ, Kollmann TR, Amenyogbe N, et al."
-      journal: "Science Translational Medicine"
-      year: 2020
-      doi: "10.1126/scitranslmed.aax4517"
-      link: "https://doi.org/10.1126/scitranslmed.aax4517"
 
-- id: "03"
-  title: "Computational Multi-Omics & Method Development"
+- id: "04"
+  title: "IV. Multi-omics & Systems Biology"
   icon: "hub"
   description: "Statistical frameworks, machine learning models, and integrative bioinformatics algorithms designed to discover robust multi-marker signatures and key molecular drivers across transcriptomic, proteomic, and clinical datasets."
   bullets:
-    - "DIABLO / mixOmics multi-block biomarker discovery algorithms"
-    - "Meta-analysis methodologies across large-scale heterogeneous clinical cohorts"
+    - "DIABLO / mixOmics multi-block biomarker discovery frameworks"
+    - "Integration of multi-assay high-dimensional biological data"
     - "Cell-type deconvolution and multi-omic data harmonization"
   publications:
     - title: "DIABLO: An Integrative Approach for Identifying Key Molecular Drivers from Multi-Omic Assays and Its Application in Systemic Lupus Erythematosus and TCGA"
@@ -57,9 +85,3 @@
       year: 2019
       doi: "10.1093/bioinformatics/bty1054"
       link: "https://doi.org/10.1093/bioinformatics/bty1054"
-    - title: "Transcriptomics of Interstitial Lung Disease: A Systematic Review and Meta-Analysis"
-      authors: "He D, Guler SA, Shannon CP, Ryerson CJ, Tebbutt SJ."
-      journal: "European Respiratory Journal"
-      year: 2025
-      doi: "10.1183/13993003.01070-2024"
-      link: "https://doi.org/10.1183/13993003.01070-2024"

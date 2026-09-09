@@ -49,65 +49,27 @@ highlighted:
   lead: true
 archive:
 - year: 2026
-  title: 2024-2025 Covid-19 Vaccine Outcomes in U.S. Veterans
-  journal: The New England journal of medicine
-  doi: 10.1056/NEJMc2516766
-  link: https://doi.org/10.1056/NEJMc2516766
-  authors: Yang C, Tebbutt SJ
-  display_authors: Yang C, Tebbutt SJ
-  tag: Editorial & Commentary
-  lead: true
-- year: 2026
-  title: A randomized prospective study of neonatal hepatitis B vaccine immunogenicity in The Gambia and Papua New Guinea
-  journal: 'JACI: Global'
-  doi: 10.1016/j.jacig.2026.100653
-  link: https://doi.org/10.1016/j.jacig.2026.100653
-  authors: Diray-Arce J, Syphurs C, Hoch A, McEnaney K, Smolen KK, Wariri O, Shannon CP, Tebbutt SJ, Kollmann TR, Levy O, Ozonoff A, Kampmann B
-  display_authors: Diray-Arce J, Syphurs C, Hoch A, et al.
-  tag: Original Research
-  lead: false
-- year: 2026
-  title: Bioinformatics strategies and biomarker refinement using high-throughput transcriptome data in transplantation
-  journal: Frontiers in Bioinformatics
-  doi: 10.3389/fbinf.2026.1677453
-  link: https://doi.org/10.3389/fbinf.2026.1677453
-  authors: Günther OP, Sherwood KR, Fenninger F, Balshaw RF, Scherer A, Hollander Z, Keown PA
-  display_authors: Günther OP, Sherwood KR, Fenninger F, et al.
+  title: 'Acute cellular rejection after heart transplantation: validation of HEARTBiT, a transcriptomic biomarker'
+  journal: European Heart Journal
+  doi: 10.1093/eurheartj/ehag751
+  link: https://doi.org/10.1093/eurheartj/ehag751
+  authors: Shannon CP, Yang C, Assadian S, Lai CK, Lam L, Seidman MA, Hyden MP, Espin E, Rajasekaran A, Ross HJ, Balshaw RB, Ng RT, McManus BM, Tebbutt SJ.
+  display_authors: Shannon CP, Yang C, Assadian S, et al.
   tag: Original Research
   lead: true
+  citations: 0
+  date: '2026-08-15'
 - year: 2026
-  title: 'Burden of chronic respiratory disease in Asia, 1990–2023: a systematic analysis for the Global Burden of Disease Study 2023'
-  journal: The Lancet Respiratory Medicine
-  doi: 10.1016/s2213-2600(25)00404-7
-  link: https://doi.org/10.1016/s2213-2600(25)00404-7
-  authors: Jo Hyesu, Kim Tae Hyeon, Park Jaeyu, Oh Jiyeon, Kim Min Seo, Abid Shehab Uddin Al, Adhikary Ripon Kumar, Adnani Qorinah Estiningtyas Sakilah, Agrawal Anurag, Ahmad Danish, Ahmad Khabir, Ahmad Sajjad, Ahmad Tauseef, Ahmed Aram Mahmood, Ahmed Haroon, Ahmed MD Faisal, Ahmed Naveed, Ahmed Syed Anees, Akkaif Mohammed Ahmed, Al Hasan Syed Mahfuz, Alam Khurshid, Ali Mohammed Usman, Ali Rafat, Ali Syed Shujait, Ali Syed Yusuf, Alif Sheikh Mohammad, Aljunid Syed Mohamed, Al-Mamun Md, Altaf Awais, Annadurai Kabilan, Ansari Sumbul, Arockiaraj Jesu, Arooj Mahwish, Aryntayeva Nurila, Asdaq Syed Mohammed Basheeruddin, Ashraf Muhammad Abdul Basit, Ashraf Syed Amir, Ashraf Tahira, Asri Yuni, Assariparambil Anil Raj, Babu Giridhara Rathnaiah, Badiye Ashish D, Baig Atif Amin, Bakkannavar Shankar M, Banik Biswajit, Bardhan Mainak, Basu Saurav, Beeraka Narasimha M, Bente Kamal Tune Samiun Nazrin, Bhandari Jeetendra, Bhandari Niroj, Bhat Ajay Nagesh, Bhat Anup, Bhatnagar Arushee, Bhattacharjee Priyadarshini,
-    Biswas Bijit, Biswas Mohammad Shahangir, Bitar Ahmad Naoras, Bui Linh Phuong, Butt Nadeem Shafique, Butt Zahid A, Cenderadewi Muthia, Chakraborty Chiranjib, Chakraborty Sandip, Chan Jeffrey Shi Kai, Chattu Vijay Kumar, Chaudhuri Sirshendu, Chen An-Tian, Chen Haiyan, Chopra Hitesh, Chu Dinh-Toi, Chung Sunghyun, Devanbu Vinoth Gnana Chellaiyan, Devegowda Devananda, Dewan Syed Masudur Rahman, Dhane Amol S, Dharmagadda Sreedhar, Dharmaratne Samath Dhamminda, Dhital Narayan Babu, Dhungel Bibha, Ding Guodong, Ding Xueting, Do Huyen Phuc, Do Thao Huynh Phuong, Doshi Ojas Prakashbhai, Dutta Siddhartha, Efendi Ferry, Elsohaby Ibrahim, Fahim Ayesha, Fakhradiyev Ildar Ravisovich, Fareed Mohammad, Fatima Zareen, Fekadu Ginenus, G Sridevi, Ganesh Balasubramanian, Gao Xiang, Gautam Rupesh K, Ghuge Arun, Gil Artyom Urievich, Golechha Mahaveer, Guan Shi-Yang, Gunawardane Damitha Asanga, Gupta Gaurav, Gupta Lalit, Gupta Rajat Das, Gupta Sapna, Halder Pritam, Hameed Sajid, Hanif Asif, Haque Md Aminul,
-    Hariandja Andy Martahan Andreas, Has Eka Mishbahatul Marah, Hassan Ahmed Omed, Hay Simon I, He Qida, Holla Ramesh, Hoseinzadeh Mehdi, Hossain Md Sabbir, Huang Junjie, Huang Zhenyao, Hwang Bing-Fang, Inbaraj Leeberk Raja, Iqbal Meesha, Irham Lalu Muhammad, Islam Md Rabiul, Islam Md Shahinul, Ismail Nahlah Elkudssiah, Ismoldayev Yerlan, Ispayeva Zhanat Bakhitovna, Jamaluddin Jazlan, James Jerin, Jayaram Shubha, Jiang Min, Jonas Jost B, Joseph Nitin, K Vaishali, Kang Jiseung, Kapoor Neeti, Kar Sonali, Khajuria Himanshu, Khan Maseer, Khan Mohammad Jobair, Khan Mohd Faheem, Khan Serab, Khan Ubaid, Khasbage Sameer Uttamaro, Khidri Feriha Fatima, Khubchandani Jagdish, Kim Jinho, Kim Yun Jin, Kini B Sanjay, KM Abdul Basith, KM Shivakumar, Kodali Prakash Babu, Koul Parvaiz A, Krishan Kewal, Kuddus Mohammed, Kulimbet Mukhtar, Kulshreshtha Shweta, Kumar Dewesh, Kumar Kamal, Kumar Nithin, Kumar Rakesh, Kumar Vijay, Kurmi Om P, Kushawaha Pramod Kumar, Kusuma Dian, Kuttybayev Assylkhan, Lahariya Chandrakant,
-    Lai Hanpeng, Lakanova Balzhan, Latief Kamaluddin, Lee Seung Won, Lee Yo Han, Li Chengfeng, Li Ming-Chieh, Li Wei, Li Weilong, Lian Yanxue, Ligade Virendra S, Lin Jialing, Lin Ro-Ting, Liu Gang, Liu Haipeng, Liu Xianliang, Liu Xuefeng, Liu Zhe, Ma Jixuan, Mahalingam Sasikumar, Malik Ahmad Azam, Manjani Lokesh, Mannethodi Kamaruddeen, Mansoor Farheen, Marzo Roy Rillera, Mathur Medha, Mathur Neeta, Maude Richard James, Mehta Vini, Melwani Satish, Meo Sultan Ayoub, Mettananda Sachith, Minervini Giuseppe, Ming Wai-kit, Mini GK, Mirrakhimov Erkin M, Mishra Vinaytosh, Mithra Prasanna, Mohan Syam, Mokdad Ali H, Mondal Himel, Motappa Rohith, Muhammad Jibran Sualeh, Mukherjee Sumoni, Murray Christopher J L, Naik Ganesh R, Nainu Firzan, Nair Sanjeev, Nambi Gopal, Nargus Shumaila, Nauman Javaid, Navaratna Samidi Nirasha Kumari, Nayak Biswa Prakash, Nayak Shalini Ganesh, Nguyen Cuong Tat, Nguyen Hau Thi Hien, Nguyen Huong-Dung Thi, Nguyen Minh Thien, Nguyen Nghia Phu, Niazi Robina Khan, Niranjan
-    Vikram, Nomura Shuhei, Nurrika Dieta, P A Mahesh, Padubidri Jagadish Rao, Paija Dimpal Manilal, Paluvai Tejasri, Panda-Jonas Songhomitra, Pandey Ashok, Pandi-Perumal Seithikurippu R, Patel Hemal M, Patel Mitesh, Patil Shankargouda, Pham Hoang Nhat, Pham Tung Thanh, Poddighe Dimitri, Poluru Ramesh, Porntaveetus Thantrira, Postma Maarten J, Pradhan Jalandhar, Pradhan Pranil Man Singh, Prashant Akila, Puvvula Jagadeesh, Qiu Jia-Yong, Rabiee Navid, Rachmat Basuki, Raghav Yashpal Singh Raghav, Rahim Fakher, Rahman Mohammad Hifz Ur, Rahman Mohammad Meshbahur, Rahman Mosiur, Rahman Muhammad Aziz, Rahmani Amir Masoud, Raj Jeffrey Pradeep, Rajendran Judah, Rajput Prashant, Rao Sowmya J, Rashid Mamunur, Rashid Md Abdur, Rathish Devarajan, Rauniyar Santosh Kumar, Reddy Murali Mohan Rama Krishna, Rizvi Moattar Raza, Rohilla Ravi, Rony Moustaq Karim Khan, Rout Himanshu Sekhar, Roy Priyanka, Saeed Umar, Saha Indranil, Sahebkar Amirhossein, Sahoo Pragyan Monalisa, Sahu Kirti Sundar, Sajid Mirza Rizwan,
-    Salvi Sundeep Santosh, Samodra Yoseph Leonardo, Sarode Gargi Sachin, Sarode Sachin C, Sathya Narayanan Mukesh Kumar, Satpathy Maheswar, Saulam Jennifer, Saya Ganesh Kumar, Senthilkumaran Subramanian, Sethi Yashendra, Shahab Muhammad, Shaikh Masood Ali, Shaikh Nafhat, Shamim Muhammad Aaqib, Shamsutdinova Alfiya, Shan Dan, Shanawaz Mohd, Sharma Avimanu, Paudel Suman Sharma, Shetty Mahabalesh, Shetty Pavanchand H, Shetty Premalatha K, Shimul Md Monir Hossain, Shiue Ivy, Shrestha Sunil, Simkhada Padam Prasad, Singh Amit, Singh Harmanjit, Singh Jasvinder A, Singh Kalpana, Singh Paramdeep, Singh Poornima Suryanath, Singh Surendra, Singh Surjit, Singh Virendra, Sinha Mukesh Kumar, Sinha Ratnesh, Solikhah Solikhah, Song Xiuling, Sood Aayushi, Sood Prashant, Subramanian Balachandran, Subramaniyan Vetriselvan, Sujon Hasnat, Sukaew Thitiporn, Sundaram Thanigaivel, Swain Chandan Kumar, T Y Sree Sudha, Tabish Mohammad, Taiba Jabeen, Tanabayeva Shynar, Tanveer Mohsan, Tasnim Anika, Thankappan Kavumpurathu
-    Raman, Thapar Rekha, Thind Mehakpreet Kaur, Thiruvengadam Muthu, Thiruvengadam Rekha, Thomas Manuel Sebastian, Ticoalu Jansje Henny Vera, Tleshev Madi, Tomo Sojit, Tran Ngoc Ha, Tran Quynh Thuy Huong, Tran Thang Huu, Tran Minh Duc Nguyen, Tripathi Tulika, Tualeka Abdul Rohim, Ullah Himayat, Ullah Irfan, Umar Muhammad, Unnikrishnan Bhaskaran, Upadhyay Era, Uzzaman Nazim, Vaithinathan Asokan Govindaraj, Visaga Ambi Senthil, Vu Linh, Wahidin Mugi, Wander Arvinder, Wang Ke, Wang Yanzhong, Wei Xueying, Wicaksana Anggi Lukman, Wickramasinghe Nuwan Darshana, Wilandika Angga, Wu Jinyi, Xiao Lishun, Xiao Na, Xie Wanqing, Xu Site, Xu Suowen, Xu Xiaoyue, Yadav Mukesh Kumar, Yang Chengliang, Yang Xinxin, Ye Pengpeng, Yergaliyev Kuanysh A, Yin Dehui, Yonemoto Naohiro, Yu Chuanhua, Zafar Mubashir, Zainal Abidin Emilia, Zhang Casper J P, Zhang Yunquan, Zhao Hanqing, Zhong Claire Chenwen, Zhumagaliuly Abzal, Zia Hafsa, Shin Jae Il, Yon Dong Keon
-  display_authors: Jo Hyesu, Kim Tae Hyeon, Park Jaeyu, et al.
-  tag: Original Research
-  lead: false
-- year: 2026
-  title: 'Donor-derived cell-free DNA associated with increased risk of chronic lung allograft dysfunction and mortality: Implications of immunosuppression and retransplantation'
+  title: 'Primary graft dysfunction after heart transplantation: Impaired metabolic recovery as an emerging mechanism'
   journal: The Journal of Heart and Lung Transplantation
-  doi: 10.1016/j.healun.2026.02.1662
-  link: https://doi.org/10.1016/j.healun.2026.02.1662
-  authors: Yang Chengliang, Shannon Casey P., Tebbutt Scott J.
-  display_authors: Yang Chengliang, Shannon Casey P., Tebbutt Scott J.
-  tag: Original Research
-  lead: true
-- year: 2026
-  title: 'Editorial: Managing COVID-19 in heart and lung transplantation: clinical challenges and emerging solutions'
-  journal: Frontiers in Surgery
-  doi: 10.3389/fsurg.2026.1843253
-  link: https://doi.org/10.3389/fsurg.2026.1843253
-  authors: Yang Chengliang, Mao Wenjun, Senbaklavaci Ömer
-  display_authors: Yang Chengliang, Mao Wenjun, Senbaklavaci Ömer
+  doi: 10.1016/j.healun.2026.08.001
+  link: https://doi.org/10.1016/j.healun.2026.08.001
+  authors: Yang Chengliang, Toma Mustafa, Tebbutt Scott J.
+  display_authors: Yang Chengliang, Toma Mustafa, Tebbutt Scott J.
   tag: Editorial & Commentary
   lead: true
+  citations: 0
+  date: '2026-08-01'
 - year: 2026
   title: 'Global, regional, and national burden of tuberculosis and multidrug-resistant tuberculosis by HIV status, 1990–2023: a systematic analysis for the Global Burden of Disease Study 2023'
   journal: The Lancet Infectious Diseases
@@ -149,42 +111,8 @@ archive:
   display_authors: Ledesma Jorge R, Zhang Meixin, Liew Mei Fong, et al.
   tag: Original Research
   lead: false
-- year: 2026
-  title: Higher Promoter Methylation of the Ubiquitin-Associated and SH3 Domain Containing A (UBASH3A) Gene Is Associated With T-Lymphocyte Ontogeny and Reduced Susceptibility to Early-Onset Sepsis
-  journal: The Journal of Infectious Diseases
-  doi: 10.1093/infdis/jiaf636
-  link: https://doi.org/10.1093/infdis/jiaf636
-  authors: Wang Z, Amenyogbe N, Ben-Othman R, Cai B, Lo M, Idoko OT, McEnaney K, Ozonoff A, Smolen KK, van den Biggelaar AHJ, EPIC Consortium, Kampmann B, Levy O, Tebbutt SJ, Kollmann TR
-  display_authors: Wang Z, Amenyogbe N, Ben-Othman R, et al.
-  tag: Original Research
-  lead: false
-- year: 2026
-  title: 'Moving beyond symptom management in long COVID guidelines: incorporating reinfection history, biological characterisation and health inequalities'
-  journal: European Respiratory Journal
-  doi: ''
-  link: null
-  authors: Yang C, Espín E, Tebbutt SJ
-  display_authors: Yang C, Espín E, Tebbutt SJ
-  tag: Editorial & Commentary
-  lead: true
-- year: 2026
-  title: Newborns with sickle cell trait have distinct peripheral blood molecular signatures across the first week of life
-  journal: Blood. Red cells & iron
-  doi: 10.1016/j.brci.2026.100051
-  link: https://doi.org/10.1016/j.brci.2026.100051
-  authors: Checkervarty AK, Shannon CP, Blimkie TM, Dhillon BK, Falsafi R, Angelidou A, Diray-Arce J, Bennike TB, Archer NM, Idoko OT, McEnaney K, Ozonoff A, Odumade OA, Ben-Othman R, Smolen KK, Steen H, EPIC-HIPC Consortium, Kampmann B, Kollmann TR, Levy O, Lee AH, Hancock REW, Tebbutt SJ
-  display_authors: Checkervarty AK, Shannon CP, Blimkie TM, et al.
-  tag: Original Research
-  lead: true
-- year: 2026
-  title: 'Omics BioAnalytics: an RShiny application for multimodal biomarker panel discovery and assessment'
-  journal: Bioinformatics Advances
-  doi: 10.1093/bioadv/vbaf307
-  link: https://doi.org/10.1093/bioadv/vbaf307
-  authors: Dyce J, Rieskamp L, Tebbutt SJ, McManus BM, Singh A
-  display_authors: Dyce J, Rieskamp L, Tebbutt SJ, et al.
-  tag: Original Research
-  lead: true
+  citations: 0
+  date: '2026-07-01'
 - year: 2026
   title: Pilot longitudinal integrated transcriptomic-metabolomic study reveals immune and metabolic signatures in non-hospitalized healthcare workers with long COVID
   journal: Frontiers in cellular and infection microbiology
@@ -194,15 +122,30 @@ archive:
   display_authors: Espín E, Yang C, Shannon CP, et al.
   tag: Original Research
   lead: true
+  citations: 0
+  date: '2026-06-04'
 - year: 2026
-  title: 'Primary graft dysfunction after heart transplantation: Impaired metabolic recovery as an emerging mechanism'
-  journal: The Journal of Heart and Lung Transplantation
-  doi: 10.1016/j.healun.2026.08.001
-  link: https://doi.org/10.1016/j.healun.2026.08.001
-  authors: Yang Chengliang, Toma Mustafa, Tebbutt Scott J.
-  display_authors: Yang Chengliang, Toma Mustafa, Tebbutt Scott J.
+  title: 'Editorial: Managing COVID-19 in heart and lung transplantation: clinical challenges and emerging solutions'
+  journal: Frontiers in Surgery
+  doi: 10.3389/fsurg.2026.1843253
+  link: https://doi.org/10.3389/fsurg.2026.1843253
+  authors: Yang Chengliang, Mao Wenjun, Senbaklavaci Ömer
+  display_authors: Yang Chengliang, Mao Wenjun, Senbaklavaci Ömer
+  tag: Editorial & Commentary
+  lead: true
+  citations: 0
+  date: '2026-04-17'
+- year: 2026
+  title: Bioinformatics strategies and biomarker refinement using high-throughput transcriptome data in transplantation
+  journal: Frontiers in Bioinformatics
+  doi: 10.3389/fbinf.2026.1677453
+  link: https://doi.org/10.3389/fbinf.2026.1677453
+  authors: Günther OP, Sherwood KR, Fenninger F, Balshaw RF, Scherer A, Hollander Z, Keown PA
+  display_authors: Günther OP, Sherwood KR, Fenninger F, et al.
   tag: Original Research
   lead: true
+  citations: 0
+  date: '2026-04-08'
 - year: 2026
   title: Using cell-specific late-phase asthma mRNA biomarkers to repurpose drugs that concurrently reverse disease signatures across multiple immune cell-types
   journal: PLoS Computational Biology
@@ -212,6 +155,102 @@ archive:
   display_authors: Zhang M, Kim YW, Yang CX, et al.
   tag: Original Research
   lead: false
+  citations: 1
+  date: '2026-04-03'
+- year: 2026
+  title: 'Donor-derived cell-free DNA associated with increased risk of chronic lung allograft dysfunction and mortality: Implications of immunosuppression and retransplantation'
+  journal: The Journal of Heart and Lung Transplantation
+  doi: 10.1016/j.healun.2026.02.1662
+  link: https://doi.org/10.1016/j.healun.2026.02.1662
+  authors: Yang Chengliang, Shannon Casey P., Tebbutt Scott J.
+  display_authors: Yang Chengliang, Shannon Casey P., Tebbutt Scott J.
+  tag: Editorial & Commentary
+  lead: true
+  citations: 0
+  date: '2026-03-20'
+- year: 2026
+  title: A randomized prospective study of neonatal hepatitis B vaccine immunogenicity in The Gambia and Papua New Guinea
+  journal: 'JACI: Global'
+  doi: 10.1016/j.jacig.2026.100653
+  link: https://doi.org/10.1016/j.jacig.2026.100653
+  authors: Diray-Arce J, Syphurs C, Hoch A, McEnaney K, Smolen KK, Wariri O, Shannon CP, Tebbutt SJ, Kollmann TR, Levy O, Ozonoff A, Kampmann B
+  display_authors: Diray-Arce J, Syphurs C, Hoch A, et al.
+  tag: Original Research
+  lead: false
+  citations: 0
+  date: '2026-02-07'
+- year: 2026
+  title: 'Burden of chronic respiratory disease in Asia, 1990–2023: a systematic analysis for the Global Burden of Disease Study 2023'
+  journal: The Lancet Respiratory Medicine
+  doi: 10.1016/s2213-2600(25)00404-7
+  link: https://doi.org/10.1016/s2213-2600(25)00404-7
+  authors: Jo Hyesu, Kim Tae Hyeon, Park Jaeyu, Oh Jiyeon, Kim Min Seo, Abid Shehab Uddin Al, Adhikary Ripon Kumar, Adnani Qorinah Estiningtyas Sakilah, Agrawal Anurag, Ahmad Danish, Ahmad Khabir, Ahmad Sajjad, Ahmad Tauseef, Ahmed Aram Mahmood, Ahmed Haroon, Ahmed MD Faisal, Ahmed Naveed, Ahmed Syed Anees, Akkaif Mohammed Ahmed, Al Hasan Syed Mahfuz, Alam Khurshid, Ali Mohammed Usman, Ali Rafat, Ali Syed Shujait, Ali Syed Yusuf, Alif Sheikh Mohammad, Aljunid Syed Mohamed, Al-Mamun Md, Altaf Awais, Annadurai Kabilan, Ansari Sumbul, Arockiaraj Jesu, Arooj Mahwish, Aryntayeva Nurila, Asdaq Syed Mohammed Basheeruddin, Ashraf Muhammad Abdul Basit, Ashraf Syed Amir, Ashraf Tahira, Asri Yuni, Assariparambil Anil Raj, Babu Giridhara Rathnaiah, Badiye Ashish D, Baig Atif Amin, Bakkannavar Shankar M, Banik Biswajit, Bardhan Mainak, Basu Saurav, Beeraka Narasimha M, Bente Kamal Tune Samiun Nazrin, Bhandari Jeetendra, Bhandari Niroj, Bhat Ajay Nagesh, Bhat Anup, Bhatnagar Arushee, Bhattacharjee Priyadarshini,
+    Biswas Bijit, Biswas Mohammad Shahangir, Bitar Ahmad Naoras, Bui Linh Phuong, Butt Nadeem Shafique, Butt Zahid A, Cenderadewi Muthia, Chakraborty Chiranjib, Chakraborty Sandip, Chan Jeffrey Shi Kai, Chattu Vijay Kumar, Chaudhuri Sirshendu, Chen An-Tian, Chen Haiyan, Chopra Hitesh, Chu Dinh-Toi, Chung Sunghyun, Devanbu Vinoth Gnana Chellaiyan, Devegowda Devananda, Dewan Syed Masudur Rahman, Dhane Amol S, Dharmagadda Sreedhar, Dharmaratne Samath Dhamminda, Dhital Narayan Babu, Dhungel Bibha, Ding Guodong, Ding Xueting, Do Huyen Phuc, Do Thao Huynh Phuong, Doshi Ojas Prakashbhai, Dutta Siddhartha, Efendi Ferry, Elsohaby Ibrahim, Fahim Ayesha, Fakhradiyev Ildar Ravisovich, Fareed Mohammad, Fatima Zareen, Fekadu Ginenus, G Sridevi, Ganesh Balasubramanian, Gao Xiang, Gautam Rupesh K, Ghuge Arun, Gil Artyom Urievich, Golechha Mahaveer, Guan Shi-Yang, Gunawardane Damitha Asanga, Gupta Gaurav, Gupta Lalit, Gupta Rajat Das, Gupta Sapna, Halder Pritam, Hameed Sajid, Hanif Asif, Haque Md Aminul,
+    Hariandja Andy Martahan Andreas, Has Eka Mishbahatul Marah, Hassan Ahmed Omed, Hay Simon I, He Qida, Holla Ramesh, Hoseinzadeh Mehdi, Hossain Md Sabbir, Huang Junjie, Huang Zhenyao, Hwang Bing-Fang, Inbaraj Leeberk Raja, Iqbal Meesha, Irham Lalu Muhammad, Islam Md Rabiul, Islam Md Shahinul, Ismail Nahlah Elkudssiah, Ismoldayev Yerlan, Ispayeva Zhanat Bakhitovna, Jamaluddin Jazlan, James Jerin, Jayaram Shubha, Jiang Min, Jonas Jost B, Joseph Nitin, K Vaishali, Kang Jiseung, Kapoor Neeti, Kar Sonali, Khajuria Himanshu, Khan Maseer, Khan Mohammad Jobair, Khan Mohd Faheem, Khan Serab, Khan Ubaid, Khasbage Sameer Uttamaro, Khidri Feriha Fatima, Khubchandani Jagdish, Kim Jinho, Kim Yun Jin, Kini B Sanjay, KM Abdul Basith, KM Shivakumar, Kodali Prakash Babu, Koul Parvaiz A, Krishan Kewal, Kuddus Mohammed, Kulimbet Mukhtar, Kulshreshtha Shweta, Kumar Dewesh, Kumar Kamal, Kumar Nithin, Kumar Rakesh, Kumar Vijay, Kurmi Om P, Kushawaha Pramod Kumar, Kusuma Dian, Kuttybayev Assylkhan, Lahariya Chandrakant,
+    Lai Hanpeng, Lakanova Balzhan, Latief Kamaluddin, Lee Seung Won, Lee Yo Han, Li Chengfeng, Li Ming-Chieh, Li Wei, Li Weilong, Lian Yanxue, Ligade Virendra S, Lin Jialing, Lin Ro-Ting, Liu Gang, Liu Haipeng, Liu Xianliang, Liu Xuefeng, Liu Zhe, Ma Jixuan, Mahalingam Sasikumar, Malik Ahmad Azam, Manjani Lokesh, Mannethodi Kamaruddeen, Mansoor Farheen, Marzo Roy Rillera, Mathur Medha, Mathur Neeta, Maude Richard James, Mehta Vini, Melwani Satish, Meo Sultan Ayoub, Mettananda Sachith, Minervini Giuseppe, Ming Wai-kit, Mini GK, Mirrakhimov Erkin M, Mishra Vinaytosh, Mithra Prasanna, Mohan Syam, Mokdad Ali H, Mondal Himel, Motappa Rohith, Muhammad Jibran Sualeh, Mukherjee Sumoni, Murray Christopher J L, Naik Ganesh R, Nainu Firzan, Nair Sanjeev, Nambi Gopal, Nargus Shumaila, Nauman Javaid, Navaratna Samidi Nirasha Kumari, Nayak Biswa Prakash, Nayak Shalini Ganesh, Nguyen Cuong Tat, Nguyen Hau Thi Hien, Nguyen Huong-Dung Thi, Nguyen Minh Thien, Nguyen Nghia Phu, Niazi Robina Khan, Niranjan
+    Vikram, Nomura Shuhei, Nurrika Dieta, P A Mahesh, Padubidri Jagadish Rao, Paija Dimpal Manilal, Paluvai Tejasri, Panda-Jonas Songhomitra, Pandey Ashok, Pandi-Perumal Seithikurippu R, Patel Hemal M, Patel Mitesh, Patil Shankargouda, Pham Hoang Nhat, Pham Tung Thanh, Poddighe Dimitri, Poluru Ramesh, Porntaveetus Thantrira, Postma Maarten J, Pradhan Jalandhar, Pradhan Pranil Man Singh, Prashant Akila, Puvvula Jagadeesh, Qiu Jia-Yong, Rabiee Navid, Rachmat Basuki, Raghav Yashpal Singh Raghav, Rahim Fakher, Rahman Mohammad Hifz Ur, Rahman Mohammad Meshbahur, Rahman Mosiur, Rahman Muhammad Aziz, Rahmani Amir Masoud, Raj Jeffrey Pradeep, Rajendran Judah, Rajput Prashant, Rao Sowmya J, Rashid Mamunur, Rashid Md Abdur, Rathish Devarajan, Rauniyar Santosh Kumar, Reddy Murali Mohan Rama Krishna, Rizvi Moattar Raza, Rohilla Ravi, Rony Moustaq Karim Khan, Rout Himanshu Sekhar, Roy Priyanka, Saeed Umar, Saha Indranil, Sahebkar Amirhossein, Sahoo Pragyan Monalisa, Sahu Kirti Sundar, Sajid Mirza Rizwan,
+    Salvi Sundeep Santosh, Samodra Yoseph Leonardo, Sarode Gargi Sachin, Sarode Sachin C, Sathya Narayanan Mukesh Kumar, Satpathy Maheswar, Saulam Jennifer, Saya Ganesh Kumar, Senthilkumaran Subramanian, Sethi Yashendra, Shahab Muhammad, Shaikh Masood Ali, Shaikh Nafhat, Shamim Muhammad Aaqib, Shamsutdinova Alfiya, Shan Dan, Shanawaz Mohd, Sharma Avimanu, Paudel Suman Sharma, Shetty Mahabalesh, Shetty Pavanchand H, Shetty Premalatha K, Shimul Md Monir Hossain, Shiue Ivy, Shrestha Sunil, Simkhada Padam Prasad, Singh Amit, Singh Harmanjit, Singh Jasvinder A, Singh Kalpana, Singh Paramdeep, Singh Poornima Suryanath, Singh Surendra, Singh Surjit, Singh Virendra, Sinha Mukesh Kumar, Sinha Ratnesh, Solikhah Solikhah, Song Xiuling, Sood Aayushi, Sood Prashant, Subramanian Balachandran, Subramaniyan Vetriselvan, Sujon Hasnat, Sukaew Thitiporn, Sundaram Thanigaivel, Swain Chandan Kumar, T Y Sree Sudha, Tabish Mohammad, Taiba Jabeen, Tanabayeva Shynar, Tanveer Mohsan, Tasnim Anika, Thankappan Kavumpurathu
+    Raman, Thapar Rekha, Thind Mehakpreet Kaur, Thiruvengadam Muthu, Thiruvengadam Rekha, Thomas Manuel Sebastian, Ticoalu Jansje Henny Vera, Tleshev Madi, Tomo Sojit, Tran Ngoc Ha, Tran Quynh Thuy Huong, Tran Thang Huu, Tran Minh Duc Nguyen, Tripathi Tulika, Tualeka Abdul Rohim, Ullah Himayat, Ullah Irfan, Umar Muhammad, Unnikrishnan Bhaskaran, Upadhyay Era, Uzzaman Nazim, Vaithinathan Asokan Govindaraj, Visaga Ambi Senthil, Vu Linh, Wahidin Mugi, Wander Arvinder, Wang Ke, Wang Yanzhong, Wei Xueying, Wicaksana Anggi Lukman, Wickramasinghe Nuwan Darshana, Wilandika Angga, Wu Jinyi, Xiao Lishun, Xiao Na, Xie Wanqing, Xu Site, Xu Suowen, Xu Xiaoyue, Yadav Mukesh Kumar, Yang Chengliang, Yang Xinxin, Ye Pengpeng, Yergaliyev Kuanysh A, Yin Dehui, Yonemoto Naohiro, Yu Chuanhua, Zafar Mubashir, Zainal Abidin Emilia, Zhang Casper J P, Zhang Yunquan, Zhao Hanqing, Zhong Claire Chenwen, Zhumagaliuly Abzal, Zia Hafsa, Shin Jae Il, Yon Dong Keon
+  display_authors: Jo Hyesu, Kim Tae Hyeon, Park Jaeyu, et al.
+  tag: Original Research
+  lead: false
+  citations: 10
+  date: '2026-01-21'
+- year: 2026
+  title: 2024-2025 Covid-19 Vaccine Outcomes in U.S. Veterans
+  journal: The New England journal of medicine
+  doi: 10.1056/NEJMc2516766
+  link: https://doi.org/10.1056/NEJMc2516766
+  authors: Yang C, Tebbutt SJ
+  display_authors: Yang C, Tebbutt SJ
+  tag: Editorial & Commentary
+  lead: true
+  citations: 0
+  date: '2026-01-14'
+- year: 2026
+  title: Newborns with sickle cell trait have distinct peripheral blood molecular signatures across the first week of life
+  journal: Blood. Red cells & iron
+  doi: 10.1016/j.brci.2026.100051
+  link: https://doi.org/10.1016/j.brci.2026.100051
+  authors: Checkervarty AK, Shannon CP, Blimkie TM, Dhillon BK, Falsafi R, Angelidou A, Diray-Arce J, Bennike TB, Archer NM, Idoko OT, McEnaney K, Ozonoff A, Odumade OA, Ben-Othman R, Smolen KK, Steen H, EPIC-HIPC Consortium, Kampmann B, Kollmann TR, Levy O, Lee AH, Hancock REW, Tebbutt SJ
+  display_authors: Checkervarty AK, Shannon CP, Blimkie TM, et al.
+  tag: Original Research
+  lead: true
+  citations: 0
+  date: '2026-01-13'
+- year: 2026
+  title: 'Moving beyond symptom management in long COVID guidelines: incorporating reinfection history, biological characterisation and health inequalities'
+  journal: European Respiratory Journal
+  doi: ''
+  link: null
+  authors: Yang C, Espín E, Tebbutt SJ
+  display_authors: Yang C, Espín E, Tebbutt SJ
+  tag: Editorial & Commentary
+  lead: true
+  citations: 0
+  date: '2026-01-01'
+- year: 2026
+  title: Higher Promoter Methylation of the Ubiquitin-Associated and SH3 Domain Containing A (UBASH3A) Gene Is Associated With T-Lymphocyte Ontogeny and Reduced Susceptibility to Early-Onset Sepsis
+  journal: The Journal of Infectious Diseases
+  doi: 10.1093/infdis/jiaf636
+  link: https://doi.org/10.1093/infdis/jiaf636
+  authors: Wang Z, Amenyogbe N, Ben-Othman R, Cai B, Lo M, Idoko OT, McEnaney K, Ozonoff A, Smolen KK, van den Biggelaar AHJ, EPIC Consortium, Kampmann B, Levy O, Tebbutt SJ, Kollmann TR
+  display_authors: Wang Z, Amenyogbe N, Ben-Othman R, et al.
+  tag: Original Research
+  lead: false
+  citations: 0
+  date: '2025-12-16'
+- year: 2026
+  title: 'Omics BioAnalytics: an RShiny application for multimodal biomarker panel discovery and assessment'
+  journal: Bioinformatics Advances
+  doi: 10.1093/bioadv/vbaf307
+  link: https://doi.org/10.1093/bioadv/vbaf307
+  authors: Dyce J, Rieskamp L, Tebbutt SJ, McManus BM, Singh A
+  display_authors: Dyce J, Rieskamp L, Tebbutt SJ, et al.
+  tag: Original Research
+  lead: true
+  citations: 1
+  date: '2025-11-26'
 - year: 2025
   title: Association between tacrolimus blood levels and biopsy-proven acute cellular rejection in adult heart transplant recipients
   journal: JHLT open
@@ -221,33 +260,8 @@ archive:
   display_authors: Yang C, Shannon CP, Assadian S, et al.
   tag: Original Research
   lead: true
-- year: 2025
-  title: 'Cardiac adverse events associated with remdesivir in COVID-19 patients: a systematic review and meta-analysis of randomised controlled trials'
-  journal: BMJ Open
-  doi: 10.1136/bmjopen-2024-089977
-  link: https://doi.org/10.1136/bmjopen-2024-089977
-  authors: Yang Chengliang, Lapp Linda, Amstutz Alain, Briel Matthias, Shannon Casey P., Zhao Hedi, Espin Estefania, Assadian Sara, Toma Mustafa, Tebbutt Scott J.
-  display_authors: Yang Chengliang, Lapp Linda, Amstutz Alain, et al.
-  tag: Review
-  lead: true
-- year: 2025
-  title: Gene Expression Trend Pattern Analysis in Peripheral Blood From Patients With Preclinical Systemic Sclerosis
-  journal: International Journal of Rheumatic Diseases
-  doi: 10.1111/1756-185x.70039
-  link: https://doi.org/10.1111/1756-185x.70039
-  authors: Kim YW, Tebbutt SJ, Singh A
-  display_authors: Kim YW, Tebbutt SJ, Singh A
-  tag: Original Research
-  lead: false
-- year: 2025
-  title: Global, Regional, National, and Local Burden of COVID‐19 With Inequality Analysis Across 920 Locations, 2020–2021
-  journal: Med Research
-  doi: 10.1002/mdr2.70013
-  link: https://doi.org/10.1002/mdr2.70013
-  authors: Shan Dan, Jin Wenyi, Li Fei, Zeng You, Xie Ruiling, Yang Chengliang, Zeng Qingjia, Chen Yi, Wang Haowei, Linehan Christine, Zhong Claire Chenwen, Shao Qiaoyu, Liu Xiaozhu, Chen Wen, Shang Tongrui, Wang Dong, Wan Yuanyuan, Wu Ningning, Lv Minzhi, Li Zhihui, Qiu Yue, Wang Wei, Shao Xian, Bai Ruhai, Zheng Lili, Huang Baozhen, Xu Weize, Li Changchang, Wu Zimeng, Cai Guangyao, Chen Yuanyuan, Wang Ying, Hu Shuang, Zhang Liang, Chen Lerong, Huang Jianhua, Tebbutt Scott J., Luo Ting, Lin Queran, Rawaf Salman, Majeed Azeem, for the GBD 2021 Global‐to‐Local COVID‐19 Burden Monitoring Taskforce
-  display_authors: Shan Dan, Jin Wenyi, Li Fei, et al.
-  tag: Original Research
-  lead: false
+  citations: 0
+  date: '2025-08-20'
 - year: 2025
   title: Identifying Potential Vulnerability to Long COVID Through Global‐to‐Local Inequalities in Years Lived With Disability Attributed to COVID‐19, 2020–2021, Across 920 Locations
   journal: Med Research
@@ -257,24 +271,8 @@ archive:
   display_authors: Shan Dan, Jin Wenyi, Li Fei, et al.
   tag: Original Research
   lead: false
-- year: 2025
-  title: 'Immune Development in Early Life (IDEaL) longitudinal cohort study protocol: Identifying biomarkers of vaccine responsiveness, respiratory infection, and asthma'
-  journal: 'JACI: Global'
-  doi: 10.1016/j.jacig.2025.100517
-  link: https://doi.org/10.1016/j.jacig.2025.100517
-  authors: Amodio D, Rossetti C, Angelidou A, Sanna M, Cellini S, Marrero Cabrera MC, Shannon CP, Tebbutt SJ, Levy O, et al.
-  display_authors: Amodio D, Rossetti C, Angelidou A, et al.
-  tag: Study Protocol
-  lead: false
-- year: 2025
-  title: Long-Term Prognosis of Patients With Myocarditis
-  journal: JAMA
-  doi: 10.1001/jama.2024.25763
-  link: https://doi.org/10.1001/jama.2024.25763
-  authors: Yang Chengliang, Tebbutt Scott J.
-  display_authors: Yang Chengliang, Tebbutt Scott J.
-  tag: Editorial & Commentary
-  lead: true
+  citations: 12
+  date: '2025-08-03'
 - year: 2025
   title: Revisiting the role of α1-antitrypsin deficiency in aortic aneurysms and dissections
   journal: The Lancet
@@ -284,15 +282,41 @@ archive:
   display_authors: Yang Chengliang, Tebbutt Scott J
   tag: Editorial & Commentary
   lead: true
+  citations: 0
+  date: '2025-08-01'
 - year: 2025
-  title: 'Transcriptomics of interstitial lung disease: a systematic review and meta-analysis'
-  journal: European Respiratory Journal
-  doi: 10.1183/13993003.01070-2024
-  link: https://doi.org/10.1183/13993003.01070-2024
-  authors: He D, Guler SA, Shannon CP, Ryerson CJ, Tebbutt SJ
-  display_authors: He D, Guler SA, Shannon CP, et al.
+  title: 'Cardiac adverse events associated with remdesivir in COVID-19 patients: a systematic review and meta-analysis of randomised controlled trials'
+  journal: BMJ Open
+  doi: 10.1136/bmjopen-2024-089977
+  link: https://doi.org/10.1136/bmjopen-2024-089977
+  authors: Yang Chengliang, Lapp Linda, Amstutz Alain, Briel Matthias, Shannon Casey P., Zhao Hedi, Espin Estefania, Assadian Sara, Toma Mustafa, Tebbutt Scott J.
+  display_authors: Yang Chengliang, Lapp Linda, Amstutz Alain, et al.
   tag: Review
   lead: true
+  citations: 2
+  date: '2025-07-01'
+- year: 2025
+  title: Global, Regional, National, and Local Burden of COVID‐19 With Inequality Analysis Across 920 Locations, 2020–2021
+  journal: Med Research
+  doi: 10.1002/mdr2.70013
+  link: https://doi.org/10.1002/mdr2.70013
+  authors: Shan Dan, Jin Wenyi, Li Fei, Zeng You, Xie Ruiling, Yang Chengliang, Zeng Qingjia, Chen Yi, Wang Haowei, Linehan Christine, Zhong Claire Chenwen, Shao Qiaoyu, Liu Xiaozhu, Chen Wen, Shang Tongrui, Wang Dong, Wan Yuanyuan, Wu Ningning, Lv Minzhi, Li Zhihui, Qiu Yue, Wang Wei, Shao Xian, Bai Ruhai, Zheng Lili, Huang Baozhen, Xu Weize, Li Changchang, Wu Zimeng, Cai Guangyao, Chen Yuanyuan, Wang Ying, Hu Shuang, Zhang Liang, Chen Lerong, Huang Jianhua, Tebbutt Scott J., Luo Ting, Lin Queran, Rawaf Salman, Majeed Azeem, for the GBD 2021 Global‐to‐Local COVID‐19 Burden Monitoring Taskforce
+  display_authors: Shan Dan, Jin Wenyi, Li Fei, et al.
+  tag: Original Research
+  lead: false
+  citations: 7
+  date: '2025-06-25'
+- year: 2025
+  title: 'Immune Development in Early Life (IDEaL) longitudinal cohort study protocol: Identifying biomarkers of vaccine responsiveness, respiratory infection, and asthma'
+  journal: 'JACI: Global'
+  doi: 10.1016/j.jacig.2025.100517
+  link: https://doi.org/10.1016/j.jacig.2025.100517
+  authors: Amodio D, Rossetti C, Angelidou A, Sanna M, Cellini S, Marrero Cabrera MC, Shannon CP, Tebbutt SJ, Levy O, et al.
+  display_authors: Amodio D, Rossetti C, Angelidou A, et al.
+  tag: Study Protocol
+  lead: false
+  citations: 1
+  date: '2025-06-23'
 - year: 2025
   title: Type 2 immune responses are associated with less severe COVID-19 in a hospitalized cohort
   journal: 'JACI: Global'
@@ -302,42 +326,30 @@ archive:
   display_authors: Jayavelu ND, Qi J, Milliren CE, et al.
   tag: Original Research
   lead: false
-- year: 2024
-  title: A Commentary on Multi-omics Data Integration in Systems Vaccinology
-  journal: Journal of Molecular Biology
-  doi: 10.1016/j.jmb.2024.168522
-  link: https://doi.org/10.1016/j.jmb.2024.168522
-  authors: Shannon CP, Lee AH, Tebbutt SJ, Singh A
-  display_authors: Shannon CP, Lee AH, Tebbutt SJ, Singh A
+  citations: 2
+  date: '2025-06-12'
+- year: 2025
+  title: Long-Term Prognosis of Patients With Myocarditis
+  journal: JAMA
+  doi: 10.1001/jama.2024.25763
+  link: https://doi.org/10.1001/jama.2024.25763
+  authors: Yang Chengliang, Tebbutt Scott J.
+  display_authors: Yang Chengliang, Tebbutt Scott J.
   tag: Editorial & Commentary
   lead: true
-- year: 2024
-  title: Blood Transcriptomic and Inflammatory Protein Biomarkers Associated with Imminent Pulmonary Exacerbation Risk in Cystic Fibrosis
-  journal: Annals of the American Thoracic Society
-  doi: 10.1513/annalsats.202402-215oc
-  link: https://doi.org/10.1513/annalsats.202402-215oc
-  authors: Dong K, Jang J, Shannon CP, Ng R, Tebbutt SJ, Quon BS
-  display_authors: Dong K, Jang J, Shannon CP, et al.
-  tag: Original Research
-  lead: true
-- year: 2024
-  title: Breastfeeding and Neonatal Age Influence Neutrophil-Driven Ontogeny of Blood Cell Populations in the First Week of Human Life
-  journal: Journal of Immunology Research
-  doi: 10.1155/2024/1117796
-  link: https://doi.org/10.1155/2024/1117796
-  authors: Montante S, Ben-Othman R, Amenyogbe N, Angelidou A, van den Biggelaar A, Cai B, Shannon CP, Tebbutt SJ, Kollmann TR
-  display_authors: Montante S, Ben-Othman R, Amenyogbe N, et al.
+  citations: 0
+  date: '2025-01-27'
+- year: 2025
+  title: Gene Expression Trend Pattern Analysis in Peripheral Blood From Patients With Preclinical Systemic Sclerosis
+  journal: International Journal of Rheumatic Diseases
+  doi: 10.1111/1756-185x.70039
+  link: https://doi.org/10.1111/1756-185x.70039
+  authors: Kim YW, Tebbutt SJ, Singh A
+  display_authors: Kim YW, Tebbutt SJ, Singh A
   tag: Original Research
   lead: false
-- year: 2024
-  title: DNA Methylation signatures underpinning blood neutrophil to lymphocyte ratio
-  journal: Nature Communications
-  doi: 10.1038/s41467-024-52283-9
-  link: https://doi.org/10.1038/s41467-024-52283-9
-  authors: Martino D, Kresoje N, Amenyogbe N, Ben-Othman R, Cai B, Lo M, Shannon CP, Tebbutt SJ, Kollmann TR
-  display_authors: Martino D, Kresoje N, Amenyogbe N, et al.
-  tag: Original Research
-  lead: false
+  citations: 0
+  date: '2024-12-30'
 - year: 2024
   title: Diagnostic potential of genomic blood biomarkers of pulmonary fibrosis in a prospective cohort
   journal: PLoS ONE
@@ -347,51 +359,19 @@ archive:
   display_authors: He D, Shannon CP, Hirota JA, et al.
   tag: Original Research
   lead: true
-- year: 2024
-  title: 'Donor-specific graft injury in solid organ transplantation: potential mechanisms and therapeutic strategies'
-  journal: Frontiers in Transplantation
-  doi: 10.3389/frtra.2024.1427106
-  link: https://doi.org/10.3389/frtra.2024.1427106
-  authors: Yang Chengliang, Shannon Casey P., Zhao Hedi, Tebbutt Scott J.
-  display_authors: Yang Chengliang, Shannon Casey P., Zhao Hedi, et al.
-  tag: Editorial & Commentary
+  citations: 1
+  date: '2024-12-03'
+- year: 2025
+  title: 'Transcriptomics of interstitial lung disease: a systematic review and meta-analysis'
+  journal: European Respiratory Journal
+  doi: 10.1183/13993003.01070-2024
+  link: https://doi.org/10.1183/13993003.01070-2024
+  authors: He D, Guler SA, Shannon CP, Ryerson CJ, Tebbutt SJ
+  display_authors: He D, Guler SA, Shannon CP, et al.
+  tag: Original Research
   lead: true
-- year: 2024
-  title: False Positive Covid-19 Rapid Antigen Tests
-  journal: The New England journal of medicine
-  doi: 10.1056/NEJMc2403409
-  link: https://doi.org/10.1056/NEJMc2403409
-  authors: Yang C, Espín E, Tebbutt SJ
-  display_authors: Yang C, Espín E, Tebbutt SJ
-  tag: Editorial & Commentary
-  lead: true
-- year: 2024
-  title: 'Features of acute COVID-19 associated with post-acute sequelae of SARS-CoV-2 phenotypes: results from the IMPACC study'
-  journal: Nature Communications
-  doi: 10.1038/s41467-023-44090-5
-  link: https://doi.org/10.1038/s41467-023-44090-5
-  authors: Ozonoff A, Jayavelu ND, Liu S, Melamed E, Milliren CE, Qi J, Shannon CP, Tebbutt SJ, IMPACC Network
-  display_authors: Ozonoff A, Jayavelu ND, Liu S, et al.
-  tag: Original Research
-  lead: false
-- year: 2024
-  title: Glucagon-Like Peptide-1 Receptor Agonists and Osteoarthritis
-  journal: The New England journal of medicine
-  doi: 10.1056/NEJMe2409972
-  link: https://doi.org/10.1056/NEJMe2409972
-  authors: Felson DT
-  display_authors: Felson DT
-  tag: Original Research
-  lead: false
-- year: 2024
-  title: Integrated longitudinal multiomics study identifies immune programs associated with acute COVID-19 severity and mortality
-  journal: The Journal of Clinical Investigation
-  doi: 10.1172/jci176640
-  link: https://doi.org/10.1172/jci176640
-  authors: Gygi JP, Maguire C, Patel RK, Shinde P, Konstorum A, Shannon CP, Tebbutt SJ, IMPACC Network
-  display_authors: Gygi JP, Maguire C, Patel RK, et al.
-  tag: Original Research
-  lead: false
+  citations: 13
+  date: '2024-11-27'
 - year: 2024
   title: Kidney Transplant Outcomes From Donors Who Received Dialysis
   journal: JAMA
@@ -401,15 +381,19 @@ archive:
   display_authors: Yang Chengliang, Tebbutt Scott J.
   tag: Editorial & Commentary
   lead: true
+  citations: 0
+  date: '2024-11-04'
 - year: 2024
-  title: 'Multi‐level insights into the immuno‐oncology‐microbiome axis: From biotechnology to novel therapies'
-  journal: iMeta
-  doi: 10.1002/imt2.240
-  link: https://doi.org/10.1002/imt2.240
-  authors: Pi Zheshun, Liu Weici, Song Chenghu, Zhu Chuandong, Liu Jiwei, Wang Lu, He Zhao, Yang Chengliang, Wu Lei, Liu Tianshuo, Geng Zijie, Tebbutt Scott J., Liu Ningning, Wan Yuan, Zhang Faming, Mao Wenjun
-  display_authors: Pi Zheshun, Liu Weici, Song Chenghu, et al.
+  title: Glucagon-Like Peptide-1 Receptor Agonists and Osteoarthritis
+  journal: The New England journal of medicine
+  doi: 10.1056/NEJMe2409972
+  link: https://doi.org/10.1056/NEJMe2409972
+  authors: Felson DT
+  display_authors: Felson DT
   tag: Original Research
   lead: false
+  citations: 8
+  date: '2024-10-30'
 - year: 2024
   title: Predictive gene expression signature diagnoses neonatal sepsis before clinical presentation
   journal: EBioMedicine
@@ -419,15 +403,8 @@ archive:
   display_authors: An AY, Acton E, Idoko OT, et al.
   tag: Original Research
   lead: false
-- year: 2024
-  title: Effects of Medicaid coverage on cardiovascular health outcomes
-  journal: BMJ
-  doi: 10.1136/bmj.q1807
-  link: https://doi.org/10.1136/bmj.q1807
-  authors: Yang C, Tebbutt SJ
-  display_authors: Yang C, Tebbutt SJ
-  tag: Editorial & Commentary
-  lead: true
+  citations: 11
+  date: '2024-10-29'
 - year: 2024
   title: The BNT162b2 mRNA vaccine demonstrates reduced age-associated T(H)1 support in vitro and in vivo
   journal: iScience
@@ -437,6 +414,52 @@ archive:
   display_authors: Brook B, Checkervarty AK, Barman S, et al.
   tag: Original Research
   lead: false
+  citations: 7
+  date: '2024-09-26'
+- year: 2024
+  title: Effects of Medicaid coverage on cardiovascular health outcomes
+  journal: BMJ
+  doi: 10.1136/bmj.q1807
+  link: https://doi.org/10.1136/bmj.q1807
+  authors: Yang C, Tebbutt SJ
+  display_authors: Yang C, Tebbutt SJ
+  tag: Editorial & Commentary
+  lead: true
+  citations: 2
+  date: '2024-09-23'
+- year: 2024
+  title: DNA Methylation signatures underpinning blood neutrophil to lymphocyte ratio
+  journal: Nature Communications
+  doi: 10.1038/s41467-024-52283-9
+  link: https://doi.org/10.1038/s41467-024-52283-9
+  authors: Martino D, Kresoje N, Amenyogbe N, Ben-Othman R, Cai B, Lo M, Shannon CP, Tebbutt SJ, Kollmann TR
+  display_authors: Martino D, Kresoje N, Amenyogbe N, et al.
+  tag: Original Research
+  lead: false
+  citations: 10
+  date: '2024-09-17'
+- year: 2024
+  title: 'Multi‐level insights into the immuno‐oncology‐microbiome axis: From biotechnology to novel therapies'
+  journal: iMeta
+  doi: 10.1002/imt2.240
+  link: https://doi.org/10.1002/imt2.240
+  authors: Pi Zheshun, Liu Weici, Song Chenghu, Zhu Chuandong, Liu Jiwei, Wang Lu, He Zhao, Yang Chengliang, Wu Lei, Liu Tianshuo, Geng Zijie, Tebbutt Scott J., Liu Ningning, Wan Yuan, Zhang Faming, Mao Wenjun
+  display_authors: Pi Zheshun, Liu Weici, Song Chenghu, et al.
+  tag: Original Research
+  lead: false
+  citations: 13
+  date: '2024-09-07'
+- year: 2024
+  title: Blood Transcriptomic and Inflammatory Protein Biomarkers Associated with Imminent Pulmonary Exacerbation Risk in Cystic Fibrosis
+  journal: Annals of the American Thoracic Society
+  doi: 10.1513/annalsats.202402-215oc
+  link: https://doi.org/10.1513/annalsats.202402-215oc
+  authors: Dong K, Jang J, Shannon CP, Ng R, Tebbutt SJ, Quon BS
+  display_authors: Dong K, Jang J, Shannon CP, et al.
+  tag: Original Research
+  lead: true
+  citations: 1
+  date: '2024-08-13'
 - year: 2024
   title: 'UnPaSt: unsupervised patient stratification by biclustering of omics data'
   journal: arXiv [cs.LG]
@@ -444,8 +467,54 @@ archive:
   link: https://arxiv.org/abs/2408.00200
   authors: Hartung M, Maier A, Burankova Y, Delgado-Chaves F, Isaeva OI, Savchik A, de Sá Patroni FM, Lohmann JJG, He D, Shannon C, Schulze JO, Kaufmann K, Chervontseva Z, Firoozbakht F, Hartebrodt A, Probul N, Tsoy O, Abisheva A, Zotova E, Singh K, Van Steen K, Kuehl M, Puelles VG, Blumenthal DB, Ester M, Laske T, Baumbach J, Zolotareva O
   display_authors: Hartung M, Maier A, Burankova Y, et al.
-  tag: Preprint
+  tag: Original Research
   lead: false
+  citations: 3
+  date: '2024-07-31'
+- year: 2024
+  title: 'Donor-specific graft injury in solid organ transplantation: potential mechanisms and therapeutic strategies'
+  journal: Frontiers in Transplantation
+  doi: 10.3389/frtra.2024.1427106
+  link: https://doi.org/10.3389/frtra.2024.1427106
+  authors: Yang Chengliang, Shannon Casey P., Zhao Hedi, Tebbutt Scott J.
+  display_authors: Yang Chengliang, Shannon Casey P., Zhao Hedi, et al.
+  tag: Editorial & Commentary
+  lead: true
+  citations: 7
+  date: '2024-06-19'
+- year: 2024
+  title: False Positive Covid-19 Rapid Antigen Tests
+  journal: The New England journal of medicine
+  doi: 10.1056/NEJMc2403409
+  link: https://doi.org/10.1056/NEJMc2403409
+  authors: Yang C, Espín E, Tebbutt SJ
+  display_authors: Yang C, Espín E, Tebbutt SJ
+  tag: Editorial & Commentary
+  lead: true
+  citations: 0
+  date: '2024-05-15'
+- year: 2024
+  title: Integrated longitudinal multiomics study identifies immune programs associated with acute COVID-19 severity and mortality
+  journal: The Journal of Clinical Investigation
+  doi: 10.1172/jci176640
+  link: https://doi.org/10.1172/jci176640
+  authors: Gygi JP, Maguire C, Patel RK, Shinde P, Konstorum A, Shannon CP, Tebbutt SJ, IMPACC Network
+  display_authors: Gygi JP, Maguire C, Patel RK, et al.
+  tag: Original Research
+  lead: false
+  citations: 34
+  date: '2024-04-30'
+- year: 2024
+  title: A Commentary on Multi-omics Data Integration in Systems Vaccinology
+  journal: Journal of Molecular Biology
+  doi: 10.1016/j.jmb.2024.168522
+  link: https://doi.org/10.1016/j.jmb.2024.168522
+  authors: Shannon CP, Lee AH, Tebbutt SJ, Singh A
+  display_authors: Shannon CP, Lee AH, Tebbutt SJ, Singh A
+  tag: Editorial & Commentary
+  lead: true
+  citations: 4
+  date: '2024-03-07'
 - year: 2024
   title: 'Unravelling long COVID: insights from proteomics and considerations for comprehensive understanding'
   journal: eBioMedicine
@@ -455,42 +524,30 @@ archive:
   display_authors: Yang Chengliang, Shannon Casey P., Tebbutt Scott J.
   tag: Editorial & Commentary
   lead: true
-- year: 2023
-  title: Association of SARS-CoV-2 infection and persistence with long COVID
-  journal: The Lancet Respiratory Medicine
-  doi: 10.1016/s2213-2600(23)00142-x
-  link: https://doi.org/10.1016/s2213-2600(23)00142-x
-  authors: Yang Chengliang, Zhao Hedi, Espín Estefanía, Tebbutt Scott J
-  display_authors: Yang Chengliang, Zhao Hedi, Espín Estefanía, et al.
+  citations: 2
+  date: '2024-02-19'
+- year: 2024
+  title: 'Features of acute COVID-19 associated with post-acute sequelae of SARS-CoV-2 phenotypes: results from the IMPACC study'
+  journal: Nature Communications
+  doi: 10.1038/s41467-023-44090-5
+  link: https://doi.org/10.1038/s41467-023-44090-5
+  authors: Ozonoff A, Jayavelu ND, Liu S, Melamed E, Milliren CE, Qi J, Shannon CP, Tebbutt SJ, IMPACC Network
+  display_authors: Ozonoff A, Jayavelu ND, Liu S, et al.
   tag: Original Research
-  lead: true
-- year: 2023
-  title: 'Cellular and molecular biomarkers of long COVID: a scoping review'
-  journal: eBioMedicine
-  doi: 10.1016/j.ebiom.2023.104552
-  link: https://doi.org/10.1016/j.ebiom.2023.104552
-  authors: Espín Estefanía, Yang Chengliang, Shannon Casey P., Assadian Sara, He Daniel, Tebbutt Scott J.
-  display_authors: Espín Estefanía, Yang Chengliang, Shannon Casey P., et al.
-  tag: Review
-  lead: true
-- year: 2023
-  title: 'Interferon β-1a ring prophylaxis to reduce household transmission of SARS-CoV-2: a cluster randomised clinical trial'
-  journal: EClinicalMedicine
-  doi: 10.1016/j.eclinm.2023.102082
-  link: https://doi.org/10.1016/j.eclinm.2023.102082
-  authors: Castro-Rodriguez JA, Fish EN, Montgomery ST, Kollmann TR, Iturriaga C, Shannon C, Tebbutt SJ, et al.
-  display_authors: Castro-Rodriguez JA, Fish EN, Montgomery ST, et al.
+  lead: false
+  citations: 61
+  date: '2024-01-03'
+- year: 2024
+  title: Breastfeeding and Neonatal Age Influence Neutrophil-Driven Ontogeny of Blood Cell Populations in the First Week of Human Life
+  journal: Journal of Immunology Research
+  doi: 10.1155/2024/1117796
+  link: https://doi.org/10.1155/2024/1117796
+  authors: Montante S, Ben-Othman R, Amenyogbe N, Angelidou A, van den Biggelaar A, Cai B, Shannon CP, Tebbutt SJ, Kollmann TR
+  display_authors: Montante S, Ben-Othman R, Amenyogbe N, et al.
   tag: Original Research
-  lead: true
-- year: 2023
-  title: 'Long COVID: the next public health crisis is already on its way'
-  journal: The Lancet Regional Health - Europe
-  doi: 10.1016/j.lanepe.2023.100612
-  link: https://doi.org/10.1016/j.lanepe.2023.100612
-  authors: Yang Chengliang, Tebbutt Scott J.
-  display_authors: Yang Chengliang, Tebbutt Scott J.
-  tag: Editorial & Commentary
-  lead: true
+  lead: false
+  citations: 4
+  date: '2024-01-01'
 - year: 2023
   title: Overcoming COVID-19 vaccine hesitancy hurdles
   journal: The Lancet
@@ -500,15 +557,30 @@ archive:
   display_authors: Yang Chengliang, Lapp Linda, Tebbutt Scott J
   tag: Editorial & Commentary
   lead: true
+  citations: 11
+  date: '2023-09-01'
 - year: 2023
-  title: Pulmonary exacerbation inflammatory phenotypes in adults with cystic fibrosis
-  journal: Journal of Cystic Fibrosis
-  doi: 10.1016/j.jcf.2022.12.013
-  link: https://doi.org/10.1016/j.jcf.2022.12.013
-  authors: Dong K, Huh SM, Lam GY, Jang J, Franciosi AN, Wilcox PG, Tebbutt SJ, Quon BS
-  display_authors: Dong K, Huh SM, Lam GY, et al.
+  title: Vaccination After SARS-CoV-2 Infection and Post−COVID-19 Condition
+  journal: JAMA Internal Medicine
+  doi: 10.1001/jamainternmed.2023.3033
+  link: https://doi.org/10.1001/jamainternmed.2023.3033
+  authors: Yang Chengliang, Lapp Linda, Tebbutt Scott J.
+  display_authors: Yang Chengliang, Lapp Linda, Tebbutt Scott J.
+  tag: Editorial & Commentary
+  lead: true
+  citations: 0
+  date: '2023-07-24'
+- year: 2023
+  title: 'Interferon β-1a ring prophylaxis to reduce household transmission of SARS-CoV-2: a cluster randomised clinical trial'
+  journal: EClinicalMedicine
+  doi: 10.1016/j.eclinm.2023.102082
+  link: https://doi.org/10.1016/j.eclinm.2023.102082
+  authors: Castro-Rodriguez JA, Fish EN, Montgomery ST, Kollmann TR, Iturriaga C, Shannon C, Tebbutt SJ, et al.
+  display_authors: Castro-Rodriguez JA, Fish EN, Montgomery ST, et al.
   tag: Original Research
   lead: true
+  citations: 5
+  date: '2023-07-20'
 - year: 2023
   title: Regulatory T Cell Biomarkers Identify Patients at Risk of Developing Acute Cellular Rejection in the First Year Following Heart Transplantation
   journal: Transplantation
@@ -518,60 +590,52 @@ archive:
   display_authors: Kim Ji-Young V., Assadian Sara, Hollander Zsuzsanna, et al.
   tag: Original Research
   lead: true
+  citations: 15
+  date: '2023-06-27'
 - year: 2023
-  title: Vaccination After SARS-CoV-2 Infection and Post−COVID-19 Condition
-  journal: JAMA Internal Medicine
-  doi: 10.1001/jamainternmed.2023.3033
-  link: https://doi.org/10.1001/jamainternmed.2023.3033
-  authors: Yang Chengliang, Lapp Linda, Tebbutt Scott J.
-  display_authors: Yang Chengliang, Lapp Linda, Tebbutt Scott J.
-  tag: Original Research
-  lead: true
-- year: 2022
-  title: A glimpse into long COVID and symptoms
+  title: Association of SARS-CoV-2 infection and persistence with long COVID
   journal: The Lancet Respiratory Medicine
-  doi: 10.1016/s2213-2600(22)00217-x
-  link: https://doi.org/10.1016/s2213-2600(22)00217-x
-  authors: Yang Chengliang, Zhao Hedi, Tebbutt Scott J
-  display_authors: Yang Chengliang, Zhao Hedi, Tebbutt Scott J
+  doi: 10.1016/s2213-2600(23)00142-x
+  link: https://doi.org/10.1016/s2213-2600(23)00142-x
+  authors: Yang Chengliang, Zhao Hedi, Espín Estefanía, Tebbutt Scott J
+  display_authors: Yang Chengliang, Zhao Hedi, Espín Estefanía, et al.
   tag: Editorial & Commentary
   lead: true
-- year: 2022
-  title: 'Automated medical chart review for breast cancer outcomes research: a novel natural language processing extraction system'
-  journal: BMC Medical Research Methodology
-  doi: 10.1186/s12874-022-01583-z
-  link: https://doi.org/10.1186/s12874-022-01583-z
-  authors: Chen Yifu, Hao Lucy, Zou Vito Z., Hollander Zsuzsanna, Ng Raymond T., Isaac Kathryn V.
-  display_authors: Chen Yifu, Hao Lucy, Zou Vito Z., et al.
-  tag: Original Research
-  lead: false
-- year: 2022
-  title: COVID-19-positivity in a heart transplant recipient—antibody-mediated rejection or SARS-CoV-2-associated cardiac injury?
-  journal: Oxford Medical Case Reports
-  doi: 10.1093/omcr/omab143
-  link: https://doi.org/10.1093/omcr/omab143
-  authors: Hanson Paul J, Liu-Fei Felicia, Lai Chi, Toma Mustafa, McManus Bruce M
-  display_authors: Hanson Paul J, Liu-Fei Felicia, Lai Chi, et al.
-  tag: Case Report
+  citations: 72
+  date: '2023-05-10'
+- year: 2023
+  title: 'Cellular and molecular biomarkers of long COVID: a scoping review'
+  journal: eBioMedicine
+  doi: 10.1016/j.ebiom.2023.104552
+  link: https://doi.org/10.1016/j.ebiom.2023.104552
+  authors: Espín Estefanía, Yang Chengliang, Shannon Casey P., Assadian Sara, He Daniel, Tebbutt Scott J.
+  display_authors: Espín Estefanía, Yang Chengliang, Shannon Casey P., et al.
+  tag: Review
   lead: true
-- year: 2022
-  title: Dibutyl phthalate exposure alters T‐cell subsets in blood from allergen‐sensitized volunteers
-  journal: Indoor Air
-  doi: 10.1111/ina.13026
-  link: https://doi.org/10.1111/ina.13026
-  authors: Maestre‐Batlle Danay, Nygaard Unni C., Huff Ryan D., Alexis Neil E., Tebbutt Scott J., Turvey Stuart E., Carlsten Christopher, Kocbach Bølling Anette
-  display_authors: Maestre‐Batlle Danay, Nygaard Unni C., Huff Ryan D., et al.
-  tag: Original Research
-  lead: false
-- year: 2022
-  title: 'Leave no one behind: inclusion of alpha-1 antitrypsin deficiency patients in COVID-19 vaccine trials'
-  journal: European Journal of Human Genetics
-  doi: 10.1038/s41431-022-01047-4
-  link: https://doi.org/10.1038/s41431-022-01047-4
-  authors: Yang Chengliang, Zhao Hedi, Tebbutt Scott J.
-  display_authors: Yang Chengliang, Zhao Hedi, Tebbutt Scott J.
+  citations: 106
+  date: '2023-04-08'
+- year: 2023
+  title: 'Long COVID: the next public health crisis is already on its way'
+  journal: The Lancet Regional Health - Europe
+  doi: 10.1016/j.lanepe.2023.100612
+  link: https://doi.org/10.1016/j.lanepe.2023.100612
+  authors: Yang Chengliang, Tebbutt Scott J.
+  display_authors: Yang Chengliang, Tebbutt Scott J.
   tag: Editorial & Commentary
   lead: true
+  citations: 32
+  date: '2023-03-11'
+- year: 2023
+  title: Pulmonary exacerbation inflammatory phenotypes in adults with cystic fibrosis
+  journal: Journal of Cystic Fibrosis
+  doi: 10.1016/j.jcf.2022.12.013
+  link: https://doi.org/10.1016/j.jcf.2022.12.013
+  authors: Dong K, Huh SM, Lam GY, Jang J, Franciosi AN, Wilcox PG, Tebbutt SJ, Quon BS
+  display_authors: Dong K, Huh SM, Lam GY, et al.
+  tag: Original Research
+  lead: true
+  citations: 12
+  date: '2022-12-25'
 - year: 2022
   title: Omicron variants of SARS-CoV-2 and long COVID
   journal: Frontiers in Immunology
@@ -581,24 +645,63 @@ archive:
   display_authors: Yang Chengliang, Zhao Hedi, Shannon Casey P., et al.
   tag: Editorial & Commentary
   lead: true
-- year: 2021
-  title: A cloud-based bioinformatic analytic infrastructure and Data Management Core for the Expanded Program on Immunization Consortium
-  journal: Journal of Clinical and Translational Science
-  doi: 10.1017/cts.2020.546
-  link: https://doi.org/10.1017/cts.2020.546
-  authors: Vignolo Sofia M., Diray-Arce Joann, McEnaney Kerry, Rao Shun, Shannon Casey P., Idoko Olubukola T., Cole Fatoumata, Darboe Alansana, Cessay Fatoumatta, Ben-Othman Rym, EPIC Consortium, Tebbutt Scott J., Kampmann Beate, Levy Ofer, Ozonoff Al
-  display_authors: Vignolo Sofia M., Diray-Arce Joann, McEnaney Kerry, et al.
+  citations: 16
+  date: '2022-12-09'
+- year: 2022
+  title: A glimpse into long COVID and symptoms
+  journal: The Lancet Respiratory Medicine
+  doi: 10.1016/s2213-2600(22)00217-x
+  link: https://doi.org/10.1016/s2213-2600(22)00217-x
+  authors: Yang Chengliang, Zhao Hedi, Tebbutt Scott J
+  display_authors: Yang Chengliang, Zhao Hedi, Tebbutt Scott J
+  tag: Editorial & Commentary
+  lead: true
+  citations: 13
+  date: '2022-06-10'
+- year: 2022
+  title: 'Automated medical chart review for breast cancer outcomes research: a novel natural language processing extraction system'
+  journal: BMC Medical Research Methodology
+  doi: 10.1186/s12874-022-01583-z
+  link: https://doi.org/10.1186/s12874-022-01583-z
+  authors: Chen Yifu, Hao Lucy, Zou Vito Z., Hollander Zsuzsanna, Ng Raymond T., Isaac Kathryn V.
+  display_authors: Chen Yifu, Hao Lucy, Zou Vito Z., et al.
   tag: Original Research
   lead: false
-- year: 2021
-  title: Aortic Dimensions, Biophysical Properties, and Plasma Biomarkers in Children and Adults with Marfan or Loeys-Dietz Syndrome
-  journal: CJC Open
-  doi: 10.1016/j.cjco.2020.12.018
-  link: https://doi.org/10.1016/j.cjco.2020.12.018
-  authors: Cui Jason Z., Harris Kevin C., Raedschelders Koen, Hollander Zsuzsanna, Potts James E., De Souza Astrid, Kiess Marla, McManus Bruce M., Bernatchez Pascal, Raffin Leslie A., Paine Heidi, van Breemen Cornelis, Sandor George G.S., Esfandiarei Mitra
-  display_authors: Cui Jason Z., Harris Kevin C., Raedschelders Koen, et al.
+  citations: 25
+  date: '2022-05-12'
+- year: 2022
+  title: Dibutyl phthalate exposure alters T‐cell subsets in blood from allergen‐sensitized volunteers
+  journal: Indoor Air
+  doi: 10.1111/ina.13026
+  link: https://doi.org/10.1111/ina.13026
+  authors: Maestre‐Batlle Danay, Nygaard Unni C., Huff Ryan D., Alexis Neil E., Tebbutt Scott J., Turvey Stuart E., Carlsten Christopher, Kocbach Bølling Anette
+  display_authors: Maestre‐Batlle Danay, Nygaard Unni C., Huff Ryan D., et al.
   tag: Original Research
   lead: false
+  citations: 10
+  date: '2022-04-01'
+- year: 2022
+  title: 'Leave no one behind: inclusion of alpha-1 antitrypsin deficiency patients in COVID-19 vaccine trials'
+  journal: European Journal of Human Genetics
+  doi: 10.1038/s41431-022-01047-4
+  link: https://doi.org/10.1038/s41431-022-01047-4
+  authors: Yang Chengliang, Zhao Hedi, Tebbutt Scott J.
+  display_authors: Yang Chengliang, Zhao Hedi, Tebbutt Scott J.
+  tag: Editorial & Commentary
+  lead: true
+  citations: 6
+  date: '2022-01-28'
+- year: 2022
+  title: COVID-19-positivity in a heart transplant recipient—antibody-mediated rejection or SARS-CoV-2-associated cardiac injury?
+  journal: Oxford Medical Case Reports
+  doi: 10.1093/omcr/omab143
+  link: https://doi.org/10.1093/omcr/omab143
+  authors: Hanson Paul J, Liu-Fei Felicia, Lai Chi, Toma Mustafa, McManus Bruce M
+  display_authors: Hanson Paul J, Liu-Fei Felicia, Lai Chi, et al.
+  tag: Case Report
+  lead: true
+  citations: 5
+  date: '2022-01-01'
 - year: 2021
   title: Balancing the Risks and Benefits of COVID-19 Vaccination for Pregnant Women and Their Children
   journal: Frontiers in Immunology
@@ -608,51 +711,8 @@ archive:
   display_authors: Yang Chengliang, Zhao Hedi, Tebbutt Scott J.
   tag: Editorial & Commentary
   lead: true
-- year: 2021
-  title: Biogeography of the Relationship between the Child Gut Microbiome and Innate Immune System
-  journal: mBio
-  doi: 10.1128/mbio.03079-20
-  link: https://doi.org/10.1128/mbio.03079-20
-  authors: Amenyogbe Nelly, Dimitriu Pedro, Smolen Kinga K., Brown Eric M., Shannon Casey P., Tebbutt Scott J., Cooper Phillip J., Marchant Arnaud, Goetghebuer Tessa, Esser Monika, Finlay Brett B., Kollmann Tobias R., Mohn William W.
-  display_authors: Amenyogbe Nelly, Dimitriu Pedro, Smolen Kinga K., et al.
-  tag: Original Research
-  lead: false
-- year: 2021
-  title: Cholinergic Synapse Pathway Gene Polymorphisms Associated With Late-Phase Responses in Allergic Rhinitis
-  journal: Frontiers in Allergy
-  doi: 10.3389/falgy.2021.724328
-  link: https://doi.org/10.3389/falgy.2021.724328
-  authors: Samra Simranjit K., Rajasekaran Ashwini, Sandford Andrew J., Ellis Anne K., Tebbutt Scott J.
-  display_authors: Samra Simranjit K., Rajasekaran Ashwini, Sandford Andrew J., et al.
-  tag: Original Research
-  lead: true
-- year: 2021
-  title: Epigenetic blood biomarkers of ageing and mortality in COPD
-  journal: European Respiratory Journal
-  doi: 10.1183/13993003.01890-2021
-  link: https://doi.org/10.1183/13993003.01890-2021
-  authors: Hernandez Cordero Ana I., Yang Chen Xi, Milne Stephen, Li Xuan, Hollander Zsuzsanna, Chen Virginia, Ng Raymond, Tebbutt Scott J., Leung Janice M., Sin Don D.
-  display_authors: Hernandez Cordero Ana I., Yang Chen Xi, Milne Stephen, et al.
-  tag: Original Research
-  lead: false
-- year: 2021
-  title: IgG Levels and Mortality in Chronic Obstructive Pulmonary Disease
-  journal: American Journal of Respiratory and Critical Care Medicine
-  doi: 10.1164/rccm.202102-0382le
-  link: https://doi.org/10.1164/rccm.202102-0382le
-  authors: Alotaibi Nawaf M., Filho Fernando Sergio Leitao, Mattman Andre, Hollander Zsuzsanna, Chen Virginia, Ng Raymond, Leung Janice M., Sin Don D.
-  display_authors: Alotaibi Nawaf M., Filho Fernando Sergio Leitao, Mattman Andre, et al.
-  tag: Original Research
-  lead: false
-- year: 2021
-  title: 'Immunological changes in peripheral blood following nasal allergen challenge in subjects with allergic rhinitis pre‐ and post‐peptide immunotherapy: An open‐label clinical study'
-  journal: Allergy
-  doi: 10.1111/all.14710
-  link: https://doi.org/10.1111/all.14710
-  authors: Kim Young Woong, Tonti Elena, Hickey Pascal, Ellis Anne K., Neighbour Helen, Larché Mark, Tebbutt Scott J.
-  display_authors: Kim Young Woong, Tonti Elena, Hickey Pascal, et al.
-  tag: Original Research
-  lead: true
+  citations: 0
+  date: '2021-12-16'
 - year: 2021
   title: Long-term effects on survivors with COVID-19
   journal: The Lancet
@@ -662,15 +722,8 @@ archive:
   display_authors: Yang Chengliang, Zhao Hedi, Tebbutt Scott J
   tag: Editorial & Commentary
   lead: true
-- year: 2021
-  title: Long‐chain fatty acids are bad in IPF, or are they?
-  journal: Respirology
-  doi: 10.1111/resp.13981
-  link: https://doi.org/10.1111/resp.13981
-  authors: McManus Bruce, Knight Darryl
-  display_authors: McManus Bruce, Knight Darryl
-  tag: Original Research
-  lead: true
+  citations: 10
+  date: '2021-11-01'
 - year: 2021
   title: Machine Learning-Based Single Cell and Integrative Analysis Reveals That Baseline mDC Predisposition Correlates With Hepatitis B Vaccine Antibody Response
   journal: Frontiers in Immunology
@@ -680,6 +733,8 @@ archive:
   display_authors: Aevermann Brian D., Shannon Casey P., Novotny Mark, et al.
   tag: Original Research
   lead: false
+  citations: 11
+  date: '2021-10-29'
 - year: 2021
   title: Ontogeny of plasma cytokine and chemokine concentrations across the first week of human life
   journal: Cytokine
@@ -689,6 +744,52 @@ archive:
   display_authors: Smolen Kinga K., Plotkin Alec L., Shannon Casey P., et al.
   tag: Original Research
   lead: false
+  citations: 12
+  date: '2021-09-28'
+- year: 2021
+  title: Epigenetic blood biomarkers of ageing and mortality in COPD
+  journal: European Respiratory Journal
+  doi: 10.1183/13993003.01890-2021
+  link: https://doi.org/10.1183/13993003.01890-2021
+  authors: Hernandez Cordero Ana I., Yang Chen Xi, Milne Stephen, Li Xuan, Hollander Zsuzsanna, Chen Virginia, Ng Raymond, Tebbutt Scott J., Leung Janice M., Sin Don D.
+  display_authors: Hernandez Cordero Ana I., Yang Chen Xi, Milne Stephen, et al.
+  tag: Original Research
+  lead: false
+  citations: 18
+  date: '2021-09-24'
+- year: 2021
+  title: Cholinergic Synapse Pathway Gene Polymorphisms Associated With Late-Phase Responses in Allergic Rhinitis
+  journal: Frontiers in Allergy
+  doi: 10.3389/falgy.2021.724328
+  link: https://doi.org/10.3389/falgy.2021.724328
+  authors: Samra Simranjit K., Rajasekaran Ashwini, Sandford Andrew J., Ellis Anne K., Tebbutt Scott J.
+  display_authors: Samra Simranjit K., Rajasekaran Ashwini, Sandford Andrew J., et al.
+  tag: Original Research
+  lead: true
+  citations: 3
+  date: '2021-08-16'
+- year: 2021
+  title: IgG Levels and Mortality in Chronic Obstructive Pulmonary Disease
+  journal: American Journal of Respiratory and Critical Care Medicine
+  doi: 10.1164/rccm.202102-0382le
+  link: https://doi.org/10.1164/rccm.202102-0382le
+  authors: Alotaibi Nawaf M., Filho Fernando Sergio Leitao, Mattman Andre, Hollander Zsuzsanna, Chen Virginia, Ng Raymond, Leung Janice M., Sin Don D.
+  display_authors: Alotaibi Nawaf M., Filho Fernando Sergio Leitao, Mattman Andre, et al.
+  tag: Original Research
+  lead: false
+  citations: 11
+  date: '2021-05-04'
+- year: 2021
+  title: Biogeography of the Relationship between the Child Gut Microbiome and Innate Immune System
+  journal: mBio
+  doi: 10.1128/mbio.03079-20
+  link: https://doi.org/10.1128/mbio.03079-20
+  authors: Amenyogbe Nelly, Dimitriu Pedro, Smolen Kinga K., Brown Eric M., Shannon Casey P., Tebbutt Scott J., Cooper Phillip J., Marchant Arnaud, Goetghebuer Tessa, Esser Monika, Finlay Brett B., Kollmann Tobias R., Mohn William W.
+  display_authors: Amenyogbe Nelly, Dimitriu Pedro, Smolen Kinga K., et al.
+  tag: Original Research
+  lead: false
+  citations: 35
+  date: '2021-01-11'
 - year: 2021
   title: Proteomic Portraits Reveal Evolutionarily Conserved and Divergent Responses to Spinal Cord Injury
   journal: Molecular &amp; Cellular Proteomics
@@ -698,6 +799,96 @@ archive:
   display_authors: Skinnider Michael A., Rogalski Jason, Tigchelaar Seth, et al.
   tag: Original Research
   lead: false
+  citations: 29
+  date: '2021-01-01'
+- year: 2021
+  title: Aortic Dimensions, Biophysical Properties, and Plasma Biomarkers in Children and Adults with Marfan or Loeys-Dietz Syndrome
+  journal: CJC Open
+  doi: 10.1016/j.cjco.2020.12.018
+  link: https://doi.org/10.1016/j.cjco.2020.12.018
+  authors: Cui Jason Z., Harris Kevin C., Raedschelders Koen, Hollander Zsuzsanna, Potts James E., De Souza Astrid, Kiess Marla, McManus Bruce M., Bernatchez Pascal, Raffin Leslie A., Paine Heidi, van Breemen Cornelis, Sandor George G.S., Esfandiarei Mitra
+  display_authors: Cui Jason Z., Harris Kevin C., Raedschelders Koen, et al.
+  tag: Original Research
+  lead: false
+  citations: 16
+  date: '2020-12-28'
+- year: 2021
+  title: 'Immunological changes in peripheral blood following nasal allergen challenge in subjects with allergic rhinitis pre‐ and post‐peptide immunotherapy: An open‐label clinical study'
+  journal: Allergy
+  doi: 10.1111/all.14710
+  link: https://doi.org/10.1111/all.14710
+  authors: Kim Young Woong, Tonti Elena, Hickey Pascal, Ellis Anne K., Neighbour Helen, Larché Mark, Tebbutt Scott J.
+  display_authors: Kim Young Woong, Tonti Elena, Hickey Pascal, et al.
+  tag: Original Research
+  lead: true
+  citations: 9
+  date: '2020-12-20'
+- year: 2020
+  title: Multi-Omic Data Integration Allows Baseline Immune Signatures to Predict Hepatitis B Vaccine Response in a Small Cohort
+  journal: Frontiers in Immunology
+  doi: 10.3389/fimmu.2020.578801
+  link: https://doi.org/10.3389/fimmu.2020.578801
+  authors: Shannon Casey P., Blimkie Travis M., Ben-Othman Rym, Gladish Nicole, Amenyogbe Nelly, Drissler Sibyl, Edgar Rachel D., Chan Queenie, Krajden Mel, Foster Leonard J., Kobor Michael S., Mohn William W., Brinkman Ryan R., Le Cao Kim-Anh, Scheuermann Richard H., Tebbutt Scott J., Hancock Robert E.W., Koff Wayne C., Kollmann Tobias R., Sadarangani Manish, Lee Amy Huei-Yi
+  display_authors: Shannon Casey P., Blimkie Travis M., Ben-Othman Rym, et al.
+  tag: Original Research
+  lead: true
+  citations: 37
+  date: '2020-11-30'
+- year: 2021
+  title: Long‐chain fatty acids are bad in IPF, or are they?
+  journal: Respirology
+  doi: 10.1111/resp.13981
+  link: https://doi.org/10.1111/resp.13981
+  authors: McManus Bruce, Knight Darryl
+  display_authors: McManus Bruce, Knight Darryl
+  tag: Original Research
+  lead: true
+  citations: 3
+  date: '2020-11-22'
+- year: 2020
+  title: Systems Biology Methods Applied to Blood and Tissue for a Comprehensive Analysis of Immune Response to Hepatitis B Vaccine in Adults
+  journal: Frontiers in Immunology
+  doi: 10.3389/fimmu.2020.580373
+  link: https://doi.org/10.3389/fimmu.2020.580373
+  authors: Ben-Othman Rym, Cai Bing, Liu Aaron C., Varankovich Natallia, He Daniel, Blimkie Travis M., Lee Amy H., Gill Erin E., Novotny Mark, Aevermann Brian, Drissler Sibyl, Shannon Casey P., McCann Sarah, Marty Kim, Bjornson Gordean, Edgar Rachel D., Lin David Tse Shen, Gladish Nicole, Maclsaac Julia, Amenyogbe Nelly, Chan Queenie, Llibre Alba, Collin Joyce, Landais Elise, Le Khoa, Reiss Samantha M., Koff Wayne C., Havenar-Daughton Colin, Heran Manraj, Sangha Bippan, Walt David, Krajden Mel, Crotty Shane, Sok Devin, Briney Bryan, Burton Dennis R., Duffy Darragh, Foster Leonard J., Mohn William W., Kobor Michael S., Tebbutt Scott J., Brinkman Ryan R., Scheuermann Richard H., Hancock Robert E. W., Kollmann Tobias R., Sadarangani Manish
+  display_authors: Ben-Othman Rym, Cai Bing, Liu Aaron C., et al.
+  tag: Original Research
+  lead: false
+  citations: 18
+  date: '2020-11-04'
+- year: 2020
+  title: 'Preparing for Life: Plasma Proteome Changes and Immune System Development During the First Week of Human Life'
+  journal: Frontiers in Immunology
+  doi: 10.3389/fimmu.2020.578505
+  link: https://doi.org/10.3389/fimmu.2020.578505
+  authors: Bennike Tue Bjerg, Fatou Benoit, Angelidou Asimenia, Diray-Arce Joann, Falsafi Reza, Ford Rebecca, Gill Erin E., van Haren Simon D., Idoko Olubukola T., Lee Amy H., Ben-Othman Rym, Pomat William S., Shannon Casey P., Smolen Kinga K., Tebbutt Scott J., Ozonoff Al, Richmond Peter C., Biggelaar Anita H. J. van den, Hancock Robert E. W., Kampmann Beate, Kollmann Tobias R., Levy Ofer, Steen Hanno
+  display_authors: Bennike Tue Bjerg, Fatou Benoit, Angelidou Asimenia, et al.
+  tag: Original Research
+  lead: false
+  citations: 33
+  date: '2020-10-20'
+- year: 2020
+  title: Innate Immune Responses and Gut Microbiomes Distinguish HIV-Exposed from HIV-Unexposed Children in a Population-Specific Manner
+  journal: The Journal of Immunology
+  doi: 10.4049/jimmunol.2000040
+  link: https://doi.org/10.4049/jimmunol.2000040
+  authors: Amenyogbe Nelly, Dimitriu Pedro, Cho Patricia, Ruck Candice, Fortuno Edgardo S, Cai Bing, Alimenti Ariane, Côté Hélène C F, Maan Evelyn J, Slogrove Amy L, Esser Monika, Marchant Arnaud, Goetghebuer Tessa, Shannon Casey P, Tebbutt Scott J, Kollmann Tobias R, Mohn William W, Smolen Kinga K
+  display_authors: Amenyogbe Nelly, Dimitriu Pedro, Cho Patricia, et al.
+  tag: Original Research
+  lead: false
+  citations: 33
+  date: '2020-10-16'
+- year: 2021
+  title: A cloud-based bioinformatic analytic infrastructure and Data Management Core for the Expanded Program on Immunization Consortium
+  journal: Journal of Clinical and Translational Science
+  doi: 10.1017/cts.2020.546
+  link: https://doi.org/10.1017/cts.2020.546
+  authors: Vignolo Sofia M., Diray-Arce Joann, McEnaney Kerry, Rao Shun, Shannon Casey P., Idoko Olubukola T., Cole Fatoumata, Darboe Alansana, Cessay Fatoumatta, Ben-Othman Rym, EPIC Consortium, Tebbutt Scott J., Kampmann Beate, Levy Ofer, Ozonoff Al
+  display_authors: Vignolo Sofia M., Diray-Arce Joann, McEnaney Kerry, et al.
+  tag: Original Research
+  lead: false
+  citations: 13
+  date: '2020-09-22'
 - year: 2020
   title: 'Analytical Validation of HEARTBiT: A Blood-Based Multiplex Gene Expression Profiling Assay for Exclusionary Diagnosis of Acute Cellular Rejection in Heart Transplant Patients'
   journal: Clinical Chemistry
@@ -707,6 +898,19 @@ archive:
   display_authors: Kim Ji-Young V, Lee Brandon, Koitsopoulos Pavlos, et al.
   tag: Original Research
   lead: true
+  citations: 7
+  date: '2020-06-06'
+- year: 2020
+  title: Interferon-α2b Treatment for COVID-19
+  journal: Frontiers in Immunology
+  doi: 10.3389/fimmu.2020.01061
+  link: https://doi.org/10.3389/fimmu.2020.01061
+  authors: Zhou Qiong, Chen Virginia, Shannon Casey P., Wei Xiao-Shan, Xiang Xuan, Wang Xu, Wang Zi-Hao, Tebbutt Scott J., Kollmann Tobias R., Fish Eleanor N.
+  display_authors: Zhou Qiong, Chen Virginia, Shannon Casey P., et al.
+  tag: Original Research
+  lead: false
+  citations: 389
+  date: '2020-05-15'
 - year: 2020
   title: BCG vaccination–induced emergency granulopoiesis provides rapid protection from neonatal sepsis
   journal: Science Translational Medicine
@@ -717,24 +921,8 @@ archive:
   display_authors: Brook Byron, Harbeson Danny J., Shannon Casey P., et al.
   tag: Original Research
   lead: false
-- year: 2020
-  title: Bioprosthetic Valve Leaflet Displacement During Valve-in-Valve Intervention
-  journal: 'JACC: Cardiovascular Interventions'
-  doi: 10.1016/j.jcin.2019.10.021
-  link: https://doi.org/10.1016/j.jcin.2019.10.021
-  authors: Hensey Mark, Sellers Stephanie, Sathananthan Janarthanan, Lai Althea, Landes Uri, Alkhodair Abdullah, McManus Bruce, Cheung Anson, Wood David, Blanke Philipp, Leipsic Jonathon, Ye Jian, Webb John
-  display_authors: Hensey Mark, Sellers Stephanie, Sathananthan Janarthanan, et al.
-  tag: Original Research
-  lead: false
-- year: 2020
-  title: 'Blood biomarkers to predict short-term pulmonary exacerbation risk in children and adolescents with CF: A pilot study'
-  journal: Journal of Cystic Fibrosis
-  doi: 10.1016/j.jcf.2019.05.020
-  link: https://doi.org/10.1016/j.jcf.2019.05.020
-  authors: Singh Amrit, He Mary, Chen Virginia, Hollander Zsuzsanna, Tebbutt Scott J., Ng Raymond T., McManus Bruce M., Sin Don D., Ratjen Felix, Quon Bradley S.
-  display_authors: Singh Amrit, He Mary, Chen Virginia, et al.
-  tag: Original Research
-  lead: true
+  citations: 134
+  date: '2020-05-06'
 - year: 2020
   title: Clinical Protocol for a Longitudinal Cohort Study Employing Systems Biology to Identify Markers of Vaccine Immunogenicity in Newborn Infants in The Gambia and Papua New Guinea
   journal: Frontiers in Pediatrics
@@ -744,24 +932,8 @@ archive:
   display_authors: Idoko Olubukola T., Smolen Kinga K., Wariri Oghenebrume, et al.
   tag: Study Protocol
   lead: false
-- year: 2020
-  title: Clinical Validation and Biomarker Translation
-  journal: 'Biomarkers in Drug Discovery and Development: A Handbook of Practice, Application, and Strategy'
-  doi: 10.1002/9781119187547.ch17
-  link: https://doi.org/10.1002/9781119187547.ch17
-  authors: Kim JV, Ng RT, Balshaw R, Keown P, McMaster R, McManus B, Tebbutt SJ
-  display_authors: Kim JV, Ng RT, Balshaw R, et al.
-  tag: Book Chapter
-  lead: true
-- year: 2020
-  title: Deficiency of Circulating Monocytes Ameliorates the Progression of Myxomatous Valve Degeneration in Marfan Syndrome
-  journal: Circulation
-  doi: 10.1161/circulationaha.119.042391
-  link: https://doi.org/10.1161/circulationaha.119.042391
-  authors: Kim Andrew J., Xu Na, Umeyama Kazuhiro, Hulin Alexia, Ponny Sithara Raju, Vagnozzi Ronald J., Green Ellis A., Hanson Paul, McManus Bruce M., Nagashima Hiroshi, Yutzey Katherine E.
-  display_authors: Kim Andrew J., Xu Na, Umeyama Kazuhiro, et al.
-  tag: Original Research
-  lead: false
+  citations: 21
+  date: '2020-04-30'
 - year: 2020
   title: Gene expression and in situ protein profiling of candidate SARS-CoV-2 receptors in human airway epithelial cells and lung tissue
   journal: openRxiv
@@ -771,6 +943,41 @@ archive:
   display_authors: Aguiar Jennifer A., Tremblay Benjamin J-M., Mansfield Michael J., et al.
   tag: Original Research
   lead: false
+  citations: 24
+  date: '2020-04-09'
+- year: 2020
+  title: Clinical Validation and Biomarker Translation
+  journal: 'Biomarkers in Drug Discovery and Development: A Handbook of Practice, Application, and Strategy'
+  doi: 10.1002/9781119187547.ch17
+  link: https://doi.org/10.1002/9781119187547.ch17
+  authors: Kim JV, Ng RT, Balshaw R, Keown P, McMaster R, McManus B, Tebbutt SJ
+  display_authors: Kim JV, Ng RT, Balshaw R, et al.
+  tag: Book Chapter
+  lead: true
+  citations: 1
+  date: '2020-03-17'
+- year: 2020
+  title: Bioprosthetic Valve Leaflet Displacement During Valve-in-Valve Intervention
+  journal: 'JACC: Cardiovascular Interventions'
+  doi: 10.1016/j.jcin.2019.10.021
+  link: https://doi.org/10.1016/j.jcin.2019.10.021
+  authors: Hensey Mark, Sellers Stephanie, Sathananthan Janarthanan, Lai Althea, Landes Uri, Alkhodair Abdullah, McManus Bruce, Cheung Anson, Wood David, Blanke Philipp, Leipsic Jonathon, Ye Jian, Webb John
+  display_authors: Hensey Mark, Sellers Stephanie, Sathananthan Janarthanan, et al.
+  tag: Original Research
+  lead: false
+  citations: 10
+  date: '2020-02-26'
+- year: 2020
+  title: Deficiency of Circulating Monocytes Ameliorates the Progression of Myxomatous Valve Degeneration in Marfan Syndrome
+  journal: Circulation
+  doi: 10.1161/circulationaha.119.042391
+  link: https://doi.org/10.1161/circulationaha.119.042391
+  authors: Kim Andrew J., Xu Na, Umeyama Kazuhiro, Hulin Alexia, Ponny Sithara Raju, Vagnozzi Ronald J., Green Ellis A., Hanson Paul, McManus Bruce M., Nagashima Hiroshi, Yutzey Katherine E.
+  display_authors: Kim Andrew J., Xu Na, Umeyama Kazuhiro, et al.
+  tag: Original Research
+  lead: false
+  citations: 63
+  date: '2020-01-13'
 - year: 2020
   title: 'HEARTBiT: A Transcriptomic Signature for Excluding Acute Cellular Rejection in Adult Heart Allograft Patients'
   journal: Canadian Journal of Cardiology
@@ -780,195 +987,8 @@ archive:
   display_authors: Shannon Casey P., Hollander Zsuzsanna, Dai Darlene L.Y., et al.
   tag: Original Research
   lead: true
-- year: 2020
-  title: Innate Immune Responses and Gut Microbiomes Distinguish HIV-Exposed from HIV-Unexposed Children in a Population-Specific Manner
-  journal: The Journal of Immunology
-  doi: 10.4049/jimmunol.2000040
-  link: https://doi.org/10.4049/jimmunol.2000040
-  authors: Amenyogbe Nelly, Dimitriu Pedro, Cho Patricia, Ruck Candice, Fortuno Edgardo S, Cai Bing, Alimenti Ariane, Côté Hélène C F, Maan Evelyn J, Slogrove Amy L, Esser Monika, Marchant Arnaud, Goetghebuer Tessa, Shannon Casey P, Tebbutt Scott J, Kollmann Tobias R, Mohn William W, Smolen Kinga K
-  display_authors: Amenyogbe Nelly, Dimitriu Pedro, Cho Patricia, et al.
-  tag: Original Research
-  lead: false
-- year: 2020
-  title: Interferon-α2b Treatment for COVID-19
-  journal: Frontiers in Immunology
-  doi: 10.3389/fimmu.2020.01061
-  link: https://doi.org/10.3389/fimmu.2020.01061
-  authors: Zhou Qiong, Chen Virginia, Shannon Casey P., Wei Xiao-Shan, Xiang Xuan, Wang Xu, Wang Zi-Hao, Tebbutt Scott J., Kollmann Tobias R., Fish Eleanor N.
-  display_authors: Zhou Qiong, Chen Virginia, Shannon Casey P., et al.
-  tag: Original Research
-  lead: false
-- year: 2020
-  title: Multi-Omic Data Integration Allows Baseline Immune Signatures to Predict Hepatitis B Vaccine Response in a Small Cohort
-  journal: Frontiers in Immunology
-  doi: 10.3389/fimmu.2020.578801
-  link: https://doi.org/10.3389/fimmu.2020.578801
-  authors: Shannon Casey P., Blimkie Travis M., Ben-Othman Rym, Gladish Nicole, Amenyogbe Nelly, Drissler Sibyl, Edgar Rachel D., Chan Queenie, Krajden Mel, Foster Leonard J., Kobor Michael S., Mohn William W., Brinkman Ryan R., Le Cao Kim-Anh, Scheuermann Richard H., Tebbutt Scott J., Hancock Robert E.W., Koff Wayne C., Kollmann Tobias R., Sadarangani Manish, Lee Amy Huei-Yi
-  display_authors: Shannon Casey P., Blimkie Travis M., Ben-Othman Rym, et al.
-  tag: Original Research
-  lead: true
-- year: 2020
-  title: 'Preparing for Life: Plasma Proteome Changes and Immune System Development During the First Week of Human Life'
-  journal: Frontiers in Immunology
-  doi: 10.3389/fimmu.2020.578505
-  link: https://doi.org/10.3389/fimmu.2020.578505
-  authors: Bennike Tue Bjerg, Fatou Benoit, Angelidou Asimenia, Diray-Arce Joann, Falsafi Reza, Ford Rebecca, Gill Erin E., van Haren Simon D., Idoko Olubukola T., Lee Amy H., Ben-Othman Rym, Pomat William S., Shannon Casey P., Smolen Kinga K., Tebbutt Scott J., Ozonoff Al, Richmond Peter C., Biggelaar Anita H. J. van den, Hancock Robert E. W., Kampmann Beate, Kollmann Tobias R., Levy Ofer, Steen Hanno
-  display_authors: Bennike Tue Bjerg, Fatou Benoit, Angelidou Asimenia, et al.
-  tag: Original Research
-  lead: false
-- year: 2020
-  title: Systems Biology Methods Applied to Blood and Tissue for a Comprehensive Analysis of Immune Response to Hepatitis B Vaccine in Adults
-  journal: Frontiers in Immunology
-  doi: 10.3389/fimmu.2020.580373
-  link: https://doi.org/10.3389/fimmu.2020.580373
-  authors: Ben-Othman Rym, Cai Bing, Liu Aaron C., Varankovich Natallia, He Daniel, Blimkie Travis M., Lee Amy H., Gill Erin E., Novotny Mark, Aevermann Brian, Drissler Sibyl, Shannon Casey P., McCann Sarah, Marty Kim, Bjornson Gordean, Edgar Rachel D., Lin David Tse Shen, Gladish Nicole, Maclsaac Julia, Amenyogbe Nelly, Chan Queenie, Llibre Alba, Collin Joyce, Landais Elise, Le Khoa, Reiss Samantha M., Koff Wayne C., Havenar-Daughton Colin, Heran Manraj, Sangha Bippan, Walt David, Krajden Mel, Crotty Shane, Sok Devin, Briney Bryan, Burton Dennis R., Duffy Darragh, Foster Leonard J., Mohn William W., Kobor Michael S., Tebbutt Scott J., Brinkman Ryan R., Scheuermann Richard H., Hancock Robert E. W., Kollmann Tobias R., Sadarangani Manish
-  display_authors: Ben-Othman Rym, Cai Bing, Liu Aaron C., et al.
-  tag: Original Research
-  lead: false
-- year: 2019
-  title: '&lt;p&gt;Phenotyping and outcomes of hospitalized COPD patients using rapid molecular diagnostics on sputum samples&lt;/p&gt;'
-  journal: International Journal of Chronic Obstructive Pulmonary Disease
-  doi: 10.2147/copd.s188186
-  link: https://doi.org/10.2147/copd.s188186
-  authors: Alotaibi Nawaf M., Chen Virginia, Hollander Zsuzsanna, Leipsic Jonathon A., Hague Cameron J., Murphy Darra T, DeMarco Mari L., FitzGerald J. M, McManus Bruce M., Ng Raymond T., Sin Don D.
-  display_authors: Alotaibi Nawaf M., Chen Virginia, Hollander Zsuzsanna, et al.
-  tag: Original Research
-  lead: false
-- year: 2019
-  title: Can Big Data Analytics Recapitulate Biology? A Survey of Multi-Omics Data Integration Approaches
-  journal: Handbook of Biomarkers and Precision Medicine
-  doi: 10.1201/9780429202872-66
-  link: https://doi.org/10.1201/9780429202872-66
-  authors: Singh A, Shannon CP, Lê Cao K-A, Tebbutt SJ
-  display_authors: Singh A, Shannon CP, Lê Cao K-A, et al.
-  tag: Book Chapter
-  lead: true
-- year: 2019
-  title: Characterization of regulatory T cells in obese omental adipose tissue in humans
-  journal: European Journal of Immunology
-  doi: 10.1002/eji.201847570
-  link: https://doi.org/10.1002/eji.201847570
-  authors: Wu Dan, Han Jonathan M., Yu Xin, Lam Avery J., Hoeppli Romy E., Pesenacker Anne M., Huang Qing, Chen Virginia, Speake Cate, Yorke Ekua, Nguyen Nam, Sampath Sharadh, Harris David, Levings Megan K.
-  display_authors: Wu Dan, Han Jonathan M., Yu Xin, et al.
-  tag: Original Research
-  lead: false
-- year: 2019
-  title: Cholinergic synapse pathway gene polymorphisms associated with allergen-induced late asthmatic responses
-  journal: ERJ Open Research
-  doi: 10.1183/23120541.00107-2019
-  link: https://doi.org/10.1183/23120541.00107-2019
-  authors: Rajasekaran Ashwini, He Daniel, Yue Alice, Singh Amrit, Shannon Casey P., FitzGerald J. Mark, Boulet Louis-Philippe, O'Byrne Paul M., Gauvreau Gail M., Tebbutt Scott J.
-  display_authors: Rajasekaran Ashwini, He Daniel, Yue Alice, et al.
-  tag: Original Research
-  lead: true
-- year: 2019
-  title: 'DIABLO: an integrative approach for identifying key molecular drivers from multi-omics assays'
-  journal: Bioinformatics
-  doi: 10.1093/bioinformatics/bty1054
-  link: https://doi.org/10.1093/bioinformatics/bty1054
-  authors: Singh Amrit, Shannon Casey P, Gautier Benoît, Rohart Florian, Vacher Michaël, Tebbutt Scott J, Lê Cao Kim-Anh
-  display_authors: Singh Amrit, Shannon Casey P, Gautier Benoît, et al.
-  tag: Original Research
-  lead: true
-- year: 2019
-  title: 'Delivering the Personalized Medicine Promise: Best Practice Case Studies'
-  journal: Handbook of Biomarkers and Precision Medicine
-  doi: 10.1201/9780429202872-36
-  link: https://doi.org/10.1201/9780429202872-36
-  authors: McManus B, Tebbutt SJ, Carini C, Fidock M, van Gool AJ
-  display_authors: McManus B, Tebbutt SJ, Carini C, et al.
-  tag: Book Chapter
-  lead: true
-- year: 2019
-  title: Development and Validation of Apolipoprotein AI-Associated Lipoprotein Proteome Panel for the Prediction of Cholesterol Efflux Capacity and Coronary Artery Disease
-  journal: Clinical Chemistry
-  doi: 10.1373/clinchem.2018.291922
-  link: https://doi.org/10.1373/clinchem.2018.291922
-  authors: Jin Zhicheng, Collier Timothy S, Dai Darlene L Y, Chen Virginia, Hollander Zsuzsanna, Ng Raymond T, McManus Bruce M, Balshaw Robert, Apostolidou Sophia, Penn Marc S, Bystrom Cory
-  display_authors: Jin Zhicheng, Collier Timothy S, Dai Darlene L Y, et al.
-  tag: Original Research
-  lead: false
-- year: 2019
-  title: Dynamic molecular changes during the first week of human life follow a robust developmental trajectory
-  journal: Nature Communications
-  doi: 10.1038/s41467-019-08794-x
-  link: https://doi.org/10.1038/s41467-019-08794-x
-  authors: Lee Amy H., Shannon Casey P., Amenyogbe Nelly, Bennike Tue B., Diray-Arce Joann, Idoko Olubukola T., Gill Erin E., Ben-Othman Rym, Pomat William S., van Haren Simon D., Cao Kim-Anh Lê, Cox Momoudou, Darboe Alansana, Falsafi Reza, Ferrari Davide, Harbeson Daniel J., He Daniel, Bing Cai, Hinshaw Samuel J., Ndure Jorjoh, Njie-Jobe Jainaba, Pettengill Matthew A., Richmond Peter C., Ford Rebecca, Saleu Gerard, Masiria Geraldine, Matlam John Paul, Kirarock Wendy, Roberts Elishia, Malek Mehrnoush, Sanchez-Schmitz Guzmán, Singh Amrit, Angelidou Asimenia, Smolen Kinga K., The EPIC Consortium, Vo Diana, Kraft Ken, McEnaney Kerry, Vignolo Sofia, Marchant Arnaud, Brinkman Ryan R., Ozonoff Al, Hancock Robert E. W., van den Biggelaar Anita H. J., Steen Hanno, Tebbutt Scott J., Kampmann Beate, Levy Ofer, Kollmann Tobias R.
-  display_authors: Lee Amy H., Shannon Casey P., Amenyogbe Nelly, et al.
-  tag: Original Research
-  lead: false
-- year: 2019
-  title: 'Effect of short-term oral prednisone therapy on blood gene expression: a randomised controlled clinical trial'
-  journal: Respiratory Research
-  doi: 10.1186/s12931-019-1147-2
-  link: https://doi.org/10.1186/s12931-019-1147-2
-  authors: Takiguchi Hiroto, Chen Virginia, Obeidat Ma’en, Hollander Zsuzsanna, FitzGerald J. Mark, McManus Bruce M., Ng Raymond T., Sin Don D.
-  display_authors: Takiguchi Hiroto, Chen Virginia, Obeidat Ma’en, et al.
-  tag: Original Research
-  lead: false
-- year: 2019
-  title: 'Ensembling Electrical and Proteogenomics Biomarkers for Improved Prediction of Cardiac-Related 3-Month Hospitalizations: A Pilot Study'
-  journal: Canadian Journal of Cardiology
-  doi: 10.1016/j.cjca.2018.12.039
-  link: https://doi.org/10.1016/j.cjca.2018.12.039
-  authors: Singh Amrit, Dai Darlene L.Y., Ioannou Kostas, Chen Virginia, Lam Karen K., Hollander Zsuzsanna, Wilson-McManus Janet E., Assadian Sara, Toma Mustafa, Ng Raymond, Virani Sean, Ignaszewski Andrew, Tebbutt Scott, Bennett Matthew, McManus Bruce M.
-  display_authors: Singh Amrit, Dai Darlene L.Y., Ioannou Kostas, et al.
-  tag: Original Research
-  lead: true
-- year: 2019
-  title: MicroRNA Biomarkers in Cerebrospinal Fluid and Serum Reflect Injury Severity in Human Acute Traumatic Spinal Cord Injury
-  journal: Journal of Neurotrauma
-  doi: 10.1089/neu.2018.6256
-  link: https://doi.org/10.1089/neu.2018.6256
-  authors: Tigchelaar Seth, Gupta Rishab, Shannon Casey P., Streijger Femke, Sinha Sunita, Flibotte Stephane, Rizzuto Michael A., Street John, Paquette Scott, Ailon Tamir, Charest-Morin Raphaele, Dea Nicolas, Fisher Charles, Dvorak Marcel F., Dhall Sanjay, Mac-Thiong Jean-Marc, Parent Stefan, Bailey Christopher, Christie Sean, Van Keuren-Jensen Kendall, Nislow Corey, Kwon Brian K.
-  display_authors: Tigchelaar Seth, Gupta Rishab, Shannon Casey P., et al.
-  tag: Original Research
-  lead: false
-- year: 2019
-  title: Multiplexed LC–ESI–MRM‐MS‐based Assay for Identification of Coronary Artery Disease Biomarkers in Human Plasma
-  journal: PROTEOMICS – Clinical Applications
-  doi: 10.1002/prca.201700111
-  link: https://doi.org/10.1002/prca.201700111
-  authors: Anwar Mohammad A., Dai Darlene Liying, Wilson‐McManus Janet, Smith Derek, Francis Gordon A., Borchers Christoph H, McManus Bruce M., Hill John S., Cohen Freue Gabriela V.
-  display_authors: Anwar Mohammad A., Dai Darlene Liying, Wilson‐McManus Janet, et al.
-  tag: Original Research
-  lead: false
-- year: 2019
-  title: Phagocytosis of Aspergillus fumigatus by Human Bronchial Epithelial Cells Is Mediated by the Arp2/3 Complex and WIPF2
-  journal: Frontiers in Cellular and Infection Microbiology
-  doi: 10.3389/fcimb.2019.00016
-  link: https://doi.org/10.3389/fcimb.2019.00016
-  authors: Culibrk Luka, Croft Carys A., Toor Amreen, Yang S. Jasemine, Singhera Gurpreet K., Dorscheid Delbert R., Moore Margo M., Tebbutt Scott J.
-  display_authors: Culibrk Luka, Croft Carys A., Toor Amreen, et al.
-  tag: Original Research
-  lead: true
-- year: 2019
-  title: Sputum Microbiome Is Associated with 1-Year Mortality after Chronic Obstructive Pulmonary Disease Hospitalizations
-  journal: American Journal of Respiratory and Critical Care Medicine
-  doi: 10.1164/rccm.201806-1135oc
-  link: https://doi.org/10.1164/rccm.201806-1135oc
-  authors: Leitao Filho Fernando Sergio, Alotaibi Nawaf M., Ngan David, Tam Sheena, Yang Julia, Hollander Zsuzsanna, Chen Virginia, FitzGerald J. Mark, Nislow Corey, Leung Janice M., Man S. F. Paul, Sin Don D.
-  display_authors: Leitao Filho Fernando Sergio, Alotaibi Nawaf M., Ngan David, et al.
-  tag: Original Research
-  lead: false
-- year: 2019
-  title: The association of Leptospermum honey with cytokine expression in the sinonasal epithelium of chronic rhinosinusitis patients
-  journal: World Journal of Otorhinolaryngology - Head and Neck Surgery
-  doi: 10.1016/j.wjorl.2018.07.004
-  link: https://doi.org/10.1016/j.wjorl.2018.07.004
-  authors: Manji Jamil, Thamboo Andrew, Sunkaraneni Vishnu, Singh Amrit, Tebbutt Scott, Garnis Cathie, Javer Amin
-  display_authors: Manji Jamil, Thamboo Andrew, Sunkaraneni Vishnu, et al.
-  tag: Original Research
-  lead: false
-- year: 2019
-  title: Treg gene signatures predict and measure type 1 diabetes trajectory
-  journal: JCI Insight
-  doi: 10.1172/jci.insight.123879
-  link: https://doi.org/10.1172/jci.insight.123879
-  authors: Pesenacker Anne M., Chen Virginia, Gillies Jana, Speake Cate, Marwaha Ashish K., Sun Annika, Chow Samuel, Tan Rusung, Elliott Thomas, Dutz Jan P., Tebbutt Scott J., Levings Megan K.
-  display_authors: Pesenacker Anne M., Chen Virginia, Gillies Jana, et al.
-  tag: Original Research
-  lead: false
+  citations: 18
+  date: '2019-11-25'
 - year: 2019
   title: 'Whole blood vs PBMC: compartmental differences in gene expression profiling exemplified in asthma'
   journal: Allergy, Asthma &amp; Clinical Immunology
@@ -978,51 +998,151 @@ archive:
   display_authors: He Daniel, Yang Chen Xi, Sahin Basak, et al.
   tag: Original Research
   lead: true
-- year: 2018
-  title: 'A Bloody Primer: Analysis of RNA-Seq from Tissue Admixtures'
-  journal: Methods in Molecular Biology
-  doi: 10.1007/978-1-4939-7514-3_12
-  link: https://doi.org/10.1007/978-1-4939-7514-3_12
-  authors: Shannon Casey P., Yang Chen Xi, Tebbutt Scott J.
-  display_authors: Shannon Casey P., Yang Chen Xi, Tebbutt Scott J.
+  citations: 41
+  date: '2019-11-21'
+- year: 2019
+  title: Cholinergic synapse pathway gene polymorphisms associated with allergen-induced late asthmatic responses
+  journal: ERJ Open Research
+  doi: 10.1183/23120541.00107-2019
+  link: https://doi.org/10.1183/23120541.00107-2019
+  authors: Rajasekaran Ashwini, He Daniel, Yue Alice, Singh Amrit, Shannon Casey P., FitzGerald J. Mark, Boulet Louis-Philippe, O'Byrne Paul M., Gauvreau Gail M., Tebbutt Scott J.
+  display_authors: Rajasekaran Ashwini, He Daniel, Yue Alice, et al.
+  tag: Original Research
+  lead: true
+  citations: 6
+  date: '2019-10-01'
+- year: 2019
+  title: 'Effect of short-term oral prednisone therapy on blood gene expression: a randomised controlled clinical trial'
+  journal: Respiratory Research
+  doi: 10.1186/s12931-019-1147-2
+  link: https://doi.org/10.1186/s12931-019-1147-2
+  authors: Takiguchi Hiroto, Chen Virginia, Obeidat Ma’en, Hollander Zsuzsanna, FitzGerald J. Mark, McManus Bruce M., Ng Raymond T., Sin Don D.
+  display_authors: Takiguchi Hiroto, Chen Virginia, Obeidat Ma’en, et al.
+  tag: Original Research
+  lead: false
+  citations: 10
+  date: '2019-08-05'
+- year: 2020
+  title: 'Blood biomarkers to predict short-term pulmonary exacerbation risk in children and adolescents with CF: A pilot study'
+  journal: Journal of Cystic Fibrosis
+  doi: 10.1016/j.jcf.2019.05.020
+  link: https://doi.org/10.1016/j.jcf.2019.05.020
+  authors: Singh Amrit, He Mary, Chen Virginia, Hollander Zsuzsanna, Tebbutt Scott J., Ng Raymond T., McManus Bruce M., Sin Don D., Ratjen Felix, Quon Bradley S.
+  display_authors: Singh Amrit, He Mary, Chen Virginia, et al.
+  tag: Original Research
+  lead: true
+  citations: 10
+  date: '2019-06-05'
+- year: 2019
+  title: Can Big Data Analytics Recapitulate Biology? A Survey of Multi-Omics Data Integration Approaches
+  journal: Handbook of Biomarkers and Precision Medicine
+  doi: 10.1201/9780429202872-66
+  link: https://doi.org/10.1201/9780429202872-66
+  authors: Singh A, Shannon CP, Lê Cao K-A, Tebbutt SJ
+  display_authors: Singh A, Shannon CP, Lê Cao K-A, et al.
   tag: Book Chapter
   lead: true
-- year: 2018
-  title: 'Differential Proteomics for Distinguishing Ischemic Stroke from Controls: a Pilot Study of the SpecTRA Project'
-  journal: Translational Stroke Research
-  doi: 10.1007/s12975-018-0609-z
-  link: https://doi.org/10.1007/s12975-018-0609-z
-  authors: Penn A. M., Saly V., Trivedi A., Lesperance M. L., Votova K., Jackson A. M., Croteau N.S., Balshaw R. F., Bibok M. B., Smith D. S., Lam K. K., Morrison J., Lu L., Coutts S. B., Borchers C. H.
-  display_authors: Penn A. M., Saly V., Trivedi A., et al.
+  citations: 1
+  date: '2019-04-16'
+- year: 2019
+  title: 'Delivering the Personalized Medicine Promise: Best Practice Case Studies'
+  journal: Handbook of Biomarkers and Precision Medicine
+  doi: 10.1201/9780429202872-36
+  link: https://doi.org/10.1201/9780429202872-36
+  authors: McManus B, Tebbutt SJ, Carini C, Fidock M, van Gool AJ
+  display_authors: McManus B, Tebbutt SJ, Carini C, et al.
+  tag: Book Chapter
+  lead: true
+  citations: 0
+  date: '2019-04-16'
+- year: 2019
+  title: Dynamic molecular changes during the first week of human life follow a robust developmental trajectory
+  journal: Nature Communications
+  doi: 10.1038/s41467-019-08794-x
+  link: https://doi.org/10.1038/s41467-019-08794-x
+  authors: Lee Amy H., Shannon Casey P., Amenyogbe Nelly, Bennike Tue B., Diray-Arce Joann, Idoko Olubukola T., Gill Erin E., Ben-Othman Rym, Pomat William S., van Haren Simon D., Cao Kim-Anh Lê, Cox Momoudou, Darboe Alansana, Falsafi Reza, Ferrari Davide, Harbeson Daniel J., He Daniel, Bing Cai, Hinshaw Samuel J., Ndure Jorjoh, Njie-Jobe Jainaba, Pettengill Matthew A., Richmond Peter C., Ford Rebecca, Saleu Gerard, Masiria Geraldine, Matlam John Paul, Kirarock Wendy, Roberts Elishia, Malek Mehrnoush, Sanchez-Schmitz Guzmán, Singh Amrit, Angelidou Asimenia, Smolen Kinga K., The EPIC Consortium, Vo Diana, Kraft Ken, McEnaney Kerry, Vignolo Sofia, Marchant Arnaud, Brinkman Ryan R., Ozonoff Al, Hancock Robert E. W., van den Biggelaar Anita H. J., Steen Hanno, Tebbutt Scott J., Kampmann Beate, Levy Ofer, Kollmann Tobias R.
+  display_authors: Lee Amy H., Shannon Casey P., Amenyogbe Nelly, et al.
   tag: Original Research
   lead: false
-- year: 2018
-  title: Novel Blood-based Transcriptional Biomarker Panels Predict the Late-Phase Asthmatic Response
-  journal: American Journal of Respiratory and Critical Care Medicine
-  doi: 10.1164/rccm.201701-0110oc
-  link: https://doi.org/10.1164/rccm.201701-0110oc
-  authors: Singh Amrit, Shannon Casey P., Kim Young Woong, Yang Chen Xi, Balshaw Robert, Cohen Freue Gabriela V., Gauvreau Gail M., FitzGerald J. Mark, Boulet Louis-Philippe, O’Byrne Paul M., Tebbutt Scott J.
-  display_authors: Singh Amrit, Shannon Casey P., Kim Young Woong, et al.
+  citations: 199
+  date: '2019-03-12'
+- year: 2019
+  title: MicroRNA Biomarkers in Cerebrospinal Fluid and Serum Reflect Injury Severity in Human Acute Traumatic Spinal Cord Injury
+  journal: Journal of Neurotrauma
+  doi: 10.1089/neu.2018.6256
+  link: https://doi.org/10.1089/neu.2018.6256
+  authors: Tigchelaar Seth, Gupta Rishab, Shannon Casey P., Streijger Femke, Sinha Sunita, Flibotte Stephane, Rizzuto Michael A., Street John, Paquette Scott, Ailon Tamir, Charest-Morin Raphaele, Dea Nicolas, Fisher Charles, Dvorak Marcel F., Dhall Sanjay, Mac-Thiong Jean-Marc, Parent Stefan, Bailey Christopher, Christie Sean, Van Keuren-Jensen Kendall, Nislow Corey, Kwon Brian K.
+  display_authors: Tigchelaar Seth, Gupta Rishab, Shannon Casey P., et al.
+  tag: Original Research
+  lead: false
+  citations: 63
+  date: '2019-03-02'
+- year: 2019
+  title: Phagocytosis of Aspergillus fumigatus by Human Bronchial Epithelial Cells Is Mediated by the Arp2/3 Complex and WIPF2
+  journal: Frontiers in Cellular and Infection Microbiology
+  doi: 10.3389/fcimb.2019.00016
+  link: https://doi.org/10.3389/fcimb.2019.00016
+  authors: Culibrk Luka, Croft Carys A., Toor Amreen, Yang S. Jasemine, Singhera Gurpreet K., Dorscheid Delbert R., Moore Margo M., Tebbutt Scott J.
+  display_authors: Culibrk Luka, Croft Carys A., Toor Amreen, et al.
   tag: Original Research
   lead: true
-- year: 2018
-  title: Phenotyping COPD exacerbations using imaging and blood-based biomarkers
+  citations: 22
+  date: '2019-02-07'
+- year: 2019
+  title: Treg gene signatures predict and measure type 1 diabetes trajectory
+  journal: JCI Insight
+  doi: 10.1172/jci.insight.123879
+  link: https://doi.org/10.1172/jci.insight.123879
+  authors: Pesenacker Anne M., Chen Virginia, Gillies Jana, Speake Cate, Marwaha Ashish K., Sun Annika, Chow Samuel, Tan Rusung, Elliott Thomas, Dutz Jan P., Tebbutt Scott J., Levings Megan K.
+  display_authors: Pesenacker Anne M., Chen Virginia, Gillies Jana, et al.
+  tag: Original Research
+  lead: false
+  citations: 45
+  date: '2019-02-07'
+- year: 2019
+  title: 'DIABLO: an integrative approach for identifying key molecular drivers from multi-omics assays'
+  journal: Bioinformatics
+  doi: 10.1093/bioinformatics/bty1054
+  link: https://doi.org/10.1093/bioinformatics/bty1054
+  authors: Singh Amrit, Shannon Casey P, Gautier Benoît, Rohart Florian, Vacher Michaël, Tebbutt Scott J, Lê Cao Kim-Anh
+  display_authors: Singh Amrit, Shannon Casey P, Gautier Benoît, et al.
+  tag: Original Research
+  lead: true
+  citations: 1109
+  date: '2019-01-14'
+- year: 2019
+  title: Multiplexed LC–ESI–MRM‐MS‐based Assay for Identification of Coronary Artery Disease Biomarkers in Human Plasma
+  journal: PROTEOMICS – Clinical Applications
+  doi: 10.1002/prca.201700111
+  link: https://doi.org/10.1002/prca.201700111
+  authors: Anwar Mohammad A., Dai Darlene Liying, Wilson‐McManus Janet, Smith Derek, Francis Gordon A., Borchers Christoph H, McManus Bruce M., Hill John S., Cohen Freue Gabriela V.
+  display_authors: Anwar Mohammad A., Dai Darlene Liying, Wilson‐McManus Janet, et al.
+  tag: Original Research
+  lead: false
+  citations: 13
+  date: '2019-01-11'
+- year: 2019
+  title: 'Ensembling Electrical and Proteogenomics Biomarkers for Improved Prediction of Cardiac-Related 3-Month Hospitalizations: A Pilot Study'
+  journal: Canadian Journal of Cardiology
+  doi: 10.1016/j.cjca.2018.12.039
+  link: https://doi.org/10.1016/j.cjca.2018.12.039
+  authors: Singh Amrit, Dai Darlene L.Y., Ioannou Kostas, Chen Virginia, Lam Karen K., Hollander Zsuzsanna, Wilson-McManus Janet E., Assadian Sara, Toma Mustafa, Ng Raymond, Virani Sean, Ignaszewski Andrew, Tebbutt Scott, Bennett Matthew, McManus Bruce M.
+  display_authors: Singh Amrit, Dai Darlene L.Y., Ioannou Kostas, et al.
+  tag: Original Research
+  lead: true
+  citations: 7
+  date: '2019-01-04'
+- year: 2019
+  title: '&lt;p&gt;Phenotyping and outcomes of hospitalized COPD patients using rapid molecular diagnostics on sputum samples&lt;/p&gt;'
   journal: International Journal of Chronic Obstructive Pulmonary Disease
-  doi: 10.2147/copd.s152484
-  link: https://doi.org/10.2147/copd.s152484
-  authors: Alotaibi Nawaf M, Chen Virginia, Hollander Zsuzsanna, Hague Cameron J, Murphy Darra T, Leipsic Jonathon A, DeMarco Mari L, FitzGerald J Mark, McManus Bruce M, Ng Raymond T, Sin Don D
-  display_authors: Alotaibi Nawaf M, Chen Virginia, Hollander Zsuzsanna, et al.
+  doi: 10.2147/copd.s188186
+  link: https://doi.org/10.2147/copd.s188186
+  authors: Alotaibi Nawaf M., Chen Virginia, Hollander Zsuzsanna, Leipsic Jonathon A., Hague Cameron J., Murphy Darra T, DeMarco Mari L., FitzGerald J. M, McManus Bruce M., Ng Raymond T., Sin Don D.
+  display_authors: Alotaibi Nawaf M., Chen Virginia, Hollander Zsuzsanna, et al.
   tag: Original Research
   lead: false
-- year: 2018
-  title: 'The design and rationale of SAVE BC: The Study to Avoid CardioVascular Events in British Columbia'
-  journal: Clinical Cardiology
-  doi: 10.1002/clc.22959
-  link: https://doi.org/10.1002/clc.22959
-  authors: Brunham Liam R., Lynch Kelsey, English Amy, Sutherland Rory, Weng Jian, Cho Raymond, Wong Graham C., Anis Aslam H., Francis Gordon A., Khan Nadia A., McManus Bruce, Wood David, Walley Keith R., Leipsic Jonathon, Humphries Karin H., Hoens Alison, Krahn Andrew D., John Mancini G.B., Pimstone Simon
-  display_authors: Brunham Liam R., Lynch Kelsey, English Amy, et al.
-  tag: Original Research
-  lead: false
+  citations: 16
+  date: '2019-01-01'
 - year: 2018
   title: Transcriptomic and proteomic host response to Aspergillus fumigatus conidia in an air-liquid interface model of human bronchial epithelium
   journal: PLOS ONE
@@ -1032,6 +1152,85 @@ archive:
   display_authors: Toor Amreen, Culibrk Luka, Singhera Gurpreet K., et al.
   tag: Original Research
   lead: true
+  citations: 31
+  date: '2018-12-27'
+- year: 2019
+  title: Characterization of regulatory T cells in obese omental adipose tissue in humans
+  journal: European Journal of Immunology
+  doi: 10.1002/eji.201847570
+  link: https://doi.org/10.1002/eji.201847570
+  authors: Wu Dan, Han Jonathan M., Yu Xin, Lam Avery J., Hoeppli Romy E., Pesenacker Anne M., Huang Qing, Chen Virginia, Speake Cate, Yorke Ekua, Nguyen Nam, Sampath Sharadh, Harris David, Levings Megan K.
+  display_authors: Wu Dan, Han Jonathan M., Yu Xin, et al.
+  tag: Original Research
+  lead: false
+  citations: 59
+  date: '2018-12-19'
+- year: 2019
+  title: Development and Validation of Apolipoprotein AI-Associated Lipoprotein Proteome Panel for the Prediction of Cholesterol Efflux Capacity and Coronary Artery Disease
+  journal: Clinical Chemistry
+  doi: 10.1373/clinchem.2018.291922
+  link: https://doi.org/10.1373/clinchem.2018.291922
+  authors: Jin Zhicheng, Collier Timothy S, Dai Darlene L Y, Chen Virginia, Hollander Zsuzsanna, Ng Raymond T, McManus Bruce M, Balshaw Robert, Apostolidou Sophia, Penn Marc S, Bystrom Cory
+  display_authors: Jin Zhicheng, Collier Timothy S, Dai Darlene L Y, et al.
+  tag: Original Research
+  lead: false
+  citations: 33
+  date: '2018-11-21'
+- year: 2019
+  title: Sputum Microbiome Is Associated with 1-Year Mortality after Chronic Obstructive Pulmonary Disease Hospitalizations
+  journal: American Journal of Respiratory and Critical Care Medicine
+  doi: 10.1164/rccm.201806-1135oc
+  link: https://doi.org/10.1164/rccm.201806-1135oc
+  authors: Leitao Filho Fernando Sergio, Alotaibi Nawaf M., Ngan David, Tam Sheena, Yang Julia, Hollander Zsuzsanna, Chen Virginia, FitzGerald J. Mark, Nislow Corey, Leung Janice M., Man S. F. Paul, Sin Don D.
+  display_authors: Leitao Filho Fernando Sergio, Alotaibi Nawaf M., Ngan David, et al.
+  tag: Original Research
+  lead: false
+  citations: 136
+  date: '2018-10-30'
+- year: 2019
+  title: The association of Leptospermum honey with cytokine expression in the sinonasal epithelium of chronic rhinosinusitis patients
+  journal: World Journal of Otorhinolaryngology - Head and Neck Surgery
+  doi: 10.1016/j.wjorl.2018.07.004
+  link: https://doi.org/10.1016/j.wjorl.2018.07.004
+  authors: Manji Jamil, Thamboo Andrew, Sunkaraneni Vishnu, Singh Amrit, Tebbutt Scott, Garnis Cathie, Javer Amin
+  display_authors: Manji Jamil, Thamboo Andrew, Sunkaraneni Vishnu, et al.
+  tag: Original Research
+  lead: false
+  citations: 18
+  date: '2018-09-07'
+- year: 2018
+  title: 'The design and rationale of SAVE BC: The Study to Avoid CardioVascular Events in British Columbia'
+  journal: Clinical Cardiology
+  doi: 10.1002/clc.22959
+  link: https://doi.org/10.1002/clc.22959
+  authors: Brunham Liam R., Lynch Kelsey, English Amy, Sutherland Rory, Weng Jian, Cho Raymond, Wong Graham C., Anis Aslam H., Francis Gordon A., Khan Nadia A., McManus Bruce, Wood David, Walley Keith R., Leipsic Jonathon, Humphries Karin H., Hoens Alison, Krahn Andrew D., John Mancini G.B., Pimstone Simon
+  display_authors: Brunham Liam R., Lynch Kelsey, English Amy, et al.
+  tag: Original Research
+  lead: false
+  citations: 14
+  date: '2018-04-10'
+- year: 2018
+  title: 'Differential Proteomics for Distinguishing Ischemic Stroke from Controls: a Pilot Study of the SpecTRA Project'
+  journal: Translational Stroke Research
+  doi: 10.1007/s12975-018-0609-z
+  link: https://doi.org/10.1007/s12975-018-0609-z
+  authors: Penn A. M., Saly V., Trivedi A., Lesperance M. L., Votova K., Jackson A. M., Croteau N.S., Balshaw R. F., Bibok M. B., Smith D. S., Lam K. K., Morrison J., Lu L., Coutts S. B., Borchers C. H.
+  display_authors: Penn A. M., Saly V., Trivedi A., et al.
+  tag: Original Research
+  lead: false
+  citations: 26
+  date: '2018-01-24'
+- year: 2018
+  title: Phenotyping COPD exacerbations using imaging and blood-based biomarkers
+  journal: International Journal of Chronic Obstructive Pulmonary Disease
+  doi: 10.2147/copd.s152484
+  link: https://doi.org/10.2147/copd.s152484
+  authors: Alotaibi Nawaf M, Chen Virginia, Hollander Zsuzsanna, Hague Cameron J, Murphy Darra T, Leipsic Jonathon A, DeMarco Mari L, FitzGerald J Mark, McManus Bruce M, Ng Raymond T, Sin Don D
+  display_authors: Alotaibi Nawaf M, Chen Virginia, Hollander Zsuzsanna, et al.
+  tag: Original Research
+  lead: false
+  citations: 22
+  date: '2018-01-01'
 - year: 2018
   title: Utility of a Novel Biomarker Panel in the Prediction of QT Dynamicity
   journal: Cardiovascular Research and Medicine
@@ -1041,87 +1240,19 @@ archive:
   display_authors: Bennett MT, Hollander Z, Dai DLY, et al.
   tag: Original Research
   lead: true
-- year: 2017
-  title: A Targeted Proteomics Analysis of Cerebrospinal Fluid after Acute Human Spinal Cord Injury
-  journal: Journal of Neurotrauma
-  doi: 10.1089/neu.2016.4879
-  link: https://doi.org/10.1089/neu.2016.4879
-  authors: Streijger Femke, Skinnider Michael A., Rogalski Jason C., Balshaw Robert, Shannon Casey P., Prudova Anna, Belanger Lise, Ritchie Leanna, Tsang Angela, Christie Sean, Parent Stefan, Mac-Thiong Jean-Marc, Bailey Christopher, Urquhart Jennifer, Ailon Tamir, Paquette Scott, Boyd Michael, Street John, Fisher Charles G., Dvorak Marcel F., Borchers Christoph H., Foster Leonard J., Kwon Brian K.
-  display_authors: Streijger Femke, Skinnider Michael A., Rogalski Jason C., et al.
-  tag: Original Research
-  lead: false
-- year: 2017
-  title: Association of Serum MiR-142-3p and MiR-101-3p Levels with Acute Cellular Rejection after Heart Transplantation
-  journal: PLOS ONE
-  doi: 10.1371/journal.pone.0170842
-  link: https://doi.org/10.1371/journal.pone.0170842
-  authors: Sukma Dewi Ihdina, Hollander Zsuzsanna, Lam Karen K., McManus Janet-Wilson, Tebbutt Scott J., Ng Raymond T., Keown Paul A., McMaster Robert W., McManus Bruce M., Gidlöf Olof, Öhman Jenny
-  display_authors: Sukma Dewi Ihdina, Hollander Zsuzsanna, Lam Karen K., et al.
-  tag: Original Research
-  lead: false
-- year: 2017
-  title: Biomarker Development in COPD
-  journal: Chest
-  doi: 10.1016/j.chest.2016.09.012
-  link: https://doi.org/10.1016/j.chest.2016.09.012
-  authors: Hollander Zsuzsanna, DeMarco Mari L., Sadatsafavi Mohsen, McManus Bruce M., Ng Raymond T., Sin Don D.
-  display_authors: Hollander Zsuzsanna, DeMarco Mari L., Sadatsafavi Mohsen, et al.
-  tag: Original Research
+  citations: 0
+  date: '2018-01-01'
+- year: 2018
+  title: 'A Bloody Primer: Analysis of RNA-Seq from Tissue Admixtures'
+  journal: Methods in Molecular Biology
+  doi: 10.1007/978-1-4939-7514-3_12
+  link: https://doi.org/10.1007/978-1-4939-7514-3_12
+  authors: Shannon Casey P., Yang Chen Xi, Tebbutt Scott J.
+  display_authors: Shannon Casey P., Yang Chen Xi, Tebbutt Scott J.
+  tag: Book Chapter
   lead: true
-- year: 2017
-  title: C-reactive protein and N-terminal prohormone brain natriuretic peptide as biomarkers in acute exacerbations of COPD leading to hospitalizations
-  journal: PLOS ONE
-  doi: 10.1371/journal.pone.0174063
-  link: https://doi.org/10.1371/journal.pone.0174063
-  authors: Chen Yu-wei Roy, Chen Virginia, Hollander Zsuzsanna, Leipsic Jonathon A., Hague Cameron J., DeMarco Mari L., FitzGerald J. Mark, McManus Bruce M., Ng Raymond T., Sin Don D.
-  display_authors: Chen Yu-wei Roy, Chen Virginia, Hollander Zsuzsanna, et al.
-  tag: Original Research
-  lead: false
-- year: 2017
-  title: Clinical utility of C-reactive protein to predict treatment response during cystic fibrosis pulmonary exacerbations
-  journal: PLOS ONE
-  doi: 10.1371/journal.pone.0171229
-  link: https://doi.org/10.1371/journal.pone.0171229
-  authors: Sharma Ashutosh, Kirkpatrick Gordon, Chen Virginia, Skolnik Kate, Hollander Zsuzsanna, Wilcox Pearce, Quon Bradley S.
-  display_authors: Sharma Ashutosh, Kirkpatrick Gordon, Chen Virginia, et al.
-  tag: Original Research
-  lead: false
-- year: 2017
-  title: Diagnosis of Western Red Cedar Asthma Using a Blood-based Gene Expression Biomarker Panel
-  journal: American Journal of Respiratory and Critical Care Medicine
-  doi: 10.1164/rccm.201608-1740le
-  link: https://doi.org/10.1164/rccm.201608-1740le
-  authors: Yang Chen Xi, Singh Amrit, Kim Young Woong, Conway Edward M., Carlsten Christopher, Tebbutt Scott J.
-  display_authors: Yang Chen Xi, Singh Amrit, Kim Young Woong, et al.
-  tag: Original Research
-  lead: true
-- year: 2017
-  title: Differentiating Heart Failure Phenotypes Using Sex-Specific Transcriptomic and Proteomic Biomarker Panels
-  journal: ESC Heart Failure
-  doi: 10.1002/ehf2.12136
-  link: https://doi.org/10.1002/ehf2.12136
-  authors: Toma Mustafa, Mak George J., Chen Virginia, Hollander Zsuzsanna, Shannon Casey P., Lam Karen K.Y., Ng Raymond T., Tebbutt Scott J., Wilson-McManus Janet E., Ignaszewski Andrew, Anderson Todd, Dyck Jason R.B., Howlett Jonathan, Ezekowitz Justin, McManus Bruce M., Oudit Gavin Y.
-  display_authors: Toma Mustafa, Mak George J., Chen Virginia, et al.
-  tag: Original Research
-  lead: false
-- year: 2017
-  title: Enumerateblood – an R package to estimate the cellular composition of whole blood from Affymetrix Gene ST gene expression profiles
-  journal: BMC Genomics
-  doi: 10.1186/s12864-016-3460-1
-  link: https://doi.org/10.1186/s12864-016-3460-1
-  authors: Shannon Casey P., Balshaw Robert, Chen Virginia, Hollander Zsuzsanna, Toma Mustafa, McManus Bruce M., FitzGerald J. Mark, Sin Don D., Ng Raymond T., Tebbutt Scott J.
-  display_authors: Shannon Casey P., Balshaw Robert, Chen Virginia, et al.
-  tag: Original Research
-  lead: true
-- year: 2017
-  title: Exosomal miR-142-3p is increased during cardiac allograft rejection and augments vascular permeability through down-regulation of endothelial RAB11FIP2 expression
-  journal: Cardiovascular Research
-  doi: 10.1093/cvr/cvw244
-  link: https://doi.org/10.1093/cvr/cvw244
-  authors: Sukma Dewi Ihdina, Celik Selvi, Karlsson Anna, Hollander Zsuzsanna, Lam Karen, McManus Janet-Wilson, Tebbutt Scott, Ng Raymond, Keown Paul, McMaster Robert, McManus Bruce, Öhman Jenny, Gidlöf Olof
-  display_authors: Sukma Dewi Ihdina, Celik Selvi, Karlsson Anna, et al.
-  tag: Original Research
-  lead: false
+  citations: 2
+  date: '2017-12-09'
 - year: 2017
   title: Immunological Serum Protein Profiles for Noninvasive Detection of Acute Cellular Rejection After Heart Transplantation
   journal: Journal of the American College of Cardiology
@@ -1131,24 +1262,19 @@ archive:
   display_authors: Sukma Dewi Ihdina, Gidlöf Olof, Hollander Zsuzsanna, et al.
   tag: Original Research
   lead: false
-- year: 2017
-  title: Integrative Genomics of Emphysema-Associated Genes Reveals Potential Disease Biomarkers
-  journal: American Journal of Respiratory Cell and Molecular Biology
-  doi: 10.1165/rcmb.2016-0284oc
-  link: https://doi.org/10.1165/rcmb.2016-0284oc
-  authors: Obeidat Ma’en, Nie Yunlong, Fishbane Nick, Li Xuan, Bossé Yohan, Joubert Philippe, Nickle David C., Hao Ke, Postma Dirkje S., Timens Wim, Sze Marc A., Shannon Casey P., Hollander Zsuzsanna, Ng Raymond T., McManus Bruce, Miller Bruce E., Rennard Stephen, Spira Avrum, Hackett Tillie-Louise, Lam Wan, Lam Stephen, Faner Rosa, Agusti Alvar, Hogg James C., Sin Don D., Paré Peter D.
-  display_authors: Obeidat Ma’en, Nie Yunlong, Fishbane Nick, et al.
+  citations: 3
+  date: '2017-12-01'
+- year: 2018
+  title: Novel Blood-based Transcriptional Biomarker Panels Predict the Late-Phase Asthmatic Response
+  journal: American Journal of Respiratory and Critical Care Medicine
+  doi: 10.1164/rccm.201701-0110oc
+  link: https://doi.org/10.1164/rccm.201701-0110oc
+  authors: Singh Amrit, Shannon Casey P., Kim Young Woong, Yang Chen Xi, Balshaw Robert, Cohen Freue Gabriela V., Gauvreau Gail M., FitzGerald J. Mark, Boulet Louis-Philippe, O’Byrne Paul M., Tebbutt Scott J.
+  display_authors: Singh Amrit, Shannon Casey P., Kim Young Woong, et al.
   tag: Original Research
-  lead: false
-- year: 2017
-  title: Network-based analysis reveals novel gene signatures in peripheral blood of patients with chronic obstructive pulmonary disease
-  journal: Respiratory Research
-  doi: 10.1186/s12931-017-0558-1
-  link: https://doi.org/10.1186/s12931-017-0558-1
-  authors: Obeidat Ma’en, Nie Yunlong, Chen Virginia, Shannon Casey P., Andiappan Anand Kumar, Lee Bernett, Rotzschke Olaf, Castaldi Peter J., Hersh Craig P., Fishbane Nick, Ng Raymond T., McManus Bruce, Miller Bruce E., Rennard Stephen, Paré Peter D., Sin Don D.
-  display_authors: Obeidat Ma’en, Nie Yunlong, Chen Virginia, et al.
-  tag: Original Research
-  lead: false
+  lead: true
+  citations: 24
+  date: '2017-10-31'
 - year: 2017
   title: 'PGCA: An algorithm to link protein groups created from MS/MS data'
   journal: PLOS ONE
@@ -1158,537 +1284,107 @@ archive:
   display_authors: Kepplinger David, Takhar Mandeep, Sasaki Mayu, et al.
   tag: Original Research
   lead: false
+  citations: 1
+  date: '2017-05-31'
 - year: 2017
-  title: The Projected Epidemic of Chronic Obstructive Pulmonary Disease Hospitalizations over the Next 15 Years. A Population-based Perspective
+  title: Diagnosis of Western Red Cedar Asthma Using a Blood-based Gene Expression Biomarker Panel
   journal: American Journal of Respiratory and Critical Care Medicine
-  doi: 10.1164/rccm.201606-1162pp
-  link: https://doi.org/10.1164/rccm.201606-1162pp
-  authors: Khakban Amir, Sin Don D., FitzGerald J. Mark, McManus Bruce M., Ng Raymond, Hollander Zsuzsanna, Sadatsafavi Mohsen
-  display_authors: Khakban Amir, Sin Don D., FitzGerald J. Mark, et al.
+  doi: 10.1164/rccm.201608-1740le
+  link: https://doi.org/10.1164/rccm.201608-1740le
+  authors: Yang Chen Xi, Singh Amrit, Kim Young Woong, Conway Edward M., Carlsten Christopher, Tebbutt Scott J.
+  display_authors: Yang Chen Xi, Singh Amrit, Kim Young Woong, et al.
+  tag: Original Research
+  lead: true
+  citations: 6
+  date: '2017-05-02'
+- year: 2017
+  title: Integrative Genomics of Emphysema-Associated Genes Reveals Potential Disease Biomarkers
+  journal: American Journal of Respiratory Cell and Molecular Biology
+  doi: 10.1165/rcmb.2016-0284oc
+  link: https://doi.org/10.1165/rcmb.2016-0284oc
+  authors: Obeidat Ma’en, Nie Yunlong, Fishbane Nick, Li Xuan, Bossé Yohan, Joubert Philippe, Nickle David C., Hao Ke, Postma Dirkje S., Timens Wim, Sze Marc A., Shannon Casey P., Hollander Zsuzsanna, Ng Raymond T., McManus Bruce, Miller Bruce E., Rennard Stephen, Spira Avrum, Hackett Tillie-Louise, Lam Wan, Lam Stephen, Faner Rosa, Agusti Alvar, Hogg James C., Sin Don D., Paré Peter D.
+  display_authors: Obeidat Ma’en, Nie Yunlong, Fishbane Nick, et al.
   tag: Original Research
   lead: false
-- year: 2016
-  title: A Regulatory T-Cell Gene Signature Is a Specific and Sensitive Biomarker to Identify Children With New-Onset Type 1 Diabetes
-  journal: Diabetes
-  doi: 10.2337/db15-0572
-  link: https://doi.org/10.2337/db15-0572
-  authors: Pesenacker Anne M., Wang Adele Y., Singh Amrit, Gillies Jana, Kim Youngwoong, Piccirillo Ciriaco A., Nguyen Duc, Haining W. Nicholas, Tebbutt Scott J., Panagiotopoulos Constadina, Levings Megan K.
-  display_authors: Pesenacker Anne M., Wang Adele Y., Singh Amrit, et al.
+  citations: 40
+  date: '2017-05-01'
+- year: 2017
+  title: Network-based analysis reveals novel gene signatures in peripheral blood of patients with chronic obstructive pulmonary disease
+  journal: Respiratory Research
+  doi: 10.1186/s12931-017-0558-1
+  link: https://doi.org/10.1186/s12931-017-0558-1
+  authors: Obeidat Ma’en, Nie Yunlong, Chen Virginia, Shannon Casey P., Andiappan Anand Kumar, Lee Bernett, Rotzschke Olaf, Castaldi Peter J., Hersh Craig P., Fishbane Nick, Ng Raymond T., McManus Bruce, Miller Bruce E., Rennard Stephen, Paré Peter D., Sin Don D.
+  display_authors: Obeidat Ma’en, Nie Yunlong, Chen Virginia, et al.
   tag: Original Research
   lead: false
-- year: 2016
-  title: 'Airway hyperresponsiveness in chronic obstructive pulmonary disease: A marker of asthma-chronic obstructive pulmonary disease overlap syndrome?'
-  journal: Journal of Allergy and Clinical Immunology
-  doi: 10.1016/j.jaci.2016.04.022
-  link: https://doi.org/10.1016/j.jaci.2016.04.022
-  authors: Tkacova Ruzena, Dai Darlene L.Y., Vonk Judith M., Leung Janice M., Hiemstra Pieter S., van den Berge Maarten, Kunz Lisette, Hollander Zsuzsanna, Tashkin Donald, Wise Robert, Connett John, Ng Raymond, McManus Bruce, Paul Man S.F., Postma Dirkje S., Sin Don D.
-  display_authors: Tkacova Ruzena, Dai Darlene L.Y., Vonk Judith M., et al.
-  tag: Original Research
-  lead: false
-- year: 2016
-  title: COPD Exacerbation Biomarkers Validated Using Multiple Reaction Monitoring Mass Spectrometry
+  citations: 51
+  date: '2017-04-24'
+- year: 2017
+  title: C-reactive protein and N-terminal prohormone brain natriuretic peptide as biomarkers in acute exacerbations of COPD leading to hospitalizations
   journal: PLOS ONE
-  doi: 10.1371/journal.pone.0161129
-  link: https://doi.org/10.1371/journal.pone.0161129
-  authors: Leung Janice M., Chen Virginia, Hollander Zsuzsanna, Dai Darlene, Tebbutt Scott J., Aaron Shawn D., Vandemheen Kathy L., Rennard Stephen I., FitzGerald J. Mark, Woodruff Prescott G., Lazarus Stephen C., Connett John E., Coxson Harvey O., Miller Bruce, Borchers Christoph, McManus Bruce M., Ng Raymond T., Sin Don D.
-  display_authors: Leung Janice M., Chen Virginia, Hollander Zsuzsanna, et al.
+  doi: 10.1371/journal.pone.0174063
+  link: https://doi.org/10.1371/journal.pone.0174063
+  authors: Chen Yu-wei Roy, Chen Virginia, Hollander Zsuzsanna, Leipsic Jonathon A., Hague Cameron J., DeMarco Mari L., FitzGerald J. Mark, McManus Bruce M., Ng Raymond T., Sin Don D.
+  display_authors: Chen Yu-wei Roy, Chen Virginia, Hollander Zsuzsanna, et al.
   tag: Original Research
   lead: false
-- year: 2016
-  title: Circulating Biomarker Responses to Medical Management vs. Mechanical Circulatory Support in Severe Inotrope-Dependent Acute Heart Failure
+  citations: 18
+  date: '2017-03-22'
+- year: 2017
+  title: A Targeted Proteomics Analysis of Cerebrospinal Fluid after Acute Human Spinal Cord Injury
+  journal: Journal of Neurotrauma
+  doi: 10.1089/neu.2016.4879
+  link: https://doi.org/10.1089/neu.2016.4879
+  authors: Streijger Femke, Skinnider Michael A., Rogalski Jason C., Balshaw Robert, Shannon Casey P., Prudova Anna, Belanger Lise, Ritchie Leanna, Tsang Angela, Christie Sean, Parent Stefan, Mac-Thiong Jean-Marc, Bailey Christopher, Urquhart Jennifer, Ailon Tamir, Paquette Scott, Boyd Michael, Street John, Fisher Charles G., Dvorak Marcel F., Borchers Christoph H., Foster Leonard J., Kwon Brian K.
+  display_authors: Streijger Femke, Skinnider Michael A., Rogalski Jason C., et al.
+  tag: Original Research
+  lead: false
+  citations: 40
+  date: '2017-03-09'
+- year: 2017
+  title: Differentiating Heart Failure Phenotypes Using Sex-Specific Transcriptomic and Proteomic Biomarker Panels
   journal: ESC Heart Failure
-  doi: 10.1002/ehf2.12076
-  link: https://doi.org/10.1002/ehf2.12076
-  authors: Meredith Anna J., Dai Darlene L. Y., Chen Virginia, Hollander Zsuzsanna, Ng Raymond, Kaan Annemarie, Tebbutt Scott, Ramanathan Krishnan, Cheung Anson, McManus Bruce M.
-  display_authors: Meredith Anna J., Dai Darlene L. Y., Chen Virginia, et al.
-  tag: Original Research
-  lead: true
-- year: 2016
-  title: 'Controlled diesel exhaust and allergen coexposure modulates microRNA and gene expression in humans: Effects on inflammatory lung markers'
-  journal: Journal of Allergy and Clinical Immunology
-  doi: 10.1016/j.jaci.2016.02.038
-  link: https://doi.org/10.1016/j.jaci.2016.02.038
-  authors: Rider Christopher F., Yamamoto Masatsugu, Günther Oliver P., Hirota Jeremy A., Singh Amrit, Tebbutt Scott J., Carlsten Chris
-  display_authors: Rider Christopher F., Yamamoto Masatsugu, Günther Oliver P., et al.
+  doi: 10.1002/ehf2.12136
+  link: https://doi.org/10.1002/ehf2.12136
+  authors: Toma Mustafa, Mak George J., Chen Virginia, Hollander Zsuzsanna, Shannon Casey P., Lam Karen K.Y., Ng Raymond T., Tebbutt Scott J., Wilson-McManus Janet E., Ignaszewski Andrew, Anderson Todd, Dyck Jason R.B., Howlett Jonathan, Ezekowitz Justin, McManus Bruce M., Oudit Gavin Y.
+  display_authors: Toma Mustafa, Mak George J., Chen Virginia, et al.
   tag: Original Research
   lead: false
-- year: 2016
-  title: 'DIABLO: from multi-omics assays to biomarker discovery, an integrative approach'
-  journal: openRxiv
-  doi: 10.1101/067611
-  link: https://doi.org/10.1101/067611
-  authors: Singh Amrit, Shannon Casey P., Gautier Benoît, Rohart Florian, Vacher Michaël, Tebbutt Scott J., Lê Cao Kim-Anh
-  display_authors: Singh Amrit, Shannon Casey P., Gautier Benoît, et al.
-  tag: Original Research
-  lead: true
-- year: 2016
-  title: Discovery of novel plasma protein biomarkers to predict imminent cystic fibrosis pulmonary exacerbations using multiple reaction monitoring mass spectrometry
-  journal: Thorax
-  doi: 10.1136/thoraxjnl-2014-206710
-  link: https://doi.org/10.1136/thoraxjnl-2014-206710
-  authors: Quon Bradley S, Dai Darlene L Y, Hollander Zsuzsanna, Ng Raymond T, Tebbutt Scott J, Man S F Paul, Wilcox Pearce G, Sin Don D
-  display_authors: Quon Bradley S, Dai Darlene L Y, Hollander Zsuzsanna, et al.
-  tag: Original Research
-  lead: false
-- year: 2016
-  title: Individualized prediction of lung-function decline in chronic obstructive pulmonary disease
-  journal: Canadian Medical Association Journal
-  doi: 10.1503/cmaj.151483
-  link: https://doi.org/10.1503/cmaj.151483
-  authors: Zafari Zafar, Sin Don D., Postma Dirkje S., Löfdahl Claes-Göran, Vonk Judith, Bryan Stirling, Lam Stephen, Tammemagi C. Martin, Khakban Rahman, Man S.F. Paul, Tashkin Donald, Wise Robert A., Connett John E., McManus Bruce, Ng Raymond, Hollander Zsuszanna, Sadatsafavi Mohsen
-  display_authors: Zafari Zafar, Sin Don D., Postma Dirkje S., et al.
-  tag: Original Research
-  lead: false
-- year: 2016
-  title: 'Interactions of Aspergillus fumigatus Conidia with Airway Epithelial Cells: A Critical Review'
-  journal: Frontiers in Microbiology
-  doi: 10.3389/fmicb.2016.00472
-  link: https://doi.org/10.3389/fmicb.2016.00472
-  authors: Croft Carys A., Culibrk Luka, Moore Margo M., Tebbutt Scott J.
-  display_authors: Croft Carys A., Culibrk Luka, Moore Margo M., et al.
-  tag: Review
-  lead: true
-- year: 2016
-  title: Myocarditis
-  journal: Circulation Research
-  doi: 10.1161/circresaha.115.306573
-  link: https://doi.org/10.1161/circresaha.115.306573
-  authors: Fung Gabriel, Luo Honglin, Qiu Ye, Yang Decheng, McManus Bruce
-  display_authors: Fung Gabriel, Luo Honglin, Qiu Ye, et al.
-  tag: Original Research
-  lead: true
-- year: 2016
-  title: 'SABRE: a method for assessing the stability of gene modules in complex tissues and subject populations'
-  journal: BMC bioinformatics
-  doi: 10.1186/s12859-016-1319-8
-  link: https://doi.org/10.1186/s12859-016-1319-8
-  authors: Shannon CP, Chen V, Takhar M, Hollander Z, Balshaw R, McManus BM, Tebbutt SJ, Sin DD, Ng RT
-  display_authors: Shannon CP, Chen V, Takhar M, et al.
-  tag: Original Research
-  lead: true
-- year: 2016
-  title: 'Systems Biology Approaches for Host–Fungal Interactions: An Expanding Multi-Omics Frontier'
-  journal: 'OMICS: A Journal of Integrative Biology'
-  doi: 10.1089/omi.2015.0185
-  link: https://doi.org/10.1089/omi.2015.0185
-  authors: Culibrk Luka, Croft Carys A., Tebbutt Scott J.
-  display_authors: Culibrk Luka, Croft Carys A., Tebbutt Scott J.
-  tag: Original Research
-  lead: true
-- year: 2016
-  title: The Effect of Different Case Definitions of Current Smoking on the Discovery of Smoking-Related Blood Gene Expression Signatures in Chronic Obstructive Pulmonary Disease
-  journal: Nicotine &amp; Tobacco Research
-  doi: 10.1093/ntr/ntw129
-  link: https://doi.org/10.1093/ntr/ntw129
-  authors: Obeidat Ma’en, Ding Xiaoting, Fishbane Nick, Hollander Zsuzsanna, Ng Raymond T., McManus Bruce, Tebbutt Scott J., Miller Bruce E., Rennard Stephen, Paré Peter D., Sin Don D.
-  display_authors: Obeidat Ma’en, Ding Xiaoting, Fishbane Nick, et al.
-  tag: Original Research
-  lead: false
-- year: 2015
-  title: A Linear Mixed Model Spline Framework for Analysing Time Course ‘Omics’ Data
+  citations: 43
+  date: '2017-03-04'
+- year: 2017
+  title: Clinical utility of C-reactive protein to predict treatment response during cystic fibrosis pulmonary exacerbations
   journal: PLOS ONE
-  doi: 10.1371/journal.pone.0134540
-  link: https://doi.org/10.1371/journal.pone.0134540
-  authors: Straube Jasmin, Gorse Alain-Dominique, PROOF Centre of Excellence Team, Huang Bevan Emma, Lê Cao Kim-Anh
-  display_authors: Straube Jasmin, Gorse Alain-Dominique, PROOF Centre of Excellence Team, et al.
+  doi: 10.1371/journal.pone.0171229
+  link: https://doi.org/10.1371/journal.pone.0171229
+  authors: Sharma Ashutosh, Kirkpatrick Gordon, Chen Virginia, Skolnik Kate, Hollander Zsuzsanna, Wilcox Pearce, Quon Bradley S.
+  display_authors: Sharma Ashutosh, Kirkpatrick Gordon, Chen Virginia, et al.
   tag: Original Research
   lead: false
-- year: 2015
-  title: 'Biomarker Development for Chronic Obstructive Pulmonary Disease: From Discovery to Clinical Implementation'
-  journal: American Journal of Respiratory and Critical Care Medicine
-  doi: 10.1164/rccm.201505-0871pp
-  link: https://doi.org/10.1164/rccm.201505-0871pp
-  authors: Sin Don D., Hollander Zsuzsanna, DeMarco Mari L., McManus Bruce M., Ng Raymond T.
-  display_authors: Sin Don D., Hollander Zsuzsanna, DeMarco Mari L., et al.
-  tag: Original Research
-  lead: true
-- year: 2015
-  title: Gender-Specific Plasma Proteomic Biomarkers in Patients with Anderson–Fabry disease
-  journal: European Journal of Heart Failure
-  doi: 10.1002/ejhf.230
-  link: https://doi.org/10.1002/ejhf.230
-  authors: Hollander Zsuzsanna, Dai Darlene L.Y., Putko Brendan N., Yogasundaram Haran, Wilson-McManus Janet E., Thompson Richard B., Khan Aneal, West Michael L., McManus Bruce M., Oudit Gavin Y.
-  display_authors: Hollander Zsuzsanna, Dai Darlene L.Y., Putko Brendan N., et al.
-  tag: Original Research
-  lead: true
-- year: 2015
-  title: Impact of Statins on Gene Expression in Human Lung Tissues
+  citations: 24
+  date: '2017-02-08'
+- year: 2017
+  title: Association of Serum MiR-142-3p and MiR-101-3p Levels with Acute Cellular Rejection after Heart Transplantation
   journal: PLOS ONE
-  doi: 10.1371/journal.pone.0142037
-  link: https://doi.org/10.1371/journal.pone.0142037
-  authors: Lane Jérôme, van Eeden Stephan F., Obeidat Ma’en, Sin Don D., Tebbutt Scott J., Timens Wim, Postma Dirkje S., Laviolette Michel, Paré Peter D., Bossé Yohan
-  display_authors: Lane Jérôme, van Eeden Stephan F., Obeidat Ma’en, et al.
+  doi: 10.1371/journal.pone.0170842
+  link: https://doi.org/10.1371/journal.pone.0170842
+  authors: Sukma Dewi Ihdina, Hollander Zsuzsanna, Lam Karen K., McManus Janet-Wilson, Tebbutt Scott J., Ng Raymond T., Keown Paul A., McMaster Robert W., McManus Bruce M., Gidlöf Olof, Öhman Jenny
+  display_authors: Sukma Dewi Ihdina, Hollander Zsuzsanna, Lam Karen K., et al.
   tag: Original Research
   lead: false
-- year: 2015
-  title: Serum proteomics in multiple sclerosis disease progression
-  journal: Journal of Proteomics
-  doi: 10.1016/j.jprot.2015.02.018
-  link: https://doi.org/10.1016/j.jprot.2015.02.018
-  authors: Tremlett Helen, Dai Darlene L.Y., Hollander Zsuzsanna, Kapanen Anita, Aziz Tariq, Wilson-McManus Janet E., Tebbutt Scott J., Borchers Christoph H., Oger Joel, Cohen Freue Gabriela V.
-  display_authors: Tremlett Helen, Dai Darlene L.Y., Hollander Zsuzsanna, et al.
-  tag: Original Research
-  lead: false
-- year: 2015
-  title: Ten-Year Trends in Direct Costs of COPD
-  journal: CHEST
-  doi: 10.1378/chest.15-0721
-  link: https://doi.org/10.1378/chest.15-0721
-  authors: Khakban Amir, Sin Don D., FitzGerald J. Mark, Ng Raymond, Zafarí Zafar, McManus Bruce, Hollander Zsuzsanna, Marra Carlo A., Sadatsafavi Mohsen
-  display_authors: Khakban Amir, Sin Don D., FitzGerald J. Mark, et al.
-  tag: Original Research
-  lead: false
-- year: 2015
-  title: The Effect of Statins on Blood Gene Expression in COPD
-  journal: PLOS ONE
-  doi: 10.1371/journal.pone.0140022
-  link: https://doi.org/10.1371/journal.pone.0140022
-  authors: Obeidat Ma’en, Fishbane Nick, Nie Yunlong, Chen Virginia, Hollander Zsuzsanna, Tebbutt Scott J., Bossé Yohan, Ng Raymond T., Miller Bruce E., McManus Bruce, Rennard Stephen, Paré Peter D., Sin Don D.
-  display_authors: Obeidat Ma’en, Fishbane Nick, Nie Yunlong, et al.
-  tag: Original Research
-  lead: false
-- year: 2014
-  title: Longitudinal Analysis of Whole Blood Transcriptomes to Explore Molecular Signatures Associated with Acute Renal Allograft Rejection
-  journal: Bioinformatics and Biology Insights
-  doi: 10.4137/bbi.s13376
-  link: https://doi.org/10.4137/bbi.s13376
-  authors: Shin Heesun, GÜnther Oliver, Hollander Zsuzsanna, Wilson-Mcmanus Janet E., Ng Raymond T., Balshaw Robert, Keown Paul A., Mcmaster Robert, Mcmanus Bruce M., Isbel Nicole M., Knoll Greg, Team Scott J. Tebbutt
-  display_authors: Shin Heesun, GÜnther Oliver, Hollander Zsuzsanna, et al.
-  tag: Original Research
-  lead: true
-- year: 2014
-  title: 'Novel Multivariate Methods for Integration of Genomics and Proteomics Data: Applications in a Kidney Transplant Rejection Study'
-  journal: 'OMICS: A Journal of Integrative Biology'
-  doi: 10.1089/omi.2014.0062
-  link: https://doi.org/10.1089/omi.2014.0062
-  authors: Günther Oliver P., Shin Heesun, Ng Raymond T., McMaster W. Robert, McManus Bruce M., Keown Paul A., Tebbutt Scott. J., Lê Cao Kim-Anh
-  display_authors: Günther Oliver P., Shin Heesun, Ng Raymond T., et al.
-  tag: Original Research
-  lead: true
-- year: 2014
-  title: Proteomic biomarkers of recovered heart function
-  journal: European journal of heart failure
-  doi: 10.1002/ejhf.65
-  link: https://doi.org/10.1002/ejhf.65
-  authors: Hollander Z, Lazárová M, Lam KK, Ignaszewski A, Oudit GY, Dyck JR, Schreiner G, Pauwels J, Chen V, Cohen Freue GV, Ng RT, Wilson-McManus JE, Balshaw R, Tebbutt SJ, McMaster RW, Keown PA, McManus BM, NCE CECR PROOF Prevention of Organ Failure (PROOF) Centre of Excellence
-  display_authors: Hollander Z, Lazárová M, Lam KK, et al.
-  tag: Original Research
-  lead: true
-- year: 2014
-  title: Th17/Treg ratio derived using DNA methylation analysis is associated with the late phase asthmatic response
-  journal: Allergy, Asthma &amp; Clinical Immunology
-  doi: 10.1186/1710-1492-10-32
-  link: https://doi.org/10.1186/1710-1492-10-32
-  authors: Singh Amrit, Yamamoto Masatsugu, Ruan Jian, Choi Jung Young, Gauvreau Gail M, Olek Sven, Hoffmueller Ulrich, Carlsten Christopher, FitzGerald J Mark, Boulet Louis-Philippe, O'Byrne Paul M, Tebbutt Scott J
-  display_authors: Singh Amrit, Yamamoto Masatsugu, Ruan Jian, et al.
-  tag: Original Research
-  lead: true
-- year: 2014
-  title: Two-Stage, In Silico Deconvolution of the Lymphocyte Compartment of the Peripheral Whole Blood Transcriptome in the Context of Acute Kidney Allograft Rejection
-  journal: PLoS ONE
-  doi: 10.1371/journal.pone.0095224
-  link: https://doi.org/10.1371/journal.pone.0095224
-  authors: Shannon Casey P., Balshaw Robert, Ng Raymond T., Wilson-McManus Janet E., Keown Paul, McMaster Robert, McManus Bruce M., Landsberg David, Isbel Nicole M., Knoll Greg, Tebbutt Scott J.
-  display_authors: Shannon Casey P., Balshaw Robert, Ng Raymond T., et al.
-  tag: Original Research
-  lead: true
-- year: 2014
-  title: Variation in RNA-Seq Transcriptome Profiles of Peripheral Whole Blood from Healthy Individuals with and without Globin Depletion
-  journal: PLoS ONE
-  doi: 10.1371/journal.pone.0091041
-  link: https://doi.org/10.1371/journal.pone.0091041
-  authors: Shin Heesun, Shannon Casey P., Fishbane Nick, Ruan Jian, Zhou Mi, Balshaw Robert, Wilson-McManus Janet E., Ng Raymond T., McManus Bruce M., Tebbutt Scott J., for the PROOF Centre of Excellence Team
-  display_authors: Shin Heesun, Shannon Casey P., Fishbane Nick, et al.
-  tag: Original Research
-  lead: true
-- year: 2013
-  title: Alteration of human blood cell transcriptome in uremia
-  journal: BMC Medical Genomics
-  doi: 10.1186/1755-8794-6-23
-  link: https://doi.org/10.1186/1755-8794-6-23
-  authors: Scherer Andreas, Günther Oliver P, Balshaw Robert F, Hollander Zsuzsanna, Wilson-McManus Janet, Ng Raymond, McMaster W Robert, McManus Bruce M, Keown Paul A
-  display_authors: Scherer Andreas, Günther Oliver P, Balshaw Robert F, et al.
-  tag: Original Research
-  lead: true
-- year: 2013
-  title: 'Computational Biomarker Pipeline from Discovery to Clinical Implementation: Plasma Proteomic Biomarkers for Cardiac Transplantation'
-  journal: PLoS Computational Biology
-  doi: 10.1371/journal.pcbi.1002963
-  link: https://doi.org/10.1371/journal.pcbi.1002963
-  authors: Cohen Freue Gabriela V., Meredith Anna, Smith Derek, Bergman Axel, Sasaki Mayu, Lam Karen K. Y., Hollander Zsuzsanna, Opushneva Nina, Takhar Mandeep, Lin David, Wilson-McManus Janet, Balshaw Robert, Keown Paul A., Borchers Christoph H., McManus Bruce, Ng Raymond T., McMaster W. Robert, for the Biomarkers in Transplantation and the NCE CECR Prevention of Organ Failure Centre of Excellence Teams
-  display_authors: Cohen Freue Gabriela V., Meredith Anna, Smith Derek, et al.
-  tag: Original Research
-  lead: false
-- year: 2013
-  title: Gene-Metabolite Expression in Blood Can Discriminate Allergen-Induced Isolated Early from Dual Asthmatic Responses
-  journal: PLoS ONE
-  doi: 10.1371/journal.pone.0067907
-  link: https://doi.org/10.1371/journal.pone.0067907
-  authors: Singh Amrit, Yamamoto Masatsugu, Kam Sarah H. Y., Ruan Jian, Gauvreau Gail M., O'Byrne Paul M., FitzGerald J. Mark, Schellenberg Robert, Boulet Louis-Philippe, Wojewodka Gabriella, Kanagaratham Cynthia, De Sanctis Juan B., Radzioch Danuta, Tebbutt Scott J.
-  display_authors: Singh Amrit, Yamamoto Masatsugu, Kam Sarah H. Y., et al.
-  tag: Original Research
-  lead: true
-- year: 2013
-  title: 'MicroRNA expression in response to controlled exposure to diesel exhaust: attenuation by the antioxidant N-acetylcysteine in a randomized crossover study'
-  journal: Environmental health perspectives
-  doi: 10.1289/ehp.1205963
-  link: https://doi.org/10.1289/ehp.1205963
-  authors: Yamamoto M, Singh A, Sava F, Pui M, Tebbutt SJ, Carlsten C
-  display_authors: Yamamoto M, Singh A, Sava F, et al.
-  tag: Original Research
-  lead: false
-- year: 2013
-  title: Plasma protein biosignatures for detection of cardiac allograft vasculopathy
-  journal: The Journal of Heart and Lung Transplantation
-  doi: 10.1016/j.healun.2013.04.011
-  link: https://doi.org/10.1016/j.healun.2013.04.011
-  authors: Lin David, Cohen Freue Gabriela, Hollander Zsuzsanna, John Mancini G.B., Sasaki Mayu, Mui Alice, Wilson-McManus Janet, Ignaszewski Andrew, Imai Carol, Meredith Anna, Balshaw Robert, Ng Raymond T., Keown Paul A., Robert McMaster W., Carere Ron, Webb John G., McManus Bruce M.
-  display_authors: Lin David, Cohen Freue Gabriela, Hollander Zsuzsanna, et al.
-  tag: Original Research
-  lead: true
-- year: 2013
-  title: The biomarker plasma galectin-3 in advanced heart failure and survival with mechanical circulatory support devices
-  journal: The Journal of Heart and Lung Transplantation
-  doi: 10.1016/j.healun.2012.11.011
-  link: https://doi.org/10.1016/j.healun.2012.11.011
-  authors: Erkilet Gülsüm, Özpeker Cenk, Böthig Dietmar, Kramer Frank, Röfe Daniela, Bohms Birte, Morshuis Michiel, Gummert Jan, Milting Hendrik
-  display_authors: Erkilet Gülsüm, Özpeker Cenk, Böthig Dietmar, et al.
-  tag: Original Research
-  lead: false
-- year: 2013
-  title: Vitamin D in Heart Failure
-  journal: Journal of Cardiac Failure
-  doi: 10.1016/j.cardfail.2013.09.002
-  link: https://doi.org/10.1016/j.cardfail.2013.09.002
-  authors: Meredith Anna J., McManus Bruce M.
-  display_authors: Meredith Anna J., McManus Bruce M.
-  tag: Original Research
-  lead: true
-- year: 2012
-  title: A computational pipeline for the development of multi-marker bio-signature panels and ensemble classifiers
-  journal: BMC Bioinformatics
-  doi: 10.1186/1471-2105-13-326
-  link: https://doi.org/10.1186/1471-2105-13-326
-  authors: Günther Oliver P, Chen Virginia, Freue Gabriela Cohen, Balshaw Robert F, Tebbutt Scott J, Hollander Zsuzsanna, Takhar Mandeep, McMaster W Robert, McManus Bruce M, Keown Paul A, Ng Raymond T
-  display_authors: Günther Oliver P, Chen Virginia, Freue Gabriela Cohen, et al.
-  tag: Original Research
-  lead: true
-- year: 2012
-  title: Decreased miR-192 expression in peripheral blood of asthmatic individuals undergoing an allergen inhalation challenge
+  citations: 60
+  date: '2017-01-26'
+- year: 2017
+  title: Enumerateblood – an R package to estimate the cellular composition of whole blood from Affymetrix Gene ST gene expression profiles
   journal: BMC Genomics
-  doi: 10.1186/1471-2164-13-655
-  link: https://doi.org/10.1186/1471-2164-13-655
-  authors: Yamamoto Masatsugu, Singh Amrit, Ruan Jian, Gauvreau Gail M, O'Byrne Paul M, R Carlsten Christopher, FitzGerald J Mark, Boulet Louis-Philippe, Tebbutt Scott J
-  display_authors: Yamamoto Masatsugu, Singh Amrit, Ruan Jian, et al.
+  doi: 10.1186/s12864-016-3460-1
+  link: https://doi.org/10.1186/s12864-016-3460-1
+  authors: Shannon Casey P., Balshaw Robert, Chen Virginia, Hollander Zsuzsanna, Toma Mustafa, McManus Bruce M., FitzGerald J. Mark, Sin Don D., Ng Raymond T., Tebbutt Scott J.
+  display_authors: Shannon Casey P., Balshaw Robert, Chen Virginia, et al.
   tag: Original Research
   lead: true
-- year: 2012
-  title: 'Future Impact of Various Interventions on the Burden of COPD in Canada: A Dynamic Population Model'
-  journal: PLoS ONE
-  doi: 10.1371/journal.pone.0046746
-  link: https://doi.org/10.1371/journal.pone.0046746
-  authors: Najafzadeh Mehdi, Marra Carlo A., Lynd Larry D., Sadatsafavi Mohsen, FitzGerald J. Mark, McManus Bruce, Sin Don
-  display_authors: Najafzadeh Mehdi, Marra Carlo A., Lynd Larry D., et al.
-  tag: Original Research
-  lead: false
-- year: 2012
-  title: MRM-based multiplexed quantitation of 67 putative cardiovascular disease biomarkers in human plasma
-  journal: Proteomics
-  doi: 10.1002/pmic.201100568
-  link: https://doi.org/10.1002/pmic.201100568
-  authors: Domanski D, Percy AJ, Yang J, Chambers AG, Hill JS, Freue GV, Borchers CH
-  display_authors: Domanski D, Percy AJ, Yang J, et al.
-  tag: Original Research
-  lead: false
-- year: 2012
-  title: Peripheral Blood Gene Expression Changes during Allergen Inhalation Challenge in Atopic Asthmatic Individuals
-  journal: Journal of Asthma
-  doi: 10.3109/02770903.2011.654300
-  link: https://doi.org/10.3109/02770903.2011.654300
-  authors: Kam Sarah H. Y., Singh Amrit, He Jian-Qing, Ruan Jian, Gauvreau Gail M., O’Byrne Paul M., Fitzgerald J. Mark, Tebbutt Scott J.
-  display_authors: Kam Sarah H. Y., Singh Amrit, He Jian-Qing, et al.
-  tag: Original Research
-  lead: true
-- year: 2012
-  title: Plasma proteomics can discriminate isolated early from dual responses in asthmatic individuals undergoing an allergen inhalation challenge
-  journal: PROTEOMICS – Clinical Applications
-  doi: 10.1002/prca.201200013
-  link: https://doi.org/10.1002/prca.201200013
-  authors: Singh Amrit, Cohen Freue Gabriela V., Oosthuizen Jean L., Kam Sarah H. Y., Ruan Jian, Takhar Mandeep K., Gauvreau Gail M., O'Byrne Paul M., FitzGerald J. Mark, Boulet Louis‐Philippe, Borchers Christoph H., Tebbutt Scott J.
-  display_authors: Singh Amrit, Cohen Freue Gabriela V., Oosthuizen Jean L., et al.
-  tag: Original Research
-  lead: true
-- year: 2012
-  title: The use of multiplexed MRM for the discovery of biomarkers to differentiate iron-deficiency anemia from anemia of inflammation
-  journal: Journal of Proteomics
-  doi: 10.1016/j.jprot.2011.11.022
-  link: https://doi.org/10.1016/j.jprot.2011.11.022
-  authors: Domanski Dominik, Cohen Freue Gabriela V., Sojo Luis, Kuzyk Michael A., Ratkay Leslie, Parker Carol E., Goldberg Y. Paul, Borchers Christoph H.
-  display_authors: Domanski Dominik, Cohen Freue Gabriela V., Sojo Luis, et al.
-  tag: Original Research
-  lead: false
-- year: 2012
-  title: Transcriptional Changes of Blood Eosinophils after Methacholine Inhalation Challenge in Asthmatics
-  journal: Genomics Insights
-  doi: 10.4137/gei.s9125
-  link: https://doi.org/10.4137/gei.s9125
-  authors: Tebbutt Scott J., He Jian-Qing, Singh Amrit, Shannon Casey P., Ruan Jian, Carlsten Chris
-  display_authors: Tebbutt Scott J., He Jian-Qing, Singh Amrit, et al.
-  tag: Original Research
-  lead: true
-- year: 2012
-  title: White Blood Cell Differentials Enrich Whole Blood Expression Data in the Context of Acute Cardiac Allograft Rejection
-  journal: Bioinformatics and Biology Insights
-  doi: 10.4137/bbi.s9197
-  link: https://doi.org/10.4137/bbi.s9197
-  authors: Shannon Casey P., Hollander Zsuzsanna, Wilson-Mcmanus Janet, Balshaw Robert, Ng Raymond T., Mcmaster Robert, Mcmanus Bruce M., Keown Paul A., Tebbutt Scott J.
-  display_authors: Shannon Casey P., Hollander Zsuzsanna, Wilson-Mcmanus Janet, et al.
-  tag: Original Research
-  lead: true
-- year: 2011
-  title: 'Case Study 2: Proteomic Biomarkers for Disease Status'
-  journal: The Canadian Journal of Statistics
-  doi: 10.1002/cjs.10102
-  link: https://doi.org/10.1002/cjs.10102
-  authors: Balshaw RF, Cohen Freue GV
-  display_authors: Balshaw RF, Cohen Freue GV
-  tag: Original Research
-  lead: false
-- year: 2011
-  title: 'Case Study: Applied semantic knowledgebase for detection of patients at risk of organ failure through immune rejection'
-  journal: World Wide Web Consortium (W3C)
-  doi: View Article
-  link: http://www.w3.org/2001/sw/sweo/public/UseCases/IOInformatics/
-  authors: Stanley R, McManus B, Ng R, Gombocz E, Eshleman J, Rockey C
-  display_authors: Stanley R, McManus B, Ng R, et al.
-  tag: Original Research
-  lead: false
-- year: 2011
-  title: Effects of Sample Timing and Treatment on Gene Expression in Early Acute Renal Allograft Rejection
-  journal: Transplantation
-  doi: 10.1097/tp.0b013e3182029b16
-  link: https://doi.org/10.1097/tp.0b013e3182029b16
-  authors: Günther Oliver P., Lin David, Balshaw Robert F., Ng Raymond T., Hollander Zsuzsanna, Wilson-McManus Janet, McMaster W. Robert, McManus Bruce M., Keown Paul A.
-  display_authors: Günther Oliver P., Lin David, Balshaw Robert F., et al.
-  tag: Original Research
-  lead: true
-- year: 2011
-  title: High-flow multiplexed MRM-based analysis of proteins in human plasma without depletion or enrichment
-  journal: Clinics in laboratory medicine
-  doi: 10.1016/j.cll.2011.07.005
-  link: https://doi.org/10.1016/j.cll.2011.07.005
-  authors: Domanski D, Smith DS, Miller CA, Yang Y, Jackson AM, Cohen Freue G, Hill JS, Parker CE, Borchers CH
-  display_authors: Domanski D, Smith DS, Miller CA, et al.
-  tag: Original Research
-  lead: false
-- year: 2011
-  title: Molecular Signatures of End-Stage Heart Failure
-  journal: Journal of Cardiac Failure
-  doi: 10.1016/j.cardfail.2011.07.001
-  link: https://doi.org/10.1016/j.cardfail.2011.07.001
-  authors: Lin David, Hollander Zsuzsanna, Meredith Anna, Stadnick Ellamae, Sasaki Mayu, Cohen Freue Gabriela, Qasimi Pooran, Mui Alice, Ng Raymond T., Balshaw Robert, Wilson-McManus Janet E., Wishart David, Hau David, Keown Paul A., McMaster Robert, McManus Bruce M.
-  display_authors: Lin David, Hollander Zsuzsanna, Meredith Anna, et al.
-  tag: Original Research
-  lead: true
-- year: 2011
-  title: The Human Serum Metabolome
-  journal: PLoS ONE
-  doi: 10.1371/journal.pone.0016957
-  link: https://doi.org/10.1371/journal.pone.0016957
-  authors: Psychogios Nikolaos, Hau David D., Peng Jun, Guo An Chi, Mandal Rupasri, Bouatra Souhaila, Sinelnikov Igor, Krishnamurthy Ramanarayan, Eisner Roman, Gautam Bijaya, Young Nelson, Xia Jianguo, Knox Craig, Dong Edison, Huang Paul, Hollander Zsuzsanna, Pedersen Theresa L., Smith Steven R., Bamforth Fiona, Greiner Russ, McManus Bruce, Newman John W., Goodfriend Theodore, Wishart David S.
-  display_authors: Psychogios Nikolaos, Hau David D., Peng Jun, et al.
-  tag: Original Research
-  lead: false
-- year: 2011
-  title: Wnt3a Induces Myofibroblast Differentiation by Upregulating TGF-β Signaling Through SMAD2 in a β-Catenin-Dependent Manner
-  journal: PLoS ONE
-  doi: 10.1371/journal.pone.0019809
-  link: https://doi.org/10.1371/journal.pone.0019809
-  authors: Carthy Jon M., Garmaroudi Farshid S., Luo Zongshu, McManus Bruce M.
-  display_authors: Carthy Jon M., Garmaroudi Farshid S., Luo Zongshu, et al.
-  tag: Original Research
-  lead: true
-- year: 2010
-  title: 'Ethics of Biomarkers: the Borders of Investigative Research, Informed Consent, and Patient Protection'
-  journal: Pharmaceutical Sciences Encyclopedia
-  doi: 10.1002/9780470571224.pse286
-  link: https://doi.org/10.1002/9780470571224.pse286
-  authors: Walmsley Heather, Burgess Michael, Brinkman Jacquelyn, Hegele Richard, Wilson‐McManus Janet, McManus Bruce
-  display_authors: Walmsley Heather, Burgess Michael, Brinkman Jacquelyn, et al.
-  tag: Original Research
-  lead: true
-- year: 2010
-  title: Proteomic Signatures in Plasma during Early Acute Renal Allograft Rejection
-  journal: Molecular &amp; Cellular Proteomics
-  doi: 10.1074/mcp.m110.000554
-  link: https://doi.org/10.1074/mcp.m110.000554
-  authors: Freue Gabriela V. Cohen, Sasaki Mayu, Meredith Anna, Günther Oliver P., Bergman Axel, Takhar Mandeep, Mui Alice, Balshaw Robert F., Ng Raymond T., Opushneva Nina, Hollander Zsuzsanna, Li Guiyun, Borchers Christoph H., Wilson-McManus Janet, McManus Bruce M., Keown Paul A., McMaster W. Robert
-  display_authors: Freue Gabriela V. Cohen, Sasaki Mayu, Meredith Anna, et al.
-  tag: Original Research
-  lead: false
-- year: 2010
-  title: Tools to Identify Organ Rejection and Immune Quiescence for Biological Understanding and Personalized Medical Care
-  journal: Biomarkers in Medicine
-  doi: 10.2217/bmm.09.73
-  link: https://doi.org/10.2217/bmm.09.73
-  authors: Keown Paul A, McMaster W Robert, McManus Bruce M
-  display_authors: Keown Paul A, McMaster W Robert, McManus Bruce M
-  tag: Original Research
-  lead: true
-- year: 2010
-  title: 'Whole Blood Biomarkers of Acute Cardiac Allograft Rejection: Double-Crossing the Biopsy'
-  journal: Transplantation
-  doi: 10.1097/tp.0b013e3182003df6
-  link: https://doi.org/10.1097/tp.0b013e3182003df6
-  authors: Hollander Zsuzsanna, Lin David, Chen Virginia, Ng Raymond, Wilson-McManus Janet, Ignaszewski Andrew, Cohen Freue Gabriela, Balshaw Rob, Mui Alice, McMaster Robert, Keown Paul A., McManus Bruce M.
-  display_authors: Hollander Zsuzsanna, Lin David, Chen Virginia, et al.
-  tag: Original Research
-  lead: true
-- year: 2009
-  title: A Matched Cohort Pharmacoepidemiological Analysis of Steroid Free Immunosuppression in Renal Transplantation
-  journal: Transplantation
-  doi: 10.1097/tp.0b013e318195aa54
-  link: https://doi.org/10.1097/tp.0b013e318195aa54
-  authors: Barraclough Katherine A., Landsberg David N., Shapiro R Jean, Gill John S., Li Guiyun, Balshaw Robert F., Chailimpamontree Worawon, Keown Paul A.
-  display_authors: Barraclough Katherine A., Landsberg David N., Shapiro R Jean, et al.
-  tag: Original Research
-  lead: true
-- year: 2009
-  title: Functional Genomic Analysis of Peripheral Blood During Early Acute Renal Allograft Rejection
-  journal: Transplantation
-  doi: 10.1097/tp.0b013e3181b7ccc6
-  link: https://doi.org/10.1097/tp.0b013e3181b7ccc6
-  authors: Günther Oliver P., Balshaw Robert F., Scherer Andreas, Hollander Zsuzsanna, Mui Alice, Triche Timothy J., Freue Gabriela Cohen, Li Guiyun, Ng Raymond T., Wilson-McManus Janet, McMaster W Robert, McManus Bruce M., Keown Paul A.
-  display_authors: Günther Oliver P., Balshaw Robert F., Scherer Andreas, et al.
-  tag: Original Research
-  lead: true
-- year: 2009
-  title: Probabilistic Modeling of Cytomegalovirus Infection Under Consensus Clinical Management Guidelines
-  journal: Transplantation
-  doi: 10.1097/tp.0b013e3181949e09
-  link: https://doi.org/10.1097/tp.0b013e3181949e09
-  authors: Dmitrienko Svetlana, Balshaw Robert, Machnicki Gerardo, Shapiro R Jean, Keown Paul A.
-  display_authors: Dmitrienko Svetlana, Balshaw Robert, Machnicki Gerardo, et al.
-  tag: Original Research
-  lead: true
-- year: 2009
-  title: Probability, Predictors, and Prognosis of Posttransplantation Glomerulonephritis
-  journal: Journal of the American Society of Nephrology
-  doi: 10.1681/asn.2008050454
-  link: https://doi.org/10.1681/asn.2008050454
-  authors: Chailimpamontree Worawon, Dmitrienko Svetlana, Li Guiyun, Balshaw Robert, Magil Alexander, Shapiro R. Jean, Landsberg David, Gill John, Keown Paul A.
-  display_authors: Chailimpamontree Worawon, Dmitrienko Svetlana, Li Guiyun, et al.
-  tag: Original Research
-  lead: true
-- year: 2009
-  title: Searching for 'omic' biomarkers
-  journal: The Canadian journal of cardiology
-  doi: 10.1016/s0828-282x(09)71048-7
-  link: https://doi.org/10.1016/s0828-282x(09)71048-7
-  authors: Lin D, Hollander Z, Meredith A, McManus BM
-  display_authors: Lin D, Hollander Z, Meredith A, et al.
-  tag: Original Research
-  lead: true
+  citations: 10
+  date: '2017-01-06'
 - year: 2009
   title: Trends in genomic biomarkers
   journal: Heart and Metabolism
@@ -1698,24 +1394,668 @@ archive:
   display_authors: McManus B
   tag: Original Research
   lead: true
-- year: 2008
-  title: '93: Whole Blood Genomic Biomarkers of Acute Heart Allograft Rejection'
-  journal: The Journal of Heart and Lung Transplantation
-  doi: 10.1016/j.healun.2007.11.098
-  link: https://doi.org/10.1016/j.healun.2007.11.098
-  authors: Hollander Z., Lin D., Balshaw R., Ng R., Qasimi P., Cohen Freue G., Wilson-McManus J., Mui A., McMaster R., Keown P., McManus B.
-  display_authors: Hollander Z., Lin D., Balshaw R., et al.
-  tag: Original Research
-  lead: true
-- year: 2008
-  title: 'Biomarkers in newly diagnosed pediatric-extensive chronic graft-versus-host disease: a report from the Children''s Oncology Group'
-  journal: Blood
-  doi: 10.1182/blood-2007-08-106286
-  link: https://doi.org/10.1182/blood-2007-08-106286
-  authors: Fujii Hisaki, Cuvelier Geoff, She Kevin, Aslanian Soudabeh, Shimizu Hiromi, Kariminia Amina, Krailo Mark, Chen Zhengjia, McMaster Rob, Bergman Axel, Goldman Frederick, Grupp Stephen A., Wall Donna A., Gilman Andrew L., Schultz Kirk R.
-  display_authors: Fujii Hisaki, Cuvelier Geoff, She Kevin, et al.
+  citations: 0
+  date: '2017-01-01'
+- year: 2017
+  title: Exosomal miR-142-3p is increased during cardiac allograft rejection and augments vascular permeability through down-regulation of endothelial RAB11FIP2 expression
+  journal: Cardiovascular Research
+  doi: 10.1093/cvr/cvw244
+  link: https://doi.org/10.1093/cvr/cvw244
+  authors: Sukma Dewi Ihdina, Celik Selvi, Karlsson Anna, Hollander Zsuzsanna, Lam Karen, McManus Janet-Wilson, Tebbutt Scott, Ng Raymond, Keown Paul, McMaster Robert, McManus Bruce, Öhman Jenny, Gidlöf Olof
+  display_authors: Sukma Dewi Ihdina, Celik Selvi, Karlsson Anna, et al.
   tag: Original Research
   lead: false
+  citations: 95
+  date: '2016-12-01'
+- year: 2016
+  title: 'SABRE: a method for assessing the stability of gene modules in complex tissues and subject populations'
+  journal: BMC bioinformatics
+  doi: 10.1186/s12859-016-1319-8
+  link: https://doi.org/10.1186/s12859-016-1319-8
+  authors: Shannon CP, Chen V, Takhar M, Hollander Z, Balshaw R, McManus BM, Tebbutt SJ, Sin DD, Ng RT
+  display_authors: Shannon CP, Chen V, Takhar M, et al.
+  tag: Original Research
+  lead: true
+  citations: 20
+  date: '2016-11-14'
+- year: 2017
+  title: Biomarker Development in COPD
+  journal: Chest
+  doi: 10.1016/j.chest.2016.09.012
+  link: https://doi.org/10.1016/j.chest.2016.09.012
+  authors: Hollander Zsuzsanna, DeMarco Mari L., Sadatsafavi Mohsen, McManus Bruce M., Ng Raymond T., Sin Don D.
+  display_authors: Hollander Zsuzsanna, DeMarco Mari L., Sadatsafavi Mohsen, et al.
+  tag: Original Research
+  lead: true
+  citations: 41
+  date: '2016-10-01'
+- year: 2017
+  title: The Projected Epidemic of Chronic Obstructive Pulmonary Disease Hospitalizations over the Next 15 Years. A Population-based Perspective
+  journal: American Journal of Respiratory and Critical Care Medicine
+  doi: 10.1164/rccm.201606-1162pp
+  link: https://doi.org/10.1164/rccm.201606-1162pp
+  authors: Khakban Amir, Sin Don D., FitzGerald J. Mark, McManus Bruce M., Ng Raymond, Hollander Zsuzsanna, Sadatsafavi Mohsen
+  display_authors: Khakban Amir, Sin Don D., FitzGerald J. Mark, et al.
+  tag: Original Research
+  lead: false
+  citations: 126
+  date: '2016-09-14'
+- year: 2016
+  title: COPD Exacerbation Biomarkers Validated Using Multiple Reaction Monitoring Mass Spectrometry
+  journal: PLOS ONE
+  doi: 10.1371/journal.pone.0161129
+  link: https://doi.org/10.1371/journal.pone.0161129
+  authors: Leung Janice M., Chen Virginia, Hollander Zsuzsanna, Dai Darlene, Tebbutt Scott J., Aaron Shawn D., Vandemheen Kathy L., Rennard Stephen I., FitzGerald J. Mark, Woodruff Prescott G., Lazarus Stephen C., Connett John E., Coxson Harvey O., Miller Bruce, Borchers Christoph, McManus Bruce M., Ng Raymond T., Sin Don D.
+  display_authors: Leung Janice M., Chen Virginia, Hollander Zsuzsanna, et al.
+  tag: Original Research
+  lead: false
+  citations: 25
+  date: '2016-08-15'
+- year: 2016
+  title: Individualized prediction of lung-function decline in chronic obstructive pulmonary disease
+  journal: Canadian Medical Association Journal
+  doi: 10.1503/cmaj.151483
+  link: https://doi.org/10.1503/cmaj.151483
+  authors: Zafari Zafar, Sin Don D., Postma Dirkje S., Löfdahl Claes-Göran, Vonk Judith, Bryan Stirling, Lam Stephen, Tammemagi C. Martin, Khakban Rahman, Man S.F. Paul, Tashkin Donald, Wise Robert A., Connett John E., McManus Bruce, Ng Raymond, Hollander Zsuszanna, Sadatsafavi Mohsen
+  display_authors: Zafari Zafar, Sin Don D., Postma Dirkje S., et al.
+  tag: Original Research
+  lead: false
+  citations: 46
+  date: '2016-08-02'
+- year: 2016
+  title: 'Airway hyperresponsiveness in chronic obstructive pulmonary disease: A marker of asthma-chronic obstructive pulmonary disease overlap syndrome?'
+  journal: Journal of Allergy and Clinical Immunology
+  doi: 10.1016/j.jaci.2016.04.022
+  link: https://doi.org/10.1016/j.jaci.2016.04.022
+  authors: Tkacova Ruzena, Dai Darlene L.Y., Vonk Judith M., Leung Janice M., Hiemstra Pieter S., van den Berge Maarten, Kunz Lisette, Hollander Zsuzsanna, Tashkin Donald, Wise Robert, Connett John, Ng Raymond, McManus Bruce, Paul Man S.F., Postma Dirkje S., Sin Don D.
+  display_authors: Tkacova Ruzena, Dai Darlene L.Y., Vonk Judith M., et al.
+  tag: Original Research
+  lead: false
+  citations: 53
+  date: '2016-05-24'
+- year: 2016
+  title: The Effect of Different Case Definitions of Current Smoking on the Discovery of Smoking-Related Blood Gene Expression Signatures in Chronic Obstructive Pulmonary Disease
+  journal: Nicotine &amp; Tobacco Research
+  doi: 10.1093/ntr/ntw129
+  link: https://doi.org/10.1093/ntr/ntw129
+  authors: Obeidat Ma’en, Ding Xiaoting, Fishbane Nick, Hollander Zsuzsanna, Ng Raymond T., McManus Bruce, Tebbutt Scott J., Miller Bruce E., Rennard Stephen, Paré Peter D., Sin Don D.
+  display_authors: Obeidat Ma’en, Ding Xiaoting, Fishbane Nick, et al.
+  tag: Original Research
+  lead: false
+  citations: 24
+  date: '2016-05-06'
+- year: 2016
+  title: 'Controlled diesel exhaust and allergen coexposure modulates microRNA and gene expression in humans: Effects on inflammatory lung markers'
+  journal: Journal of Allergy and Clinical Immunology
+  doi: 10.1016/j.jaci.2016.02.038
+  link: https://doi.org/10.1016/j.jaci.2016.02.038
+  authors: Rider Christopher F., Yamamoto Masatsugu, Günther Oliver P., Hirota Jeremy A., Singh Amrit, Tebbutt Scott J., Carlsten Chris
+  display_authors: Rider Christopher F., Yamamoto Masatsugu, Günther Oliver P., et al.
+  tag: Original Research
+  lead: false
+  citations: 77
+  date: '2016-04-30'
+- year: 2016
+  title: 'Interactions of Aspergillus fumigatus Conidia with Airway Epithelial Cells: A Critical Review'
+  journal: Frontiers in Microbiology
+  doi: 10.3389/fmicb.2016.00472
+  link: https://doi.org/10.3389/fmicb.2016.00472
+  authors: Croft Carys A., Culibrk Luka, Moore Margo M., Tebbutt Scott J.
+  display_authors: Croft Carys A., Culibrk Luka, Moore Margo M., et al.
+  tag: Review
+  lead: true
+  citations: 146
+  date: '2016-04-07'
+- year: 2016
+  title: 'Systems Biology Approaches for Host–Fungal Interactions: An Expanding Multi-Omics Frontier'
+  journal: 'OMICS: A Journal of Integrative Biology'
+  doi: 10.1089/omi.2015.0185
+  link: https://doi.org/10.1089/omi.2015.0185
+  authors: Culibrk Luka, Croft Carys A., Tebbutt Scott J.
+  display_authors: Culibrk Luka, Croft Carys A., Tebbutt Scott J.
+  tag: Original Research
+  lead: true
+  citations: 48
+  date: '2016-02-17'
+- year: 2016
+  title: Myocarditis
+  journal: Circulation Research
+  doi: 10.1161/circresaha.115.306573
+  link: https://doi.org/10.1161/circresaha.115.306573
+  authors: Fung Gabriel, Luo Honglin, Qiu Ye, Yang Decheng, McManus Bruce
+  display_authors: Fung Gabriel, Luo Honglin, Qiu Ye, et al.
+  tag: Review
+  lead: true
+  citations: 449
+  date: '2016-02-04'
+- year: 2016
+  title: A Regulatory T-Cell Gene Signature Is a Specific and Sensitive Biomarker to Identify Children With New-Onset Type 1 Diabetes
+  journal: Diabetes
+  doi: 10.2337/db15-0572
+  link: https://doi.org/10.2337/db15-0572
+  authors: Pesenacker Anne M., Wang Adele Y., Singh Amrit, Gillies Jana, Kim Youngwoong, Piccirillo Ciriaco A., Nguyen Duc, Haining W. Nicholas, Tebbutt Scott J., Panagiotopoulos Constadina, Levings Megan K.
+  display_authors: Pesenacker Anne M., Wang Adele Y., Singh Amrit, et al.
+  tag: Original Research
+  lead: false
+  citations: 73
+  date: '2016-01-19'
+- year: 2016
+  title: Circulating Biomarker Responses to Medical Management vs. Mechanical Circulatory Support in Severe Inotrope-Dependent Acute Heart Failure
+  journal: ESC Heart Failure
+  doi: 10.1002/ehf2.12076
+  link: https://doi.org/10.1002/ehf2.12076
+  authors: Meredith Anna J., Dai Darlene L. Y., Chen Virginia, Hollander Zsuzsanna, Ng Raymond, Kaan Annemarie, Tebbutt Scott, Ramanathan Krishnan, Cheung Anson, McManus Bruce M.
+  display_authors: Meredith Anna J., Dai Darlene L. Y., Chen Virginia, et al.
+  tag: Original Research
+  lead: true
+  citations: 9
+  date: '2015-11-24'
+- year: 2015
+  title: Impact of Statins on Gene Expression in Human Lung Tissues
+  journal: PLOS ONE
+  doi: 10.1371/journal.pone.0142037
+  link: https://doi.org/10.1371/journal.pone.0142037
+  authors: Lane Jérôme, van Eeden Stephan F., Obeidat Ma’en, Sin Don D., Tebbutt Scott J., Timens Wim, Postma Dirkje S., Laviolette Michel, Paré Peter D., Bossé Yohan
+  display_authors: Lane Jérôme, van Eeden Stephan F., Obeidat Ma’en, et al.
+  tag: Original Research
+  lead: false
+  citations: 5
+  date: '2015-11-04'
+- year: 2015
+  title: The Effect of Statins on Blood Gene Expression in COPD
+  journal: PLOS ONE
+  doi: 10.1371/journal.pone.0140022
+  link: https://doi.org/10.1371/journal.pone.0140022
+  authors: Obeidat Ma’en, Fishbane Nick, Nie Yunlong, Chen Virginia, Hollander Zsuzsanna, Tebbutt Scott J., Bossé Yohan, Ng Raymond T., Miller Bruce E., McManus Bruce, Rennard Stephen, Paré Peter D., Sin Don D.
+  display_authors: Obeidat Ma’en, Fishbane Nick, Nie Yunlong, et al.
+  tag: Original Research
+  lead: false
+  citations: 21
+  date: '2015-10-13'
+- year: 2015
+  title: A Linear Mixed Model Spline Framework for Analysing Time Course ‘Omics’ Data
+  journal: PLOS ONE
+  doi: 10.1371/journal.pone.0134540
+  link: https://doi.org/10.1371/journal.pone.0134540
+  authors: Straube Jasmin, Gorse Alain-Dominique, PROOF Centre of Excellence Team, Huang Bevan Emma, Lê Cao Kim-Anh
+  display_authors: Straube Jasmin, Gorse Alain-Dominique, PROOF Centre of Excellence Team, et al.
+  tag: Original Research
+  lead: false
+  citations: 66
+  date: '2015-08-27'
+- year: 2015
+  title: 'Biomarker Development for Chronic Obstructive Pulmonary Disease: From Discovery to Clinical Implementation'
+  journal: American Journal of Respiratory and Critical Care Medicine
+  doi: 10.1164/rccm.201505-0871pp
+  link: https://doi.org/10.1164/rccm.201505-0871pp
+  authors: Sin Don D., Hollander Zsuzsanna, DeMarco Mari L., McManus Bruce M., Ng Raymond T.
+  display_authors: Sin Don D., Hollander Zsuzsanna, DeMarco Mari L., et al.
+  tag: Original Research
+  lead: true
+  citations: 58
+  date: '2015-07-15'
+- year: 2015
+  title: Ten-Year Trends in Direct Costs of COPD
+  journal: CHEST
+  doi: 10.1378/chest.15-0721
+  link: https://doi.org/10.1378/chest.15-0721
+  authors: Khakban Amir, Sin Don D., FitzGerald J. Mark, Ng Raymond, Zafarí Zafar, McManus Bruce, Hollander Zsuzsanna, Marra Carlo A., Sadatsafavi Mohsen
+  display_authors: Khakban Amir, Sin Don D., FitzGerald J. Mark, et al.
+  tag: Original Research
+  lead: false
+  citations: 76
+  date: '2015-06-04'
+- year: 2016
+  title: Discovery of novel plasma protein biomarkers to predict imminent cystic fibrosis pulmonary exacerbations using multiple reaction monitoring mass spectrometry
+  journal: Thorax
+  doi: 10.1136/thoraxjnl-2014-206710
+  link: https://doi.org/10.1136/thoraxjnl-2014-206710
+  authors: Quon Bradley S, Dai Darlene L Y, Hollander Zsuzsanna, Ng Raymond T, Tebbutt Scott J, Man S F Paul, Wilcox Pearce G, Sin Don D
+  display_authors: Quon Bradley S, Dai Darlene L Y, Hollander Zsuzsanna, et al.
+  tag: Original Research
+  lead: false
+  citations: 40
+  date: '2015-03-16'
+- year: 2015
+  title: Serum proteomics in multiple sclerosis disease progression
+  journal: Journal of Proteomics
+  doi: 10.1016/j.jprot.2015.02.018
+  link: https://doi.org/10.1016/j.jprot.2015.02.018
+  authors: Tremlett Helen, Dai Darlene L.Y., Hollander Zsuzsanna, Kapanen Anita, Aziz Tariq, Wilson-McManus Janet E., Tebbutt Scott J., Borchers Christoph H., Oger Joel, Cohen Freue Gabriela V.
+  display_authors: Tremlett Helen, Dai Darlene L.Y., Hollander Zsuzsanna, et al.
+  tag: Original Research
+  lead: false
+  citations: 36
+  date: '2015-03-06'
+- year: 2015
+  title: Gender-Specific Plasma Proteomic Biomarkers in Patients with Anderson–Fabry disease
+  journal: European Journal of Heart Failure
+  doi: 10.1002/ejhf.230
+  link: https://doi.org/10.1002/ejhf.230
+  authors: Hollander Zsuzsanna, Dai Darlene L.Y., Putko Brendan N., Yogasundaram Haran, Wilson-McManus Janet E., Thompson Richard B., Khan Aneal, West Michael L., McManus Bruce M., Oudit Gavin Y.
+  display_authors: Hollander Zsuzsanna, Dai Darlene L.Y., Putko Brendan N., et al.
+  tag: Original Research
+  lead: true
+  citations: 54
+  date: '2015-01-23'
+- year: 2014
+  title: 'Novel Multivariate Methods for Integration of Genomics and Proteomics Data: Applications in a Kidney Transplant Rejection Study'
+  journal: 'OMICS: A Journal of Integrative Biology'
+  doi: 10.1089/omi.2014.0062
+  link: https://doi.org/10.1089/omi.2014.0062
+  authors: Günther Oliver P., Shin Heesun, Ng Raymond T., McMaster W. Robert, McManus Bruce M., Keown Paul A., Tebbutt Scott. J., Lê Cao Kim-Anh
+  display_authors: Günther Oliver P., Shin Heesun, Ng Raymond T., et al.
+  tag: Original Research
+  lead: true
+  citations: 44
+  date: '2014-11-01'
+- year: 2014
+  title: Th17/Treg ratio derived using DNA methylation analysis is associated with the late phase asthmatic response
+  journal: Allergy, Asthma &amp; Clinical Immunology
+  doi: 10.1186/1710-1492-10-32
+  link: https://doi.org/10.1186/1710-1492-10-32
+  authors: Singh Amrit, Yamamoto Masatsugu, Ruan Jian, Choi Jung Young, Gauvreau Gail M, Olek Sven, Hoffmueller Ulrich, Carlsten Christopher, FitzGerald J Mark, Boulet Louis-Philippe, O'Byrne Paul M, Tebbutt Scott J
+  display_authors: Singh Amrit, Yamamoto Masatsugu, Ruan Jian, et al.
+  tag: Original Research
+  lead: true
+  citations: 35
+  date: '2014-06-24'
+- year: 2014
+  title: Two-Stage, In Silico Deconvolution of the Lymphocyte Compartment of the Peripheral Whole Blood Transcriptome in the Context of Acute Kidney Allograft Rejection
+  journal: PLoS ONE
+  doi: 10.1371/journal.pone.0095224
+  link: https://doi.org/10.1371/journal.pone.0095224
+  authors: Shannon Casey P., Balshaw Robert, Ng Raymond T., Wilson-McManus Janet E., Keown Paul, McMaster Robert, McManus Bruce M., Landsberg David, Isbel Nicole M., Knoll Greg, Tebbutt Scott J.
+  display_authors: Shannon Casey P., Balshaw Robert, Ng Raymond T., et al.
+  tag: Original Research
+  lead: true
+  citations: 19
+  date: '2014-04-14'
+- year: 2014
+  title: Variation in RNA-Seq Transcriptome Profiles of Peripheral Whole Blood from Healthy Individuals with and without Globin Depletion
+  journal: PLoS ONE
+  doi: 10.1371/journal.pone.0091041
+  link: https://doi.org/10.1371/journal.pone.0091041
+  authors: Shin Heesun, Shannon Casey P., Fishbane Nick, Ruan Jian, Zhou Mi, Balshaw Robert, Wilson-McManus Janet E., Ng Raymond T., McManus Bruce M., Tebbutt Scott J., for the PROOF Centre of Excellence Team
+  display_authors: Shin Heesun, Shannon Casey P., Fishbane Nick, et al.
+  tag: Original Research
+  lead: true
+  citations: 96
+  date: '2014-03-07'
+- year: 2014
+  title: Proteomic biomarkers of recovered heart function
+  journal: European journal of heart failure
+  doi: 10.1002/ejhf.65
+  link: https://doi.org/10.1002/ejhf.65
+  authors: Hollander Z, Lazárová M, Lam KK, Ignaszewski A, Oudit GY, Dyck JR, Schreiner G, Pauwels J, Chen V, Cohen Freue GV, Ng RT, Wilson-McManus JE, Balshaw R, Tebbutt SJ, McMaster RW, Keown PA, McManus BM, NCE CECR PROOF Prevention of Organ Failure (PROOF) Centre of Excellence
+  display_authors: Hollander Z, Lazárová M, Lam KK, et al.
+  tag: Original Research
+  lead: true
+  citations: 14
+  date: '2014-02-23'
+- year: 2014
+  title: Longitudinal Analysis of Whole Blood Transcriptomes to Explore Molecular Signatures Associated with Acute Renal Allograft Rejection
+  journal: Bioinformatics and Biology Insights
+  doi: 10.4137/bbi.s13376
+  link: https://doi.org/10.4137/bbi.s13376
+  authors: Shin Heesun, GÜnther Oliver, Hollander Zsuzsanna, Wilson-Mcmanus Janet E., Ng Raymond T., Balshaw Robert, Keown Paul A., Mcmaster Robert, Mcmanus Bruce M., Isbel Nicole M., Knoll Greg, Team Scott J. Tebbutt
+  display_authors: Shin Heesun, GÜnther Oliver, Hollander Zsuzsanna, et al.
+  tag: Original Research
+  lead: true
+  citations: 10
+  date: '2014-01-01'
+- year: 2013
+  title: Vitamin D in Heart Failure
+  journal: Journal of Cardiac Failure
+  doi: 10.1016/j.cardfail.2013.09.002
+  link: https://doi.org/10.1016/j.cardfail.2013.09.002
+  authors: Meredith Anna J., McManus Bruce M.
+  display_authors: Meredith Anna J., McManus Bruce M.
+  tag: Original Research
+  lead: true
+  citations: 27
+  date: '2013-10-01'
+- year: 2013
+  title: Gene-Metabolite Expression in Blood Can Discriminate Allergen-Induced Isolated Early from Dual Asthmatic Responses
+  journal: PLoS ONE
+  doi: 10.1371/journal.pone.0067907
+  link: https://doi.org/10.1371/journal.pone.0067907
+  authors: Singh Amrit, Yamamoto Masatsugu, Kam Sarah H. Y., Ruan Jian, Gauvreau Gail M., O'Byrne Paul M., FitzGerald J. Mark, Schellenberg Robert, Boulet Louis-Philippe, Wojewodka Gabriella, Kanagaratham Cynthia, De Sanctis Juan B., Radzioch Danuta, Tebbutt Scott J.
+  display_authors: Singh Amrit, Yamamoto Masatsugu, Kam Sarah H. Y., et al.
+  tag: Original Research
+  lead: true
+  citations: 19
+  date: '2013-07-02'
+- year: 2013
+  title: Alteration of human blood cell transcriptome in uremia
+  journal: BMC Medical Genomics
+  doi: 10.1186/1755-8794-6-23
+  link: https://doi.org/10.1186/1755-8794-6-23
+  authors: Scherer Andreas, Günther Oliver P, Balshaw Robert F, Hollander Zsuzsanna, Wilson-McManus Janet, Ng Raymond, McMaster W Robert, McManus Bruce M, Keown Paul A
+  display_authors: Scherer Andreas, Günther Oliver P, Balshaw Robert F, et al.
+  tag: Original Research
+  lead: true
+  citations: 49
+  date: '2013-06-28'
+- year: 2013
+  title: Plasma protein biosignatures for detection of cardiac allograft vasculopathy
+  journal: The Journal of Heart and Lung Transplantation
+  doi: 10.1016/j.healun.2013.04.011
+  link: https://doi.org/10.1016/j.healun.2013.04.011
+  authors: Lin David, Cohen Freue Gabriela, Hollander Zsuzsanna, John Mancini G.B., Sasaki Mayu, Mui Alice, Wilson-McManus Janet, Ignaszewski Andrew, Imai Carol, Meredith Anna, Balshaw Robert, Ng Raymond T., Keown Paul A., Robert McMaster W., Carere Ron, Webb John G., McManus Bruce M.
+  display_authors: Lin David, Cohen Freue Gabriela, Hollander Zsuzsanna, et al.
+  tag: Original Research
+  lead: true
+  citations: 33
+  date: '2013-06-21'
+- year: 2013
+  title: 'MicroRNA expression in response to controlled exposure to diesel exhaust: attenuation by the antioxidant N-acetylcysteine in a randomized crossover study'
+  journal: Environmental health perspectives
+  doi: 10.1289/ehp.1205963
+  link: https://doi.org/10.1289/ehp.1205963
+  authors: Yamamoto M, Singh A, Sava F, Pui M, Tebbutt SJ, Carlsten C
+  display_authors: Yamamoto M, Singh A, Sava F, et al.
+  tag: Original Research
+  lead: false
+  citations: 102
+  date: '2013-04-12'
+- year: 2013
+  title: 'Computational Biomarker Pipeline from Discovery to Clinical Implementation: Plasma Proteomic Biomarkers for Cardiac Transplantation'
+  journal: PLoS Computational Biology
+  doi: 10.1371/journal.pcbi.1002963
+  link: https://doi.org/10.1371/journal.pcbi.1002963
+  authors: Cohen Freue Gabriela V., Meredith Anna, Smith Derek, Bergman Axel, Sasaki Mayu, Lam Karen K. Y., Hollander Zsuzsanna, Opushneva Nina, Takhar Mandeep, Lin David, Wilson-McManus Janet, Balshaw Robert, Keown Paul A., Borchers Christoph H., McManus Bruce, Ng Raymond T., McMaster W. Robert, for the Biomarkers in Transplantation and the NCE CECR Prevention of Organ Failure Centre of Excellence Teams
+  display_authors: Cohen Freue Gabriela V., Meredith Anna, Smith Derek, et al.
+  tag: Original Research
+  lead: false
+  citations: 42
+  date: '2013-04-04'
+- year: 2013
+  title: The biomarker plasma galectin-3 in advanced heart failure and survival with mechanical circulatory support devices
+  journal: The Journal of Heart and Lung Transplantation
+  doi: 10.1016/j.healun.2012.11.011
+  link: https://doi.org/10.1016/j.healun.2012.11.011
+  authors: Erkilet Gülsüm, Özpeker Cenk, Böthig Dietmar, Kramer Frank, Röfe Daniela, Bohms Birte, Morshuis Michiel, Gummert Jan, Milting Hendrik
+  display_authors: Erkilet Gülsüm, Özpeker Cenk, Böthig Dietmar, et al.
+  tag: Original Research
+  lead: false
+  citations: 26
+  date: '2013-01-24'
+- year: 2012
+  title: A computational pipeline for the development of multi-marker bio-signature panels and ensemble classifiers
+  journal: BMC Bioinformatics
+  doi: 10.1186/1471-2105-13-326
+  link: https://doi.org/10.1186/1471-2105-13-326
+  authors: Günther Oliver P, Chen Virginia, Freue Gabriela Cohen, Balshaw Robert F, Tebbutt Scott J, Hollander Zsuzsanna, Takhar Mandeep, McMaster W Robert, McManus Bruce M, Keown Paul A, Ng Raymond T
+  display_authors: Günther Oliver P, Chen Virginia, Freue Gabriela Cohen, et al.
+  tag: Original Research
+  lead: true
+  citations: 46
+  date: '2012-12-01'
+- year: 2012
+  title: Decreased miR-192 expression in peripheral blood of asthmatic individuals undergoing an allergen inhalation challenge
+  journal: BMC Genomics
+  doi: 10.1186/1471-2164-13-655
+  link: https://doi.org/10.1186/1471-2164-13-655
+  authors: Yamamoto Masatsugu, Singh Amrit, Ruan Jian, Gauvreau Gail M, O'Byrne Paul M, R Carlsten Christopher, FitzGerald J Mark, Boulet Louis-Philippe, Tebbutt Scott J
+  display_authors: Yamamoto Masatsugu, Singh Amrit, Ruan Jian, et al.
+  tag: Original Research
+  lead: true
+  citations: 47
+  date: '2012-11-21'
+- year: 2012
+  title: 'Future Impact of Various Interventions on the Burden of COPD in Canada: A Dynamic Population Model'
+  journal: PLoS ONE
+  doi: 10.1371/journal.pone.0046746
+  link: https://doi.org/10.1371/journal.pone.0046746
+  authors: Najafzadeh Mehdi, Marra Carlo A., Lynd Larry D., Sadatsafavi Mohsen, FitzGerald J. Mark, McManus Bruce, Sin Don
+  display_authors: Najafzadeh Mehdi, Marra Carlo A., Lynd Larry D., et al.
+  tag: Original Research
+  lead: false
+  citations: 38
+  date: '2012-10-11'
+- year: 2012
+  title: Plasma proteomics can discriminate isolated early from dual responses in asthmatic individuals undergoing an allergen inhalation challenge
+  journal: PROTEOMICS – Clinical Applications
+  doi: 10.1002/prca.201200013
+  link: https://doi.org/10.1002/prca.201200013
+  authors: Singh Amrit, Cohen Freue Gabriela V., Oosthuizen Jean L., Kam Sarah H. Y., Ruan Jian, Takhar Mandeep K., Gauvreau Gail M., O'Byrne Paul M., FitzGerald J. Mark, Boulet Louis‐Philippe, Borchers Christoph H., Tebbutt Scott J.
+  display_authors: Singh Amrit, Cohen Freue Gabriela V., Oosthuizen Jean L., et al.
+  tag: Original Research
+  lead: true
+  citations: 11
+  date: '2012-08-28'
+- year: 2012
+  title: MRM-based multiplexed quantitation of 67 putative cardiovascular disease biomarkers in human plasma
+  journal: Proteomics
+  doi: 10.1002/pmic.201100568
+  link: https://doi.org/10.1002/pmic.201100568
+  authors: Domanski D, Percy AJ, Yang J, Chambers AG, Hill JS, Freue GV, Borchers CH
+  display_authors: Domanski D, Percy AJ, Yang J, et al.
+  tag: Original Research
+  lead: false
+  citations: 204
+  date: '2012-04-01'
+- year: 2012
+  title: Peripheral Blood Gene Expression Changes during Allergen Inhalation Challenge in Atopic Asthmatic Individuals
+  journal: Journal of Asthma
+  doi: 10.3109/02770903.2011.654300
+  link: https://doi.org/10.3109/02770903.2011.654300
+  authors: Kam Sarah H. Y., Singh Amrit, He Jian-Qing, Ruan Jian, Gauvreau Gail M., O’Byrne Paul M., Fitzgerald J. Mark, Tebbutt Scott J.
+  display_authors: Kam Sarah H. Y., Singh Amrit, He Jian-Qing, et al.
+  tag: Original Research
+  lead: true
+  citations: 18
+  date: '2012-02-09'
+- year: 2012
+  title: Transcriptional Changes of Blood Eosinophils after Methacholine Inhalation Challenge in Asthmatics
+  journal: Genomics Insights
+  doi: 10.4137/gei.s9125
+  link: https://doi.org/10.4137/gei.s9125
+  authors: Tebbutt Scott J., He Jian-Qing, Singh Amrit, Shannon Casey P., Ruan Jian, Carlsten Chris
+  display_authors: Tebbutt Scott J., He Jian-Qing, Singh Amrit, et al.
+  tag: Original Research
+  lead: true
+  citations: 4
+  date: '2012-01-01'
+- year: 2012
+  title: White Blood Cell Differentials Enrich Whole Blood Expression Data in the Context of Acute Cardiac Allograft Rejection
+  journal: Bioinformatics and Biology Insights
+  doi: 10.4137/bbi.s9197
+  link: https://doi.org/10.4137/bbi.s9197
+  authors: Shannon Casey P., Hollander Zsuzsanna, Wilson-Mcmanus Janet, Balshaw Robert, Ng Raymond T., Mcmaster Robert, Mcmanus Bruce M., Keown Paul A., Tebbutt Scott J.
+  display_authors: Shannon Casey P., Hollander Zsuzsanna, Wilson-Mcmanus Janet, et al.
+  tag: Original Research
+  lead: true
+  citations: 10
+  date: '2012-01-01'
+- year: 2012
+  title: The use of multiplexed MRM for the discovery of biomarkers to differentiate iron-deficiency anemia from anemia of inflammation
+  journal: Journal of Proteomics
+  doi: 10.1016/j.jprot.2011.11.022
+  link: https://doi.org/10.1016/j.jprot.2011.11.022
+  authors: Domanski Dominik, Cohen Freue Gabriela V., Sojo Luis, Kuzyk Michael A., Ratkay Leslie, Parker Carol E., Goldberg Y. Paul, Borchers Christoph H.
+  display_authors: Domanski Dominik, Cohen Freue Gabriela V., Sojo Luis, et al.
+  tag: Original Research
+  lead: false
+  citations: 18
+  date: '2011-12-02'
+- year: 2011
+  title: Molecular Signatures of End-Stage Heart Failure
+  journal: Journal of Cardiac Failure
+  doi: 10.1016/j.cardfail.2011.07.001
+  link: https://doi.org/10.1016/j.cardfail.2011.07.001
+  authors: Lin David, Hollander Zsuzsanna, Meredith Anna, Stadnick Ellamae, Sasaki Mayu, Cohen Freue Gabriela, Qasimi Pooran, Mui Alice, Ng Raymond T., Balshaw Robert, Wilson-McManus Janet E., Wishart David, Hau David, Keown Paul A., McMaster Robert, McManus Bruce M.
+  display_authors: Lin David, Hollander Zsuzsanna, Meredith Anna, et al.
+  tag: Original Research
+  lead: true
+  citations: 32
+  date: '2011-09-07'
+- year: 2011
+  title: High-flow multiplexed MRM-based analysis of proteins in human plasma without depletion or enrichment
+  journal: Clinics in laboratory medicine
+  doi: 10.1016/j.cll.2011.07.005
+  link: https://doi.org/10.1016/j.cll.2011.07.005
+  authors: Domanski D, Smith DS, Miller CA, Yang Y, Jackson AM, Cohen Freue G, Hill JS, Parker CE, Borchers CH
+  display_authors: Domanski D, Smith DS, Miller CA, et al.
+  tag: Original Research
+  lead: false
+  citations: 14
+  date: '2011-09-01'
+- year: 2011
+  title: 'Case Study 2: Proteomic Biomarkers for Disease Status'
+  journal: The Canadian Journal of Statistics
+  doi: 10.1002/cjs.10102
+  link: https://doi.org/10.1002/cjs.10102
+  authors: Balshaw RF, Cohen Freue GV
+  display_authors: Balshaw RF, Cohen Freue GV
+  tag: Original Research
+  lead: false
+  citations: 2
+  date: '2011-05-23'
+- year: 2011
+  title: Wnt3a Induces Myofibroblast Differentiation by Upregulating TGF-β Signaling Through SMAD2 in a β-Catenin-Dependent Manner
+  journal: PLoS ONE
+  doi: 10.1371/journal.pone.0019809
+  link: https://doi.org/10.1371/journal.pone.0019809
+  authors: Carthy Jon M., Garmaroudi Farshid S., Luo Zongshu, McManus Bruce M.
+  display_authors: Carthy Jon M., Garmaroudi Farshid S., Luo Zongshu, et al.
+  tag: Original Research
+  lead: true
+  citations: 173
+  date: '2011-05-18'
+- year: 2011
+  title: The Human Serum Metabolome
+  journal: PLoS ONE
+  doi: 10.1371/journal.pone.0016957
+  link: https://doi.org/10.1371/journal.pone.0016957
+  authors: Psychogios Nikolaos, Hau David D., Peng Jun, Guo An Chi, Mandal Rupasri, Bouatra Souhaila, Sinelnikov Igor, Krishnamurthy Ramanarayan, Eisner Roman, Gautam Bijaya, Young Nelson, Xia Jianguo, Knox Craig, Dong Edison, Huang Paul, Hollander Zsuzsanna, Pedersen Theresa L., Smith Steven R., Bamforth Fiona, Greiner Russ, McManus Bruce, Newman John W., Goodfriend Theodore, Wishart David S.
+  display_authors: Psychogios Nikolaos, Hau David D., Peng Jun, et al.
+  tag: Original Research
+  lead: false
+  citations: 1735
+  date: '2011-02-16'
+- year: 2011
+  title: 'Case Study: Applied semantic knowledgebase for detection of patients at risk of organ failure through immune rejection'
+  journal: World Wide Web Consortium (W3C)
+  doi: View Article
+  link: http://www.w3.org/2001/sw/sweo/public/UseCases/IOInformatics/
+  authors: Stanley R, McManus B, Ng R, Gombocz E, Eshleman J, Rockey C
+  display_authors: Stanley R, McManus B, Ng R, et al.
+  tag: Original Research
+  lead: false
+  citations: 0
+  date: '2011-01-01'
+- year: 2011
+  title: Effects of Sample Timing and Treatment on Gene Expression in Early Acute Renal Allograft Rejection
+  journal: Transplantation
+  doi: 10.1097/tp.0b013e3182029b16
+  link: https://doi.org/10.1097/tp.0b013e3182029b16
+  authors: Günther Oliver P., Lin David, Balshaw Robert F., Ng Raymond T., Hollander Zsuzsanna, Wilson-McManus Janet, McMaster W. Robert, McManus Bruce M., Keown Paul A.
+  display_authors: Günther Oliver P., Lin David, Balshaw Robert F., et al.
+  tag: Original Research
+  lead: true
+  citations: 8
+  date: '2010-11-25'
+- year: 2010
+  title: 'Whole Blood Biomarkers of Acute Cardiac Allograft Rejection: Double-Crossing the Biopsy'
+  journal: Transplantation
+  doi: 10.1097/tp.0b013e3182003df6
+  link: https://doi.org/10.1097/tp.0b013e3182003df6
+  authors: Hollander Zsuzsanna, Lin David, Chen Virginia, Ng Raymond, Wilson-McManus Janet, Ignaszewski Andrew, Cohen Freue Gabriela, Balshaw Rob, Mui Alice, McMaster Robert, Keown Paul A., McManus Bruce M.
+  display_authors: Hollander Zsuzsanna, Lin David, Chen Virginia, et al.
+  tag: Original Research
+  lead: true
+  citations: 27
+  date: '2010-11-13'
+- year: 2010
+  title: Proteomic Signatures in Plasma during Early Acute Renal Allograft Rejection
+  journal: Molecular &amp; Cellular Proteomics
+  doi: 10.1074/mcp.m110.000554
+  link: https://doi.org/10.1074/mcp.m110.000554
+  authors: Freue Gabriela V. Cohen, Sasaki Mayu, Meredith Anna, Günther Oliver P., Bergman Axel, Takhar Mandeep, Mui Alice, Balshaw Robert F., Ng Raymond T., Opushneva Nina, Hollander Zsuzsanna, Li Guiyun, Borchers Christoph H., Wilson-McManus Janet, McManus Bruce M., Keown Paul A., McMaster W. Robert
+  display_authors: Freue Gabriela V. Cohen, Sasaki Mayu, Meredith Anna, et al.
+  tag: Original Research
+  lead: false
+  citations: 93
+  date: '2010-05-25'
+- year: 2010
+  title: 'Ethics of Biomarkers: the Borders of Investigative Research, Informed Consent, and Patient Protection'
+  journal: Pharmaceutical Sciences Encyclopedia
+  doi: 10.1002/9780470571224.pse286
+  link: https://doi.org/10.1002/9780470571224.pse286
+  authors: Walmsley Heather, Burgess Michael, Brinkman Jacquelyn, Hegele Richard, Wilson‐McManus Janet, McManus Bruce
+  display_authors: Walmsley Heather, Burgess Michael, Brinkman Jacquelyn, et al.
+  tag: Original Research
+  lead: true
+  citations: 0
+  date: '2010-03-10'
+- year: 2010
+  title: Tools to Identify Organ Rejection and Immune Quiescence for Biological Understanding and Personalized Medical Care
+  journal: Biomarkers in Medicine
+  doi: 10.2217/bmm.09.73
+  link: https://doi.org/10.2217/bmm.09.73
+  authors: Keown Paul A, McMaster W Robert, McManus Bruce M
+  display_authors: Keown Paul A, McMaster W Robert, McManus Bruce M
+  tag: Original Research
+  lead: true
+  citations: 5
+  date: '2010-02-01'
+- year: 2009
+  title: Functional Genomic Analysis of Peripheral Blood During Early Acute Renal Allograft Rejection
+  journal: Transplantation
+  doi: 10.1097/tp.0b013e3181b7ccc6
+  link: https://doi.org/10.1097/tp.0b013e3181b7ccc6
+  authors: Günther Oliver P., Balshaw Robert F., Scherer Andreas, Hollander Zsuzsanna, Mui Alice, Triche Timothy J., Freue Gabriela Cohen, Li Guiyun, Ng Raymond T., Wilson-McManus Janet, McMaster W Robert, McManus Bruce M., Keown Paul A.
+  display_authors: Günther Oliver P., Balshaw Robert F., Scherer Andreas, et al.
+  tag: Original Research
+  lead: true
+  citations: 34
+  date: '2009-10-02'
+- year: 2009
+  title: Searching for 'omic' biomarkers
+  journal: The Canadian journal of cardiology
+  doi: 10.1016/s0828-282x(09)71048-7
+  link: https://doi.org/10.1016/s0828-282x(09)71048-7
+  authors: Lin D, Hollander Z, Meredith A, McManus BM
+  display_authors: Lin D, Hollander Z, Meredith A, et al.
+  tag: Original Research
+  lead: true
+  citations: 17
+  date: '2009-06-01'
+- year: 2009
+  title: A Matched Cohort Pharmacoepidemiological Analysis of Steroid Free Immunosuppression in Renal Transplantation
+  journal: Transplantation
+  doi: 10.1097/tp.0b013e318195aa54
+  link: https://doi.org/10.1097/tp.0b013e318195aa54
+  authors: Barraclough Katherine A., Landsberg David N., Shapiro R Jean, Gill John S., Li Guiyun, Balshaw Robert F., Chailimpamontree Worawon, Keown Paul A.
+  display_authors: Barraclough Katherine A., Landsberg David N., Shapiro R Jean, et al.
+  tag: Original Research
+  lead: true
+  citations: 5
+  date: '2009-03-15'
+- year: 2009
+  title: Probabilistic Modeling of Cytomegalovirus Infection Under Consensus Clinical Management Guidelines
+  journal: Transplantation
+  doi: 10.1097/tp.0b013e3181949e09
+  link: https://doi.org/10.1097/tp.0b013e3181949e09
+  authors: Dmitrienko Svetlana, Balshaw Robert, Machnicki Gerardo, Shapiro R Jean, Keown Paul A.
+  display_authors: Dmitrienko Svetlana, Balshaw Robert, Machnicki Gerardo, et al.
+  tag: Original Research
+  lead: true
+  citations: 12
+  date: '2009-02-27'
+- year: 2009
+  title: Probability, Predictors, and Prognosis of Posttransplantation Glomerulonephritis
+  journal: Journal of the American Society of Nephrology
+  doi: 10.1681/asn.2008050454
+  link: https://doi.org/10.1681/asn.2008050454
+  authors: Chailimpamontree Worawon, Dmitrienko Svetlana, Li Guiyun, Balshaw Robert, Magil Alexander, Shapiro R. Jean, Landsberg David, Gill John, Keown Paul A.
+  display_authors: Chailimpamontree Worawon, Dmitrienko Svetlana, Li Guiyun, et al.
+  tag: Original Research
+  lead: true
+  citations: 73
+  date: '2009-02-04'
 - year: 2008
   title: Searching for better biomarkers of heart risk and disease
   journal: Current Cardiovascular Risk Reports
@@ -1725,15 +2065,19 @@ archive:
   display_authors: McManus Bruce
   tag: Original Research
   lead: true
-- year: 2007
-  title: Global gene expression in Leishmania
-  journal: International Journal for Parasitology
-  doi: 10.1016/j.ijpara.2007.04.011
-  link: https://doi.org/10.1016/j.ijpara.2007.04.011
-  authors: Cohen-Freue Gabriela, Holzer Timothy R., Forney James D., McMaster W. Robert
-  display_authors: Cohen-Freue Gabriela, Holzer Timothy R., Forney James D., et al.
+  citations: 0
+  date: '2008-03-01'
+- year: 2008
+  title: '93: Whole Blood Genomic Biomarkers of Acute Heart Allograft Rejection'
+  journal: The Journal of Heart and Lung Transplantation
+  doi: 10.1016/j.healun.2007.11.098
+  link: https://doi.org/10.1016/j.healun.2007.11.098
+  authors: Hollander Z., Lin D., Balshaw R., Ng R., Qasimi P., Cohen Freue G., Wilson-McManus J., Mui A., McMaster R., Keown P., McManus B.
+  display_authors: Hollander Z., Lin D., Balshaw R., et al.
   tag: Original Research
-  lead: false
+  lead: true
+  citations: 0
+  date: '2008-01-28'
 - year: 2007
   title: 'MDQC: a new quality assessment method for microarrays based on quality control reports'
   journal: Bioinformatics
@@ -1743,6 +2087,19 @@ archive:
   display_authors: Cohen Freue Gabriela V., Hollander Zsuzsanna, Shen Enqing, et al.
   tag: Original Research
   lead: true
+  citations: 44
+  date: '2007-10-12'
+- year: 2008
+  title: 'Biomarkers in newly diagnosed pediatric-extensive chronic graft-versus-host disease: a report from the Children''s Oncology Group'
+  journal: Blood
+  doi: 10.1182/blood-2007-08-106286
+  link: https://doi.org/10.1182/blood-2007-08-106286
+  authors: Fujii Hisaki, Cuvelier Geoff, She Kevin, Aslanian Soudabeh, Shimizu Hiromi, Kariminia Amina, Krailo Mark, Chen Zhengjia, McMaster Rob, Bergman Axel, Goldman Frederick, Grupp Stephen A., Wall Donna A., Gilman Andrew L., Schultz Kirk R.
+  display_authors: Fujii Hisaki, Cuvelier Geoff, She Kevin, et al.
+  tag: Original Research
+  lead: false
+  citations: 146
+  date: '2007-10-09'
 - year: 2007
   title: The use of consensus guidelines for management of cytomegalovirus infection in renal transplantation
   journal: Kidney international
@@ -1752,51 +2109,19 @@ archive:
   display_authors: Dmitrienko S, Yu A, Balshaw R, et al.
   tag: Original Research
   lead: false
-- year: 2006
-  title: Allograft Vasculopathy Versus Atherosclerosis
-  journal: Circulation Research
-  doi: 10.1161/01.res.0000246086.93555.f3
-  link: https://doi.org/10.1161/01.res.0000246086.93555.f3
-  authors: Rahmani Maziar, Cruz Rani P., Granville David J., McManus Bruce M.
-  display_authors: Rahmani Maziar, Cruz Rani P., Granville David J., et al.
-  tag: Original Research
-  lead: true
-- year: 2006
-  title: 'Biomarkers in transplantation: Prospective, blinded measurement of predictive value for the flow cytometry crossmatch after negative antiglobulin crossmatch in kidney transplantation'
-  journal: Kidney International
-  doi: 10.1038/sj.ki.5001785
-  link: https://doi.org/10.1038/sj.ki.5001785
-  authors: Wen R., Wu V., Dmitrienko S., Yu A., Balshaw R., Keown P.A.
-  display_authors: Wen R., Wu V., Dmitrienko S., et al.
-  tag: Original Research
-  lead: true
-- year: 2006
-  title: The Life Sciences Semantic Web is Full of Creeps!
-  journal: Briefings in Bioinformatics
-  doi: 10.1093/bib/bbl025
-  link: https://doi.org/10.1093/bib/bbl025
-  authors: Good B. M.
-  display_authors: Good B. M.
+  citations: 20
+  date: '2007-08-15'
+- year: 2007
+  title: Global gene expression in Leishmania
+  journal: International Journal for Parasitology
+  doi: 10.1016/j.ijpara.2007.04.011
+  link: https://doi.org/10.1016/j.ijpara.2007.04.011
+  authors: Cohen-Freue Gabriela, Holzer Timothy R., Forney James D., McMaster W. Robert
+  display_authors: Cohen-Freue Gabriela, Holzer Timothy R., Forney James D., et al.
   tag: Original Research
   lead: false
-- year: 2006
-  title: The major surface‐metalloprotease of the parasitic protozoan, Leishmania, protects against antimicrobial peptide‐induced apoptotic killing
-  journal: Molecular Microbiology
-  doi: 10.1111/j.1365-2958.2006.05459.x
-  link: https://doi.org/10.1111/j.1365-2958.2006.05459.x
-  authors: Kulkarni Manjusha M., McMaster W. Robert, Kamysz Elzbieta, Kamysz Wojciech, Engman David M., McGwire Bradford S.
-  display_authors: Kulkarni Manjusha M., McMaster W. Robert, Kamysz Elzbieta, et al.
-  tag: Original Research
-  lead: false
-- year: 2006
-  title: 'Versican: signaling to transcriptional control pathways'
-  journal: Canadian Journal of Physiology and Pharmacology
-  doi: 10.1139/y05-154
-  link: https://doi.org/10.1139/y05-154
-  authors: Rahmani Maziar, Wong Brian W., Ang Lisa, Cheung Caroline C., Carthy Jon M., Walinski Hubert, McManus Bruce M.
-  display_authors: Rahmani Maziar, Wong Brian W., Ang Lisa, et al.
-  tag: Original Research
-  lead: true
+  citations: 123
+  date: '2007-05-09'
 - year: 2006
   title: 'iHOPerator: user-scripting a personalized bioinformatics Web, starting with the iHOP website'
   journal: BMC Bioinformatics
@@ -1806,3 +2131,60 @@ archive:
   display_authors: Good Benjamin M, Kawas Edward A, Kuo Byron Yu-Lin, et al.
   tag: Original Research
   lead: false
+  citations: 19
+  date: '2006-12-01'
+- year: 2006
+  title: The major surface‐metalloprotease of the parasitic protozoan, Leishmania, protects against antimicrobial peptide‐induced apoptotic killing
+  journal: Molecular Microbiology
+  doi: 10.1111/j.1365-2958.2006.05459.x
+  link: https://doi.org/10.1111/j.1365-2958.2006.05459.x
+  authors: Kulkarni Manjusha M., McMaster W. Robert, Kamysz Elzbieta, Kamysz Wojciech, Engman David M., McGwire Bradford S.
+  display_authors: Kulkarni Manjusha M., McMaster W. Robert, Kamysz Elzbieta, et al.
+  tag: Original Research
+  lead: false
+  citations: 106
+  date: '2006-10-26'
+- year: 2006
+  title: Allograft Vasculopathy Versus Atherosclerosis
+  journal: Circulation Research
+  doi: 10.1161/01.res.0000246086.93555.f3
+  link: https://doi.org/10.1161/01.res.0000246086.93555.f3
+  authors: Rahmani Maziar, Cruz Rani P., Granville David J., McManus Bruce M.
+  display_authors: Rahmani Maziar, Cruz Rani P., Granville David J., et al.
+  tag: Original Research
+  lead: true
+  citations: 346
+  date: '2006-10-12'
+- year: 2006
+  title: 'Biomarkers in transplantation: Prospective, blinded measurement of predictive value for the flow cytometry crossmatch after negative antiglobulin crossmatch in kidney transplantation'
+  journal: Kidney International
+  doi: 10.1038/sj.ki.5001785
+  link: https://doi.org/10.1038/sj.ki.5001785
+  authors: Wen R., Wu V., Dmitrienko S., Yu A., Balshaw R., Keown P.A.
+  display_authors: Wen R., Wu V., Dmitrienko S., et al.
+  tag: Original Research
+  lead: true
+  citations: 27
+  date: '2006-08-30'
+- year: 2006
+  title: The Life Sciences Semantic Web is Full of Creeps!
+  journal: Briefings in Bioinformatics
+  doi: 10.1093/bib/bbl025
+  link: https://doi.org/10.1093/bib/bbl025
+  authors: Good B. M.
+  display_authors: Good B. M.
+  tag: Original Research
+  lead: false
+  citations: 89
+  date: '2006-05-23'
+- year: 2006
+  title: 'Versican: signaling to transcriptional control pathways'
+  journal: Canadian Journal of Physiology and Pharmacology
+  doi: 10.1139/y05-154
+  link: https://doi.org/10.1139/y05-154
+  authors: Rahmani Maziar, Wong Brian W., Ang Lisa, Cheung Caroline C., Carthy Jon M., Walinski Hubert, McManus Bruce M.
+  display_authors: Rahmani Maziar, Wong Brian W., Ang Lisa, et al.
+  tag: Original Research
+  lead: true
+  citations: 106
+  date: '2006-01-01'
