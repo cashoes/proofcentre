@@ -1,11 +1,7 @@
 - id: "01"
   title: "I. HEART"
   icon: "cardiology"
-  description: "Development, multi-centre clinical validation, and translation of non-invasive blood-based transcriptomic signatures (HEARTBiT) to replace invasive endomyocardial biopsies for exclusionary diagnosis of acute cellular rejection in heart transplant recipients."
-  bullets:
-    - "HEARTBiT: Blood-based multi-gene expression profiling assay"
-    - "Proven high negative predictive value for non-invasive clinical triage"
-    - "Translational pipeline extending long-term allograft survival and patient safety"
+  description: "Developing and clinically validating non-invasive blood transcriptomic assays (HEARTBiT) to replace invasive biopsies for heart transplant rejection."
   publications:
     - title: "Acute cellular rejection after heart transplantation: validation of HEARTBiT, a transcriptomic biomarker"
       authors: "Shannon CP, Yang C, Assadian S, Lai CK, Lam L, Seidman MA, Hyden MP, Espin E, Rajasekaran A, Ross HJ, Balshaw RB, Ng RT, McManus BM, Tebbutt SJ."
@@ -23,11 +19,7 @@
 - id: "02"
   title: "II. LUNG"
   icon: "pulmonology"
-  description: "Transcriptomic profiling, biomarker discovery, and clinical classification in chronic respiratory diseases, distinguishing responder phenotypes in allergen challenge models and mapping disease progression in interstitial lung diseases."
-  bullets:
-    - "Predictive transcriptomic panels for Early Responder (ER) vs. Dual Responder (DR) asthma endotypes"
-    - "Systematic review and meta-analysis mapping global interstitial lung disease (ILD) transcriptomics"
-    - "Non-invasive biomarker signatures for airway disease stratification"
+  description: "Biomarker discovery and molecular phenotyping in asthma responder endotypes and chronic interstitial lung diseases."
   publications:
     - title: "Transcriptomics of Interstitial Lung Disease: A Systematic Review and Meta-Analysis"
       authors: "He D, Guler SA, Shannon CP, Ryerson CJ, Tebbutt SJ."
@@ -45,11 +37,7 @@
 - id: "03"
   title: "III. Infection & Immunity"
   icon: "biotech"
-  description: "Comprehensive molecular phenotyping of host immune responses, acute viral infections, post-infectious inflammatory disorders (Long COVID), developmental neonatal immunology, and early-life vaccine immunogenicity."
-  bullets:
-    - "Interferon treatment response dynamics in acute viral (COVID-19) infection"
-    - "Cellular and molecular biomarker synthesis for Long COVID diagnosis and tracking"
-    - "Pioneering micro-volume whole-blood (<1 mL) profiling of early-life developmental immune trajectories"
+  description: "Host immune profiling across acute viral infections, Long COVID inflammatory signatures, and early-life developmental immunology."
   publications:
     - title: "Cellular and molecular biomarkers of long COVID: a scoping review"
       authors: "Espín E, Yang C, Shannon CP, Assadian S, He D, Tebbutt SJ."
@@ -73,11 +61,7 @@
 - id: "04"
   title: "IV. Multi-omics & Systems Biology"
   icon: "hub"
-  description: "Statistical frameworks, machine learning models, and integrative bioinformatics algorithms designed to discover robust multi-marker signatures and key molecular drivers across transcriptomic, proteomic, and clinical datasets."
-  bullets:
-    - "DIABLO / mixOmics multi-block biomarker discovery frameworks"
-    - "Integration of multi-assay high-dimensional biological data"
-    - "Cell-type deconvolution and multi-omic data harmonization"
+  description: "Machine learning and integrative bioinformatics frameworks (DIABLO) for multi-omic biomarker discovery and dataset harmonization."
   publications:
     - title: "DIABLO: An Integrative Approach for Identifying Key Molecular Drivers from Multi-Omic Assays and Its Application in Systemic Lupus Erythematosus and TCGA"
       authors: "Singh A, Shannon CP, Gautier B, Rohart F, Vacher M, Tebbutt SJ, Lê Cao K-A."
