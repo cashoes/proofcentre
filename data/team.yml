@@ -25,24 +25,33 @@ core:
 
   - name: "Dr. Chengliang Yang"
     role: "Research Associate"
-    mini_bio: "Specializes in transplant immunology, single-cell genomics, cardiac allograft rejection, and post-infectious inflammatory disease mechanisms."
-    bio: ""
+    mini_bio: "Specializes in Ex Vivo Lung Perfusion (EVLP) and multi-omic profiling to develop non-invasive biomarkers for heart and lung transplantation and Long COVID."
+    bio: >-
+      Dr. Chengliang Yang, MD, MSc, is a Transplant Scientist and Ex Vivo Lung Perfusion (EVLP) Specialist at the PROOF Centre and the Centre for Heart Lung Innovation (HLI), UBC. Working at the intersection of organ transplantation, immunology, and multi-omics, he develops and validates non-invasive blood biomarkers to improve diagnosis and risk assessment in heart and lung transplantation, as well as Long COVID. He completed his postdoctoral fellowship and EVLP specialist training at the Latner Thoracic Surgery Research Laboratories and Toronto Lung Transplant Program (UHN/University of Toronto). Dr. Yang is also a Senior Collaborator in the Global Burden of Disease (GBD) network.
+    original_bio: >-
+      Chengliang Yang, MD, MSc, is a Transplant Scientist and Ex Vivo Lung Perfusion (EVLP) Specialist working at the interface of organ transplantation, immunology, and multi-omics. His work is driven by a passion for evidence generation, multidisciplinary collaboration, and improving patient outcomes. He focuses on leveraging multi-omics approaches to develop and validate noninvasive biomarkers that can improve diagnosis, refine risk assessment, and inform clinical decision-making in heart and lung transplantation. His research also extends to biomarker discovery and translational studies in post-COVID-19 condition (long COVID). Dr. Yang is an active Senior Collaborator in the Global Burden of Disease (GBD) Collaborator Network, contributing to studies of global circulatory and respiratory health. Through this work, he supports the generation of timely, policy-relevant, and scientifically rigorous evidence to strengthen health systems and improve population health worldwide. Dr. Yang completed his postdoctoral fellowship and trained as an EVLP Specialist at the Latner Thoracic Surgery Research Laboratories and the Toronto Lung Transplant Program at University Health Network, University of Toronto. He is currently a Research Associate at the Prevention of Organ Failure (PROOF) Centre and the Centre for Heart Lung Innovation (HLI) at St. Paul’s Hospital, University of British Columbia. Personal note: Outside of work, he enjoys hiking, backpacking, trail running, and swimming.
     orcid: ""
     avatar: "👨‍🔬"
     image: ""
 
   - name: "Dr. Abhinav Checkervarty"
     role: "Post-doctoral Fellow"
-    mini_bio: "Focuses on early-life neonatal immunology, micro-volume whole-blood profiling, sickle cell trait, and vaccine response dynamics."
-    bio: ""
+    mini_bio: "Builds multi-omic computational pipelines and statistical models that translate raw sequencing data into biomarkers across diverse clinical indications, including vaccine response, sickle cell trait, and transplant rejection."
+    bio: >-
+      Dr. Abhinav K. Checkervarty is a Postdoctoral Research Fellow at the PROOF Centre of Excellence. He builds computational pipelines and statistical models that integrate high-dimensional clinical cohort data—including raw sequencing, transcriptomics, proteomics, metabolomics, cytokines, and epigenetics—into candidate biomarkers. His translational research spans diverse clinical indications, including vaccine response dynamics, infectious diseases, sickle cell trait, and solid organ transplant rejection. He earned his PhD in Experimental Medicine from the University of British Columbia and holds an MSc in Systems Biology and Bioinformatics.
+    original_bio: >-
+      Abhinav K. Checkervarty is a postdoctoral research fellow at the PROOF Centre of Excellence. He works on raw sequencing data, multi-omics integration and machine learning applied to clinical cohorts, building the pipelines and statistical models that turn high-dimensional molecular data such as transcriptomics, proteomics, metabolomics, cytokines and epigenetics into candidate biomarkers. His research spans vaccine response, infectious disease, rare disease including sickle cell trait, and transplant rejection. He completed his PhD in Experimental Medicine at UBC and holds an MSc in Systems Biology and Bioinformatics.
     orcid: ""
     avatar: "👨‍🎓"
     image: ""
 
-  - name: "Estefania Espín"
+  - name: "Estefanía Espín"
     role: "PhD Candidate"
-    mini_bio: "Focuses on Long COVID molecular signatures, systematic biomarker scoping reviews, and immune-metabolic phenotyping."
-    bio: ""
+    mini_bio: "Investigates Long COVID heterogeneity by bridging qualitative patient and clinician insights with high-dimensional transcriptomic and metabolomic biomarker discovery and clinical validation."
+    bio: >-
+      Estefanía Espín Armas is a PhD Candidate in Experimental Medicine at the University of British Columbia under Dr. Scott Tebbutt at the Centre for Heart Lung Innovation. Bringing over a decade of biomedical research experience—including five years as a university lecturer in Medical Genetics and Cellular Biology in Ecuador—her doctoral research addresses the clinical and molecular heterogeneity of Long COVID. Her interdisciplinary approach combines qualitative insights from patients and healthcare professionals with transcriptomic and metabolomic biomarker discovery. She holds a Master’s in Biomedical Biotechnology with distinction from the Polytechnic University of Valencia.
+    original_bio: >-
+      Estefanía Espín Armas is a PhD Candidate in Experimental Medicine at the University of British Columbia, conducting her research under the supervision of Dr. Scott J. Tebbutt at the Centre for Heart Lung Innovation at St. Paul’s Hospital. She holds a Bachelor’s degree in Biotechnology from the University of the Armed Forces–ESPE, Ecuador, and a Master’s degree in Biomedical Biotechnology, completed with distinction at the Polytechnic University of Valencia, Spain. Estefanía has over 10 years of experience in biomedical and health research, including academic, public health, and laboratory research. From 2016 to 2021, she was a Lecturer in the Faculty of Medicine at the University of the Americas in Ecuador, where she taught Medical Genetics and Molecular and Cellular Biology. Her doctoral research focuses on developing biomarkers to better understand the molecular and clinical heterogeneity of Long COVID and improve its diagnosis and characterization. Her interdisciplinary research combines scoping and qualitative research, patient and healthcare professional perspectives, and transcriptomic and metabolomic approaches to biomarker discovery and validation. Through her research training at the PROOF Centre and the University of British Columbia, she is further developing expertise in bioinformatics, statistical analysis, and data-driven approaches to biomarker development.
     orcid: ""
     avatar: "👩‍🎓"
     image: "images/headshots/estefania.jpg"
