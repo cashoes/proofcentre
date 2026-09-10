@@ -135,10 +135,7 @@
       {{ with .Params.capabilities }}
       <div class="mt-14 sm:mt-16 pt-8 border-t border-outline-variant/30">
         <div class="mb-6 space-y-1">
-          <div class="flex items-center gap-2">
-            <span class="w-2 h-2 rounded-full bg-vitality-lime shrink-0"></span>
-            <h3 class="text-xs font-bold text-primary uppercase tracking-widest">{{ .title }}</h3>
-          </div>
+          <h3 class="text-xs font-bold text-primary uppercase tracking-widest">{{ .title }}</h3>
           {{ with .subtitle }}
           <p class="text-xs text-on-surface-variant/85 max-w-2xl">{{ . }}</p>
           {{ end }}
@@ -147,7 +144,10 @@
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
           {{ range .items }}
           <div class="space-y-1.5">
-            <h4 class="text-sm font-bold text-primary leading-snug">{{ .title }}</h4>
+            <h4 class="text-sm font-bold text-primary leading-snug flex items-center gap-2">
+              <span class="w-2 h-2 rounded-full shrink-0" style="background-color: {{ .color | default "#001d44" }};"></span>
+              <span>{{ .title }}</span>
+            </h4>
             <p class="text-xs text-on-surface-variant leading-relaxed">{{ .description }}</p>
           </div>
           {{ end }}

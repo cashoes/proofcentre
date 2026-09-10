@@ -8,15 +8,18 @@ mission:
 capabilities:
   title: "Collaborative Capabilities"
   subtitle: "Partnering with academic PIs, clinical consortia, and biotech sponsors across the biomarker lifecycle."
-  cta_text: "Inquire about partnership"
   items:
     - title: "Multi-Omic Biomarker Discovery"
+      color: "#b3d335"
       description: "High-dimensional transcriptomics, proteomics, and metabolomics for target identification and non-invasive blood tests."
     - title: "Computational Biology & Machine Learning"
+      color: "#6dcff5"
       description: "Custom bioinformatic pipelines, multi-omic integration, statistical modeling, and candidate qualification."
     - title: "Clinical Cohorts & Biobanking Operations"
+      color: "#044694"
       description: "Trial biospecimen protocol design, biobanking logistics, cohort coordination, and regulatory compliance."
     - title: "Translational & Assay Strategy"
+      color: "#fecb07"
       description: "Clinical platform evaluation, assay validity testing, diagnostic IP management, and grant co-development."
 
 research:
