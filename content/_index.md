@@ -22,8 +22,7 @@ capabilities:
       description: "Technology-agnostic platform evaluation, assay validity testing, diagnostic IP management, and grant co-development."
 
 research:
-  title: "Core Research"
-  subtitle: "Multi-omic biomarker discovery, computational systems biology, and clinical diagnostic translation."
+  title: "Core Research Areas"
 
 team:
   title: "Our Team"
