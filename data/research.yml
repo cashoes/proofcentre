@@ -36,7 +36,7 @@
 
 - id: "03"
   title: "Infection & Immunity"
-  icon: "biotech"
+  icon: "immunology"
   description: "Host immune profiling across acute viral infections, Long COVID inflammatory signatures, and early-life developmental immunology."
   publications:
     - title: "Cellular and molecular biomarkers of long COVID: a scoping review"
