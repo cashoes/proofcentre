@@ -7,7 +7,7 @@ mission:
 
 capabilities:
   title: "Collaborative Capabilities"
-  subtitle: "Partnering with academic PIs, clinical consortia, and biotech sponsors across the biomarker lifecycle."
+  subtitle: "We partner across the biomarker lifecycle."
   items:
     - title: "Multi-Omic Biomarker Discovery"
       color: "#b3d335"
