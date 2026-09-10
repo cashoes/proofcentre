@@ -127,21 +127,16 @@
       <!-- Collaborative Capabilities Strip (Sub-Hero 4-Column Band) -->
       {{ with .Params.capabilities }}
       <div class="mt-12 sm:mt-14">
-        <div class="mb-6 space-y-1">
-          <h3 class="text-xs font-bold text-primary uppercase tracking-widest">{{ .title }}</h3>
-          {{ with .subtitle }}
-          <p class="text-xs text-on-surface-variant/85 max-w-2xl">{{ . }}</p>
-          {{ end }}
-        </div>
+        <h3 class="text-xs font-bold text-primary uppercase tracking-widest mb-6">{{ .title }}</h3>
 
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-6 lg:gap-x-8 gap-y-6 lg:gap-y-0" style="grid-template-rows: auto auto;">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-6 lg:gap-x-8 gap-y-6 lg:gap-y-0">
           {{ range .items }}
-          <div class="space-y-1.5 lg:space-y-0 lg:row-span-2 lg:grid" style="grid-template-rows: subgrid;">
-            <h4 class="text-sm font-bold text-primary leading-snug flex items-start gap-2 pb-1.5">
-              <span class="w-2 h-2 rounded-full shrink-0 mt-1" style="background-color: {{ .color | default "#001d44" }};"></span>
-              <span>{{ .title }}</span>
-            </h4>
-            <p class="text-xs text-on-surface-variant leading-relaxed">{{ .description }}</p>
+          <div class="flex items-start gap-2.5">
+            <span class="w-2 h-2 rounded-full shrink-0 mt-1" style="background-color: {{ .color | default "#001d44" }};"></span>
+            <div class="space-y-1.5 flex-1 min-w-0">
+              <h4 class="text-sm font-bold text-primary leading-snug lg:min-h-[2.6rem]">{{ .title }}</h4>
+              <p class="text-xs text-on-surface-variant leading-relaxed">{{ .description }}</p>
+            </div>
           </div>
           {{ end }}
         </div>

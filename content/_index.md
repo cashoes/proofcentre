@@ -6,8 +6,7 @@ mission:
   cta_text: "Explore Research"
 
 capabilities:
-  title: "Collaborative Capabilities"
-  subtitle: "We partner across the biomarker lifecycle."
+  title: "We partner across the biomarker lifecycle"
   items:
     - title: "Biomarker Discovery & Development"
       color: "#b3d335"
