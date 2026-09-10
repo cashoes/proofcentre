@@ -113,48 +113,95 @@
   <main class="max-w-container-max mx-auto px-4 md:px-margin-desktop pt-32 sm:pt-36 pb-8 mt-6 sm:mt-10">
 
     <!-- Mission Section -->
-    <header class="grid grid-cols-1 gap-gutter mb-32 border-b border-outline-variant/50 pb-8">
-      <div class="max-w-5xl">
-        <h1 class="font-heading text-3xl sm:text-4xl md:text-5xl lg:text-[3.35rem] font-bold text-primary mb-6 leading-[1.18] tracking-tight">{{ .Params.mission.headline | safeHTML }}</h1>
-        <p class="text-lg md:text-xl text-on-surface-variant mb-8 leading-relaxed max-w-3xl">
-          {{ .Params.mission.paragraph }}
-        </p>
-        <div class="pt-4">
-          <a class="inline-flex items-center gap-2.5 border-2 border-primary text-primary bg-transparent rounded px-6 py-3 text-sm font-semibold uppercase tracking-wider hover:bg-primary hover:text-on-primary transition-all shadow-xs group"
-            href="#focus-areas">
-            <span>{{ .Params.mission.cta_text }}</span>
-            <span class="material-symbols-outlined text-sm group-hover:translate-y-0.5 transition-transform">arrow_downward</span>
-          </a>
-        </div>
-
-        <!-- Institutional Co-Hosts Trust Lockup (Borderless Editorial) -->
-        <div class="mt-12 sm:mt-16 pt-8 border-t border-outline-variant/30 flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-8">
-          <span class="text-xs font-bold text-primary/70 uppercase tracking-widest shrink-0">
-            Hosted By
-          </span>
-          <div class="hidden sm:block w-px h-8 bg-outline-variant/40 shrink-0"></div>
-          <div class="flex items-center gap-5 sm:gap-7 md:gap-9 flex-wrap sm:flex-nowrap shrink min-w-0">
-            <a href="https://www.providenceresearch.ca" target="_blank" rel="noopener"
-              class="opacity-85 hover:opacity-100 transition-opacity flex items-center shrink min-w-0"
-              title="Providence Research">
-              <img src="{{ "images/providence-logo.svg" | relURL }}" alt="Providence Research"
-                class="h-9 sm:h-11 md:h-12 w-auto object-contain shrink" />
+    <!-- Mission Section -->
+    <header class="mb-32 border-b border-outline-variant/50 pb-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 xl:gap-16 items-start">
+        <!-- Left Column: Mission Headline & CTA (7 cols) -->
+        <div class="lg:col-span-7">
+          <h1 class="font-heading text-3xl sm:text-4xl md:text-5xl lg:text-[2.75rem] xl:text-[3.2rem] font-bold text-primary mb-6 leading-[1.18] tracking-tight">
+            {{ .Params.mission.headline | safeHTML }}
+          </h1>
+          <p class="text-base sm:text-lg md:text-xl text-on-surface-variant mb-8 leading-relaxed max-w-2xl">
+            {{ .Params.mission.paragraph }}
+          </p>
+          <div class="flex flex-wrap items-center gap-4 pt-1">
+            <a class="inline-flex items-center gap-2.5 border-2 border-primary text-primary bg-transparent rounded px-6 py-3 text-sm font-semibold uppercase tracking-wider hover:bg-primary hover:text-on-primary transition-all shadow-xs group"
+              href="#focus-areas">
+              <span>{{ .Params.mission.cta_text }}</span>
+              <span class="material-symbols-outlined text-sm group-hover:translate-y-0.5 transition-transform">arrow_downward</span>
             </a>
-            <div class="w-px h-6 sm:h-7 bg-outline-variant/30 shrink-0"></div>
-            <a href="https://www.hli.ubc.ca" target="_blank" rel="noopener"
-              class="opacity-85 hover:opacity-100 transition-opacity flex items-center shrink min-w-0"
-              title="Centre for Heart Lung Innovation">
-              <img src="{{ "images/hli-logo.svg" | relURL }}" alt="Heart + Lung Innovation (HLI)"
-                class="h-8 sm:h-10 md:h-11 w-auto object-contain shrink" />
-            </a>
-            <div class="w-px h-6 sm:h-7 bg-outline-variant/30 shrink-0"></div>
-            <a href="https://www.ubc.ca" target="_blank" rel="noopener"
-              class="opacity-85 hover:opacity-100 transition-opacity flex items-center shrink min-w-0"
-              title="The University of British Columbia">
-              <img src="{{ "images/ubc-logo.svg" | relURL }}" alt="University of British Columbia"
-                class="h-7 sm:h-8 md:h-9 w-auto object-contain shrink" />
+            <a href="mailto:{{ .Site.Params.contact_email }}?subject=PROOF%20Collaboration%20Inquiry"
+              class="inline-flex items-center gap-1.5 text-xs sm:text-sm font-semibold text-primary/85 hover:text-primary transition-colors py-3 px-2 group">
+              <span>Partner With Us</span>
+              <span class="material-symbols-outlined text-sm group-hover:translate-x-0.5 transition-transform">arrow_forward</span>
             </a>
           </div>
+        </div>
+
+        <!-- Right Column: Collaborative Capabilities (5 cols, Editorial Unboxed) -->
+        {{ with .Params.capabilities }}
+        <div class="lg:col-span-5 lg:border-l lg:border-outline-variant/40 lg:pl-8 xl:pl-10 pt-6 lg:pt-1">
+          <div class="mb-3">
+            <div class="flex items-center gap-2 mb-1.5">
+              <span class="w-2 h-2 rounded-full bg-vitality-lime shrink-0"></span>
+              <span class="text-xs font-bold text-primary uppercase tracking-widest">{{ .title }}</span>
+            </div>
+            {{ with .subtitle }}
+            <p class="text-xs text-on-surface-variant leading-relaxed">{{ . }}</p>
+            {{ end }}
+          </div>
+
+          <div class="divide-y divide-outline-variant/25">
+            {{ range .items }}
+            <div class="py-3 first:pt-2 last:pb-2">
+              <h4 class="text-xs sm:text-sm font-bold text-primary flex items-center gap-2">
+                <span class="w-1.5 h-1.5 rounded-full bg-primary/60 shrink-0"></span>
+                <span>{{ .title }}</span>
+              </h4>
+              <p class="text-xs text-on-surface-variant leading-relaxed pl-3.5 mt-0.5">{{ .description }}</p>
+            </div>
+            {{ end }}
+          </div>
+
+          <div class="mt-4 pt-3 border-t border-outline-variant/30 flex items-center justify-between text-xs">
+            <span class="text-[11px] text-on-surface-variant/80 font-medium">Grant co-applications &amp; contracts</span>
+            <a href="mailto:{{ site.Params.contact_email }}?subject=PROOF%20Collaboration%20Inquiry"
+              class="font-semibold text-primary hover:underline inline-flex items-center gap-1 group">
+              <span>Inquire</span>
+              <span class="material-symbols-outlined text-xs group-hover:translate-x-0.5 transition-transform">arrow_forward</span>
+            </a>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+
+      <!-- Institutional Co-Hosts Trust Lockup (Borderless Editorial) -->
+      <div class="mt-12 sm:mt-16 pt-8 border-t border-outline-variant/30 flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-8">
+        <span class="text-xs font-bold text-primary/70 uppercase tracking-widest shrink-0">
+          Hosted By
+        </span>
+        <div class="hidden sm:block w-px h-8 bg-outline-variant/40 shrink-0"></div>
+        <div class="flex items-center gap-5 sm:gap-7 md:gap-9 flex-wrap sm:flex-nowrap shrink min-w-0">
+          <a href="https://www.providenceresearch.ca" target="_blank" rel="noopener"
+            class="opacity-85 hover:opacity-100 transition-opacity flex items-center shrink min-w-0"
+            title="Providence Research">
+            <img src="{{ "images/providence-logo.svg" | relURL }}" alt="Providence Research"
+              class="h-9 sm:h-11 md:h-12 w-auto object-contain shrink" />
+          </a>
+          <div class="w-px h-6 sm:h-7 bg-outline-variant/30 shrink-0"></div>
+          <a href="https://www.hli.ubc.ca" target="_blank" rel="noopener"
+            class="opacity-85 hover:opacity-100 transition-opacity flex items-center shrink min-w-0"
+            title="Centre for Heart Lung Innovation">
+            <img src="{{ "images/hli-logo.svg" | relURL }}" alt="Heart + Lung Innovation (HLI)"
+              class="h-8 sm:h-10 md:h-11 w-auto object-contain shrink" />
+          </a>
+          <div class="w-px h-6 sm:h-7 bg-outline-variant/30 shrink-0"></div>
+          <a href="https://www.ubc.ca" target="_blank" rel="noopener"
+            class="opacity-85 hover:opacity-100 transition-opacity flex items-center shrink min-w-0"
+            title="The University of British Columbia">
+            <img src="{{ "images/ubc-logo.svg" | relURL }}" alt="University of British Columbia"
+              class="h-7 sm:h-8 md:h-9 w-auto object-contain shrink" />
+          </a>
         </div>
       </div>
     </header>
