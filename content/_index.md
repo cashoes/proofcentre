@@ -9,18 +9,18 @@ capabilities:
   title: "Collaborative Capabilities"
   subtitle: "We partner across the biomarker lifecycle."
   items:
-    - title: "Multi-Omic Biomarker Discovery"
+    - title: "Biomarker Discovery & Development"
       color: "#b3d335"
-      description: "High-dimensional transcriptomics, proteomics, and metabolomics for target identification and non-invasive blood tests."
-    - title: "Computational Biology & Machine Learning"
+      description: "Candidate target identification, screening, and diagnostic blood test qualification across complex clinical cohorts."
+    - title: "Multi-Omic Integration & Machine Learning"
       color: "#6dcff5"
-      description: "Custom bioinformatic pipelines, multi-omic integration, statistical modeling, and candidate qualification."
+      description: "Specialized computational pipelines and multi-block integrative algorithms (DIABLO) translating high-dimensional molecular layers."
     - title: "Clinical Cohorts & Biobanking Operations"
       color: "#044694"
       description: "Trial biospecimen protocol design, biobanking logistics, cohort coordination, and regulatory compliance."
     - title: "Translational & Assay Strategy"
       color: "#fecb07"
-      description: "Clinical platform evaluation, assay validity testing, diagnostic IP management, and grant co-development."
+      description: "Technology-agnostic platform evaluation, assay validity testing, diagnostic IP management, and grant co-development."
 
 research:
   title: "Core Research"
