@@ -31,7 +31,7 @@ team:
 
 publications:
   title: "Publications"
-  subtitle: "Peer-reviewed scientific contributions across multi-omics, biomarker discovery, and solid organ transplantation."
+  subtitle: "Translational discoveries, clinical biomarker validations, and computational frameworks."
 
 patents:
   title: "Intellectual Property"
