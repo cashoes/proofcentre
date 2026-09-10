@@ -23,6 +23,7 @@ capabilities:
 
 research:
   title: "Core Research Areas"
+  subtitle: "Heart transplantation, pulmonary disease, infection & immunity, and computational systems biology."
 
 team:
   title: "Our Team"
