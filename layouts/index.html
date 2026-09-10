@@ -134,13 +134,13 @@
       <!-- Collaborative Capabilities Strip (Sub-Hero 4-Column Band) -->
       {{ with .Params.capabilities }}
       <div class="mt-14 sm:mt-16 pt-8 border-t border-outline-variant/30">
-        <div class="flex flex-col sm:flex-row sm:items-baseline justify-between gap-2 mb-6">
+        <div class="mb-6 space-y-1">
           <div class="flex items-center gap-2">
             <span class="w-2 h-2 rounded-full bg-vitality-lime shrink-0"></span>
             <h3 class="text-xs font-bold text-primary uppercase tracking-widest">{{ .title }}</h3>
           </div>
           {{ with .subtitle }}
-          <p class="text-xs text-on-surface-variant/80">{{ . }}</p>
+          <p class="text-xs text-on-surface-variant/85 max-w-2xl">{{ . }}</p>
           {{ end }}
         </div>
 
