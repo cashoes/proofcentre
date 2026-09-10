@@ -171,12 +171,17 @@
       <div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-6 md:gap-y-8">
         {{ range site.Data.research }}
         <div class="md:row-span-2 md:grid md:grid-rows-subgrid" style="grid-template-rows: subgrid;">
-          <!-- Top Area: Icon, Title & Description (Tightened spacing to fit 1 screen) -->
+          <!-- Top Area: Icon, Domain Label, Title & Description (Subgrid aligns this row across columns) -->
           <div class="mb-2 md:mb-0 pb-2">
-            <div class="flex items-center gap-3 mb-2">
-              <span class="material-symbols-outlined text-primary text-2xl"
-                style="font-variation-settings: 'FILL' 0;">{{ .icon }}</span>
-              <h3 class="font-heading text-lg sm:text-xl font-bold text-primary leading-tight">{{ .title }}</h3>
+            <div class="flex items-start gap-3.5 mb-2">
+              <div class="w-9 h-9 rounded-lg bg-primary/5 border border-primary/10 flex items-center justify-center shrink-0 mt-0.5">
+                <span class="material-symbols-outlined text-primary text-xl"
+                  style="font-variation-settings: 'FILL' 0;">{{ .icon }}</span>
+              </div>
+              <div>
+                <span class="text-[10px] sm:text-[11px] font-bold text-primary/60 uppercase tracking-widest block leading-tight mb-0.5">Domain {{ .id }}</span>
+                <h3 class="font-heading text-lg sm:text-xl font-bold text-primary leading-tight">{{ .title }}</h3>
+              </div>
             </div>
             <p class="text-sm sm:text-base text-on-surface-variant leading-relaxed">
               {{ .description }}

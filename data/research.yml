@@ -1,5 +1,5 @@
 - id: "01"
-  title: "I. HEART"
+  title: "HEART"
   icon: "cardiology"
   description: "Developing and clinically validating non-invasive blood transcriptomic assays (HEARTBiT) to replace invasive biopsies for heart transplant rejection."
   publications:
@@ -17,7 +17,7 @@
       link: "https://doi.org/10.1016/j.cjca.2019.11.017"
 
 - id: "02"
-  title: "II. LUNG"
+  title: "LUNG"
   icon: "pulmonology"
   description: "Biomarker discovery and molecular phenotyping in asthma responder endotypes and chronic interstitial lung diseases."
   publications:
@@ -35,7 +35,7 @@
       link: "https://doi.org/10.1164/rccm.201701-0110oc"
 
 - id: "03"
-  title: "III. Infection & Immunity"
+  title: "Infection & Immunity"
   icon: "biotech"
   description: "Host immune profiling across acute viral infections, Long COVID inflammatory signatures, and early-life developmental immunology."
   publications:
@@ -59,7 +59,7 @@
       link: "https://doi.org/10.1038/s41467-019-08794-x"
 
 - id: "04"
-  title: "IV. Multi-omics & Systems Biology"
+  title: "Multi-omics & Systems Biology"
   icon: "hub"
   description: "Machine learning and integrative bioinformatics frameworks (DIABLO) for multi-omic biomarker discovery and dataset harmonization."
   publications:
