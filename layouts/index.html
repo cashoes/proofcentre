@@ -261,7 +261,7 @@
           <div class="md:col-span-4 lg:col-span-4 flex items-start gap-4 sm:gap-5">
             <div class="w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-surface-container-low flex items-center justify-center shrink-0 border border-outline-variant/30 overflow-hidden text-2xl sm:text-3xl select-none">
               {{ if .image }}
-              <img src="{{ .image | relURL }}" alt="{{ .name }}" class="w-full h-full object-cover rounded-full" />
+              <img src="{{ .image | relURL }}" alt="{{ .name }}" class="w-full h-full object-cover rounded-full" style="object-position: {{ .img_position | default "50% 10%" }};" />
               {{ else }}
               <span>{{ .avatar | default "👤" }}</span>
               {{ end }}

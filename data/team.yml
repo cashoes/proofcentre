@@ -9,6 +9,7 @@ core:
     orcid: ""
     avatar: "👨‍🔬"
     image: "images/headshots/scott.jpg"
+    img_position: "50% 10%"
 
   - name: "Casey Shannon"
     role: "Director of Data Science"
@@ -20,6 +21,7 @@ core:
     orcid: ""
     avatar: "👨‍💻"
     image: "images/headshots/casey.jpg"
+    img_position: "50% 50%"
 
   - name: "Sara Assadian"
     role: "Director of Clinical Research"
@@ -31,6 +33,7 @@ core:
     orcid: ""
     avatar: "👩‍🔬"
     image: "images/headshots/sara.jpg"
+    img_position: "50% 8%"
 
   - name: "Dr. Chengliang Yang"
     role: "Research Associate"
@@ -42,6 +45,7 @@ core:
     orcid: ""
     avatar: "👨‍🔬"
     image: "images/headshots/chengliang.png"
+    img_position: "50% 25%"
 
   - name: "Dr. Abhinav Checkervarty"
     role: "Post-doctoral Fellow"
@@ -53,6 +57,7 @@ core:
     orcid: ""
     avatar: "👨‍🎓"
     image: "images/headshots/abhinav.png"
+    img_position: "50% 0%"
 
   - name: "Estefanía Espín"
     role: "PhD Candidate"
@@ -64,3 +69,4 @@ core:
     orcid: ""
     avatar: "👩‍🎓"
     image: "images/headshots/estefania.jpg"
+    img_position: "50% 12%"
