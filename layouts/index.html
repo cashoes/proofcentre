@@ -12,7 +12,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
   <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700;800;900&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700;800;900&family=Titillium+Web:ital,wght@0,600;0,700;0,900;1,400;1,600&display=swap"
     rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
     rel="stylesheet" />
@@ -44,7 +44,8 @@
           },
           fontFamily: {
             sans: ["Inter", "sans-serif"],
-            heading: ["Montserrat", "sans-serif"]
+            heading: ["Montserrat", "sans-serif"],
+            brand: ["'Titillium Web'", "Montserrat", "sans-serif"]
           },
           spacing: {
             "gutter": "24px",
@@ -86,10 +87,15 @@
   <nav class="bg-surface/90 backdrop-blur-md shadow-xs fixed top-0 w-full z-50 border-b border-outline-variant/30">
     <div class="flex justify-between items-center px-4 md:px-margin-desktop py-3.5 max-w-container-max mx-auto">
       <a class="flex items-center gap-3.5 group" href="#">
-        <img src="{{ "images/proof-logo.svg" | relURL }}" alt="PROOF Centre Logo" class="h-12 sm:h-14 md:h-[64px] w-auto transition-transform duration-300 group-hover:scale-[1.03]" />
+        <img src="{{ "images/proof-logo.svg" | relURL }}" alt="PROOF Centre Logo" class="h-11 sm:h-12 md:h-[52px] w-auto transition-transform duration-300 group-hover:scale-[1.03]" />
         <div class="flex flex-col justify-center">
-          <span class="font-heading font-extrabold text-lg sm:text-xl md:text-2xl text-primary leading-none tracking-tight">PROOF Centre</span>
-          <span class="text-[10px] sm:text-[11px] md:text-xs text-on-surface-variant font-semibold uppercase tracking-wider mt-1">Prevention of Organ Failure Centre of Excellence</span>
+          <div class="leading-none flex items-baseline gap-2">
+            <span class="font-heading font-black text-lg sm:text-xl md:text-[1.35rem] text-primary tracking-tight">PROOF</span>
+            <span class="font-heading font-medium text-base sm:text-lg md:text-[1.15rem] text-primary/85 tracking-tight">Centre of Excellence</span>
+          </div>
+          <span class="text-[11px] sm:text-xs text-on-surface-variant/85 font-medium tracking-normal mt-1 leading-tight">
+            Biomarkers for the Prevention of Organ Failure
+          </span>
         </div>
       </a>
 
