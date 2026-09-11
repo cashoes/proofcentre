@@ -1,7 +1,7 @@
 - id: "01"
   title: "Heart & Cardiovascular Health"
   icon: "cardiology"
-  description: "Developing and clinically validating non-invasive blood transcriptomic assays (HEARTBiT) to replace invasive biopsies for heart transplant rejection."
+  description: "Advancing non-invasive blood tests for cardiovascular care, with research programs in heart transplant rejection surveillance, heart failure progression, and molecular biomarkers for acute and chronic inflammatory cardiovascular diseases."
   publications:
     - title: "Acute cellular rejection after heart transplantation: validation of HEARTBiT, a transcriptomic biomarker"
       authors: "Shannon CP, Assadian S, Rajasekaran A, Yang C, Espín E, Lam L, Balshaw R, Seidman MA, Lai CK, Ross HJ, Hyden MP, Chih SSY, Toma M, McManus BM, Ng RT, Tebbutt SJ."
@@ -19,7 +19,7 @@
 - id: "02"
   title: "Respiratory & Pulmonary Health"
   icon: "pulmonology"
-  description: "Biomarker discovery and molecular phenotyping in asthma responder endotypes and chronic interstitial lung diseases."
+  description: "Discovering clinical biomarkers and molecular phenotypes across chronic respiratory diseases, airway inflammatory disorders, and donor organ optimization in lung transplantation."
   publications:
     - title: "Transcriptomics of Interstitial Lung Disease: A Systematic Review and Meta-Analysis"
       authors: "He D, Guler SA, Shannon CP, Ryerson CJ, Tebbutt SJ."
