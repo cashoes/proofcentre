@@ -197,11 +197,9 @@
         <div class="md:row-span-2 md:grid md:grid-rows-subgrid" style="grid-template-rows: subgrid;">
           <!-- Top Area: Icon, Title & Description (Subgrid aligns this row across columns) -->
           <div class="mb-2 md:mb-0 pb-2">
-            <div class="flex items-center gap-3 mb-2">
-              <div class="w-9 h-9 rounded-lg bg-primary/5 border border-primary/10 flex items-center justify-center shrink-0">
-                <span class="material-symbols-outlined text-primary text-xl"
-                  style="font-variation-settings: 'FILL' 0;">{{ .icon }}</span>
-              </div>
+            <div class="flex items-center gap-2.5 mb-2">
+              <span class="material-symbols-outlined text-primary text-xl sm:text-2xl shrink-0"
+                style="font-variation-settings: 'FILL' 0;">{{ .icon }}</span>
               <h3 class="font-heading text-lg sm:text-xl font-bold text-primary leading-tight">{{ .title }}</h3>
             </div>
             <p class="text-sm sm:text-base text-on-surface-variant leading-relaxed">
