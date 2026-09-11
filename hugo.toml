@@ -7,7 +7,6 @@ disableKinds = ['taxonomy', 'term']
 
 [params]
   description = "Discovery, development, and deployment of non-invasive blood-based biomarker tests for organ failure."
-  subtitle = "Prevention of Organ Failure Centre of Excellence"
   contact_email = "proof@hli.ubc.ca"
 
 [menus]

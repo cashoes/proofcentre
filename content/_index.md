@@ -38,7 +38,6 @@ patents:
   subtitle: "Proprietary diagnostic signatures and international intellectual property portfolio."
 
 footer:
-  title: "PROOF Centre of Excellence"
   description: "Biomarkers for the Prevention of Organ Failure.<br>Co-hosted by Providence Research, the Centre for Heart Lung Innovation, and the University of British Columbia at St. Paul's Hospital, Vancouver, Canada."
   copyright: "PROOF Centre of Excellence. All rights reserved."
 ---
