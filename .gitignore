@@ -11,3 +11,7 @@ resources/_gen/
 # Environment / OS
 .DS_Store
 Thumbs.db
+
+# Local agent configs
+.agents/
+
