@@ -2,26 +2,35 @@ core:
   - name: "Dr. Scott Tebbutt"
     role: "CEO & CSO"
     mini_bio: "Professor in the Dept. of Medicine at UBC & PI at Centre for Heart Lung Innovation. Directs biomarker discovery and translational multi-omics programs."
-    bio: ""
+    bio: >-
+      Dr. Scott Tebbutt is Chief Executive Officer and Chief Scientific Officer of the PROOF Centre of Excellence. He provides overall scientific leadership and operational vision for the Centre, directing translational programs in multi-omic biomarker discovery, development, and implementation across heart failure, organ transplantation, respiratory diseases, and infectious disease. Dr. Tebbutt is also Professor in the Department of Medicine (Division of Respiratory Medicine) at the University of British Columbia, and Principal Investigator and Director of Education at the Centre for Heart Lung Innovation (HLI) at St. Paul’s Hospital. He has served on numerous international advisory bodies, including the NIH Human Immunology Project Consortium (HIPC) and the CEPI Systems Immunology Task Force. He holds a B.A. in biochemistry from the University of Oxford and a Ph.D. in molecular genetics from the University of East Anglia.
+    original_bio: >-
+      Dr. Scott Tebbutt is Chief Executive Office (since 2020) and Chief Scientific Officer (since 2009), of the Prevention of Organ Failure (PROOF) Centre of Excellence. Dr. Tebbutt provides leadership, general supervision, management and control of the operations of the Centre on a day-to-day basis in accordance with the plans and policies approved by the Board. He provides overall leadership and vision in developing the strategy, tactics and plans necessary to realize the Centre’s objectives, and he manages the Centre to ensure annual plans are effectively implemented, with the results monitored and reported to the Board, and financial and operational objectives attained. His scientific responsibilities have included the evaluation and deployment of new, high-performance technologies to improve biomarker discovery, development and implementation, as well as bioinformatic approaches to better deal with sample heterogeneity and integration of high-dimensional omic datasets. He leads major biomarker programs in lung disease, heart transplantation, vaccine immunogenicity, and COVID-19, and he directly supervises many of the PROOF Centre’s trainees. Dr. Tebbutt is also Professor in the Department of Medicine (Respiratory Division), University of British Columbia, as well as Principal Investigator and Director of Education at the Centre for Heart Lung Innovation, St. Paul’s Hospital, Vancouver, Canada. His academic research program is focused on the molecular and cellular understanding of complex disease and other health-related conditions, including inflammatory disorders of the lung, allergic rhinitis, heart failure, and neonatal vaccinology. Dr. Tebbutt has served on numerous local and international scientific advisory committees, including the BC Children’s Hospital Research Institute “Transplantation and Cell Therapy (TRACE) Program Biomarker and Cell Therapy Oversight Committee (BCTOC),” the United States National Institutes of Health Human Immunology Project Consortium (HIPC) “Biostatistics and Bioinformatics Subcommittee,” and the Coalition for Epidemic Preparedness Innovations (CEPI) “Systems Immunology Task Force.” He is a member of the Human Vaccines Project (HVP) Bioinformatics Hub, a member of the Langara College Program Advisory Committee (PAC) for the Bachelor of Science in Bioinformatics program (Vancouver, Canada), and a member of Providence Health Care’s Joint Steering Committee for Multi-omics & Medical Imaging Datalab – MOMI (Vancouver, Canada). He holds a B.A. in biochemistry from the University of Oxford and a Ph.D. in molecular genetics from the University of East Anglia (Cambridge Laboratory, John Innes Centre).
     orcid: ""
     avatar: "👨‍🔬"
-    image: ""
+    image: "images/headshots/scott.jpg"
 
   - name: "Casey Shannon"
     role: "Director of Data Science"
     mini_bio: "Leads multi-omic computational pipelines, integrative machine learning algorithms, and high-dimensional transcriptomic and proteomic data harmonization."
-    bio: ""
+    bio: >-
+      Casey Shannon is Director of Data Science at the PROOF Centre of Excellence. He directs computational biology pipelines and statistical machine learning architectures, translating high-dimensional genomic, transcriptomic, proteomic, and metabolomic data into validated clinical diagnostic and prognostic tests. Prior to joining PROOF, Casey’s research focused on neurotrauma and stem cell-mediated spinal cord injury repair at the University of British Columbia, published in The Journal of Neuroscience and The Journal of Neurotrauma. He holds Bachelor’s degrees in Cell Physiology & Genetics as well as Computer Science from the University of British Columbia.
+    original_bio: >-
+      Casey Shannon is a data scientist and computational biologist. At the PROOF Centre of Excellence, he uses high dimensional gene, protein, and metabolite data to derive clinically useful diagnostic or prognostic tests. This involves the application of machine learning approaches to identify informative features from the vast amounts of data generated by high throughput omics platforms. Prior to joining PROOF, Casey’s research interests included the study of spinal cord injury in rodent models, particularly the use of adult skin-derived stem-cells in spinal cord injury repair. This work lead to publications in The Journal of Neurotrauma and The Journal of Neuroscience. Casey holds Bachelor’s degrees in Cell Physiology and Genetics, as well as Computer Science, from the University of British Columbia.
     orcid: ""
     avatar: "👨‍💻"
-    image: ""
+    image: "images/headshots/casey.jpg"
 
   - name: "Sara Assadian"
     role: "Director of Clinical Research"
     mini_bio: "Oversees clinical trial operations, biospecimen registries, regulatory compliance, and translational study logistics across partner clinical centres."
-    bio: ""
+    bio: >-
+      Sara Assadian is Director of Clinical Research at the PROOF Centre of Excellence. She oversees clinical operations, study governance, regulatory compliance, and protocol execution across all PROOF biomarker discovery and validation programs. Working closely with Canadian and international trial sites, she manages patient recruitment protocols, ethics approvals, and clinical biospecimen repositories from study inception through clinical translation. Prior to joining the PROOF Centre, Sara coordinated multi-centre clinical trials examining novel immunosuppressive medications in solid organ transplantation at BC Transplant. She holds a Bachelor’s degree in Clinical Psychology from the University of British Columbia and a Master’s in Health Studies from Athabasca University.
+    original_bio: >-
+      Sara Assadian provides leadership for all PROOF Centre biomarker programs from a clinical research perspective. She is accountable for planning, executing, managing, and monitoring research projects. She provides guidance and direction and ensures successful achievement of study goals within the allocated budget, personnel, resources and timelines. Sara manages projects from initiation to close and implements research strategies and procedures to ensure adherence to research practices and successful research operations. She is responsible for contributing to the development of biomarker program budgets, patient enrolment protocols, and project goals, objectives, and schedules. Sara worked for BC Transplant as a Clinical Research Coordinator for 3.5 years prior to joining the PROOF Centre. She coordinated several Industry funded studies examining the effects of immunosuppressive medications on solid organ transplant patients. At the PROOF Center, she facilitated and managed Canadian and International trial sites in her Clinical Research Manager role. Sara obtained her Bachelor’s of Clinical Psychology from the University of British Columbia in 2006 and her Master’s in Health Studies from Athabasca University in 2016.
     orcid: ""
     avatar: "👩‍🔬"
-    image: ""
+    image: "images/headshots/sara.jpg"
 
   - name: "Dr. Chengliang Yang"
     role: "Research Associate"
@@ -32,7 +41,7 @@ core:
       Chengliang Yang, MD, MSc, is a Transplant Scientist and Ex Vivo Lung Perfusion (EVLP) Specialist working at the interface of organ transplantation, immunology, and multi-omics. His work is driven by a passion for evidence generation, multidisciplinary collaboration, and improving patient outcomes. He focuses on leveraging multi-omics approaches to develop and validate noninvasive biomarkers that can improve diagnosis, refine risk assessment, and inform clinical decision-making in heart and lung transplantation. His research also extends to biomarker discovery and translational studies in post-COVID-19 condition (long COVID). Dr. Yang is an active Senior Collaborator in the Global Burden of Disease (GBD) Collaborator Network, contributing to studies of global circulatory and respiratory health. Through this work, he supports the generation of timely, policy-relevant, and scientifically rigorous evidence to strengthen health systems and improve population health worldwide. Dr. Yang completed his postdoctoral fellowship and trained as an EVLP Specialist at the Latner Thoracic Surgery Research Laboratories and the Toronto Lung Transplant Program at University Health Network, University of Toronto. He is currently a Research Associate at the Prevention of Organ Failure (PROOF) Centre and the Centre for Heart Lung Innovation (HLI) at St. Paul’s Hospital, University of British Columbia. Personal note: Outside of work, he enjoys hiking, backpacking, trail running, and swimming.
     orcid: ""
     avatar: "👨‍🔬"
-    image: ""
+    image: "images/headshots/chengliang.png"
 
   - name: "Dr. Abhinav Checkervarty"
     role: "Post-doctoral Fellow"
@@ -43,7 +52,7 @@ core:
       Abhinav K. Checkervarty is a postdoctoral research fellow at the PROOF Centre of Excellence. He works on raw sequencing data, multi-omics integration and machine learning applied to clinical cohorts, building the pipelines and statistical models that turn high-dimensional molecular data such as transcriptomics, proteomics, metabolomics, cytokines and epigenetics into candidate biomarkers. His research spans vaccine response, infectious disease, rare disease including sickle cell trait, and transplant rejection. He completed his PhD in Experimental Medicine at UBC and holds an MSc in Systems Biology and Bioinformatics.
     orcid: ""
     avatar: "👨‍🎓"
-    image: ""
+    image: "images/headshots/abhinav.png"
 
   - name: "Estefanía Espín"
     role: "PhD Candidate"
