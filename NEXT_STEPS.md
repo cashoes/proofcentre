@@ -1,6 +1,6 @@
 # PROOF Centre Website — Session Handover & Next Steps
 
-**Date:** September 10, 2026  
+**Date:** September 11, 2026  
 **Repository Branch:** `main` (Clean, up to date)  
 **Local Preview:** `http://localhost:1313/` (`hugo server -D`)
 
@@ -8,79 +8,49 @@
 
 ## 🚀 What We Accomplished Today
 
-1. **Capabilities Sub-Hero Band**:
-   * Consolidated into a 4-column horizontal strip beneath the manifesto.
-   * Linked each pillar to the 4 PROOF logo colors:
-     * **Biomarker Discovery & Development:** `#b3d335` (Lime Green)
-     * **Multi-Omic Integration & ML:** `#6dcff5` (Sky Blue)
-     * **Clinical Cohorts & Biobanking:** `#044694` (Royal Navy)
-     * **Translational & Assay Strategy:** `#fecb07` (Golden Yellow)
-   * Dots aligned flush to the left margin with synchronized baselines.
+1. **Footer Hosting Affiliation**:
+   * Synchronized the institutional co-hosting line across `content/_index.md` and `layouts/index.html`:
+     > *"Biomarkers for the Prevention of Organ Failure.<br>Co-hosted by Providence Research, the Centre for Heart Lung Innovation, and the University of British Columbia at St. Paul's Hospital, Vancouver, Canada."*
 
-2. **Spacing & Visual Hierarchy**:
-   * Removed hairline dividers above capabilities, "Hosted By", and "Featured Publications" for a lighter editorial feel.
-   * Balanced vertical cadence between the manifesto, capabilities grid, `[ Explore Research ↓ ]` button (`pt-12 sm:pt-16`), and the `Hosted By` institutional trust lockup (`mt-16 sm:mt-20 md:mt-24`).
+2. **Full Team Headshots Completed & Verified (`static/images/headshots/`)**:
+   * All 6 team members have custom-processed, high-resolution headshots with uniform optical scale (~60% circle fill) and generous headroom (no curl/crown clipping):
+     * **Dr. Scott Tebbutt** (`scott.jpg`): Sourced from uploaded photo, scaled to ~60% with seamless stone wall and ivy background extension.
+     * **Casey Shannon** (`casey.jpg`): Clean, centered, balanced framing.
+     * **Sara Assadian** (`sara.jpg`): Balanced circular portrait.
+     * **Dr. Chengliang Yang** (`chengliang.png`): Balanced circular portrait.
+     * **Dr. Abhinav Checkervarty** (`abhinav.png`): Foliage/sky extended seamlessly.
+     * **Estefanía Espín** (`estefania.jpg`): Balanced circular portrait.
 
-3. **Core Research Areas**:
-   * Renamed section to **Core Research Areas**.
-   * Updated section subtitle in `content/_index.md`: *"Heart transplantation, pulmonary disease, infection & immunity, and computational systems biology."*
-   * Cleaned up the 4 area cards: removed the surrounding card boxes (`bg-primary/5`) so icons sit directly to the left of each title as clean, modern glyphs.
+3. **Team Bios (`data/team.yml`)**:
+   * Added full accordion bios (`bio:`) and preserved historical source bios (`original_bio:`) for all 6 members.
+   * **Multi-Paragraph Rhythm**: Refactored `layouts/index.html` to render bios via `markdownify` with `space-y-3` spacing, breaking dense text into two readable, balanced paragraphs across all members.
+   * **Casey Shannon**:
+     * Updated `mini_bio` to establish active leadership: *"Leads computational biology and data science at the PROOF Centre, developing multi-omic pipelines to translate complex molecular data into non-invasive clinical biomarkers."*
+     * Updated full `bio` to a grounded, humble academic narrative highlighting his computational lead role on HEARTBiT, open-source methods (DIABLO, enumerateblood), and international consortia (EPIC, IMPACC).
+   * **Length Balance**: All bios now sit between 80 and 133 words in a uniform 2-paragraph rhythm.
 
-4. **Publications Portfolio & Color Harmony**:
-   * Subtitle updated to: *"Translational discoveries, clinical biomarker validations, and computational frameworks."*
-   * Re-used the **4 PROOF capabilities colors** across:
-     * **Portfolio distribution bar chart**:
-       * `#044694` — PROOF-Led Original Research
-       * `#6dcff5` — Collaborative Original Research
-       * `#fecb07` — Editorial & Commentary
-       * `#b3d335` — Reviews & Other
-     * **Filter chip legend dots**: Mapped 1-to-1 to the bar segments.
-     * **Table row tag badges**: Styled `Original Research`, `Editorial & Commentary`, and `Review` with matching brand tones.
-
-5. **HEARTBiT European Heart Journal Citation Fix**:
-   * Corrected author ordering to the official manuscript author list:
-     > `Shannon CP, Assadian S, Rajasekaran A, Yang C, Espín E, Lam L, Balshaw R, Seidman MA, Lai CK, Ross HJ, Hyden MP, Chih SSY, Toma M, McManus BM, Ng RT, Tebbutt SJ.`
-   * Display byline: `Shannon CP, Assadian S, Rajasekaran A, et al.`
-   * Synchronized across `data/research.yml`, `data/publications.yml`, and both `.ris` bibliographic files (`proof_centre_publications.ris` and `static/data/proof_centre_publications.ris`).
-
-6. **Full-Page Exports on Desktop**:
-   * High-resolution retina full-height screenshot: `PROOF-Centre-Website-FullPage.png`
-   * Single continuous unpaginated PDF: `PROOF-Centre-Website-SinglePage.pdf`
-   * Printable multi-page PDF: `PROOF-Centre-Website.pdf`
+4. **Updated Desktop Exports**:
+   * Re-generated and saved to Desktop:
+     * `PROOF-Centre-Website-FullPage.png` (Retina full-page render)
+     * `PROOF-Centre-Website-SinglePage.pdf` (Continuous single-page PDF)
+     * `PROOF-Centre-Website.pdf` (Standard paginated PDF)
 
 ---
 
-## 📋 Punchlist to Pick Up Next Session
+## 📋 What Remains / Potential Next Steps
 
-- [ ] **1. Team Bios (`data/team.yml`)**:
-  * Add full accordion bios (`bio:`, `original_bio:`) for:
-    * **Dr. Scott Tebbutt** (CEO & CSO)
-    * **Casey Shannon** (Director of Data Science)
-    * **Sara Assadian** (Director of Clinical Research)
-  * *(Current status: all 3 have clean 1-sentence `mini_bio` summaries active on the cards).*
+1. **ORCID iDs (`data/team.yml`)**:
+   * The team layout contains built-in support for clickable green ORCID badges.
+   * Currently, `orcid: ""` is empty for all 6 members. If desired, we can look up and populate their official ORCID iDs.
 
-- [ ] **2. Team Headshots (`static/images/headshots/`)**:
-  * Currently only `estefania.jpg` is present.
-  * Collect and drop in photos for:
-    * `scott.jpg`
-    * `casey.jpg`
-    * `sara.jpg`
-    * `chengliang.jpg`
-    * `abhinav.jpg`
-  * Link filenames in `data/team.yml` under `image: "images/headshots/<name>.jpg"`.
+2. **Intellectual Property Section (`data/patents.yml`)**:
+   * Currently lists 4 key patents (Heart transplant rejection EP/US/PCT, and COPD exacerbation US).
+   * Review if any additional issued patents or active applications should be added.
 
-- [ ] **3. Core Research Areas Final Polish**:
-  * Confirm wording of the 4 pillar descriptions and section subtitle if any further refinements are desired.
+3. **Publications & Research Areas Final Review**:
+   * Review the 4 Core Research Areas descriptions (`data/research.yml`) and featured publications to confirm they fully reflect current grant priorities.
 
----
-
-## 🛠 Quick Start on Home Desktop
-
-Since this repository is inside your OneDrive directory (`.../OneDrive-Personal/Proof/projects/scratch/website`), the changes will sync automatically to your home computer.
-
-1. Open terminal in this project directory.
-2. Start the Hugo preview server:
-   ```bash
-   hugo server -D
-   ```
-3. Open `http://localhost:1313/` in your browser.
+4. **Production Deployment & Domain Readiness**:
+   * Verify production build settings (`baseURL`, minify).
+   * Review meta/OpenGraph tags for social sharing.
+   * Review deployment options (GitHub Pages, Netlify, Cloudflare Pages, or institutional hosting).
