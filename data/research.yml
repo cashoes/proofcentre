@@ -1,7 +1,7 @@
 - id: "01"
   title: "Heart & Cardiovascular Health"
   icon: "cardiology"
-  description: "Advancing molecular diagnostics across cardiovascular indications—from blood-based transcriptomic signatures (HEARTBiT) that detect heart transplant rejection without invasive biopsy, to international collaborative initiatives supported by the Leducq Foundation to develop diagnostic biomarkers for acute rheumatic fever."
+  description: "Developing and clinically validating non-invasive blood transcriptomic assays (HEARTBiT) to replace invasive biopsies for heart transplant rejection."
   publications:
     - title: "Acute cellular rejection after heart transplantation: validation of HEARTBiT, a transcriptomic biomarker"
       authors: "Shannon CP, Assadian S, Rajasekaran A, Yang C, Espín E, Lam L, Balshaw R, Seidman MA, Lai CK, Ross HJ, Hyden MP, Chih SSY, Toma M, McManus BM, Ng RT, Tebbutt SJ."
