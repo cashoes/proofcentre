@@ -38,7 +38,7 @@ patents:
   subtitle: "Proprietary diagnostic signatures and international intellectual property portfolio."
 
 footer:
-  title: "PROOF Centre"
+  title: "PROOF Centre of Excellence"
   description: "Prevention of Organ Failure Centre of Excellence.<br>Co-hosted by the University of British Columbia and Providence Health Care at St. Paul's Hospital."
   copyright: "PROOF Centre of Excellence. All rights reserved."
 ---
