@@ -263,7 +263,7 @@
               {{ if .image }}
               <img src="{{ .image | relURL }}" alt="{{ .name }}" class="w-full h-full object-cover rounded-full" style="object-position: {{ .img_position | default "50% 10%" }};" />
               {{ else }}
-              <span>{{ .avatar | default "👤" }}</span>
+              <span class="material-symbols-outlined text-outline text-2xl sm:text-3xl">person</span>
               {{ end }}
             </div>
             <div class="space-y-1 min-w-0">
