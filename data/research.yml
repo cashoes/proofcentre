@@ -1,7 +1,7 @@
 - id: "01"
   title: "Heart & Cardiovascular Health"
   icon: "cardiology"
-  description: "Advancing non-invasive blood tests for cardiovascular care, with research programs in heart transplant rejection surveillance, heart failure progression, and molecular biomarkers for acute and chronic inflammatory cardiovascular diseases."
+  description: "Developing non-invasive blood tests and molecular diagnostics across heart transplant rejection surveillance, heart failure progression, and inflammatory cardiovascular diseases."
   publications:
     - title: "Acute cellular rejection after heart transplantation: validation of HEARTBiT, a transcriptomic biomarker"
       authors: "Shannon CP, Assadian S, Rajasekaran A, Yang C, Espín E, Lam L, Balshaw R, Seidman MA, Lai CK, Ross HJ, Hyden MP, Chih SSY, Toma M, McManus BM, Ng RT, Tebbutt SJ."
