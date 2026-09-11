@@ -39,6 +39,6 @@ patents:
 
 footer:
   title: "PROOF Centre of Excellence"
-  description: "Biomarkers for the Prevention of Organ Failure.<br>Co-hosted by the University of British Columbia and Providence Health Care at St. Paul's Hospital."
+  description: "Biomarkers for the Prevention of Organ Failure.<br>Co-hosted by Providence Research, the Heart+Lung Institute and the University of British Columbia at St. Paul's Hospital, Vancouver."
   copyright: "PROOF Centre of Excellence. All rights reserved."
 ---
