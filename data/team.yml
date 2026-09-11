@@ -13,7 +13,7 @@ core:
 
   - name: "Casey Shannon"
     role: "Director of Data Science"
-    mini_bio: "Develops computational methods and machine learning pipelines to translate complex multi-omic data into non-invasive clinical biomarkers."
+    mini_bio: "Leads computational biology and data science at the PROOF Centre, developing multi-omic pipelines to translate complex molecular data into non-invasive clinical biomarkers."
     bio: >-
       Casey Shannon is Director of Data Science at the PROOF Centre of Excellence. Working at the interface of computer science, statistics, and biology, he develops computational pipelines and statistical learning methods to help make sense of high-dimensional genomic, transcriptomic, and proteomic data from clinical cohorts. He was the computational lead on HEARTBiT, a blood-based gene expression test designed to detect acute cellular rejection in heart transplant recipients. Interested in open and reproducible science, he has also co-developed methods and open-source packages for the broader research community, including the DIABLO multi-omics integration framework in mixOmics and tools for in silico cell-type deconvolution. His collaborative research spans international partnerships, including the Expanded Program on Immunization Consortium (EPIC) examining infant immune development and vaccine response, the IMPACC study investigating COVID-19 and Long COVID trajectories, and ongoing biomarker studies in heart and lung disease. Casey completed Bachelor’s degrees in Cell Physiology & Genetics as well as Computer Science at the University of British Columbia.
     original_bio: >-
