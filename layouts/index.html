@@ -384,12 +384,12 @@
         </div>
         <!-- Slim Multi-Segment Metric Bar (Type Hue + Leadership Shade: Deep=PROOF-Led, Light=Collaborative) -->
         <div class="w-full h-1.5 rounded-full overflow-hidden flex bg-outline-variant/20" id="pubProportionBar">
-          <div id="barOrigLead" style="width: {{ printf "%.1f" $origLeadPct }}%" class="bg-[#00316B] h-full transition-all duration-300 ease-out" title="PROOF-Led Original Research: {{ $origLeadCount }} ({{ printf "%.1f" $origLeadPct }}%)"></div>
-          <div id="barOrigCollab" style="width: {{ printf "%.1f" $origCollabPct }}%" class="bg-[#38BDF8] h-full transition-all duration-300 ease-out" title="Collaborative Original Research: {{ $origCollabCount }} ({{ printf "%.1f" $origCollabPct }}%)"></div>
-          <div id="barCommentLead" style="width: {{ printf "%.1f" $commentLeadPct }}%" class="bg-[#D97706] h-full transition-all duration-300 ease-out" title="PROOF-Led Commentary: {{ $commentLeadCount }} ({{ printf "%.1f" $commentLeadPct }}%)"></div>
-          <div id="barCommentCollab" style="width: {{ printf "%.1f" $commentCollabPct }}%" class="bg-[#FBBF24] h-full transition-all duration-300 ease-out" title="Collaborative Commentary: {{ $commentCollabCount }} ({{ printf "%.1f" $commentCollabPct }}%)"></div>
-          <div id="barReviewLead" style="width: {{ printf "%.1f" $reviewLeadPct }}%" class="bg-[#047857] h-full transition-all duration-300 ease-out" title="PROOF-Led Reviews & Other: {{ $reviewLeadCount }} ({{ printf "%.1f" $reviewLeadPct }}%)"></div>
-          <div id="barReviewCollab" style="width: {{ printf "%.1f" $reviewCollabPct }}%" class="bg-[#34D399] h-full transition-all duration-300 ease-out" title="Collaborative Reviews & Other: {{ $reviewCollabCount }} ({{ printf "%.1f" $reviewCollabPct }}%)"></div>
+          <div id="barOrigLead" style="width: {{ printf "%.1f" $origLeadPct }}%" class="bg-[#044694] h-full transition-all duration-300 ease-out" title="PROOF-Led Original Research: {{ $origLeadCount }} ({{ printf "%.1f" $origLeadPct }}%)"></div>
+          <div id="barOrigCollab" style="width: {{ printf "%.1f" $origCollabPct }}%" class="bg-[#6dcff5] h-full transition-all duration-300 ease-out" title="Collaborative Original Research: {{ $origCollabCount }} ({{ printf "%.1f" $origCollabPct }}%)"></div>
+          <div id="barCommentLead" style="width: {{ printf "%.1f" $commentLeadPct }}%" class="bg-[#fecb07] h-full transition-all duration-300 ease-out" title="PROOF-Led Commentary: {{ $commentLeadCount }} ({{ printf "%.1f" $commentLeadPct }}%)"></div>
+          <div id="barCommentCollab" style="width: {{ printf "%.1f" $commentCollabPct }}%" class="bg-[#fde047] h-full transition-all duration-300 ease-out" title="Collaborative Commentary: {{ $commentCollabCount }} ({{ printf "%.1f" $commentCollabPct }}%)"></div>
+          <div id="barReviewLead" style="width: {{ printf "%.1f" $reviewLeadPct }}%" class="bg-[#b3d335] h-full transition-all duration-300 ease-out" title="PROOF-Led Reviews & Other: {{ $reviewLeadCount }} ({{ printf "%.1f" $reviewLeadPct }}%)"></div>
+          <div id="barReviewCollab" style="width: {{ printf "%.1f" $reviewCollabPct }}%" class="bg-[#cde46e] h-full transition-all duration-300 ease-out" title="Collaborative Reviews & Other: {{ $reviewCollabCount }} ({{ printf "%.1f" $reviewCollabPct }}%)"></div>
         </div>
         <!-- Minimalist Editorial Filter Chips (Single Row 2-Dimensional Matrix) -->
         <div class="flex flex-wrap items-center gap-1.5 sm:gap-2 text-xs pt-0.5" id="pubFilterChips">
@@ -400,15 +400,15 @@
           </button>
           <button onclick="setPubTypeFilter('original-research')" data-type="original-research"
             class="pub-type-chip px-2.5 py-1 rounded-full font-medium transition-colors cursor-pointer border bg-surface hover:bg-surface-container text-on-surface-variant border-outline-variant/50">
-            <span class="inline-block w-2 h-2 rounded-full bg-[#00316B] mr-1.5"></span>Original Research <span id="chipCountOrig" class="font-semibold text-primary ml-0.5">{{ $origCount }}</span>
+            <span class="inline-block w-2 h-2 rounded-full bg-[#044694] mr-1.5"></span>Original Research <span id="chipCountOrig" class="font-semibold text-primary ml-0.5">{{ $origCount }}</span>
           </button>
           <button onclick="setPubTypeFilter('commentary')" data-type="commentary"
             class="pub-type-chip px-2.5 py-1 rounded-full font-medium transition-colors cursor-pointer border bg-surface hover:bg-surface-container text-on-surface-variant border-outline-variant/50">
-            <span class="inline-block w-2 h-2 rounded-full bg-[#D97706] mr-1.5"></span>Commentary <span id="chipCountCommentary" class="font-semibold text-primary ml-0.5">{{ $commentaryCount }}</span>
+            <span class="inline-block w-2 h-2 rounded-full bg-[#fecb07] mr-1.5"></span>Commentary <span id="chipCountCommentary" class="font-semibold text-primary ml-0.5">{{ $commentaryCount }}</span>
           </button>
           <button onclick="setPubTypeFilter('review')" data-type="review"
             class="pub-type-chip px-2.5 py-1 rounded-full font-medium transition-colors cursor-pointer border bg-surface hover:bg-surface-container text-on-surface-variant border-outline-variant/50">
-            <span class="inline-block w-2 h-2 rounded-full bg-[#047857] mr-1.5"></span>Reviews & Other <span id="chipCountReview" class="font-semibold text-primary ml-0.5">{{ $reviewAndOtherCount }}</span>
+            <span class="inline-block w-2 h-2 rounded-full bg-[#b3d335] mr-1.5"></span>Reviews & Other <span id="chipCountReview" class="font-semibold text-primary ml-0.5">{{ $reviewAndOtherCount }}</span>
           </button>
 
           <!-- Subtle Vertical Divider -->
@@ -476,9 +476,9 @@
                     {{ end }}
                     {{ with .tag }}
                     <span class="inline-flex items-center px-1.5 py-0.2 rounded text-[10px] font-semibold tracking-wide border shrink-0
-                      {{ if eq . "Original Research" }}bg-[#EEF7FC] text-[#00316B] border-[#38BDF8]/40
-                      {{ else if eq . "Editorial & Commentary" }}bg-[#FEFCE8] text-[#B45309] border-[#FBBF24]/50
-                      {{ else if eq . "Review" }}bg-[#ECFDF5] text-[#047857] border-[#34D399]/40
+                      {{ if eq . "Original Research" }}bg-[#EEF7FC] text-[#044694] border-[#6dcff5]/40
+                      {{ else if eq . "Editorial & Commentary" }}bg-[#FEFCE8] text-[#854d0e] border-[#fecb07]/50
+                      {{ else if eq . "Review" }}bg-[#f7fee7] text-[#3f6212] border-[#b3d335]/50
                       {{ else if eq . "Book Chapter" }}bg-purple-50 text-purple-700 border-purple-200
                       {{ else if eq . "Study Protocol" }}bg-teal-50 text-teal-700 border-teal-200
                       {{ else if eq . "Preprint" }}bg-rose-50 text-rose-700 border-rose-200
