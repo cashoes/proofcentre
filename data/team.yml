@@ -9,7 +9,7 @@ core:
     orcid: ""
     avatar: "👨‍🔬"
     image: "images/headshots/scott.jpg"
-    img_position: "50% 10%"
+    img_position: "50% 50%"
 
   - name: "Casey Shannon"
     role: "Director of Data Science"
@@ -57,7 +57,7 @@ core:
     orcid: ""
     avatar: "👨‍🎓"
     image: "images/headshots/abhinav.png"
-    img_position: "50% 0%"
+    img_position: "50% 50%"
 
   - name: "Estefanía Espín"
     role: "PhD Candidate"
