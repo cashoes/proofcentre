@@ -298,8 +298,8 @@
                 <span class="material-symbols-outlined text-base leading-none transition-transform duration-200 group-hover:translate-y-0.5 toggle-bio-icon">expand_more</span>
               </button>
 
-              <div class="full-bio-panel hidden mt-3 pt-3 border-t border-outline-variant/30 text-xs sm:text-sm text-on-surface-variant/90 leading-relaxed">
-                <p>{{ .bio }}</p>
+              <div class="full-bio-panel hidden mt-3 pt-3 border-t border-outline-variant/30 text-xs sm:text-sm text-on-surface-variant/90 leading-relaxed space-y-3">
+                {{ .bio | markdownify }}
               </div>
             </div>
             {{ end }}
