@@ -53,8 +53,8 @@ archive:
   journal: European Heart Journal
   doi: 10.1093/eurheartj/ehag751
   link: https://doi.org/10.1093/eurheartj/ehag751
-  authors: Shannon CP, Yang C, Assadian S, Lai CK, Lam L, Seidman MA, Hyden MP, Espin E, Rajasekaran A, Ross HJ, Balshaw RB, Ng RT, McManus BM, Tebbutt SJ.
-  display_authors: Shannon CP, Yang C, Assadian S, et al.
+  authors: Shannon CP, Assadian S, Rajasekaran A, Yang C, Espín E, Lam L, Balshaw R, Seidman MA, Lai CK, Ross HJ, Hyden MP, Chih SSY, Toma M, McManus BM, Ng RT, Tebbutt SJ.
+  display_authors: Shannon CP, Assadian S, Rajasekaran A, et al.
   tag: Original Research
   lead: true
   citations: 0
