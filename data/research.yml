@@ -1,7 +1,7 @@
 - id: "01"
-  title: "HEART"
+  title: "Heart & Cardiovascular Health"
   icon: "cardiology"
-  description: "Developing and clinically validating non-invasive blood transcriptomic assays (HEARTBiT) to replace invasive biopsies for heart transplant rejection."
+  description: "Advancing molecular diagnostics across cardiovascular indications—from blood-based transcriptomic signatures (HEARTBiT) that detect heart transplant rejection without invasive biopsy, to international collaborative initiatives supported by the Leducq Foundation to develop diagnostic biomarkers for acute rheumatic fever."
   publications:
     - title: "Acute cellular rejection after heart transplantation: validation of HEARTBiT, a transcriptomic biomarker"
       authors: "Shannon CP, Assadian S, Rajasekaran A, Yang C, Espín E, Lam L, Balshaw R, Seidman MA, Lai CK, Ross HJ, Hyden MP, Chih SSY, Toma M, McManus BM, Ng RT, Tebbutt SJ."
@@ -17,7 +17,7 @@
       link: "https://doi.org/10.1016/j.cjca.2019.11.017"
 
 - id: "02"
-  title: "LUNG"
+  title: "Respiratory & Pulmonary Health"
   icon: "pulmonology"
   description: "Biomarker discovery and molecular phenotyping in asthma responder endotypes and chronic interstitial lung diseases."
   publications:
@@ -59,7 +59,7 @@
       link: "https://doi.org/10.1038/s41467-019-08794-x"
 
 - id: "04"
-  title: "Multi-omics & Systems Biology"
+  title: "Multi-Omics & Systems Biology"
   icon: "hub"
   description: "Machine learning and integrative bioinformatics frameworks (DIABLO) for multi-omic biomarker discovery and dataset harmonization."
   publications:
