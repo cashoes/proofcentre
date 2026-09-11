@@ -582,11 +582,12 @@
       <div class="flex items-center gap-4">
         <img src="{{ "images/proof-logo.svg" | relURL }}" alt="PROOF Centre Logo" class="h-14 sm:h-16 w-auto shrink-0" />
         <div>
-          <div class="font-heading font-extrabold text-lg sm:text-xl md:text-2xl text-primary leading-none tracking-tight mb-1.5">
-            {{ with .Params.footer.title }}{{ . }}{{ else }}PROOF Centre{{ end }}
+          <div class="leading-none flex items-baseline gap-2 mb-2">
+            <span class="font-heading font-black text-lg sm:text-xl md:text-2xl text-primary tracking-tight">PROOF</span>
+            <span class="font-heading font-medium text-base sm:text-lg md:text-xl text-primary/85 tracking-tight">Centre of Excellence</span>
           </div>
           <p class="text-xs text-on-surface-variant max-w-md leading-relaxed">
-            {{ with .Params.footer.description }}{{ . | safeHTML }}{{ else }}Prevention of Organ Failure Centre of Excellence.<br>Co-hosted by the University of British Columbia and Providence Health Care at St. Paul's Hospital.{{ end }}
+            {{ with .Params.footer.description }}{{ . | safeHTML }}{{ else }}Biomarkers for the Prevention of Organ Failure.<br>Co-hosted by the University of British Columbia and Providence Health Care at St. Paul's Hospital.{{ end }}
           </p>
         </div>
       </div>
