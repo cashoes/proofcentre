@@ -12,6 +12,8 @@ resources/_gen/
 .DS_Store
 Thumbs.db
 
-# Local agent configs
+# Local agent configs & maintenance
 .agents/
-
+scripts/
+*.ris
+NEXT_STEPS.md
