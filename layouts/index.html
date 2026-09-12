@@ -7,6 +7,9 @@
   <title>{{ .Params.title | default .Site.Title }}</title>
   <meta name="description" content="{{ .Site.Params.description }}" />
 
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="{{ "favicon.svg" | relURL }}" />
+
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com?plugins=forms"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -86,7 +89,7 @@
         <img src="{{ "images/proof-logo.svg" | relURL }}" alt="PROOF Centre Logo" class="h-13 sm:h-15 md:h-[66px] w-auto transition-transform duration-300 group-hover:scale-[1.03]" />
         <div class="flex flex-col justify-center">
           <div class="leading-none flex items-baseline gap-2 sm:gap-2.5">
-            <span class="font-heading font-black text-xl sm:text-2xl md:text-[1.75rem] text-primary tracking-tight">PROOF</span>
+            <span class="font-heading font-extrabold text-xl sm:text-2xl md:text-[1.75rem] text-primary tracking-tight">PROOF</span>
             <span class="font-heading font-medium text-base sm:text-lg md:text-[1.35rem] text-primary/85 tracking-tight">Centre of Excellence</span>
           </div>
           <span class="text-xs sm:text-[13px] md:text-sm text-on-surface-variant/85 font-medium tracking-normal mt-1.5 leading-tight">
@@ -579,7 +582,7 @@
         <img src="{{ "images/proof-logo.svg" | relURL }}" alt="PROOF Centre Logo" class="h-14 sm:h-16 w-auto shrink-0" />
         <div>
           <div class="leading-none flex items-baseline gap-2 mb-2">
-            <span class="font-heading font-black text-lg sm:text-xl md:text-2xl text-primary tracking-tight">PROOF</span>
+            <span class="font-heading font-extrabold text-lg sm:text-xl md:text-2xl text-primary tracking-tight">PROOF</span>
             <span class="font-heading font-medium text-base sm:text-lg md:text-xl text-primary/85 tracking-tight">Centre of Excellence</span>
           </div>
           <p class="text-xs text-on-surface-variant max-w-md leading-relaxed">
