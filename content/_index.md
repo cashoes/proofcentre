@@ -22,7 +22,7 @@ capabilities:
       description: "Technology-agnostic platform evaluation, assay validity testing, diagnostic IP management, and grant co-development."
 
 research:
-  title: "Core Research Areas"
+  title: "Our Research"
   subtitle: "Cardiovascular health, pulmonary medicine, infection & immunity, and computational systems biology."
 
 team:
@@ -30,11 +30,11 @@ team:
   subtitle: "Interdisciplinary leadership, computational biologists, clinical investigators, and trainees."
 
 publications:
-  title: "Publications"
+  title: "Our Publications"
   subtitle: "Translational discoveries, clinical biomarker validations, and computational frameworks."
 
 patents:
-  title: "Intellectual Property"
+  title: "Our IP"
   subtitle: "Proprietary diagnostic signatures and international intellectual property portfolio."
 
 footer:
