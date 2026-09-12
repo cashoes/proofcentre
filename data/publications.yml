@@ -115,7 +115,7 @@ archive:
   date: '2026-07-01'
 - year: 2026
   title: Pilot longitudinal integrated transcriptomic-metabolomic study reveals immune and metabolic signatures in non-hospitalized healthcare workers with long COVID
-  journal: Frontiers in cellular and infection microbiology
+  journal: Frontiers in Cellular and Infection Microbiology
   doi: 10.3389/fcimb.2026.1808564
   link: https://doi.org/10.3389/fcimb.2026.1808564
   authors: Espín E, Yang C, Shannon CP, Checkervarty AK, Kim S, Lapp L, Assadian S, Grunau B, Goldfarb DM, Hutton J, Huan T, Tebbutt SJ
@@ -148,7 +148,7 @@ archive:
   date: '2026-04-08'
 - year: 2026
   title: Using cell-specific late-phase asthma mRNA biomarkers to repurpose drugs that concurrently reverse disease signatures across multiple immune cell-types
-  journal: PLoS Computational Biology
+  journal: PLOS Computational Biology
   doi: 10.1371/journal.pcbi.1014081
   link: https://doi.org/10.1371/journal.pcbi.1014081
   authors: Zhang M, Kim YW, Yang CX, Gauvreau GM, FitzGerald JM, Boulet LP, O'Byrne PM, Tebbutt SJ, Singh A
@@ -198,7 +198,7 @@ archive:
   date: '2026-01-21'
 - year: 2026
   title: 2024-2025 Covid-19 Vaccine Outcomes in U.S. Veterans
-  journal: The New England journal of medicine
+  journal: The New England Journal of Medicine
   doi: 10.1056/NEJMc2516766
   link: https://doi.org/10.1056/NEJMc2516766
   authors: Yang C, Tebbutt SJ
@@ -209,7 +209,7 @@ archive:
   date: '2026-01-14'
 - year: 2026
   title: Newborns with sickle cell trait have distinct peripheral blood molecular signatures across the first week of life
-  journal: Blood. Red cells & iron
+  journal: 'Blood: Red Cells & Iron'
   doi: 10.1016/j.brci.2026.100051
   link: https://doi.org/10.1016/j.brci.2026.100051
   authors: Checkervarty AK, Shannon CP, Blimkie TM, Dhillon BK, Falsafi R, Angelidou A, Diray-Arce J, Bennike TB, Archer NM, Idoko OT, McEnaney K, Ozonoff A, Odumade OA, Ben-Othman R, Smolen KK, Steen H, EPIC-HIPC Consortium, Kampmann B, Kollmann TR, Levy O, Lee AH, Hancock REW, Tebbutt SJ
@@ -253,7 +253,7 @@ archive:
   date: '2025-11-26'
 - year: 2025
   title: Association between tacrolimus blood levels and biopsy-proven acute cellular rejection in adult heart transplant recipients
-  journal: JHLT open
+  journal: JHLT Open
   doi: 10.1016/j.jhlto.2025.100373
   link: https://doi.org/10.1016/j.jhlto.2025.100373
   authors: Yang C, Shannon CP, Assadian S, Lapp L, Nair R, Huan T, Partovi N, Toma M, Tebbutt SJ
@@ -352,7 +352,7 @@ archive:
   date: '2024-12-30'
 - year: 2024
   title: Diagnostic potential of genomic blood biomarkers of pulmonary fibrosis in a prospective cohort
-  journal: PLoS ONE
+  journal: PLOS ONE
   doi: 10.1371/journal.pone.0314876
   link: https://doi.org/10.1371/journal.pone.0314876
   authors: He D, Shannon CP, Hirota JA, Ask K, Ryerson CJ, Tebbutt SJ
@@ -385,7 +385,7 @@ archive:
   date: '2024-11-04'
 - year: 2024
   title: Glucagon-Like Peptide-1 Receptor Agonists and Osteoarthritis
-  journal: The New England journal of medicine
+  journal: The New England Journal of Medicine
   doi: 10.1056/NEJMe2409972
   link: https://doi.org/10.1056/NEJMe2409972
   authors: Felson DT
@@ -396,7 +396,7 @@ archive:
   date: '2024-10-30'
 - year: 2024
   title: Predictive gene expression signature diagnoses neonatal sepsis before clinical presentation
-  journal: EBioMedicine
+  journal: eBioMedicine
   doi: 10.1016/j.ebiom.2024.105411
   link: https://doi.org/10.1016/j.ebiom.2024.105411
   authors: An AY, Acton E, Idoko OT, Shannon CP, Blimkie TM, Falsafi R, Tebbutt SJ, Kollmann TR, Hancock REW
@@ -484,7 +484,7 @@ archive:
   date: '2024-06-19'
 - year: 2024
   title: False Positive Covid-19 Rapid Antigen Tests
-  journal: The New England journal of medicine
+  journal: The New England Journal of Medicine
   doi: 10.1056/NEJMc2403409
   link: https://doi.org/10.1056/NEJMc2403409
   authors: Yang C, Espín E, Tebbutt SJ
@@ -572,7 +572,7 @@ archive:
   date: '2023-07-24'
 - year: 2023
   title: 'Interferon β-1a ring prophylaxis to reduce household transmission of SARS-CoV-2: a cluster randomised clinical trial'
-  journal: EClinicalMedicine
+  journal: eClinicalMedicine
   doi: 10.1016/j.eclinm.2023.102082
   link: https://doi.org/10.1016/j.eclinm.2023.102082
   authors: Castro-Rodriguez JA, Fish EN, Montgomery ST, Kollmann TR, Iturriaga C, Shannon C, Tebbutt SJ, et al.
@@ -792,7 +792,7 @@ archive:
   date: '2021-01-11'
 - year: 2021
   title: Proteomic Portraits Reveal Evolutionarily Conserved and Divergent Responses to Spinal Cord Injury
-  journal: Molecular &amp; Cellular Proteomics
+  journal: Molecular & Cellular Proteomics
   doi: 10.1016/j.mcpro.2021.100096
   link: https://doi.org/10.1016/j.mcpro.2021.100096
   authors: Skinnider Michael A., Rogalski Jason, Tigchelaar Seth, Manouchehri Neda, Prudova Anna, Jackson Angela M., Nielsen Karina, Jeong Jaihyun, Chaudhary Shalini, Shortt Katelyn, Gallagher-Kurtzke Ylonna, So Kitty, Fong Allan, Gupta Rishab, Okon Elena B., Rizzuto Michael A., Dong Kevin, Streijger Femke, Belanger Lise, Ritchie Leanna, Tsang Angela, Christie Sean, Mac-Thiong Jean-Marc, Bailey Christopher, Ailon Tamir, Charest-Morin Raphaele, Dea Nicolas, Wilson Jefferson R., Dhall Sanjay, Paquette Scott, Street John, Fisher Charles G., Dvorak Marcel F., Shannon Casey, Borchers Christoph, Balshaw Robert, Foster Leonard J., Kwon Brian K.
@@ -991,7 +991,7 @@ archive:
   date: '2019-11-25'
 - year: 2019
   title: 'Whole blood vs PBMC: compartmental differences in gene expression profiling exemplified in asthma'
-  journal: Allergy, Asthma &amp; Clinical Immunology
+  journal: Allergy, Asthma & Clinical Immunology
   doi: 10.1186/s13223-019-0382-x
   link: https://doi.org/10.1186/s13223-019-0382-x
   authors: He Daniel, Yang Chen Xi, Sahin Basak, Singh Amrit, Shannon Casey P., Oliveria John-Paul, Gauvreau Gail M., Tebbutt Scott J.
@@ -1112,7 +1112,7 @@ archive:
   date: '2019-01-14'
 - year: 2019
   title: Multiplexed LC–ESI–MRM‐MS‐based Assay for Identification of Coronary Artery Disease Biomarkers in Human Plasma
-  journal: PROTEOMICS – Clinical Applications
+  journal: Proteomics – Clinical Applications
   doi: 10.1002/prca.201700111
   link: https://doi.org/10.1002/prca.201700111
   authors: Anwar Mohammad A., Dai Darlene Liying, Wilson‐McManus Janet, Smith Derek, Francis Gordon A., Borchers Christoph H, McManus Bruce M., Hill John S., Cohen Freue Gabriela V.
@@ -1409,7 +1409,7 @@ archive:
   date: '2016-12-01'
 - year: 2016
   title: 'SABRE: a method for assessing the stability of gene modules in complex tissues and subject populations'
-  journal: BMC bioinformatics
+  journal: BMC Bioinformatics
   doi: 10.1186/s12859-016-1319-8
   link: https://doi.org/10.1186/s12859-016-1319-8
   authors: Shannon CP, Chen V, Takhar M, Hollander Z, Balshaw R, McManus BM, Tebbutt SJ, Sin DD, Ng RT
@@ -1420,7 +1420,7 @@ archive:
   date: '2016-11-14'
 - year: 2017
   title: Biomarker Development in COPD
-  journal: Chest
+  journal: CHEST
   doi: 10.1016/j.chest.2016.09.012
   link: https://doi.org/10.1016/j.chest.2016.09.012
   authors: Hollander Zsuzsanna, DeMarco Mari L., Sadatsafavi Mohsen, McManus Bruce M., Ng Raymond T., Sin Don D.
@@ -1475,7 +1475,7 @@ archive:
   date: '2016-05-24'
 - year: 2016
   title: The Effect of Different Case Definitions of Current Smoking on the Discovery of Smoking-Related Blood Gene Expression Signatures in Chronic Obstructive Pulmonary Disease
-  journal: Nicotine &amp; Tobacco Research
+  journal: Nicotine & Tobacco Research
   doi: 10.1093/ntr/ntw129
   link: https://doi.org/10.1093/ntr/ntw129
   authors: Obeidat Ma’en, Ding Xiaoting, Fishbane Nick, Hollander Zsuzsanna, Ng Raymond T., McManus Bruce, Tebbutt Scott J., Miller Bruce E., Rennard Stephen, Paré Peter D., Sin Don D.
@@ -1651,7 +1651,7 @@ archive:
   date: '2014-11-01'
 - year: 2014
   title: Th17/Treg ratio derived using DNA methylation analysis is associated with the late phase asthmatic response
-  journal: Allergy, Asthma &amp; Clinical Immunology
+  journal: Allergy, Asthma & Clinical Immunology
   doi: 10.1186/1710-1492-10-32
   link: https://doi.org/10.1186/1710-1492-10-32
   authors: Singh Amrit, Yamamoto Masatsugu, Ruan Jian, Choi Jung Young, Gauvreau Gail M, Olek Sven, Hoffmueller Ulrich, Carlsten Christopher, FitzGerald J Mark, Boulet Louis-Philippe, O'Byrne Paul M, Tebbutt Scott J
@@ -1662,7 +1662,7 @@ archive:
   date: '2014-06-24'
 - year: 2014
   title: Two-Stage, In Silico Deconvolution of the Lymphocyte Compartment of the Peripheral Whole Blood Transcriptome in the Context of Acute Kidney Allograft Rejection
-  journal: PLoS ONE
+  journal: PLOS ONE
   doi: 10.1371/journal.pone.0095224
   link: https://doi.org/10.1371/journal.pone.0095224
   authors: Shannon Casey P., Balshaw Robert, Ng Raymond T., Wilson-McManus Janet E., Keown Paul, McMaster Robert, McManus Bruce M., Landsberg David, Isbel Nicole M., Knoll Greg, Tebbutt Scott J.
@@ -1673,7 +1673,7 @@ archive:
   date: '2014-04-14'
 - year: 2014
   title: Variation in RNA-Seq Transcriptome Profiles of Peripheral Whole Blood from Healthy Individuals with and without Globin Depletion
-  journal: PLoS ONE
+  journal: PLOS ONE
   doi: 10.1371/journal.pone.0091041
   link: https://doi.org/10.1371/journal.pone.0091041
   authors: Shin Heesun, Shannon Casey P., Fishbane Nick, Ruan Jian, Zhou Mi, Balshaw Robert, Wilson-McManus Janet E., Ng Raymond T., McManus Bruce M., Tebbutt Scott J., for the PROOF Centre of Excellence Team
@@ -1684,7 +1684,7 @@ archive:
   date: '2014-03-07'
 - year: 2014
   title: Proteomic biomarkers of recovered heart function
-  journal: European journal of heart failure
+  journal: European Journal of Heart Failure
   doi: 10.1002/ejhf.65
   link: https://doi.org/10.1002/ejhf.65
   authors: Hollander Z, Lazárová M, Lam KK, Ignaszewski A, Oudit GY, Dyck JR, Schreiner G, Pauwels J, Chen V, Cohen Freue GV, Ng RT, Wilson-McManus JE, Balshaw R, Tebbutt SJ, McMaster RW, Keown PA, McManus BM, NCE CECR PROOF Prevention of Organ Failure (PROOF) Centre of Excellence
@@ -1717,7 +1717,7 @@ archive:
   date: '2013-10-01'
 - year: 2013
   title: Gene-Metabolite Expression in Blood Can Discriminate Allergen-Induced Isolated Early from Dual Asthmatic Responses
-  journal: PLoS ONE
+  journal: PLOS ONE
   doi: 10.1371/journal.pone.0067907
   link: https://doi.org/10.1371/journal.pone.0067907
   authors: Singh Amrit, Yamamoto Masatsugu, Kam Sarah H. Y., Ruan Jian, Gauvreau Gail M., O'Byrne Paul M., FitzGerald J. Mark, Schellenberg Robert, Boulet Louis-Philippe, Wojewodka Gabriella, Kanagaratham Cynthia, De Sanctis Juan B., Radzioch Danuta, Tebbutt Scott J.
@@ -1750,7 +1750,7 @@ archive:
   date: '2013-06-21'
 - year: 2013
   title: 'MicroRNA expression in response to controlled exposure to diesel exhaust: attenuation by the antioxidant N-acetylcysteine in a randomized crossover study'
-  journal: Environmental health perspectives
+  journal: Environmental Health Perspectives
   doi: 10.1289/ehp.1205963
   link: https://doi.org/10.1289/ehp.1205963
   authors: Yamamoto M, Singh A, Sava F, Pui M, Tebbutt SJ, Carlsten C
@@ -1761,7 +1761,7 @@ archive:
   date: '2013-04-12'
 - year: 2013
   title: 'Computational Biomarker Pipeline from Discovery to Clinical Implementation: Plasma Proteomic Biomarkers for Cardiac Transplantation'
-  journal: PLoS Computational Biology
+  journal: PLOS Computational Biology
   doi: 10.1371/journal.pcbi.1002963
   link: https://doi.org/10.1371/journal.pcbi.1002963
   authors: Cohen Freue Gabriela V., Meredith Anna, Smith Derek, Bergman Axel, Sasaki Mayu, Lam Karen K. Y., Hollander Zsuzsanna, Opushneva Nina, Takhar Mandeep, Lin David, Wilson-McManus Janet, Balshaw Robert, Keown Paul A., Borchers Christoph H., McManus Bruce, Ng Raymond T., McMaster W. Robert, for the Biomarkers in Transplantation and the NCE CECR Prevention of Organ Failure Centre of Excellence Teams
@@ -1805,7 +1805,7 @@ archive:
   date: '2012-11-21'
 - year: 2012
   title: 'Future Impact of Various Interventions on the Burden of COPD in Canada: A Dynamic Population Model'
-  journal: PLoS ONE
+  journal: PLOS ONE
   doi: 10.1371/journal.pone.0046746
   link: https://doi.org/10.1371/journal.pone.0046746
   authors: Najafzadeh Mehdi, Marra Carlo A., Lynd Larry D., Sadatsafavi Mohsen, FitzGerald J. Mark, McManus Bruce, Sin Don
@@ -1816,7 +1816,7 @@ archive:
   date: '2012-10-11'
 - year: 2012
   title: Plasma proteomics can discriminate isolated early from dual responses in asthmatic individuals undergoing an allergen inhalation challenge
-  journal: PROTEOMICS – Clinical Applications
+  journal: Proteomics – Clinical Applications
   doi: 10.1002/prca.201200013
   link: https://doi.org/10.1002/prca.201200013
   authors: Singh Amrit, Cohen Freue Gabriela V., Oosthuizen Jean L., Kam Sarah H. Y., Ruan Jian, Takhar Mandeep K., Gauvreau Gail M., O'Byrne Paul M., FitzGerald J. Mark, Boulet Louis‐Philippe, Borchers Christoph H., Tebbutt Scott J.
@@ -1893,7 +1893,7 @@ archive:
   date: '2011-09-07'
 - year: 2011
   title: High-flow multiplexed MRM-based analysis of proteins in human plasma without depletion or enrichment
-  journal: Clinics in laboratory medicine
+  journal: Clinics in Laboratory Medicine
   doi: 10.1016/j.cll.2011.07.005
   link: https://doi.org/10.1016/j.cll.2011.07.005
   authors: Domanski D, Smith DS, Miller CA, Yang Y, Jackson AM, Cohen Freue G, Hill JS, Parker CE, Borchers CH
@@ -1915,7 +1915,7 @@ archive:
   date: '2011-05-23'
 - year: 2011
   title: Wnt3a Induces Myofibroblast Differentiation by Upregulating TGF-β Signaling Through SMAD2 in a β-Catenin-Dependent Manner
-  journal: PLoS ONE
+  journal: PLOS ONE
   doi: 10.1371/journal.pone.0019809
   link: https://doi.org/10.1371/journal.pone.0019809
   authors: Carthy Jon M., Garmaroudi Farshid S., Luo Zongshu, McManus Bruce M.
@@ -1926,7 +1926,7 @@ archive:
   date: '2011-05-18'
 - year: 2011
   title: The Human Serum Metabolome
-  journal: PLoS ONE
+  journal: PLOS ONE
   doi: 10.1371/journal.pone.0016957
   link: https://doi.org/10.1371/journal.pone.0016957
   authors: Psychogios Nikolaos, Hau David D., Peng Jun, Guo An Chi, Mandal Rupasri, Bouatra Souhaila, Sinelnikov Igor, Krishnamurthy Ramanarayan, Eisner Roman, Gautam Bijaya, Young Nelson, Xia Jianguo, Knox Craig, Dong Edison, Huang Paul, Hollander Zsuzsanna, Pedersen Theresa L., Smith Steven R., Bamforth Fiona, Greiner Russ, McManus Bruce, Newman John W., Goodfriend Theodore, Wishart David S.
@@ -1970,7 +1970,7 @@ archive:
   date: '2010-11-13'
 - year: 2010
   title: Proteomic Signatures in Plasma during Early Acute Renal Allograft Rejection
-  journal: Molecular &amp; Cellular Proteomics
+  journal: Molecular & Cellular Proteomics
   doi: 10.1074/mcp.m110.000554
   link: https://doi.org/10.1074/mcp.m110.000554
   authors: Freue Gabriela V. Cohen, Sasaki Mayu, Meredith Anna, Günther Oliver P., Bergman Axel, Takhar Mandeep, Mui Alice, Balshaw Robert F., Ng Raymond T., Opushneva Nina, Hollander Zsuzsanna, Li Guiyun, Borchers Christoph H., Wilson-McManus Janet, McManus Bruce M., Keown Paul A., McMaster W. Robert
@@ -2014,7 +2014,7 @@ archive:
   date: '2009-10-02'
 - year: 2009
   title: Searching for 'omic' biomarkers
-  journal: The Canadian journal of cardiology
+  journal: The Canadian Journal of Cardiology
   doi: 10.1016/s0828-282x(09)71048-7
   link: https://doi.org/10.1016/s0828-282x(09)71048-7
   authors: Lin D, Hollander Z, Meredith A, McManus BM
@@ -2102,7 +2102,7 @@ archive:
   date: '2007-10-09'
 - year: 2007
   title: The use of consensus guidelines for management of cytomegalovirus infection in renal transplantation
-  journal: Kidney international
+  journal: Kidney International
   doi: 10.1038/sj.ki.5002464
   link: https://doi.org/10.1038/sj.ki.5002464
   authors: Dmitrienko S, Yu A, Balshaw R, Shapiro RJ, Keown PA, Genome Canada Biomarkers in Transplantation Group
