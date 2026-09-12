@@ -9,13 +9,13 @@ capabilities:
   title: "We partner across the biomarker lifecycle"
   items:
     - title: "Biomarker Discovery & Development"
-      color: "#b3d335"
+      color: "#044694"
       description: "Candidate target identification, screening, and diagnostic blood test qualification across complex clinical cohorts."
     - title: "Multi-Omic Integration & Machine Learning"
       color: "#6dcff5"
       description: "Specialized computational pipelines and multi-block integrative algorithms (DIABLO) to better model complex biological systems."
     - title: "Clinical Cohorts & Biobanking Operations"
-      color: "#044694"
+      color: "#b3d335"
       description: "Trial protocol design, biobanking logistics, multi-centre cohort coordination, and navigating research ethics."
     - title: "Translational & Assay Strategy"
       color: "#fecb07"
@@ -23,21 +23,22 @@ capabilities:
 
 research:
   title: "Our Research"
-  subtitle: "Cardiovascular health, pulmonary medicine, infection & immunity, and computational systems biology."
+  subtitle: "Investigating molecular mechanisms and blood-based biomarkers to prevent organ failure."
 
 team:
   title: "Our Team"
-  subtitle: "Interdisciplinary leadership, computational biologists, clinical investigators, and trainees."
+  subtitle: "Clinicians, data scientists, and biologists collaborating from bench to bedside."
 
 publications:
   title: "Our Publications"
-  subtitle: "Translational discoveries, clinical biomarker validations, and computational frameworks."
+  subtitle: "Two decades of peer-reviewed clinical findings and computational innovation."
 
 patents:
   title: "Our IP"
-  subtitle: "Proprietary diagnostic signatures and international intellectual property portfolio."
+  subtitle: "Translating laboratory discovery into patented, deployable diagnostic assays."
 
 footer:
-  description: "Biomarkers for the Prevention of Organ Failure.<br>Co-hosted by Providence Research, the Centre for Heart Lung Innovation, and the University of British Columbia at St. Paul's Hospital, Vancouver, Canada."
+  tagline: "Biomarkers for the Prevention of Organ Failure"
+  hosting: "Co-hosted by Providence Research, the Centre for Heart Lung Innovation, and the University of British Columbia at St. Paul's Hospital, Vancouver, Canada."
   copyright: "PROOF Centre of Excellence. All rights reserved."
 ---

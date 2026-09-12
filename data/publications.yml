@@ -1,52 +1,3 @@
-highlighted:
-- tag: Transplant Diagnostics
-  year: 2020
-  title: 'Analytical Validation of HEARTBiT: A Blood-Based Multiplex Gene Expression Profiling Assay for Exclusionary Diagnosis of Acute Cellular Rejection in Heart Transplant Patients'
-  journal: Clinical Chemistry
-  doi: 10.1093/clinchem/hvaa123
-  link: https://doi.org/10.1093/clinchem/hvaa123
-  authors: Kim JY, Lee B, Koitsopoulos P, Shannon CP, Chen V, Hollander Z, Assadian S, Lam K, Ng RT, McManus BM, Tebbutt SJ.
-  lead: true
-- tag: Transplant Diagnostics
-  year: 2019
-  title: 'HEARTBiT: A Transcriptomic Signature for Excluding Acute Cellular Rejection in Adult Heart Allograft Patients'
-  journal: Canadian Journal of Cardiology
-  doi: 10.1016/j.cjca.2019.11.017
-  link: https://doi.org/10.1016/j.cjca.2019.11.017
-  authors: Shannon CP, Hollander Z, Dai DLY, Chen V, Assadian S, Lam KL, McManus JE, Tebbutt SJ, McMaster WR, Ng RT, McManus BM, et al.
-  lead: true
-- tag: Infection, Immunity
-  year: 2019
-  title: Dynamic Molecular Changes During the First Week of Human Life Follow a Robust Developmental Trajectory
-  journal: Nature Communications
-  doi: 10.1038/s41467-019-08794-x
-  link: https://doi.org/10.1038/s41467-019-08794-x
-  authors: Lee AH, Shannon CP, Amenyogbe N, Bennike TB, Diray-Arce J, Idoko OT, Tebbutt SJ, Kampmann B, Levy O, Kollmann TR, EPIC Consortium.
-  lead: false
-- tag: Infection, Immunity
-  year: 2020
-  title: BCG Vaccination-Induced Emergency Granulopoiesis Provides Rapid Protection from Neonatal Sepsis
-  journal: Science Translational Medicine
-  doi: 10.1126/scitranslmed.aax4517
-  link: https://doi.org/10.1126/scitranslmed.aax4517
-  authors: Brook B, Harbeson DJ, Shannon CP, Cai B, He D, Ben-Othman R, Francis F, Tebbutt SJ, Kollmann TR, Amenyogbe N, et al.
-  lead: false
-- tag: Computational Multi-Omics
-  year: 2019
-  title: 'DIABLO: An Integrative Approach for Identifying Key Molecular Drivers from Multi-Omic Assays and Its Application in Systemic Lupus Erythematosus and TCGA'
-  journal: Bioinformatics
-  doi: 10.1093/bioinformatics/bty1054
-  link: https://doi.org/10.1093/bioinformatics/bty1054
-  authors: Singh A, Shannon CP, Gautier B, Rohart F, Vacher M, Tebbutt SJ, Lê Cao K-A.
-  lead: true
-- tag: Computational Multi-Omics
-  year: 2025
-  title: 'Transcriptomics of Interstitial Lung Disease: A Systematic Review and Meta-Analysis'
-  journal: European Respiratory Journal
-  doi: 10.1183/13993003.01070-2024
-  link: https://doi.org/10.1183/13993003.01070-2024
-  authors: He D, Guler SA, Shannon CP, Ryerson CJ, Tebbutt SJ.
-  lead: true
 archive:
 - year: 2026
   title: 'Acute cellular rejection after heart transplantation: validation of HEARTBiT, a transcriptomic biomarker'
@@ -68,7 +19,7 @@ archive:
   display_authors: Yang Chengliang, Toma Mustafa, Tebbutt Scott J.
   tag: Editorial & Commentary
   lead: true
-  citations: 0
+  citations: 1
   date: '2026-08-01'
 - year: 2026
   title: 'Global, regional, and national burden of tuberculosis and multidrug-resistant tuberculosis by HIV status, 1990–2023: a systematic analysis for the Global Burden of Disease Study 2023'
@@ -111,7 +62,7 @@ archive:
   display_authors: Ledesma Jorge R, Zhang Meixin, Liew Mei Fong, et al.
   tag: Original Research
   lead: false
-  citations: 0
+  citations: 1
   date: '2026-07-01'
 - year: 2026
   title: Pilot longitudinal integrated transcriptomic-metabolomic study reveals immune and metabolic signatures in non-hospitalized healthcare workers with long COVID
@@ -122,7 +73,7 @@ archive:
   display_authors: Espín E, Yang C, Shannon CP, et al.
   tag: Original Research
   lead: true
-  citations: 0
+  citations: 1
   date: '2026-06-04'
 - year: 2026
   title: 'Editorial: Managing COVID-19 in heart and lung transplantation: clinical challenges and emerging solutions'
@@ -194,7 +145,7 @@ archive:
   display_authors: Jo Hyesu, Kim Tae Hyeon, Park Jaeyu, et al.
   tag: Original Research
   lead: false
-  citations: 10
+  citations: 13
   date: '2026-01-21'
 - year: 2026
   title: 2024-2025 Covid-19 Vaccine Outcomes in U.S. Veterans
@@ -260,7 +211,7 @@ archive:
   display_authors: Yang C, Shannon CP, Assadian S, et al.
   tag: Original Research
   lead: true
-  citations: 0
+  citations: 1
   date: '2025-08-20'
 - year: 2025
   title: Identifying Potential Vulnerability to Long COVID Through Global‐to‐Local Inequalities in Years Lived With Disability Attributed to COVID‐19, 2020–2021, Across 920 Locations
@@ -293,7 +244,7 @@ archive:
   display_authors: Yang Chengliang, Lapp Linda, Amstutz Alain, et al.
   tag: Review
   lead: true
-  citations: 2
+  citations: 4
   date: '2025-07-01'
 - year: 2025
   title: Global, Regional, National, and Local Burden of COVID‐19 With Inequality Analysis Across 920 Locations, 2020–2021
@@ -315,7 +266,7 @@ archive:
   display_authors: Amodio D, Rossetti C, Angelidou A, et al.
   tag: Study Protocol
   lead: false
-  citations: 1
+  citations: 2
   date: '2025-06-23'
 - year: 2025
   title: Type 2 immune responses are associated with less severe COVID-19 in a hospitalized cohort
@@ -403,7 +354,7 @@ archive:
   display_authors: An AY, Acton E, Idoko OT, et al.
   tag: Original Research
   lead: false
-  citations: 11
+  citations: 13
   date: '2024-10-29'
 - year: 2024
   title: The BNT162b2 mRNA vaccine demonstrates reduced age-associated T(H)1 support in vitro and in vivo
@@ -414,7 +365,7 @@ archive:
   display_authors: Brook B, Checkervarty AK, Barman S, et al.
   tag: Original Research
   lead: false
-  citations: 7
+  citations: 9
   date: '2024-09-26'
 - year: 2024
   title: Effects of Medicaid coverage on cardiovascular health outcomes
@@ -436,7 +387,7 @@ archive:
   display_authors: Martino D, Kresoje N, Amenyogbe N, et al.
   tag: Original Research
   lead: false
-  citations: 10
+  citations: 12
   date: '2024-09-17'
 - year: 2024
   title: 'Multi‐level insights into the immuno‐oncology‐microbiome axis: From biotechnology to novel therapies'
@@ -480,7 +431,7 @@ archive:
   display_authors: Yang Chengliang, Shannon Casey P., Zhao Hedi, et al.
   tag: Editorial & Commentary
   lead: true
-  citations: 7
+  citations: 8
   date: '2024-06-19'
 - year: 2024
   title: False Positive Covid-19 Rapid Antigen Tests
@@ -502,7 +453,7 @@ archive:
   display_authors: Gygi JP, Maguire C, Patel RK, et al.
   tag: Original Research
   lead: false
-  citations: 34
+  citations: 35
   date: '2024-04-30'
 - year: 2024
   title: A Commentary on Multi-omics Data Integration in Systems Vaccinology
@@ -524,7 +475,7 @@ archive:
   display_authors: Yang Chengliang, Shannon Casey P., Tebbutt Scott J.
   tag: Editorial & Commentary
   lead: true
-  citations: 2
+  citations: 3
   date: '2024-02-19'
 - year: 2024
   title: 'Features of acute COVID-19 associated with post-acute sequelae of SARS-CoV-2 phenotypes: results from the IMPACC study'
@@ -535,7 +486,7 @@ archive:
   display_authors: Ozonoff A, Jayavelu ND, Liu S, et al.
   tag: Original Research
   lead: false
-  citations: 61
+  citations: 62
   date: '2024-01-03'
 - year: 2024
   title: Breastfeeding and Neonatal Age Influence Neutrophil-Driven Ontogeny of Blood Cell Populations in the First Week of Human Life
@@ -546,7 +497,7 @@ archive:
   display_authors: Montante S, Ben-Othman R, Amenyogbe N, et al.
   tag: Original Research
   lead: false
-  citations: 4
+  citations: 5
   date: '2024-01-01'
 - year: 2023
   title: Overcoming COVID-19 vaccine hesitancy hurdles
@@ -612,7 +563,7 @@ archive:
   display_authors: Espín Estefanía, Yang Chengliang, Shannon Casey P., et al.
   tag: Review
   lead: true
-  citations: 106
+  citations: 107
   date: '2023-04-08'
 - year: 2023
   title: 'Long COVID: the next public health crisis is already on its way'
@@ -667,7 +618,7 @@ archive:
   display_authors: Chen Yifu, Hao Lucy, Zou Vito Z., et al.
   tag: Original Research
   lead: false
-  citations: 25
+  citations: 27
   date: '2022-05-12'
 - year: 2022
   title: Dibutyl phthalate exposure alters T‐cell subsets in blood from allergen‐sensitized volunteers
@@ -744,7 +695,7 @@ archive:
   display_authors: Smolen Kinga K., Plotkin Alec L., Shannon Casey P., et al.
   tag: Original Research
   lead: false
-  citations: 12
+  citations: 13
   date: '2021-09-28'
 - year: 2021
   title: Epigenetic blood biomarkers of ageing and mortality in COPD
@@ -766,7 +717,7 @@ archive:
   display_authors: Samra Simranjit K., Rajasekaran Ashwini, Sandford Andrew J., et al.
   tag: Original Research
   lead: true
-  citations: 3
+  citations: 4
   date: '2021-08-16'
 - year: 2021
   title: IgG Levels and Mortality in Chronic Obstructive Pulmonary Disease
@@ -832,7 +783,7 @@ archive:
   display_authors: Shannon Casey P., Blimkie Travis M., Ben-Othman Rym, et al.
   tag: Original Research
   lead: true
-  citations: 37
+  citations: 38
   date: '2020-11-30'
 - year: 2021
   title: Long‐chain fatty acids are bad in IPF, or are they?
@@ -865,7 +816,7 @@ archive:
   display_authors: Bennike Tue Bjerg, Fatou Benoit, Angelidou Asimenia, et al.
   tag: Original Research
   lead: false
-  citations: 33
+  citations: 35
   date: '2020-10-20'
 - year: 2020
   title: Innate Immune Responses and Gut Microbiomes Distinguish HIV-Exposed from HIV-Unexposed Children in a Population-Specific Manner
@@ -921,7 +872,7 @@ archive:
   display_authors: Brook Byron, Harbeson Danny J., Shannon Casey P., et al.
   tag: Original Research
   lead: false
-  citations: 134
+  citations: 136
   date: '2020-05-06'
 - year: 2020
   title: Clinical Protocol for a Longitudinal Cohort Study Employing Systems Biology to Identify Markers of Vaccine Immunogenicity in Newborn Infants in The Gambia and Papua New Guinea
@@ -976,7 +927,7 @@ archive:
   display_authors: Kim Andrew J., Xu Na, Umeyama Kazuhiro, et al.
   tag: Original Research
   lead: false
-  citations: 63
+  citations: 65
   date: '2020-01-13'
 - year: 2020
   title: 'HEARTBiT: A Transcriptomic Signature for Excluding Acute Cellular Rejection in Adult Heart Allograft Patients'
@@ -998,7 +949,7 @@ archive:
   display_authors: He Daniel, Yang Chen Xi, Sahin Basak, et al.
   tag: Original Research
   lead: true
-  citations: 41
+  citations: 42
   date: '2019-11-21'
 - year: 2019
   title: Cholinergic synapse pathway gene polymorphisms associated with allergen-induced late asthmatic responses
@@ -1064,7 +1015,7 @@ archive:
   display_authors: Lee Amy H., Shannon Casey P., Amenyogbe Nelly, et al.
   tag: Original Research
   lead: false
-  citations: 199
+  citations: 201
   date: '2019-03-12'
 - year: 2019
   title: MicroRNA Biomarkers in Cerebrospinal Fluid and Serum Reflect Injury Severity in Human Acute Traumatic Spinal Cord Injury
@@ -1108,7 +1059,7 @@ archive:
   display_authors: Singh Amrit, Shannon Casey P, Gautier Benoît, et al.
   tag: Original Research
   lead: true
-  citations: 1109
+  citations: 1128
   date: '2019-01-14'
 - year: 2019
   title: Multiplexed LC–ESI–MRM‐MS‐based Assay for Identification of Coronary Artery Disease Biomarkers in Human Plasma
@@ -1361,7 +1312,7 @@ archive:
   display_authors: Sharma Ashutosh, Kirkpatrick Gordon, Chen Virginia, et al.
   tag: Original Research
   lead: false
-  citations: 24
+  citations: 25
   date: '2017-02-08'
 - year: 2017
   title: Association of Serum MiR-142-3p and MiR-101-3p Levels with Acute Cellular Rejection after Heart Transplantation
@@ -1471,7 +1422,7 @@ archive:
   display_authors: Tkacova Ruzena, Dai Darlene L.Y., Vonk Judith M., et al.
   tag: Original Research
   lead: false
-  citations: 53
+  citations: 54
   date: '2016-05-24'
 - year: 2016
   title: The Effect of Different Case Definitions of Current Smoking on the Discovery of Smoking-Related Blood Gene Expression Signatures in Chronic Obstructive Pulmonary Disease
@@ -1504,7 +1455,7 @@ archive:
   display_authors: Croft Carys A., Culibrk Luka, Moore Margo M., et al.
   tag: Review
   lead: true
-  citations: 146
+  citations: 147
   date: '2016-04-07'
 - year: 2016
   title: 'Systems Biology Approaches for Host–Fungal Interactions: An Expanding Multi-Omics Frontier'
@@ -1526,7 +1477,7 @@ archive:
   display_authors: Fung Gabriel, Luo Honglin, Qiu Ye, et al.
   tag: Review
   lead: true
-  citations: 449
+  citations: 453
   date: '2016-02-04'
 - year: 2016
   title: A Regulatory T-Cell Gene Signature Is a Specific and Sensitive Biomarker to Identify Children With New-Onset Type 1 Diabetes
@@ -1537,7 +1488,7 @@ archive:
   display_authors: Pesenacker Anne M., Wang Adele Y., Singh Amrit, et al.
   tag: Original Research
   lead: false
-  citations: 73
+  citations: 74
   date: '2016-01-19'
 - year: 2016
   title: Circulating Biomarker Responses to Medical Management vs. Mechanical Circulatory Support in Severe Inotrope-Dependent Acute Heart Failure
@@ -1735,7 +1686,7 @@ archive:
   display_authors: Scherer Andreas, Günther Oliver P, Balshaw Robert F, et al.
   tag: Original Research
   lead: true
-  citations: 49
+  citations: 50
   date: '2013-06-28'
 - year: 2013
   title: Plasma protein biosignatures for detection of cardiac allograft vasculopathy
@@ -1889,7 +1840,7 @@ archive:
   display_authors: Lin David, Hollander Zsuzsanna, Meredith Anna, et al.
   tag: Original Research
   lead: true
-  citations: 32
+  citations: 33
   date: '2011-09-07'
 - year: 2011
   title: High-flow multiplexed MRM-based analysis of proteins in human plasma without depletion or enrichment
@@ -1922,7 +1873,7 @@ archive:
   display_authors: Carthy Jon M., Garmaroudi Farshid S., Luo Zongshu, et al.
   tag: Original Research
   lead: true
-  citations: 173
+  citations: 174
   date: '2011-05-18'
 - year: 2011
   title: The Human Serum Metabolome
@@ -2087,7 +2038,7 @@ archive:
   display_authors: Cohen Freue Gabriela V., Hollander Zsuzsanna, Shen Enqing, et al.
   tag: Original Research
   lead: true
-  citations: 44
+  citations: 45
   date: '2007-10-12'
 - year: 2008
   title: 'Biomarkers in newly diagnosed pediatric-extensive chronic graft-versus-host disease: a report from the Children''s Oncology Group'

@@ -32,7 +32,7 @@
             "surface": "#f8f9ff",
             "background": "#f8f9ff",
             "on-surface": "#0e1d2b",
-            "on-surface-variant": "#434750",
+            "on-surface-variant": "#1e293b",
             "surface-container-lowest": "#ffffff",
             "surface-container-low": "#eef4ff",
             "surface-container": "#e4efff",
@@ -67,6 +67,11 @@
     .font-heading {
       font-family: 'Montserrat', sans-serif;
     }
+
+    .pub-type-chip.active span[id^="chipCount"],
+    .pub-role-chip.active span[id^="chipCount"] {
+      color: rgba(255, 255, 255, 0.9) !important;
+    }
   </style>
 </head>
 
@@ -80,42 +85,68 @@
 
   <!-- Anatomical heart sketch backdrop -->
   <img alt="Anatomical heart backdrop" class="fixed z-[-1] pointer-events-none object-contain" src="{{ "images/davinci-sketch-upscaled.jpg" | relURL }}"
-    style="top: 50%; right: -5%; transform: translateY(-50%); height: 115vh; width: auto; opacity: 0.16; mix-blend-mode: multiply; filter: contrast(220%) brightness(115%) grayscale(100%); -webkit-mask-image: radial-gradient(ellipse 73% 78% at 50% 50%, black 25%, transparent 84%); mask-image: radial-gradient(ellipse 73% 78% at 50% 50%, black 25%, transparent 84%);" />
+    style="top: 50%; right: -5%; transform: translateY(-50%); height: 115vh; width: auto; opacity: 0.10; mix-blend-mode: multiply; filter: contrast(150%) brightness(120%) grayscale(100%); -webkit-mask-image: radial-gradient(ellipse 75% 80% at 62% 50%, black 20%, transparent 82%); mask-image: radial-gradient(ellipse 75% 80% at 62% 50%, black 20%, transparent 82%);" />
 
   <!-- Top Navigation Bar -->
   <nav class="bg-surface/90 backdrop-blur-md shadow-xs fixed top-0 w-full z-50 border-b border-outline-variant/30">
-    <div class="flex justify-between items-center px-4 md:px-margin-desktop py-3.5 max-w-container-max mx-auto">
-      <a class="flex items-center gap-3.5 sm:gap-4.5 group" href="#">
-        <img src="{{ "images/proof-logo.svg" | relURL }}" alt="PROOF Centre Logo" class="h-13 sm:h-15 md:h-[66px] w-auto transition-transform duration-300 group-hover:scale-[1.03]" />
-        <div class="flex flex-col justify-center">
-          <div class="leading-none flex items-baseline gap-2 sm:gap-2.5">
-            <span class="font-heading font-extrabold text-xl sm:text-2xl md:text-[1.75rem] text-primary tracking-tight">PROOF</span>
-            <span class="font-heading font-medium text-base sm:text-lg md:text-[1.35rem] text-primary/85 tracking-tight">Centre of Excellence</span>
+    <div class="flex justify-between items-center px-4 md:px-margin-desktop py-2.5 sm:py-3.5 max-w-container-max mx-auto">
+      <a class="flex items-center gap-3 sm:gap-4 group min-w-0" href="#">
+        <img src="{{ "images/proof-logo.svg" | relURL }}" alt="PROOF Centre Logo" class="h-10 sm:h-12 md:h-[58px] lg:h-[64px] w-auto shrink-0 transition-transform duration-300 group-hover:scale-[1.03]" />
+        <div class="flex flex-col justify-center min-w-0">
+          <div class="leading-none flex items-baseline gap-1.5 sm:gap-2.5">
+            <span class="font-heading font-extrabold text-lg sm:text-2xl md:text-[1.75rem] text-primary tracking-tight">PROOF</span>
+            <span class="font-heading font-medium text-xs sm:text-base md:text-[1.35rem] text-primary/85 tracking-tight hidden sm:inline">Centre of Excellence</span>
           </div>
-          <span class="text-xs sm:text-[13px] md:text-sm text-on-surface-variant/85 font-medium tracking-normal mt-1.5 leading-tight">
+          <span class="font-heading font-medium text-[10px] text-primary/85 tracking-tight block sm:hidden mt-0.5 leading-tight">
+            Centre of Excellence
+          </span>
+          <span class="hidden sm:block text-xs sm:text-[13px] md:text-sm text-on-surface-variant/85 font-medium tracking-normal mt-1 sm:mt-1.5 leading-tight truncate">
             Biomarkers for the Prevention of Organ Failure
           </span>
         </div>
       </a>
 
-      <div class="hidden md:flex items-center space-x-6">
-        {{ range .Site.Menus.main }}
-        <a class="text-on-surface-variant font-medium text-sm hover:text-primary transition-all duration-200 px-2 py-1"
-          href="{{ .URL }}">{{ .Name }}</a>
-        {{ end }}
-      </div>
+      <!-- Unified Right Cluster: Navigation Links + Contact CTA -->
+      <div class="flex items-center gap-6 lg:gap-8 shrink-0">
+        <div class="hidden md:flex items-center space-x-6">
+          {{ range .Site.Menus.main }}
+          <a class="text-on-surface-variant font-medium text-sm hover:text-primary transition-all duration-200 px-2 py-1"
+            href="{{ .URL }}">{{ .Name }}</a>
+          {{ end }}
+        </div>
 
-      <div class="flex items-center">
-        <a href="mailto:{{ .Site.Params.contact_email }}"
-          class="bg-primary text-on-primary rounded px-5 py-2 text-xs sm:text-sm font-semibold hover:bg-primary-container hover:text-white transition-colors shadow-sm uppercase tracking-wider">
-          Contact Us
-        </a>
+        <div class="flex items-center gap-2 sm:gap-4 shrink-0">
+          <a href="mailto:{{ .Site.Params.contact_email }}"
+            class="bg-primary text-on-primary rounded px-3.5 py-1.5 sm:px-5 sm:py-2 text-xs sm:text-sm font-semibold hover:bg-primary-container hover:text-white transition-colors shadow-xs uppercase tracking-wider">
+            Contact Us
+          </a>
+          <button id="mobileMenuBtn" type="button" aria-label="Toggle navigation menu"
+            class="md:hidden flex items-center justify-center p-1.5 rounded text-primary hover:bg-surface-container transition-colors cursor-pointer"
+            onclick="toggleMobileNav()">
+            <span id="mobileMenuIcon" class="material-symbols-outlined text-2xl">menu</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Collapsible Mobile Navigation Drawer -->
+    <div id="mobileNavMenu" class="hidden md:hidden border-t border-outline-variant/20 bg-surface/98 backdrop-blur-xl px-4 py-3 shadow-md">
+      <div class="flex flex-col space-y-1">
+        {{ range .Site.Menus.main }}
+        <a class="text-on-surface hover:text-primary font-medium text-sm py-2 px-3 rounded hover:bg-surface-container transition-colors"
+          href="{{ .URL }}" onclick="closeMobileNav()">{{ .Name }}</a>
+        {{ end }}
+        <div class="pt-3 mt-2 border-t border-outline-variant/20 flex items-center gap-4 text-xs font-semibold text-primary/75 px-3">
+          <a href="https://www.providenceresearch.ca" target="_blank" rel="noopener" class="hover:text-primary hover:underline">Providence</a>
+          <a href="https://www.hli.ubc.ca" target="_blank" rel="noopener" class="hover:text-primary hover:underline">HLI</a>
+          <a href="https://www.ubc.ca" target="_blank" rel="noopener" class="hover:text-primary hover:underline">UBC</a>
+        </div>
       </div>
     </div>
   </nav>
 
   <!-- Main Content Container -->
-  <main class="max-w-container-max mx-auto px-4 md:px-margin-desktop pt-32 sm:pt-36 pb-8 mt-6 sm:mt-10">
+  <main class="max-w-container-max mx-auto px-4 md:px-margin-desktop pt-24 sm:pt-32 md:pt-36 pb-8 mt-4 sm:mt-8">
 
     <!-- Mission Section -->
     <header class="mb-32 border-b border-outline-variant/50 pb-10 sm:pb-12">
@@ -370,12 +401,9 @@
       {{ $proofLeadTotal := add $origLeadCount (add $commentLeadCount $reviewLeadCount) }}
       {{ $collabTotal := add $origCollabCount (add $commentCollabCount $reviewCollabCount) }}
 
-      {{ $origLeadPct := mul (div (float $origLeadCount) (float $totalCount)) 100.0 }}
-      {{ $origCollabPct := mul (div (float $origCollabCount) (float $totalCount)) 100.0 }}
-      {{ $commentLeadPct := mul (div (float $commentLeadCount) (float $totalCount)) 100.0 }}
-      {{ $commentCollabPct := mul (div (float $commentCollabCount) (float $totalCount)) 100.0 }}
-      {{ $reviewLeadPct := mul (div (float $reviewLeadCount) (float $totalCount)) 100.0 }}
-      {{ $reviewCollabPct := sub 100.0 (add $origLeadPct (add $origCollabPct (add $commentLeadPct (add $commentCollabPct $reviewLeadPct)))) }}
+      {{ $origPct := mul (div (float $origCount) (float $totalCount)) 100.0 }}
+      {{ $commentPct := mul (div (float $commentaryCount) (float $totalCount)) 100.0 }}
+      {{ $reviewPct := sub 100.0 (add $origPct $commentPct) }}
 
       {{ $totalCitations := 0 }}
       {{ range $allPubs }}
@@ -385,35 +413,32 @@
       <div class="mb-6 space-y-3 border-b border-outline-variant/30 pb-5">
         <div class="flex flex-col sm:flex-row sm:items-baseline justify-between gap-1">
           <span class="text-xs font-bold text-primary uppercase tracking-widest">Publication Portfolio Distribution</span>
-          <span id="statTotalPubs" class="text-xs text-on-surface-variant/80 font-normal" data-total-citations="{{ $totalCitations }}">{{ $totalCount }} Publications · {{ lang.FormatNumberCustom 0 $totalCitations }} Citations</span>
+          <span id="statTotalPubs" class="text-xs text-on-surface-variant/80 font-normal" data-total-citations="{{ $totalCitations }}" data-default-text="{{ $totalCount }} Publications · {{ lang.FormatNumberCustom 0 $totalCitations }} Citations">{{ $totalCount }} Publications · {{ lang.FormatNumberCustom 0 $totalCitations }} Citations</span>
         </div>
-        <!-- Slim Multi-Segment Metric Bar (Type Hue + Leadership Shade: Deep=PROOF-Led, Light=Collaborative) -->
-        <div class="w-full h-1.5 rounded-full overflow-hidden flex bg-outline-variant/20" id="pubProportionBar">
-          <div id="barOrigLead" style="width: {{ printf "%.1f" $origLeadPct }}%" class="bg-[#044694] h-full transition-all duration-300 ease-out" title="PROOF-Led Original Research: {{ $origLeadCount }} ({{ printf "%.1f" $origLeadPct }}%)"></div>
-          <div id="barOrigCollab" style="width: {{ printf "%.1f" $origCollabPct }}%" class="bg-[#6dcff5] h-full transition-all duration-300 ease-out" title="Collaborative Original Research: {{ $origCollabCount }} ({{ printf "%.1f" $origCollabPct }}%)"></div>
-          <div id="barCommentLead" style="width: {{ printf "%.1f" $commentLeadPct }}%" class="bg-[#fecb07] h-full transition-all duration-300 ease-out" title="PROOF-Led Commentary: {{ $commentLeadCount }} ({{ printf "%.1f" $commentLeadPct }}%)"></div>
-          <div id="barCommentCollab" style="width: {{ printf "%.1f" $commentCollabPct }}%" class="bg-[#fde047] h-full transition-all duration-300 ease-out" title="Collaborative Commentary: {{ $commentCollabCount }} ({{ printf "%.1f" $commentCollabPct }}%)"></div>
-          <div id="barReviewLead" style="width: {{ printf "%.1f" $reviewLeadPct }}%" class="bg-[#b3d335] h-full transition-all duration-300 ease-out" title="PROOF-Led Reviews & Other: {{ $reviewLeadCount }} ({{ printf "%.1f" $reviewLeadPct }}%)"></div>
-          <div id="barReviewCollab" style="width: {{ printf "%.1f" $reviewCollabPct }}%" class="bg-[#cde46e] h-full transition-all duration-300 ease-out" title="Collaborative Reviews & Other: {{ $reviewCollabCount }} ({{ printf "%.1f" $reviewCollabPct }}%)"></div>
+        <!-- 3-Segment Metric Bar (Type Distribution: Blue=Original Research, Yellow=Commentary, Lime=Reviews & Other) -->
+        <div class="w-full h-2 rounded-full overflow-hidden flex bg-outline-variant/20" id="pubProportionBar">
+          <div id="barOrig" style="width: {{ printf "%.1f" $origPct }}%" class="bg-[#044694] h-full transition-all duration-300 ease-out" title="Original Research: {{ $origCount }} ({{ printf "%.1f" $origPct }}%)"></div>
+          <div id="barComment" style="width: {{ printf "%.1f" $commentPct }}%" class="bg-[#fecb07] h-full transition-all duration-300 ease-out" title="Commentary: {{ $commentaryCount }} ({{ printf "%.1f" $commentPct }}%)"></div>
+          <div id="barReview" style="width: {{ printf "%.1f" $reviewPct }}%" class="bg-[#b3d335] h-full transition-all duration-300 ease-out" title="Reviews & Other: {{ $reviewAndOtherCount }} ({{ printf "%.1f" $reviewPct }}%)"></div>
         </div>
         <!-- Minimalist Editorial Filter Chips (Single Row 2-Dimensional Matrix) -->
         <div class="flex flex-wrap items-center gap-1.5 sm:gap-2 text-xs pt-0.5" id="pubFilterChips">
           <!-- Publication Type Group (Colored Dots) -->
           <button onclick="setPubTypeFilter('all')" data-type="all"
-            class="pub-type-chip active px-2.5 py-1 rounded-full font-semibold transition-colors cursor-pointer border bg-primary text-on-primary border-primary shadow-xs">
-            All <span id="chipCountAll" class="opacity-80 font-normal ml-0.5">{{ $totalCount }}</span>
+            class="pub-type-chip active px-2.5 py-1 rounded-full font-medium transition-colors cursor-pointer border bg-primary text-on-primary border-primary shadow-xs">
+            All <span id="chipCountAll" class="opacity-80 font-normal ml-0.5 inline-block min-w-[28px] text-center tabular-nums">{{ $totalCount }}</span>
           </button>
           <button onclick="setPubTypeFilter('original-research')" data-type="original-research"
             class="pub-type-chip px-2.5 py-1 rounded-full font-medium transition-colors cursor-pointer border bg-surface hover:bg-surface-container text-on-surface-variant border-outline-variant/50">
-            <span class="inline-block w-2 h-2 rounded-full bg-[#044694] mr-1.5"></span>Original Research <span id="chipCountOrig" class="font-semibold text-primary ml-0.5">{{ $origCount }}</span>
+            <span class="inline-block w-2 h-2 rounded-full bg-[#044694] mr-1.5"></span>Original Research <span id="chipCountOrig" class="font-semibold text-primary ml-0.5 inline-block min-w-[28px] text-center tabular-nums">{{ $origCount }}</span>
           </button>
           <button onclick="setPubTypeFilter('commentary')" data-type="commentary"
             class="pub-type-chip px-2.5 py-1 rounded-full font-medium transition-colors cursor-pointer border bg-surface hover:bg-surface-container text-on-surface-variant border-outline-variant/50">
-            <span class="inline-block w-2 h-2 rounded-full bg-[#fecb07] mr-1.5"></span>Commentary <span id="chipCountCommentary" class="font-semibold text-primary ml-0.5">{{ $commentaryCount }}</span>
+            <span class="inline-block w-2 h-2 rounded-full bg-[#fecb07] mr-1.5"></span>Commentary <span id="chipCountCommentary" class="font-semibold text-primary ml-0.5 inline-block min-w-[28px] text-center tabular-nums">{{ $commentaryCount }}</span>
           </button>
           <button onclick="setPubTypeFilter('review')" data-type="review"
             class="pub-type-chip px-2.5 py-1 rounded-full font-medium transition-colors cursor-pointer border bg-surface hover:bg-surface-container text-on-surface-variant border-outline-variant/50">
-            <span class="inline-block w-2 h-2 rounded-full bg-[#b3d335] mr-1.5"></span>Reviews & Other <span id="chipCountReview" class="font-semibold text-primary ml-0.5">{{ $reviewAndOtherCount }}</span>
+            <span class="inline-block w-2 h-2 rounded-full bg-[#b3d335] mr-1.5"></span>Reviews & Other <span id="chipCountReview" class="font-semibold text-primary ml-0.5 inline-block min-w-[28px] text-center tabular-nums">{{ $reviewAndOtherCount }}</span>
           </button>
 
           <!-- Subtle Vertical Divider -->
@@ -421,16 +446,16 @@
 
           <!-- Authorship Role Group (Uncolored / Neutral) -->
           <button onclick="setPubRoleFilter('all')" data-role="all"
-            class="pub-role-chip active px-2.5 py-1 rounded-full font-semibold transition-colors cursor-pointer border bg-primary text-on-primary border-primary shadow-xs">
-            All <span id="chipCountRoleAll" class="opacity-80 font-normal ml-0.5">{{ $totalCount }}</span>
+            class="pub-role-chip active px-2.5 py-1 rounded-full font-medium transition-colors cursor-pointer border bg-primary text-on-primary border-primary shadow-xs">
+            All <span id="chipCountRoleAll" class="opacity-80 font-normal ml-0.5 inline-block min-w-[28px] text-center tabular-nums">{{ $totalCount }}</span>
           </button>
           <button onclick="setPubRoleFilter('proof-lead')" data-role="proof-lead"
             class="pub-role-chip px-2.5 py-1 rounded-full font-medium transition-colors cursor-pointer border bg-surface hover:bg-surface-container text-on-surface-variant border-outline-variant/50">
-            PROOF-Led <span id="chipCountLead" class="font-semibold text-primary ml-0.5">{{ $proofLeadTotal }}</span>
+            PROOF-Led <span id="chipCountLead" class="font-semibold text-primary ml-0.5 inline-block min-w-[28px] text-center tabular-nums">{{ $proofLeadTotal }}</span>
           </button>
           <button onclick="setPubRoleFilter('collaborative')" data-role="collaborative"
             class="pub-role-chip px-2.5 py-1 rounded-full font-medium transition-colors cursor-pointer border bg-surface hover:bg-surface-container text-on-surface-variant border-outline-variant/50">
-            Collaborative <span id="chipCountCollab" class="font-semibold text-primary ml-0.5">{{ $collabTotal }}</span>
+            Collaborative <span id="chipCountCollab" class="font-semibold text-primary ml-0.5 inline-block min-w-[28px] text-center tabular-nums">{{ $collabTotal }}</span>
           </button>
         </div>
       </div>
@@ -440,10 +465,10 @@
         <div class="overflow-x-auto w-full">
           <table class="w-full table-fixed text-left border-collapse" id="pubTable">
             <colgroup>
-              <col class="w-14 sm:w-16">
+              <col class="w-14 sm:w-[9%]">
               <col class="w-[50%] sm:w-[54%]">
-              <col class="w-16 sm:w-20">
               <col class="w-[30%] sm:w-[26%]">
+              <col class="w-16 sm:w-[11%]">
             </colgroup>
             <thead>
               <tr class="border-b border-outline-variant/50 text-xs font-semibold text-on-surface-variant uppercase tracking-wider select-none">
@@ -454,51 +479,43 @@
                   </span>
                 </th>
                 <th class="py-3 px-4">Title & Details</th>
+                <th class="py-3 px-3 text-left">Journal</th>
                 <th class="py-3 px-2 text-right cursor-pointer hover:text-primary transition-colors group" onclick="sortPubTable('citations')" title="Click to sort by Citations">
                   <span class="inline-flex items-center justify-end gap-0.5 w-full">
                     Citations
                     <span id="sortIconCitations" class="material-symbols-outlined text-[13px] text-on-surface-variant/40 group-hover:text-primary transition-transform">unfold_more</span>
                   </span>
                 </th>
-                <th class="py-3 px-2 text-right">Journal</th>
               </tr>
             </thead>
             <tbody class="divide-y divide-outline-variant/30 text-sm" id="pubTableBody">
               {{ range hugo.Data.publications.archive }}
-              <tr class="pub-row hover:bg-surface-container-low/60 transition-colors"
+              <tr class="pub-row hover:bg-surface-container-low transition-colors cursor-pointer group"
+                {{ if and .link (ne .link "#") }}onclick="if (!event.target.closest('a')) window.open('{{ .link }}', '_blank', 'noopener')"{{ end }}
                 data-full-authors="{{ .authors }}" data-pub-tag="{{ .tag }}" data-pub-lead="{{ if .lead }}proof-lead{{ else }}collaborative{{ end }}"
                 data-year="{{ .year }}" data-date="{{ .date | default (printf "%d-01-01" .year) }}" data-citations="{{ .citations | default 0 }}">
-                <td class="pub-year py-3.5 px-2 text-on-surface-variant font-mono text-xs align-top">{{ .year }}</td>
+                <td class="pub-year py-3.5 px-2 text-on-surface-variant text-xs sm:text-sm align-top">
+                  <div class="h-4 mb-1"></div>
+                  <div>{{ .year }}</div>
+                </td>
                 <td class="py-3.5 px-4 pr-4 align-top">
-                  <div class="flex flex-wrap items-baseline gap-2 leading-snug">
+                  {{ with .tag }}
+                  <div class="text-[10px] font-bold uppercase tracking-wider mb-1 leading-4
+                    {{ if eq . "Original Research" }}text-[#044694]
+                    {{ else if or (eq . "Editorial & Commentary") (in . "Commentary") (in . "Editorial") }}text-[#fecb07]
+                    {{ else }}text-[#b3d335]{{ end }}">
+                    {{ . }}
+                  </div>
+                  {{ else }}
+                  <div class="h-4 mb-1"></div>
+                  {{ end }}
+                  <div class="leading-snug">
                     {{ if and .link (ne .link "#") }}
-                    <a href="{{ .link }}" target="_blank" rel="noopener" class="pub-title text-on-surface hover:text-primary font-medium transition-colors text-sm break-words inline-flex items-center gap-1 group">
-                      <span>{{ .title }}</span>
-                      <span class="material-symbols-outlined text-xs text-primary/70 shrink-0 opacity-60 group-hover:opacity-100 transition-opacity">open_in_new</span>
+                    <a href="{{ .link }}" target="_blank" rel="noopener" class="pub-title text-on-surface group-hover:text-primary font-medium transition-colors text-sm break-words">
+                      {{ .title }}
                     </a>
                     {{ else }}
-                    <span class="font-medium">{{ .title }}</span>
-                    {{ end }}
-                    {{ with .tag }}
-                    <span class="inline-flex items-center px-1.5 py-0.2 rounded text-[10px] font-semibold tracking-wide border shrink-0
-                      {{ if eq . "Original Research" }}bg-[#EEF7FC] text-[#044694] border-[#6dcff5]/40
-                      {{ else if eq . "Editorial & Commentary" }}bg-[#FEFCE8] text-[#854d0e] border-[#fecb07]/50
-                      {{ else if eq . "Review" }}bg-[#f7fee7] text-[#3f6212] border-[#b3d335]/50
-                      {{ else if eq . "Book Chapter" }}bg-purple-50 text-purple-700 border-purple-200
-                      {{ else if eq . "Study Protocol" }}bg-teal-50 text-teal-700 border-teal-200
-                      {{ else if eq . "Preprint" }}bg-rose-50 text-rose-700 border-rose-200
-                      {{ else }}bg-slate-50 text-slate-700 border-slate-200{{ end }}">
-                      {{ . }}
-                    </span>
-                    {{ end }}
-                    {{ if .lead }}
-                    <span class="inline-flex items-center px-1.5 py-0.2 rounded text-[10px] font-medium tracking-wide bg-surface-container text-on-surface-variant border border-outline-variant/50 shrink-0" title="Primary study conducted or supervised by PROOF Centre investigators">
-                      PROOF Lead
-                    </span>
-                    {{ else if eq .tag "Original Research" }}
-                    <span class="inline-flex items-center px-1.5 py-0.2 rounded text-[10px] font-normal tracking-wide bg-surface-container-low text-on-surface-variant/70 border border-outline-variant/30 shrink-0" title="Collaborative study conducted with external/consortium partners">
-                      Collaborative
-                    </span>
+                    <span class="font-medium text-sm text-on-surface">{{ .title }}</span>
                     {{ end }}
                   </div>
                   {{ with .display_authors }}
@@ -507,12 +524,18 @@
                   </div>
                   {{ end }}
                 </td>
-                <td class="pub-citations py-3.5 px-2 text-right font-mono text-xs align-top">
-                  <span class="inline-block px-1.5 py-0.5 rounded font-medium {{ if ge (.citations | default 0) 100 }}bg-surface-container-high text-primary font-bold{{ else if ge (.citations | default 0) 10 }}text-on-surface{{ else }}text-on-surface-variant/60{{ end }}">
+                <td class="pub-journal py-3.5 px-3 align-top text-left">
+                  <div class="h-4 mb-1"></div>
+                  <div class="text-xs sm:text-sm text-on-surface-variant font-medium break-words leading-snug">
+                    {{ .journal }}
+                  </div>
+                </td>
+                <td class="pub-citations py-3.5 px-2 text-right align-top">
+                  <div class="h-4 mb-1"></div>
+                  <span class="text-xs sm:text-sm font-medium text-on-surface tabular-nums">
                     {{ if .citations }}{{ lang.FormatNumberCustom 0 .citations }}{{ else }}0{{ end }}
                   </span>
                 </td>
-                <td class="pub-journal py-3.5 px-2 text-on-surface-variant italic align-top text-xs break-words text-right leading-snug">{{ .journal }}</td>
               </tr>
               {{ end }}
             </tbody>
@@ -533,37 +556,47 @@
         {{ end }}
       </div>
 
-      <div class="overflow-x-auto">
-        <table class="w-full text-left border-collapse">
+      <div class="overflow-x-auto w-full">
+        <table class="w-full table-fixed text-left border-collapse" id="patentsTable">
+          <colgroup>
+            <col class="w-14 sm:w-[9%]">
+            <col class="w-[50%] sm:w-[54%]">
+            <col class="w-[30%] sm:w-[26%]">
+            <col class="w-16 sm:w-[11%]">
+          </colgroup>
           <thead>
             <tr class="border-b border-outline-variant/50 text-xs font-semibold text-on-surface-variant uppercase tracking-wider">
-              <th class="py-3 px-2 w-14 sm:w-16">Year</th>
-              <th class="py-3 px-4">Patent Title</th>
-              <th class="py-3 px-2 text-right">Status / Jurisdiction</th>
+              <th class="py-3 px-2">Year</th>
+              <th class="py-3 px-4">Title</th>
+              <th class="py-3 px-3 text-left">Patent / Application</th>
+              <th class="py-3 px-2 text-right">Jurisdiction</th>
             </tr>
           </thead>
           <tbody class="divide-y divide-outline-variant/30 text-sm">
             {{ range hugo.Data.patents }}
-            <tr class="hover:bg-surface-container-low/60 transition-colors">
-              <td class="py-3.5 px-2 text-on-surface-variant font-mono text-xs align-top">{{ .year }}</td>
-              <td class="py-3.5 px-4 pr-6 align-top">
+            <tr class="hover:bg-surface-container-low transition-colors cursor-pointer group"
+              {{ if and .link (ne .link "#") }}onclick="if (!event.target.closest('a')) window.open('{{ .link }}', '_blank', 'noopener')"{{ end }}>
+              <td class="py-3.5 px-2 text-on-surface-variant text-xs sm:text-sm align-top">{{ .year }}</td>
+              <td class="py-3.5 px-4 pr-4 align-top">
                 {{ if and .link (ne .link "#") }}
-                <a href="{{ .link }}" target="_blank" rel="noopener" class="text-on-surface hover:text-primary font-medium transition-colors text-sm break-words inline-flex items-center gap-1 group leading-snug">
-                  <span>{{ .title }}</span>
-                  <span class="material-symbols-outlined text-xs text-primary/70 shrink-0 opacity-60 group-hover:opacity-100 transition-opacity">open_in_new</span>
+                <a href="{{ .link }}" target="_blank" rel="noopener" class="text-on-surface group-hover:text-primary font-medium transition-colors text-sm break-words leading-snug">
+                  {{ .title }}
                 </a>
                 {{ else }}
                 <span class="font-medium text-sm leading-snug text-on-surface">{{ .title }}</span>
                 {{ end }}
               </td>
-              <td class="py-3.5 px-2 text-right align-top shrink-0 whitespace-nowrap">
-                <span class="inline-flex items-center px-1.5 py-0.2 rounded text-[10px] font-semibold tracking-wide border
-                  {{ if in .status "US Patent" }}bg-[#ECFDF5] text-[#047857] border-[#34D399]/40
-                  {{ else if in .status "EP Patent" }}bg-[#EEF7FC] text-[#00316B] border-[#38BDF8]/40
-                  {{ else if in .status "Pending" }}bg-[#FEFCE8] text-[#B45309] border-[#FBBF24]/50
-                  {{ else }}bg-slate-50 text-slate-700 border-slate-200{{ end }}">
+              <td class="py-3.5 px-3 align-top text-left text-xs sm:text-sm text-on-surface-variant font-medium">
+                {{ if and .link (ne .link "#") }}
+                <a href="{{ .link }}" target="_blank" rel="noopener" class="text-on-surface-variant group-hover:text-primary transition-colors">
                   {{ .status }}
-                </span>
+                </a>
+                {{ else }}
+                <span>{{ .status }}</span>
+                {{ end }}
+              </td>
+              <td class="py-3.5 px-2 text-right align-top shrink-0 whitespace-nowrap text-xs sm:text-sm text-on-surface-variant font-medium">
+                {{ .jurisdiction | default "—" }}
               </td>
             </tr>
             {{ end }}
@@ -577,21 +610,26 @@
   <!-- Footer -->
   <footer class="bg-surface-container-low w-full border-t border-outline-variant/30">
     <div
-      class="flex flex-col md:flex-row justify-between items-start md:items-center px-4 md:px-margin-desktop py-12 w-full max-w-container-max mx-auto gap-8">
-      <div class="flex items-center gap-4">
-        <img src="{{ "images/proof-logo.svg" | relURL }}" alt="PROOF Centre Logo" class="h-14 sm:h-16 w-auto shrink-0" />
-        <div>
-          <div class="leading-none flex items-baseline gap-2 mb-2">
-            <span class="font-heading font-extrabold text-lg sm:text-xl md:text-2xl text-primary tracking-tight">PROOF</span>
-            <span class="font-heading font-medium text-base sm:text-lg md:text-xl text-primary/85 tracking-tight">Centre of Excellence</span>
+      class="flex flex-col md:flex-row justify-between items-start md:items-center px-4 md:px-margin-desktop py-10 sm:py-12 w-full max-w-container-max mx-auto gap-8">
+      <div class="flex flex-col gap-2.5 max-w-md">
+        <a href="#" class="flex items-center gap-3 sm:gap-4 group w-fit" title="Back to top">
+          <img src="{{ "images/proof-logo.svg" | relURL }}" alt="PROOF Centre Logo" class="h-10 sm:h-12 md:h-14 w-auto shrink-0 transition-transform duration-300 group-hover:scale-[1.03]" />
+          <div>
+            <div class="leading-none flex items-baseline gap-2 mb-1.5">
+              <span class="font-heading font-extrabold text-lg sm:text-xl md:text-2xl text-primary tracking-tight">PROOF</span>
+              <span class="font-heading font-medium text-base sm:text-lg md:text-xl text-primary/85 tracking-tight">Centre of Excellence</span>
+            </div>
+            <p class="text-xs sm:text-[13px] text-on-surface-variant/90 font-medium tracking-normal leading-tight">
+              {{ with .Params.footer.tagline }}{{ . }}{{ else }}Biomarkers for the Prevention of Organ Failure{{ end }}
+            </p>
           </div>
-          <p class="text-xs text-on-surface-variant max-w-md leading-relaxed">
-            {{ with .Params.footer.description }}{{ . | safeHTML }}{{ else }}Biomarkers for the Prevention of Organ Failure.<br>Co-hosted by Providence Research, the Centre for Heart Lung Innovation, and the University of British Columbia at St. Paul's Hospital, Vancouver, Canada.{{ end }}
-          </p>
-        </div>
+        </a>
+        <p class="text-xs text-on-surface-variant/75 leading-relaxed mt-1">
+          {{ with .Params.footer.hosting }}{{ . | safeHTML }}{{ else with .Params.footer.description }}{{ . | safeHTML }}{{ else }}Co-hosted by Providence Research, the Centre for Heart Lung Innovation, and the University of British Columbia at St. Paul's Hospital, Vancouver, Canada.{{ end }}
+        </p>
       </div>
-      <div class="flex items-center gap-6 sm:gap-8 flex-wrap">
-        <div class="flex items-center gap-6 sm:gap-8">
+      <div class="flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-8 flex-wrap w-full md:w-auto">
+        <div class="flex items-center gap-4 sm:gap-6 flex-wrap">
           <a href="#focus-areas"
             class="text-xs font-medium text-primary/80 hover:text-primary transition-colors">Research</a>
           <a href="#research-team"
@@ -602,7 +640,7 @@
             class="text-xs font-medium text-primary/80 hover:text-primary transition-colors">Patents</a>
         </div>
         <div class="h-3.5 w-px bg-outline-variant/40 hidden sm:block"></div>
-        <div class="flex items-center gap-6 sm:gap-8">
+        <div class="flex items-center gap-4 sm:gap-6 flex-wrap pt-2 sm:pt-0 border-t sm:border-t-0 border-outline-variant/20">
           <a href="https://www.providenceresearch.ca" target="_blank" rel="noopener"
             class="text-xs font-bold text-primary hover:underline">Providence Research</a>
           <a href="https://www.hli.ubc.ca" target="_blank" rel="noopener"
@@ -619,6 +657,29 @@
   </footer>
 
   <script>
+    function toggleMobileNav() {
+      const menu = document.getElementById('mobileNavMenu');
+      const icon = document.getElementById('mobileMenuIcon');
+      if (!menu) return;
+      const isClosed = menu.classList.contains('hidden');
+      if (isClosed) {
+        menu.classList.remove('hidden');
+        if (icon) icon.textContent = 'close';
+      } else {
+        menu.classList.add('hidden');
+        if (icon) icon.textContent = 'menu';
+      }
+    }
+
+    function closeMobileNav() {
+      const menu = document.getElementById('mobileNavMenu');
+      const icon = document.getElementById('mobileMenuIcon');
+      if (menu && !menu.classList.contains('hidden')) {
+        menu.classList.add('hidden');
+        if (icon) icon.textContent = 'menu';
+      }
+    }
+
     let archiveExpanded = false;
 
     function toggleArchive() {
@@ -641,11 +702,14 @@
     let currentPubRole = 'all';
 
     function setPubTypeFilter(type) {
+      if (currentPubType === type && type !== 'all') {
+        type = 'all';
+      }
       currentPubType = type;
       const chips = document.querySelectorAll('.pub-type-chip');
       chips.forEach(chip => {
         if (chip.getAttribute('data-type') === type) {
-          chip.className = 'pub-type-chip active px-2.5 py-1 rounded-full font-semibold transition-colors cursor-pointer border bg-primary text-on-primary border-primary shadow-xs';
+          chip.className = 'pub-type-chip active px-2.5 py-1 rounded-full font-medium transition-colors cursor-pointer border bg-primary text-on-primary border-primary shadow-xs';
         } else {
           chip.className = 'pub-type-chip px-2.5 py-1 rounded-full font-medium transition-colors cursor-pointer border bg-surface hover:bg-surface-container text-on-surface-variant border-outline-variant/50';
         }
@@ -654,11 +718,14 @@
     }
 
     function setPubRoleFilter(role) {
+      if (currentPubRole === role && role !== 'all') {
+        role = 'all';
+      }
       currentPubRole = role;
       const chips = document.querySelectorAll('.pub-role-chip');
       chips.forEach(chip => {
         if (chip.getAttribute('data-role') === role) {
-          chip.className = 'pub-role-chip active px-2.5 py-1 rounded-full font-semibold transition-colors cursor-pointer border bg-primary text-on-primary border-primary shadow-xs';
+          chip.className = 'pub-role-chip active px-2.5 py-1 rounded-full font-medium transition-colors cursor-pointer border bg-primary text-on-primary border-primary shadow-xs';
         } else {
           chip.className = 'pub-role-chip px-2.5 py-1 rounded-full font-medium transition-colors cursor-pointer border bg-surface hover:bg-surface-container text-on-surface-variant border-outline-variant/50';
         }
@@ -762,9 +829,7 @@
 
       const hasSearchText = filter.length > 0;
       let matchingCount = 0;
-      let vOrigLead = 0, vOrigCollab = 0;
-      let vCommentLead = 0, vCommentCollab = 0;
-      let vReviewLead = 0, vReviewCollab = 0;
+      let vOrig = 0, vComment = 0, vReview = 0;
 
       // Dynamic counts for all Type and Role pills
       let countTypeAll = 0, countTypeOrig = 0, countTypeCommentary = 0, countTypeReview = 0;
@@ -829,17 +894,13 @@
           rows[i].style.display = "";
           matchingCount++;
 
-          // Accumulate visible proportions by Publication Type + Leadership Shade
-          const isLead = (lead === 'proof-lead');
+          // Accumulate visible proportions by Publication Type
           if (tag === 'original research') {
-            if (isLead) vOrigLead++;
-            else vOrigCollab++;
+            vOrig++;
           } else if (tag.includes('commentary') || tag.includes('editorial')) {
-            if (isLead) vCommentLead++;
-            else vCommentCollab++;
+            vComment++;
           } else {
-            if (isLead) vReviewLead++;
-            else vReviewCollab++;
+            vReview++;
           }
         } else {
           rows[i].style.display = "none";
@@ -863,63 +924,47 @@
       if (chipCountLead) chipCountLead.textContent = countRoleLead;
       if (chipCountCollab) chipCountCollab.textContent = countRoleCollab;
 
-      // Dynamically adjust 2-tone shaded colorbar segments
-      const barOrigLead = document.getElementById('barOrigLead');
-      const barOrigCollab = document.getElementById('barOrigCollab');
-      const barCommentLead = document.getElementById('barCommentLead');
-      const barCommentCollab = document.getElementById('barCommentCollab');
-      const barReviewLead = document.getElementById('barReviewLead');
-      const barReviewCollab = document.getElementById('barReviewCollab');
+      // Dynamically adjust 3-tone type distribution bar segments
+      const barOrig = document.getElementById('barOrig');
+      const barComment = document.getElementById('barComment');
+      const barReview = document.getElementById('barReview');
       const statTotalPubs = document.getElementById('statTotalPubs');
 
       if (matchingCount > 0) {
-        const pOrigLead = (vOrigLead / matchingCount) * 100;
-        const pOrigCollab = (vOrigCollab / matchingCount) * 100;
-        const pCommentLead = (vCommentLead / matchingCount) * 100;
-        const pCommentCollab = (vCommentCollab / matchingCount) * 100;
-        const pReviewLead = (vReviewLead / matchingCount) * 100;
-        const pReviewCollab = (vReviewCollab / matchingCount) * 100;
+        const pOrig = (vOrig / matchingCount) * 100;
+        const pComment = (vComment / matchingCount) * 100;
+        const pReview = (vReview / matchingCount) * 100;
 
-        if (barOrigLead) {
-          barOrigLead.style.width = pOrigLead.toFixed(1) + '%';
-          barOrigLead.title = `PROOF-Led Original Research: ${vOrigLead} (${pOrigLead.toFixed(1)}%)`;
+        if (barOrig) {
+          barOrig.style.width = pOrig.toFixed(1) + '%';
+          barOrig.title = `Original Research: ${vOrig} (${pOrig.toFixed(1)}%)`;
         }
-        if (barOrigCollab) {
-          barOrigCollab.style.width = pOrigCollab.toFixed(1) + '%';
-          barOrigCollab.title = `Collaborative Original Research: ${vOrigCollab} (${pOrigCollab.toFixed(1)}%)`;
+        if (barComment) {
+          barComment.style.width = pComment.toFixed(1) + '%';
+          barComment.title = `Commentary: ${vComment} (${pComment.toFixed(1)}%)`;
         }
-        if (barCommentLead) {
-          barCommentLead.style.width = pCommentLead.toFixed(1) + '%';
-          barCommentLead.title = `PROOF-Led Commentary: ${vCommentLead} (${pCommentLead.toFixed(1)}%)`;
-        }
-        if (barCommentCollab) {
-          barCommentCollab.style.width = pCommentCollab.toFixed(1) + '%';
-          barCommentCollab.title = `Collaborative Commentary: ${vCommentCollab} (${pCommentCollab.toFixed(1)}%)`;
-        }
-        if (barReviewLead) {
-          barReviewLead.style.width = pReviewLead.toFixed(1) + '%';
-          barReviewLead.title = `PROOF-Led Reviews & Other: ${vReviewLead} (${pReviewLead.toFixed(1)}%)`;
-        }
-        if (barReviewCollab) {
-          barReviewCollab.style.width = pReviewCollab.toFixed(1) + '%';
-          barReviewCollab.title = `Collaborative Reviews & Other: ${vReviewCollab} (${pReviewCollab.toFixed(1)}%)`;
+        if (barReview) {
+          barReview.style.width = pReview.toFixed(1) + '%';
+          barReview.title = `Reviews & Other: ${vReview} (${pReview.toFixed(1)}%)`;
         }
 
         if (statTotalPubs) {
           if (hasSearchText || currentPubType !== 'all' || currentPubRole !== 'all') {
             statTotalPubs.textContent = `${matchingCount} of ${rows.length} Publications Matching`;
           } else {
-            const totCites = statTotalPubs.getAttribute('data-total-citations') || '9,462';
-            statTotalPubs.textContent = `${rows.length} Publications · ${parseInt(totCites, 10).toLocaleString()} Citations`;
+            const defaultText = statTotalPubs.getAttribute('data-default-text');
+            if (defaultText) {
+              statTotalPubs.textContent = defaultText;
+            } else {
+              const totCites = parseInt(statTotalPubs.getAttribute('data-total-citations') || '0', 10);
+              statTotalPubs.textContent = `${rows.length} Publications · ${totCites.toLocaleString()} Citations`;
+            }
           }
         }
       } else {
-        if (barOrigLead) barOrigLead.style.width = '0%';
-        if (barOrigCollab) barOrigCollab.style.width = '0%';
-        if (barCommentLead) barCommentLead.style.width = '0%';
-        if (barCommentCollab) barCommentCollab.style.width = '0%';
-        if (barReviewLead) barReviewLead.style.width = '0%';
-        if (barReviewCollab) barReviewCollab.style.width = '0%';
+        if (barOrig) barOrig.style.width = '0%';
+        if (barComment) barComment.style.width = '0%';
+        if (barReview) barReview.style.width = '0%';
         if (statTotalPubs) {
           statTotalPubs.textContent = `0 of ${rows.length} Publications Matching`;
         }
