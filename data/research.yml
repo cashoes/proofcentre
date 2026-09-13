@@ -1,6 +1,7 @@
 - id: "01"
   title: "Heart & Cardiovascular Health"
   icon: "cardiology"
+  color: "#044694"
   description: "Developing non-invasive blood tests and molecular diagnostics across heart transplant rejection surveillance, heart failure progression, and inflammatory cardiovascular diseases."
   publications:
     - title: "Acute cellular rejection after heart transplantation: validation of HEARTBiT, a transcriptomic biomarker"
@@ -19,6 +20,7 @@
 - id: "02"
   title: "Respiratory & Pulmonary Health"
   icon: "pulmonology"
+  color: "#6dcff5"
   description: "Discovering clinical biomarkers and molecular phenotypes across chronic respiratory diseases, airway inflammatory disorders, and donor organ optimization in lung transplantation."
   publications:
     - title: "Transcriptomics of Interstitial Lung Disease: A Systematic Review and Meta-Analysis"
@@ -37,6 +39,7 @@
 - id: "03"
   title: "Infection & Immunity"
   icon: "immunology"
+  color: "#b3d335"
   description: "Host immune profiling across acute viral infections, Long COVID inflammatory signatures, and early-life developmental immunology."
   publications:
     - title: "Cellular and molecular biomarkers of long COVID: a scoping review"
@@ -61,6 +64,7 @@
 - id: "04"
   title: "Multi-Omics & Systems Biology"
   icon: "hub"
+  color: "#fecb07"
   description: "Machine learning and integrative bioinformatics frameworks (DIABLO) for multi-omic biomarker discovery and dataset harmonization."
   publications:
     - title: "DIABLO: An Integrative Approach for Identifying Key Molecular Drivers from Multi-Omic Assays and Its Application in Systemic Lupus Erythematosus and TCGA"

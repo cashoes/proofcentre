@@ -39,9 +39,13 @@
             "surface-container-high": "#dbe9fd",
             "outline": "#747781",
             "outline-variant": "#c3c6d1",
-            "vitality-lime": "#B3D335",
-            "clinical-blue-light": "#6DCFF5",
-            "heart-warmth": "#FECA16"
+            "proof-navy": "#044694",
+            "proof-cyan": "#6dcff5",
+            "proof-lime": "#b3d335",
+            "proof-yellow": "#fecb07",
+            "vitality-lime": "#b3d335",
+            "clinical-blue-light": "#6dcff5",
+            "heart-warmth": "#fecb07"
           },
           fontFamily: {
             sans: ["Inter", "sans-serif"],
@@ -117,7 +121,7 @@
 
         <div class="flex items-center gap-2 sm:gap-4 shrink-0">
           <a href="mailto:{{ .Site.Params.contact_email }}"
-            class="bg-primary text-on-primary rounded px-3.5 py-1.5 sm:px-5 sm:py-2 text-xs sm:text-sm font-semibold hover:bg-primary-container hover:text-white transition-colors shadow-xs uppercase tracking-wider">
+            class="border border-primary/40 text-primary bg-transparent rounded px-3.5 py-1.5 sm:px-5 sm:py-2 text-xs sm:text-sm font-semibold hover:bg-primary hover:text-on-primary hover:border-primary transition-all duration-200 shadow-xs uppercase tracking-wider">
             Contact Us
           </a>
           <button id="mobileMenuBtn" type="button" aria-label="Toggle navigation menu"
@@ -181,7 +185,7 @@
 
       <!-- Primary Action: Explore Research Bridge -->
       <div class="pt-12 sm:pt-16">
-        <a class="inline-flex items-center gap-2.5 border-2 border-primary text-primary bg-transparent rounded px-6 py-3 text-sm font-semibold uppercase tracking-wider hover:bg-primary hover:text-on-primary transition-all shadow-xs group"
+        <a class="inline-flex items-center gap-2.5 bg-primary text-on-primary border border-primary rounded px-6 py-3 text-sm font-semibold uppercase tracking-wider hover:bg-primary-container hover:border-primary-container transition-all duration-200 shadow-xs group"
           href="#focus-areas">
           <span>{{ .Params.mission.cta_text }}</span>
           <span class="material-symbols-outlined text-sm group-hover:translate-y-0.5 transition-transform">arrow_downward</span>
@@ -233,9 +237,11 @@
         <div class="md:row-span-2 md:grid md:grid-rows-subgrid" style="grid-template-rows: subgrid;">
           <!-- Top Area: Icon, Title & Description (Subgrid aligns this row across columns) -->
           <div class="mb-2 md:mb-0 pb-2">
-            <div class="flex items-center gap-2.5 mb-2">
-              <span class="material-symbols-outlined text-primary text-xl sm:text-2xl shrink-0"
-                style="font-variation-settings: 'FILL' 0;">{{ .icon }}</span>
+            <div class="flex items-center gap-3 mb-2.5">
+              <div class="w-9 h-9 rounded-lg flex items-center justify-center shrink-0 border"
+                style="background-color: {{ .color }}1a; border-color: {{ .color }}38; color: {{ .color }};">
+                <span class="material-symbols-outlined text-xl" style="font-variation-settings: 'FILL' 0, 'wght' 600;">{{ .icon }}</span>
+              </div>
               <h3 class="font-heading text-lg sm:text-xl font-bold text-primary leading-tight">{{ .title }}</h3>
             </div>
             <p class="text-sm sm:text-base text-on-surface-variant leading-relaxed">
@@ -243,30 +249,47 @@
             </p>
           </div>
 
-          <!-- Featured Key Publications (Transparent White Background) -->
+          <!-- Featured Key Publications (Unified Clickable Editorial Cards) -->
           <div class="pt-2">
-            <span class="text-xs font-bold text-primary uppercase tracking-widest block mb-2">Featured Publications</span>
-            <div class="space-y-2">
+            <span class="text-xs font-bold text-primary uppercase tracking-widest block mb-2.5">Featured Publications</span>
+            <div class="space-y-2.5">
+              {{ $areaColor := .color }}
               {{ range .publications }}
-              <div class="p-2.5 sm:p-3 rounded-xl bg-white/70 hover:bg-white border border-outline-variant/20 transition-colors duration-200">
-                <div class="flex flex-wrap items-center justify-between gap-2 mb-1">
-                  <span class="font-heading text-xs font-bold text-primary italic">
-                    {{ .journal }} <span class="not-italic text-on-surface-variant font-medium">({{ .year }})</span>
+              {{ if and .link (ne .link "#") }}
+              <a href="{{ .link }}" target="_blank" rel="noopener"
+                class="group block p-3.5 sm:p-4 rounded-lg bg-white border border-outline-variant/30 shadow-2xs hover:shadow-xs hover:border-outline-variant/60 transition-all duration-200 cursor-pointer"
+                style="border-top: 2.5px solid {{ $areaColor }};">
+                <div class="flex items-center justify-between gap-2 mb-1.5">
+                  <span class="text-[11px] font-semibold uppercase tracking-wider text-primary/85">
+                    {{ .journal }} <span class="font-normal text-on-surface-variant/70">· {{ .year }}</span>
                   </span>
-                  {{ if and .link (ne .link "#") }}
-                  <a href="{{ .link }}" target="_blank" rel="noopener" class="inline-flex items-center gap-1 text-[11px] font-semibold text-primary hover:underline group">
-                    <span>{{ .doi }}</span>
-                    <span class="material-symbols-outlined text-xs group-hover:translate-x-0.5 transition-transform shrink-0">open_in_new</span>
-                  </a>
-                  {{ end }}
+                  <span class="material-symbols-outlined text-[13px] text-on-surface-variant/40 group-hover:text-primary group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all duration-200 shrink-0">
+                    arrow_outward
+                  </span>
                 </div>
-                <h4 class="font-heading text-xs sm:text-sm font-bold text-primary leading-snug mb-0.5">
-                  <a href="{{ .link }}" target="_blank" rel="noopener" class="hover:underline hover:text-primary-container">{{ .title }}</a>
+                <h4 class="font-heading text-xs sm:text-sm font-bold text-primary leading-snug mb-1 group-hover:text-primary-container transition-colors">
+                  {{ .title }}
+                </h4>
+                {{ if .authors }}
+                <p class="text-[11px] text-on-surface-variant/80 line-clamp-1 leading-normal font-normal">{{ .authors }}</p>
+                {{ end }}
+              </a>
+              {{ else }}
+              <div class="p-3.5 sm:p-4 rounded-lg bg-white border border-outline-variant/30 shadow-2xs"
+                style="border-top: 2.5px solid {{ $areaColor }};">
+                <div class="flex items-center justify-between gap-2 mb-1.5">
+                  <span class="text-[11px] font-semibold uppercase tracking-wider text-primary/85">
+                    {{ .journal }} <span class="font-normal text-on-surface-variant/70">· {{ .year }}</span>
+                  </span>
+                </div>
+                <h4 class="font-heading text-xs sm:text-sm font-bold text-primary leading-snug mb-1">
+                  {{ .title }}
                 </h4>
                 {{ if .authors }}
                 <p class="text-[11px] text-on-surface-variant/80 line-clamp-1 leading-normal font-normal">{{ .authors }}</p>
                 {{ end }}
               </div>
+              {{ end }}
               {{ end }}
             </div>
           </div>
@@ -285,11 +308,13 @@
       </div>
 
       <div class="divide-y divide-outline-variant/30">
-        {{ range hugo.Data.team.core }}
+        {{ range hugo.Data.team }}
         <div class="team-member-row py-8 first:pt-0 last:pb-0 grid grid-cols-1 md:grid-cols-12 gap-5 md:gap-8 items-start">
           <!-- Member Info (Left Column) -->
           <div class="md:col-span-4 lg:col-span-4 flex items-start gap-4 sm:gap-5">
-            <div class="w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-surface-container-low flex items-center justify-center shrink-0 border border-outline-variant/30 overflow-hidden text-2xl sm:text-3xl select-none">
+            <div onclick="toggleBioFromRow(this)"
+              class="w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-surface-container-low flex items-center justify-center shrink-0 border border-outline-variant/30 overflow-hidden text-2xl sm:text-3xl select-none cursor-pointer hover:ring-2 hover:ring-primary/40 transition-all"
+              title="Click to view bio">
               {{ if .image }}
               <img src="{{ .image | relURL }}" alt="{{ .name }}" class="w-full h-full object-cover rounded-full" style="object-position: {{ .img_position | default "50% 10%" }};" />
               {{ else }}
@@ -297,17 +322,20 @@
               {{ end }}
             </div>
             <div class="space-y-1 min-w-0">
-              <h4 class="font-heading text-base sm:text-lg font-bold text-primary leading-snug">{{ .name }}</h4>
+              <h4 onclick="toggleBioFromRow(this)"
+                class="font-heading text-base sm:text-lg font-bold text-primary leading-snug cursor-pointer hover:text-primary-container transition-colors"
+                title="Click to view bio">{{ .name }}</h4>
               <div class="text-xs font-semibold text-primary/80 uppercase tracking-wider">{{ .role }}</div>
               {{ with .orcid }}
               <div class="pt-0.5">
                 <a href="{{ if hasPrefix . "http" }}{{ . }}{{ else }}https://orcid.org/{{ . }}{{ end }}" target="_blank" rel="noopener"
-                  class="inline-flex items-center gap-1 text-[11px] font-semibold text-[#A6CE39] hover:underline shrink-0" title="ORCID iD">
-                  <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 256 256">
+                  class="group/orcid inline-flex items-center gap-1 text-[11px] font-semibold text-[#A6CE39] hover:text-[#8fae27] transition-colors shrink-0" title="ORCID iD">
+                  <svg class="w-3.5 h-3.5 fill-current shrink-0" viewBox="0 0 256 256">
                     <path d="M256 128c0 70.7-57.3 128-128 128S0 198.7 0 128 57.3 0 128 0s128 57.3 128 128z" fill="#A6CE39"/>
                     <path d="M86.3 186.2H70V85.4h16.3v100.8zm-8.2-113c-5.7 0-10.2-4.6-10.2-10.2s4.6-10.2 10.2-10.2c5.7 0 10.2 4.6 10.2 10.2s-4.6 10.2-10.2 10.2zm112.5 59.9c0 29.8-19.1 43.1-43.9 43.1h-37.1V85.4h40.3c23.5 0 40.7 13.9 40.7 47.7zm-16.5 0c0-23.7-10.4-32.9-24.8-32.9h-19.6v65.8h19.6c15.1 0 24.8-9.8 24.8-32.9z" fill="#FFF"/>
                   </svg>
                   <span>ORCID</span>
+                  <span class="material-symbols-outlined text-[12px] opacity-60 group-hover/orcid:opacity-100 group-hover/orcid:translate-x-0.5 group-hover/orcid:-translate-y-0.5 transition-all duration-150">arrow_outward</span>
                 </a>
               </div>
               {{ end }}
@@ -355,12 +383,12 @@
         <div class="flex flex-wrap sm:flex-nowrap items-center gap-3 w-full md:w-auto">
           <!-- Live Search -->
           <div class="relative w-full sm:w-64">
-            <span class="material-symbols-outlined absolute left-3 top-2.5 text-outline text-sm">search</span>
+            <span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-outline text-sm pointer-events-none">search</span>
             <input id="pubSearchInput" oninput="renderTableState()"
               class="bg-surface border border-outline-variant rounded pl-9 pr-8 py-2 text-sm text-on-surface w-full placeholder:text-outline focus:outline-none focus:border-primary shadow-xs"
               placeholder="Filter publications..." type="text" />
             <button id="clearPubSearchBtn" onclick="clearPubSearch()" type="button"
-              class="absolute right-2.5 top-2.5 text-outline hover:text-primary transition-colors hidden cursor-pointer"
+              class="absolute right-2.5 top-1/2 -translate-y-1/2 text-outline hover:text-primary transition-colors hidden cursor-pointer flex items-center justify-center"
               title="Clear search">
               <span class="material-symbols-outlined text-sm">close</span>
             </button>
@@ -376,7 +404,7 @@
       </div>
 
       <!-- Portfolio Distribution & Interactive Filter (Dynamic Data-Driven) -->
-      {{ $allPubs := hugo.Data.publications.archive }}
+      {{ $allPubs := hugo.Data.publications }}
       {{ $totalCount := len $allPubs }}
       {{ $origPubs := where $allPubs "tag" "Original Research" }}
       {{ $origCount := len $origPubs }}
@@ -430,15 +458,15 @@
           </button>
           <button onclick="setPubTypeFilter('original-research')" data-type="original-research"
             class="pub-type-chip px-2.5 py-1 rounded-full font-medium transition-colors cursor-pointer border bg-surface hover:bg-surface-container text-on-surface-variant border-outline-variant/50">
-            <span class="inline-block w-2 h-2 rounded-full bg-[#044694] mr-1.5"></span>Original Research <span id="chipCountOrig" class="font-semibold text-primary ml-0.5 inline-block min-w-[28px] text-center tabular-nums">{{ $origCount }}</span>
+            <span class="inline-block w-2 h-2 rounded-full bg-[#044694] ring-1 ring-white/60 mr-1.5 shrink-0"></span>Original Research <span id="chipCountOrig" class="font-semibold text-primary ml-0.5 inline-block min-w-[28px] text-center tabular-nums">{{ $origCount }}</span>
           </button>
           <button onclick="setPubTypeFilter('commentary')" data-type="commentary"
             class="pub-type-chip px-2.5 py-1 rounded-full font-medium transition-colors cursor-pointer border bg-surface hover:bg-surface-container text-on-surface-variant border-outline-variant/50">
-            <span class="inline-block w-2 h-2 rounded-full bg-[#fecb07] mr-1.5"></span>Commentary <span id="chipCountCommentary" class="font-semibold text-primary ml-0.5 inline-block min-w-[28px] text-center tabular-nums">{{ $commentaryCount }}</span>
+            <span class="inline-block w-2 h-2 rounded-full bg-[#fecb07] ring-1 ring-white/60 mr-1.5 shrink-0"></span>Commentary <span id="chipCountCommentary" class="font-semibold text-primary ml-0.5 inline-block min-w-[28px] text-center tabular-nums">{{ $commentaryCount }}</span>
           </button>
           <button onclick="setPubTypeFilter('review')" data-type="review"
             class="pub-type-chip px-2.5 py-1 rounded-full font-medium transition-colors cursor-pointer border bg-surface hover:bg-surface-container text-on-surface-variant border-outline-variant/50">
-            <span class="inline-block w-2 h-2 rounded-full bg-[#b3d335] mr-1.5"></span>Reviews & Other <span id="chipCountReview" class="font-semibold text-primary ml-0.5 inline-block min-w-[28px] text-center tabular-nums">{{ $reviewAndOtherCount }}</span>
+            <span class="inline-block w-2 h-2 rounded-full bg-[#b3d335] ring-1 ring-white/60 mr-1.5 shrink-0"></span>Reviews & Other <span id="chipCountReview" class="font-semibold text-primary ml-0.5 inline-block min-w-[28px] text-center tabular-nums">{{ $reviewAndOtherCount }}</span>
           </button>
 
           <!-- Subtle Vertical Divider -->
@@ -489,7 +517,7 @@
               </tr>
             </thead>
             <tbody class="divide-y divide-outline-variant/30 text-sm" id="pubTableBody">
-              {{ range hugo.Data.publications.archive }}
+              {{ range $allPubs }}
               <tr class="pub-row hover:bg-surface-container-low transition-colors cursor-pointer group"
                 {{ if and .link (ne .link "#") }}onclick="if (!event.target.closest('a')) window.open('{{ .link }}', '_blank', 'noopener')"{{ end }}
                 data-full-authors="{{ .authors }}" data-pub-tag="{{ .tag }}" data-pub-lead="{{ if .lead }}proof-lead{{ else }}collaborative{{ end }}"
@@ -500,19 +528,21 @@
                 </td>
                 <td class="py-3.5 px-4 pr-4 align-top">
                   {{ with .tag }}
-                  <div class="text-[10px] font-bold uppercase tracking-wider mb-1 leading-4
-                    {{ if eq . "Original Research" }}text-[#044694]
-                    {{ else if or (eq . "Editorial & Commentary") (in . "Commentary") (in . "Editorial") }}text-[#fecb07]
-                    {{ else }}text-[#b3d335]{{ end }}">
-                    {{ . }}
+                  <div class="flex items-center gap-1.5 text-[10px] font-bold uppercase tracking-wider mb-1 leading-4 text-on-surface-variant/80">
+                    <span class="w-1.5 h-1.5 rounded-full shrink-0
+                      {{ if eq . "Original Research" }}bg-[#044694]
+                      {{ else if or (eq . "Editorial & Commentary") (in . "Commentary") (in . "Editorial") }}bg-[#fecb07]
+                      {{ else }}bg-[#b3d335]{{ end }}"></span>
+                    <span>{{ . }}</span>
                   </div>
                   {{ else }}
                   <div class="h-4 mb-1"></div>
                   {{ end }}
                   <div class="leading-snug">
                     {{ if and .link (ne .link "#") }}
-                    <a href="{{ .link }}" target="_blank" rel="noopener" class="pub-title text-on-surface group-hover:text-primary font-medium transition-colors text-sm break-words">
+                    <a href="{{ .link }}" target="_blank" rel="noopener" class="pub-title text-on-surface group-hover:text-primary font-medium transition-colors text-sm break-words inline">
                       {{ .title }}
+                      <span class="material-symbols-outlined text-[13px] text-primary/70 inline-block align-middle opacity-0 group-hover:opacity-100 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all ml-0.5">arrow_outward</span>
                     </a>
                     {{ else }}
                     <span class="font-medium text-sm text-on-surface">{{ .title }}</span>
@@ -538,6 +568,18 @@
                 </td>
               </tr>
               {{ end }}
+              <tr id="noPubsRow" class="hidden">
+                <td colspan="4" class="py-12 text-center text-on-surface-variant/70 text-sm">
+                  <div class="flex flex-col items-center justify-center gap-2">
+                    <span class="material-symbols-outlined text-3xl text-outline/50">search_off</span>
+                    <p class="font-medium text-sm text-on-surface">No publications found matching your filter criteria.</p>
+                    <button onclick="clearPubSearch(); setPubTypeFilter('all'); setPubRoleFilter('all');" type="button"
+                      class="text-xs font-semibold text-primary hover:underline mt-1 cursor-pointer">
+                      Reset all filters
+                    </button>
+                  </div>
+                </td>
+              </tr>
             </tbody>
           </table>
         </div>
@@ -578,22 +620,19 @@
               {{ if and .link (ne .link "#") }}onclick="if (!event.target.closest('a')) window.open('{{ .link }}', '_blank', 'noopener')"{{ end }}>
               <td class="py-3.5 px-2 text-on-surface-variant text-xs sm:text-sm align-top">{{ .year }}</td>
               <td class="py-3.5 px-4 pr-4 align-top">
-                {{ if and .link (ne .link "#") }}
-                <a href="{{ .link }}" target="_blank" rel="noopener" class="text-on-surface group-hover:text-primary font-medium transition-colors text-sm break-words leading-snug">
-                  {{ .title }}
-                </a>
-                {{ else }}
-                <span class="font-medium text-sm leading-snug text-on-surface">{{ .title }}</span>
-                {{ end }}
+                <div class="leading-snug">
+                  {{ if and .link (ne .link "#") }}
+                  <a href="{{ .link }}" target="_blank" rel="noopener" class="text-on-surface group-hover:text-primary font-medium transition-colors text-sm break-words leading-snug inline">
+                    {{ .title }}
+                    <span class="material-symbols-outlined text-[13px] text-primary/70 inline-block align-middle opacity-0 group-hover:opacity-100 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all ml-0.5">arrow_outward</span>
+                  </a>
+                  {{ else }}
+                  <span class="font-medium text-sm leading-snug text-on-surface">{{ .title }}</span>
+                  {{ end }}
+                </div>
               </td>
               <td class="py-3.5 px-3 align-top text-left text-xs sm:text-sm text-on-surface-variant font-medium">
-                {{ if and .link (ne .link "#") }}
-                <a href="{{ .link }}" target="_blank" rel="noopener" class="text-on-surface-variant group-hover:text-primary transition-colors">
-                  {{ .status }}
-                </a>
-                {{ else }}
                 <span>{{ .status }}</span>
-                {{ end }}
               </td>
               <td class="py-3.5 px-2 text-right align-top shrink-0 whitespace-nowrap text-xs sm:text-sm text-on-surface-variant font-medium">
                 {{ .jurisdiction | default "—" }}
@@ -1006,6 +1045,23 @@
       if (fade) {
         fade.style.display = (!archiveExpanded && matchingCount > 5) ? 'block' : 'none';
       }
+
+      // Empty state row visibility
+      const noPubsRow = document.getElementById('noPubsRow');
+      if (noPubsRow) {
+        if (matchingCount === 0) {
+          noPubsRow.classList.remove('hidden');
+        } else {
+          noPubsRow.classList.add('hidden');
+        }
+      }
+    }
+
+    function toggleBioFromRow(el) {
+      const row = el.closest('.team-member-row');
+      if (!row) return;
+      const btn = row.querySelector('button[onclick*="toggleBio"]');
+      if (btn) toggleBio(btn);
     }
 
     function toggleBio(btn) {
