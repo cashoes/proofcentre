@@ -308,7 +308,7 @@
       </div>
 
       <div class="divide-y divide-outline-variant/30">
-        {{ range hugo.Data.team }}
+        {{ range (partial "data/get_team.html" .) }}
         <div class="team-member-row py-8 first:pt-0 last:pb-0 grid grid-cols-1 md:grid-cols-12 gap-5 md:gap-8 items-start">
           <!-- Member Info (Left Column) -->
           <div class="md:col-span-4 lg:col-span-4 flex items-start gap-4 sm:gap-5">
@@ -404,7 +404,7 @@
       </div>
 
       <!-- Portfolio Distribution & Interactive Filter (Dynamic Data-Driven) -->
-      {{ $allPubs := hugo.Data.publications }}
+      {{ $allPubs := partial "data/get_publications.html" . }}
       {{ $totalCount := len $allPubs }}
       {{ $origPubs := where $allPubs "tag" "Original Research" }}
       {{ $origCount := len $origPubs }}
@@ -615,7 +615,7 @@
             </tr>
           </thead>
           <tbody class="divide-y divide-outline-variant/30 text-sm">
-            {{ range hugo.Data.patents }}
+            {{ range (partial "data/get_patents.html" .) }}
             <tr class="hover:bg-surface-container-low transition-colors cursor-pointer group"
               {{ if and .link (ne .link "#") }}onclick="if (!event.target.closest('a')) window.open('{{ .link }}', '_blank', 'noopener')"{{ end }}>
               <td class="py-3.5 px-2 text-on-surface-variant text-xs sm:text-sm align-top">{{ .year }}</td>

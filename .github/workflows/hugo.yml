@@ -5,6 +5,10 @@ on:
   push:
     branches: ["main"]
 
+  # Nightly scheduled build to sync latest Google Sheets content
+  schedule:
+    - cron: "0 6 * * *"
+
   # Allows manual triggering from the Actions tab
   workflow_dispatch:
 
