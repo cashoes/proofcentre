@@ -10,16 +10,16 @@ capabilities:
   items:
     - title: "Biomarker Discovery & Development"
       color: "#044694"
-      description: "Candidate target identification, screening, and diagnostic blood test qualification across complex clinical cohorts."
+      description: "Candidate biomarker screening, signature identification, and assay qualification in defined patient cohorts."
     - title: "Multi-Omic Integration & Machine Learning"
       color: "#6dcff5"
-      description: "Specialized computational pipelines and multi-block integrative algorithms (DIABLO) to better model complex biological systems."
-    - title: "Clinical Cohorts & Biobanking Operations"
+      description: "Specialized computational pipelines and multi-block algorithms (DIABLO) to integrate multi-layer omics and discover disease-specific signatures."
+    - title: "Clinical Cohorts & Biobanking"
       color: "#b3d335"
-      description: "Trial protocol design, biobanking logistics, multi-centre cohort coordination, and navigating research ethics."
-    - title: "Translational & Assay Strategy"
+      description: "Trial protocol design, biobanking logistics, multi-centre cohort coordination, and research ethics approvals."
+    - title: "Clinical Translation"
       color: "#fecb07"
-      description: "Technology-agnostic platform evaluation, assay validity testing, diagnostic IP management, and grant co-development."
+      description: "Technology-agnostic platform evaluation, analytical and clinical validation, diagnostic IP management, and grant co-development."
 
 research:
   title: "Our Research"
