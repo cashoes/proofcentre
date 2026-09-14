@@ -235,9 +235,9 @@
 
       <div class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-6 md:gap-y-8">
         {{ range hugo.Data.research }}
-        <div class="md:row-span-2 md:grid md:grid-rows-subgrid" style="grid-template-rows: subgrid;">
+        <div class="min-w-0 md:row-span-2 md:grid md:grid-rows-subgrid" style="grid-template-rows: subgrid;">
           <!-- Top Area: Icon, Title & Description (Subgrid aligns this row across columns) -->
-          <div class="mb-2 md:mb-0 pb-2">
+          <div class="min-w-0 mb-2 md:mb-0 pb-2">
             <div class="flex items-center gap-3 mb-2.5">
               <div class="w-9 h-9 rounded-lg flex items-center justify-center shrink-0 border"
                 style="background-color: {{ .color }}1a; border-color: {{ .color }}38; color: {{ .color }};">
@@ -251,9 +251,9 @@
           </div>
 
           <!-- Featured Key Publications (Unified Clickable Editorial Cards) -->
-          <div class="pt-2">
+          <div class="min-w-0 pt-2">
             <span class="text-xs font-bold text-primary uppercase tracking-widest block mb-2.5">Featured Publications</span>
-            <div class="space-y-2.5">
+            <div class="min-w-0 space-y-2.5">
               {{ $areaColor := .color }}
               {{ $pillarId := .id }}
               {{ $pillarNum := int .id }}
@@ -268,10 +268,10 @@
               {{ $ageDays := div (sub now.Unix $pubDate.Unix) 86400 }}
               {{ if and .link (ne .link "#") }}
               <a href="{{ .link }}" target="_blank" rel="noopener"
-                class="group block p-3.5 sm:p-4 rounded-lg bg-white border border-outline-variant/30 shadow-2xs hover:shadow-xs hover:border-outline-variant/60 transition-all duration-200 cursor-pointer"
+                class="group block p-3.5 sm:p-4 rounded-lg bg-white border border-outline-variant/30 shadow-2xs hover:shadow-xs hover:border-outline-variant/60 transition-all duration-200 cursor-pointer min-w-0"
                 style="border-top: 2.5px solid {{ $areaColor }};">
-                <div class="flex items-center justify-between gap-2 mb-1.5">
-                  <span class="text-[11px] font-semibold uppercase tracking-wider text-primary/85 truncate">
+                <div class="flex items-center justify-between gap-2 mb-1.5 min-w-0">
+                  <span class="text-[11px] font-semibold uppercase tracking-wider text-primary/85 truncate min-w-0">
                     {{ .journal }} <span class="font-normal text-on-surface-variant/70">· {{ .year }}</span>
                   </span>
                   <div class="flex items-center gap-1.5 shrink-0">
@@ -297,10 +297,10 @@
                 {{ end }}
               </a>
               {{ else }}
-              <div class="p-3.5 sm:p-4 rounded-lg bg-white border border-outline-variant/30 shadow-2xs"
+              <div class="p-3.5 sm:p-4 rounded-lg bg-white border border-outline-variant/30 shadow-2xs min-w-0"
                 style="border-top: 2.5px solid {{ $areaColor }};">
-                <div class="flex items-center justify-between gap-2 mb-1.5">
-                  <span class="text-[11px] font-semibold uppercase tracking-wider text-primary/85 truncate">
+                <div class="flex items-center justify-between gap-2 mb-1.5 min-w-0">
+                  <span class="text-[11px] font-semibold uppercase tracking-wider text-primary/85 truncate min-w-0">
                     {{ .journal }} <span class="font-normal text-on-surface-variant/70">· {{ .year }}</span>
                   </span>
                   {{ if lt $ageDays 730 }}
