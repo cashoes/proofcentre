@@ -519,7 +519,8 @@
       </div>
 
       <!-- Open Minimalist Table View Directly Underneath -->
-      <div id="recent-archive-container" class="relative w-full overflow-hidden transition-all duration-300 max-h-[590px]">
+      <div id="recent-archive-container" class="relative w-full overflow-hidden transition-all duration-300 max-h-[590px]"
+        style="-webkit-mask-image: linear-gradient(to bottom, black calc(100% - 80px), transparent 100%); mask-image: linear-gradient(to bottom, black calc(100% - 80px), transparent 100%);">
         <div class="overflow-x-auto w-full">
           <table class="w-full table-fixed text-left border-collapse" id="pubTable">
             <colgroup>
@@ -595,9 +596,6 @@
             </tbody>
           </table>
         </div>
-
-        <!-- Bottom Fade Gradient (visible when collapsed) -->
-        <div id="tableFadeOverlay" class="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-t from-background to-transparent pointer-events-none"></div>
       </div>
     </section>
 
@@ -801,7 +799,6 @@
       const toggleBtn = document.getElementById('toggleArchiveBtn');
       const toggleIcon = document.getElementById('toggleIcon');
       const toggleText = document.getElementById('toggleText');
-      const fade = document.getElementById('tableFadeOverlay');
 
       if (clearBtn) {
         if (filter.length > 0) {
@@ -954,13 +951,22 @@
         }
       }
 
-      // Container Height Management (fixed 590px when collapsed for perfectly stable viewport)
+      // Container Height Management & Pure Fade Mask (transparent mask prevents any white corners or blocks over the background sketch)
       const container = document.getElementById('recent-archive-container');
       if (container) {
         if (archiveExpanded) {
           container.style.maxHeight = 'none';
+          container.style.webkitMaskImage = 'none';
+          container.style.maskImage = 'none';
         } else {
           container.style.maxHeight = '590px';
+          if (matchingCount > 5) {
+            container.style.webkitMaskImage = 'linear-gradient(to bottom, black calc(100% - 80px), transparent 100%)';
+            container.style.maskImage = 'linear-gradient(to bottom, black calc(100% - 80px), transparent 100%)';
+          } else {
+            container.style.webkitMaskImage = 'none';
+            container.style.maskImage = 'none';
+          }
         }
       }
 
@@ -984,11 +990,6 @@
           toggleBtn.style.opacity = '1';
           toggleBtn.style.pointerEvents = 'auto';
         }
-      }
-
-      // Fade overlay visibility: only show if collapsed AND more than 5 matching publications
-      if (fade) {
-        fade.style.display = (!archiveExpanded && matchingCount > 5) ? 'block' : 'none';
       }
 
       // Empty state row visibility
