@@ -3,73 +3,21 @@
   icon: "cardiology"
   color: "#044694"
   description: "Developing non-invasive blood tests and molecular diagnostics across heart transplant rejection surveillance, heart failure progression, and inflammatory cardiovascular diseases."
-  publications:
-    - title: "Acute cellular rejection after heart transplantation: validation of HEARTBiT, a transcriptomic biomarker"
-      authors: "Shannon CP, Assadian S, Rajasekaran A, Yang C, Espín E, Lam L, Balshaw R, Seidman MA, Lai CK, Ross HJ, Hyden MP, Chih SSY, Toma M, McManus BM, Ng RT, Tebbutt SJ."
-      journal: "European Heart Journal"
-      year: 2026
-      doi: "10.1093/eurheartj/ehag751"
-      link: "https://doi.org/10.1093/eurheartj/ehag751"
-    - title: "HEARTBiT: A Transcriptomic Signature for Excluding Acute Cellular Rejection in Adult Heart Allograft Patients"
-      authors: "Shannon CP, Hollander Z, Dai DLY, Chen V, Assadian S, Lam KL, McManus JE, Tebbutt SJ, McMaster WR, Ng RT, McManus BM, et al."
-      journal: "Canadian Journal of Cardiology"
-      year: 2019
-      doi: "10.1016/j.cjca.2019.11.017"
-      link: "https://doi.org/10.1016/j.cjca.2019.11.017"
 
 - id: "02"
   title: "Respiratory & Pulmonary Health"
   icon: "pulmonology"
   color: "#6dcff5"
   description: "Discovering clinical biomarkers and molecular phenotypes across chronic respiratory diseases, airway inflammatory disorders, and donor organ optimization in lung transplantation."
-  publications:
-    - title: "Transcriptomics of Interstitial Lung Disease: A Systematic Review and Meta-Analysis"
-      authors: "He D, Guler SA, Shannon CP, Ryerson CJ, Tebbutt SJ."
-      journal: "European Respiratory Journal"
-      year: 2025
-      doi: "10.1183/13993003.01070-2024"
-      link: "https://doi.org/10.1183/13993003.01070-2024"
-    - title: "Novel Blood-based Transcriptional Biomarker Panels Predict the Late-Phase Asthmatic Response"
-      authors: "Singh A, Shannon CP, Kim YW, Yang CX, Balshaw R, Cohen Freue GV, Gauvreau GM, FitzGerald JM, Boulet LP, O’Byrne PM, Tebbutt SJ."
-      journal: "American Journal of Respiratory and Critical Care Medicine"
-      year: 2018
-      doi: "10.1164/rccm.201701-0110oc"
-      link: "https://doi.org/10.1164/rccm.201701-0110oc"
 
 - id: "03"
   title: "Infection & Immunity"
   icon: "immunology"
   color: "#b3d335"
   description: "Host immune profiling across acute viral infections, Long COVID inflammatory signatures, and early-life developmental immunology."
-  publications:
-    - title: "Cellular and molecular biomarkers of long COVID: a scoping review"
-      authors: "Espín E, Yang C, Shannon CP, Assadian S, He D, Tebbutt SJ."
-      journal: "eBioMedicine"
-      year: 2023
-      doi: "10.1016/j.ebiom.2023.104552"
-      link: "https://doi.org/10.1016/j.ebiom.2023.104552"
-    - title: "Interferon-α2b Treatment for COVID-19"
-      authors: "Zhou Q, Chen V, Shannon CP, Wei XS, Xiang X, Wang X, Wang ZH, Tebbutt SJ, Kollmann TR, Fish EN."
-      journal: "Frontiers in Immunology"
-      year: 2020
-      doi: "10.389/fimmu.2020.01061"
-      link: "https://doi.org/10.389/fimmu.2020.01061"
-    - title: "Dynamic Molecular Changes During the First Week of Human Life Follow a Robust Developmental Trajectory"
-      authors: "Lee AH, Shannon CP, Amenyogbe N, Bennike TB, Diray-Arce J, Idoko OT, Tebbutt SJ, Kampmann B, Levy O, Kollmann TR, EPIC Consortium."
-      journal: "Nature Communications"
-      year: 2019
-      doi: "10.1038/s41467-019-08794-x"
-      link: "https://doi.org/10.1038/s41467-019-08794-x"
 
 - id: "04"
   title: "Multi-Omics & Systems Biology"
   icon: "hub"
   color: "#fecb07"
   description: "Machine learning and integrative bioinformatics frameworks (DIABLO) for multi-omic biomarker discovery and dataset harmonization."
-  publications:
-    - title: "DIABLO: An Integrative Approach for Identifying Key Molecular Drivers from Multi-Omic Assays and Its Application in Systemic Lupus Erythematosus and TCGA"
-      authors: "Singh A, Shannon CP, Gautier B, Rohart F, Vacher M, Tebbutt SJ, Lê Cao K-A."
-      journal: "Bioinformatics"
-      year: 2019
-      doi: "10.1093/bioinformatics/bty1054"
-      link: "https://doi.org/10.1093/bioinformatics/bty1054"

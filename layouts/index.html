@@ -224,6 +224,7 @@
     </header>
 
     <!-- Core Research Section -->
+    {{ $allPubs := partial "data/get_publications.html" . }}
     <section class="mb-32 scroll-mt-28" id="focus-areas">
       <div class="mb-12 border-b border-outline-variant/50 pb-4">
         <h2 class="font-heading text-2xl md:text-3xl font-bold text-primary">{{ .Params.research.title }}</h2>
@@ -254,18 +255,39 @@
             <span class="text-xs font-bold text-primary uppercase tracking-widest block mb-2.5">Featured Publications</span>
             <div class="space-y-2.5">
               {{ $areaColor := .color }}
-              {{ range .publications }}
+              {{ $pillarId := .id }}
+              {{ $pillarNum := int .id }}
+              {{ $pillarPubs := slice }}
+              {{ range $allPubs }}
+                {{ if and (ne .pillar "") (eq (int .pillar) $pillarNum) }}
+                  {{ $pillarPubs = $pillarPubs | append . }}
+                {{ end }}
+              {{ end }}
+              {{ range $pillarPubs }}
+              {{ $pubDate := time (.date | default (printf "%d-01-01" .year)) }}
+              {{ $ageDays := div (sub now.Unix $pubDate.Unix) 86400 }}
               {{ if and .link (ne .link "#") }}
               <a href="{{ .link }}" target="_blank" rel="noopener"
                 class="group block p-3.5 sm:p-4 rounded-lg bg-white border border-outline-variant/30 shadow-2xs hover:shadow-xs hover:border-outline-variant/60 transition-all duration-200 cursor-pointer"
                 style="border-top: 2.5px solid {{ $areaColor }};">
                 <div class="flex items-center justify-between gap-2 mb-1.5">
-                  <span class="text-[11px] font-semibold uppercase tracking-wider text-primary/85">
+                  <span class="text-[11px] font-semibold uppercase tracking-wider text-primary/85 truncate">
                     {{ .journal }} <span class="font-normal text-on-surface-variant/70">· {{ .year }}</span>
                   </span>
-                  <span class="material-symbols-outlined text-[13px] text-on-surface-variant/40 group-hover:text-primary group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all duration-200 shrink-0">
-                    arrow_outward
-                  </span>
+                  <div class="flex items-center gap-1.5 shrink-0">
+                    {{ if lt $ageDays 730 }}
+                    <span class="text-[10px] font-medium tracking-wide text-primary/75 bg-surface-container px-1.5 py-0.5 rounded">
+                      Recent
+                    </span>
+                    {{ else if gt .citations 0 }}
+                    <span class="text-[11px] text-on-surface-variant/70 font-medium tabular-nums">
+                      {{ lang.FormatNumberCustom 0 .citations }} citations
+                    </span>
+                    {{ end }}
+                    <span class="material-symbols-outlined text-[13px] text-on-surface-variant/40 group-hover:text-primary group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all duration-200 shrink-0">
+                      arrow_outward
+                    </span>
+                  </div>
                 </div>
                 <h4 class="font-heading text-xs sm:text-sm font-bold text-primary leading-snug mb-1 group-hover:text-primary-container transition-colors">
                   {{ .title }}
@@ -278,9 +300,18 @@
               <div class="p-3.5 sm:p-4 rounded-lg bg-white border border-outline-variant/30 shadow-2xs"
                 style="border-top: 2.5px solid {{ $areaColor }};">
                 <div class="flex items-center justify-between gap-2 mb-1.5">
-                  <span class="text-[11px] font-semibold uppercase tracking-wider text-primary/85">
+                  <span class="text-[11px] font-semibold uppercase tracking-wider text-primary/85 truncate">
                     {{ .journal }} <span class="font-normal text-on-surface-variant/70">· {{ .year }}</span>
                   </span>
+                  {{ if lt $ageDays 730 }}
+                  <span class="text-[10px] font-medium tracking-wide text-primary/75 bg-surface-container px-1.5 py-0.5 rounded shrink-0">
+                    Recent
+                  </span>
+                  {{ else if gt .citations 0 }}
+                  <span class="text-[11px] text-on-surface-variant/70 font-medium tabular-nums shrink-0">
+                    {{ lang.FormatNumberCustom 0 .citations }} citations
+                  </span>
+                  {{ end }}
                 </div>
                 <h4 class="font-heading text-xs sm:text-sm font-bold text-primary leading-snug mb-1">
                   {{ .title }}
@@ -404,7 +435,6 @@
       </div>
 
       <!-- Portfolio Distribution & Interactive Filter (Dynamic Data-Driven) -->
-      {{ $allPubs := partial "data/get_publications.html" . }}
       {{ $totalCount := len $allPubs }}
       {{ $origPubs := where $allPubs "tag" "Original Research" }}
       {{ $origCount := len $origPubs }}
@@ -495,25 +525,13 @@
             <colgroup>
               <col class="w-14 sm:w-[9%]">
               <col class="w-[50%] sm:w-[54%]">
-              <col class="w-[30%] sm:w-[26%]">
-              <col class="w-16 sm:w-[11%]">
+              <col class="w-[36%] sm:w-[37%]">
             </colgroup>
             <thead>
-              <tr class="border-b border-outline-variant/50 text-xs font-semibold text-on-surface-variant uppercase tracking-wider select-none">
-                <th class="py-3 px-2 cursor-pointer hover:text-primary transition-colors group" onclick="sortPubTable('year')" title="Click to sort by Year">
-                  <span class="inline-flex items-center gap-0.5">
-                    Year
-                    <span id="sortIconYear" class="material-symbols-outlined text-[13px] text-primary transition-transform">south</span>
-                  </span>
-                </th>
-                <th class="py-3 px-4">Title & Details</th>
+              <tr class="border-b border-outline-variant/50 text-xs font-semibold text-on-surface-variant uppercase tracking-wider">
+                <th class="py-3 px-2">Year</th>
+                <th class="py-3 px-4">Title &amp; Details</th>
                 <th class="py-3 px-3 text-left">Journal</th>
-                <th class="py-3 px-2 text-right cursor-pointer hover:text-primary transition-colors group" onclick="sortPubTable('citations')" title="Click to sort by Citations">
-                  <span class="inline-flex items-center justify-end gap-0.5 w-full">
-                    Citations
-                    <span id="sortIconCitations" class="material-symbols-outlined text-[13px] text-on-surface-variant/40 group-hover:text-primary transition-transform">unfold_more</span>
-                  </span>
-                </th>
               </tr>
             </thead>
             <tbody class="divide-y divide-outline-variant/30 text-sm" id="pubTableBody">
@@ -560,16 +578,10 @@
                     {{ .journal }}
                   </div>
                 </td>
-                <td class="pub-citations py-3.5 px-2 text-right align-top">
-                  <div class="h-4 mb-1"></div>
-                  <span class="text-xs sm:text-sm font-medium text-on-surface tabular-nums">
-                    {{ if .citations }}{{ lang.FormatNumberCustom 0 .citations }}{{ else }}0{{ end }}
-                  </span>
-                </td>
               </tr>
               {{ end }}
               <tr id="noPubsRow" class="hidden">
-                <td colspan="4" class="py-12 text-center text-on-surface-variant/70 text-sm">
+                <td colspan="3" class="py-12 text-center text-on-surface-variant/70 text-sm">
                   <div class="flex flex-col items-center justify-center gap-2">
                     <span class="material-symbols-outlined text-3xl text-outline/50">search_off</span>
                     <p class="font-medium text-sm text-on-surface">No publications found matching your filter criteria.</p>
@@ -769,73 +781,6 @@
           chip.className = 'pub-role-chip px-2.5 py-1 rounded-full font-medium transition-colors cursor-pointer border bg-surface hover:bg-surface-container text-on-surface-variant border-outline-variant/50';
         }
       });
-      renderTableState();
-    }
-
-    let currentSortColumn = 'year';
-    let currentSortDir = 'desc';
-
-    function sortPubTable(column) {
-      if (currentSortColumn === column) {
-        currentSortDir = (currentSortDir === 'desc') ? 'asc' : 'desc';
-      } else {
-        currentSortColumn = column;
-        currentSortDir = 'desc';
-      }
-
-      const tbody = document.getElementById('pubTableBody');
-      if (!tbody) return;
-      const rows = Array.from(tbody.querySelectorAll('.pub-row'));
-
-      rows.sort((a, b) => {
-        let valA, valB;
-        if (column === 'citations') {
-          valA = parseInt(a.getAttribute('data-citations') || '0', 10);
-          valB = parseInt(b.getAttribute('data-citations') || '0', 10);
-          if (valA !== valB) {
-            return currentSortDir === 'asc' ? valA - valB : valB - valA;
-          }
-          // Secondary tie-breaker: sort by full date descending
-          const dateA = a.getAttribute('data-date') || (a.getAttribute('data-year') + '-01-01');
-          const dateB = b.getAttribute('data-date') || (b.getAttribute('data-year') + '-01-01');
-          return dateB.localeCompare(dateA);
-        } else {
-          // Sort by full ISO date (e.g. "2026-06-15" vs "2026-03-01")
-          valA = a.getAttribute('data-date') || (a.getAttribute('data-year') + '-01-01');
-          valB = b.getAttribute('data-date') || (b.getAttribute('data-year') + '-01-01');
-
-          if (valA < valB) return currentSortDir === 'asc' ? -1 : 1;
-          if (valA > valB) return currentSortDir === 'asc' ? 1 : -1;
-          return 0;
-        }
-      });
-
-      rows.forEach(r => tbody.appendChild(r));
-
-      // Update header sort icons
-      const iconYear = document.getElementById('sortIconYear');
-      const iconCitations = document.getElementById('sortIconCitations');
-
-      if (iconYear) {
-        if (currentSortColumn === 'year') {
-          iconYear.className = 'material-symbols-outlined text-[13px] text-primary transition-transform';
-          iconYear.textContent = currentSortDir === 'desc' ? 'south' : 'north';
-        } else {
-          iconYear.className = 'material-symbols-outlined text-[13px] text-on-surface-variant/40 group-hover:text-primary transition-transform';
-          iconYear.textContent = 'unfold_more';
-        }
-      }
-
-      if (iconCitations) {
-        if (currentSortColumn === 'citations') {
-          iconCitations.className = 'material-symbols-outlined text-[13px] text-primary transition-transform';
-          iconCitations.textContent = currentSortDir === 'desc' ? 'south' : 'north';
-        } else {
-          iconCitations.className = 'material-symbols-outlined text-[13px] text-on-surface-variant/40 group-hover:text-primary transition-transform';
-          iconCitations.textContent = 'unfold_more';
-        }
-      }
-
       renderTableState();
     }
 

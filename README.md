@@ -60,11 +60,12 @@ Controls both the interactive minimalist table and publication cards.
 | `date` | Optional | Date (`YYYY-MM-DD`) | Exact publication date (e.g. `2026-08-15`). Used for chronological sort within a year. |
 | `title` | **Yes** | Plain text | Full title of the paper. Avoid enclosing in quotes. |
 | `journal` | **Yes** | Plain text | Name of the publishing journal (e.g. `European Heart Journal`). |
-| `citations` | Optional | Number | Total Google Scholar / PubMed citation count (e.g. `42` or `0`). |
+| `citations` | Optional | Number | Total citation count (e.g. `42` or `0`). Summed automatically to power the dynamic cumulative counter above the table. |
 | `doi` | Optional | Plain text | Digital Object Identifier without prefix (e.g. `10.1093/eurheartj/ehag751`). |
 | `link` | Optional | Web URL | Direct link to the publication or DOI (e.g. `https://doi.org/...`). |
 | `lead` | **Yes** | `TRUE` or `FALSE` | Set to `TRUE` if PROOF-led, or `FALSE` if collaborative. (Controls the filter chips). |
 | `tag` | **Yes** | Pick one | Publication category. Must be one of:<br>• `Original Research`<br>• `Editorial & Commentary`<br>• `Review` |
+| `pillar` | Optional | Code (`1`–`4` or `01`–`04`) | Landmark theme identifier. Connects this publication directly to the **Our Research** featured cards:<br>• `1` or `01` = Heart & Cardiovascular<br>• `2` or `02` = Respiratory & Pulmonary<br>• `3` or `03` = Infection & Immunity<br>• `4` or `04` = Multi-Omics & Systems Biology<br>*(Google Sheets automatic numbers `1`, `2`, `3`, `4` are fully supported).*<br>Leave blank for regular publications. |
 | `authors` | **Yes** | Plain text | Full list of authors for the search engine. (e.g. `Shannon CP, Assadian S, Tebbutt SJ.`). |
 | `display_authors`| Optional | Plain text | Shortened citation for the card summary. (e.g. `Shannon CP, Assadian S, et al.`). |
 

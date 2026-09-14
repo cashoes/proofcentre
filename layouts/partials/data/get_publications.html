@@ -22,6 +22,7 @@
       {{ $rows := .Content | transform.Unmarshal (dict "delimiter" ",") }}
       {{ if gt (len $rows) 1 }}
         {{ $headers := index $rows 0 }}
+        {{ $hasPillarCol := in $headers "pillar" }}
         {{ range $i, $row := $rows }}
           {{ if gt $i 0 }}
             {{ $raw := dict }}
@@ -29,6 +30,26 @@
               {{ if lt $j (len $headers) }}
                 {{ $key := index $headers $j | strings.TrimSpace }}
                 {{ $raw = merge $raw (dict $key (strings.TrimSpace $val)) }}
+              {{ end }}
+            {{ end }}
+            {{ $pillarVal := "" }}
+            {{ if $hasPillarCol }}
+              {{ $rawPillar := index $raw "pillar" | default "" | strings.TrimSpace }}
+              {{ if ne $rawPillar "" }}
+                {{ $pInt := int $rawPillar }}
+                {{ if gt $pInt 0 }}
+                  {{ $pillarVal = printf "%02d" $pInt }}
+                {{ else }}
+                  {{ $pillarVal = $rawPillar }}
+                {{ end }}
+              {{ end }}
+            {{ else }}
+              {{ $rawDoi := index $raw "doi" | default "" }}
+              {{ $rawTitle := index $raw "title" | default "" }}
+              {{ range $fallback }}
+                {{ if and (ne .pillar "") (or (and (ne $rawDoi "") (eq .doi $rawDoi)) (and (ne $rawTitle "") (eq .title $rawTitle))) }}
+                  {{ $pillarVal = .pillar }}
+                {{ end }}
               {{ end }}
             {{ end }}
             {{ $item := dict
@@ -43,6 +64,7 @@
               "tag" (index $raw "tag")
               "authors" (index $raw "authors")
               "display_authors" (index $raw "display_authors")
+              "pillar" $pillarVal
             }}
             {{ $data = $data | append $item }}
           {{ end }}
