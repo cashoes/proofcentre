@@ -271,9 +271,10 @@
                 class="group block p-3.5 sm:p-4 rounded-lg bg-white border border-outline-variant/30 shadow-2xs hover:shadow-xs hover:border-outline-variant/60 transition-all duration-200 cursor-pointer min-w-0"
                 style="border-top: 2.5px solid {{ $areaColor }};">
                 <div class="flex items-center justify-between gap-2 mb-1.5 min-w-0">
-                  <span class="text-[11px] font-semibold uppercase tracking-wider text-primary/85 truncate min-w-0">
-                    {{ .journal }} <span class="font-normal text-on-surface-variant/70">· {{ .year }}</span>
-                  </span>
+                  <div class="flex items-center gap-1 min-w-0 text-[11px] font-semibold uppercase tracking-wider text-primary/85">
+                    <span class="truncate min-w-0">{{ .journal }}</span>
+                    <span class="shrink-0 font-normal text-on-surface-variant/70">· {{ .year }}</span>
+                  </div>
                   <div class="flex items-center gap-1.5 shrink-0">
                     {{ if lt $ageDays 730 }}
                     <span class="text-[10px] font-medium tracking-wide text-primary/75 bg-surface-container px-1.5 py-0.5 rounded">
@@ -300,9 +301,10 @@
               <div class="p-3.5 sm:p-4 rounded-lg bg-white border border-outline-variant/30 shadow-2xs min-w-0"
                 style="border-top: 2.5px solid {{ $areaColor }};">
                 <div class="flex items-center justify-between gap-2 mb-1.5 min-w-0">
-                  <span class="text-[11px] font-semibold uppercase tracking-wider text-primary/85 truncate min-w-0">
-                    {{ .journal }} <span class="font-normal text-on-surface-variant/70">· {{ .year }}</span>
-                  </span>
+                  <div class="flex items-center gap-1 min-w-0 text-[11px] font-semibold uppercase tracking-wider text-primary/85">
+                    <span class="truncate min-w-0">{{ .journal }}</span>
+                    <span class="shrink-0 font-normal text-on-surface-variant/70">· {{ .year }}</span>
+                  </div>
                   {{ if lt $ageDays 730 }}
                   <span class="text-[10px] font-medium tracking-wide text-primary/75 bg-surface-container px-1.5 py-0.5 rounded shrink-0">
                     Recent
