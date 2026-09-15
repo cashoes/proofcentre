@@ -704,6 +704,8 @@
     <div
       class="border-t border-outline-variant/20 py-4 px-4 md:px-margin-desktop text-center text-xs text-on-surface-variant/70">
       © {{ now.Format "2006" }} {{ with .Params.footer.copyright }}{{ . | safeHTML }}{{ else }}PROOF Centre of Excellence. All rights reserved.{{ end }}
+      <span class="mx-1.5 opacity-50">·</span>
+      <span>Site updated <time datetime="{{ now.Format "2006-01-02T15:04:05Z07:00" }}" title="Built {{ now.UTC.Format "2006-01-02 15:04:05 MST" }}">{{ now.Format "Jan 2, 2006" }}</time></span>
     </div>
   </footer>
 
