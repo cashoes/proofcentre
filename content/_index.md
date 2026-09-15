@@ -16,7 +16,7 @@ capabilities:
       description: "Specialized computational pipelines and multi-block algorithms (DIABLO) to integrate multi-layer omics and discover disease-specific signatures."
     - title: "Clinical Cohorts & Biobanking"
       color: "#b3d335"
-      description: "Trial protocol design, biobanking logistics, multi-centre cohort coordination, and research ethics approvals."
+      description: "Trial protocol design and execution, biobanking and biospecimen logistics, multi-centre cohort management, and research ethics and regulatory support."
     - title: "Clinical Translation"
       color: "#fecb07"
       description: "Technology-agnostic platform evaluation, analytical and clinical validation, diagnostic IP management, and grant co-development."

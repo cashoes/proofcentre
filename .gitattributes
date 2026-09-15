@@ -1,0 +1,26 @@
+# Auto-detect text files and normalize line endings
+* text=auto
+
+# Text files
+*.html text
+*.css text
+*.js text
+*.toml text
+*.yaml text
+*.yml text
+*.json text
+*.md text
+*.svg text
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.webp binary
+*.pdf binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.otf binary
